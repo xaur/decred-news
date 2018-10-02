@@ -142,11 +142,11 @@ Chats: {interesting convos}
 
 ## About This Issue
 
-This is the {}th issue of Decred Journal. It is mirrored on [GitHub]({}), [Medium]({}) and [Reddit]({}). Past issues are available [here](https://xaur.github.io/decred-news/).
+This is the {}th issue of Decred Journal. It is mirrored on [GitHub]({}) and [Reddit]({}). Past issues are available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
-Feedback is appreciated: please comment on [Reddit](https://www.reddit.com/r/decred/comments/9dn9ia/decred_journal_august_2018/), [GitHub](https://github.com/xaur/decred-news/issues) or #writers_room on [Matrix](https://riot.im/app/#/room/!lbzTjhzNbIaDbuAxkS:decred.org) or [Slack](https://decred.slack.com/messages/C9HC2NVTM/).
+Feedback is appreciated: please comment on [Reddit]({}), [GitHub](https://github.com/xaur/decred-news/issues) or #writers_room on [Matrix](https://riot.im/app/#/room/!lbzTjhzNbIaDbuAxkS:decred.org) or [Slack](https://decred.slack.com/messages/C9HC2NVTM/).
 
 Contributions are also welcome: some areas are adding content, pre-release review or translations to other languages.
 
