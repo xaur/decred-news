@@ -13,3 +13,4 @@ __2018__
 * [June](journal/201806.md)
 * [July](journal/201807.md)
 * [August](journal/201808.md)
+* [September](journal/201809.md)
