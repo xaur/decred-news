@@ -1,4 +1,4 @@
-# {DRAFT} Decred Journal – {MONTH} {YEAR} {DRAFT}
+# {DRAFT} Decred Journal – {MONTH} {YEAR}
 
 ![{alt text}](../img/{file.jpg} "{hover text}")
 
@@ -68,6 +68,8 @@ New merchants:
 
 Targeted advertising report for {month} was posted by @{}. {short recap}. Read more [here]({link}).
 
+{overview of marketing activity for month and any short-term plans}
+
 ## Events
 
 Attended:
@@ -77,6 +79,8 @@ Attended:
 Upcoming:
 
 * {}
+
+{announcements from events people}
 
 ## Media
 
@@ -120,7 +124,7 @@ Comm systems news:
 
 * {}
 
-{highlights, one paragraph per topic}
+{highlights as bullet list or one paragraph per topic}
 
 Reddit: {interesting threads}
 
