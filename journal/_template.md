@@ -2,9 +2,11 @@
 
 ![{alt text}](../img/{file.jpg} "{hover text}")
 
+{main news of the month}
+
 ## Development
 
-{per-project summary}
+{per-project summary, drop items without updates}
 
 [dcrd](https://github.com/decred/dcrd): {}
 
@@ -18,6 +20,8 @@
 
 [iOS](https://github.com/raedahgroup/dcrios): {}
 
+Trezor: {}
+
 [dcrdata](https://github.com/decred/dcrdata): {}
 
 [Ticket splitting](https://github.com/matheusd/dcr-split-ticket-matcher): {}
@@ -28,27 +32,39 @@
 
 Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {} deleted lines spread across {} repositories. Contributions came from {}-{} developers per repository. ([chart]({}))
 
+## People
+
+{people contributing for the first time}
+
+{new contractor companies, updates from existing ones}
+
+{interviews}
+
+## Governance
+
+{recap of decision-making activity, including new proposals, changes to proposals, voting, discussions, pre-proposal drafts, etc}
+
 ## Network
 
 Hashrate: {start, end, low, high, variation; pool distribution}
 
-Staking: {30-day average tix price, low, high, locked DCR mil and %}
+Staking: {30-day average tix price, low, high, locked DCR million and % of avail supply}
 
 Nodes: {node counts, version distribution}
 
-{any interesting events}
+{any interesting events in the network}
 
-## ASICs
+## Mining
 
 ## Integrations
 
-{new mining and staking pools or news from existing ones}
+{new items of infrastructure or news from existing ones}
 
 Exchange integrations:
 
 * {}
 
-{new OTC desks}
+{OTC desks}
 
 {payment processors}
 
@@ -60,15 +76,15 @@ New merchants:
 
 * {}
 
-{applications of Decred blockchain}
+{applications of Decred blockchain and related projects: Politeia, atomicswap}
 
 {investment adoption}
 
-## Marketing
+## Outreach
+
+{overview of outreach/communications/marketing activity for past month and any short-term plans}
 
 Targeted advertising report for {month} was posted by @{}. {short recap}. Read more [here]({link}).
-
-{overview of marketing activity for month and any short-term plans}
 
 ## Events
 
@@ -112,19 +128,20 @@ Audio:
 
 Community stats:
 
-* Twitter followers {} (+{})
-* Reddit subscribers {} (+{})
-* Matrix users {} (+{})
-* Slack users {} (+{})
-* YouTube subscribers {} (+{})
-* Facebook {} (+{}) followers and {} (+{}) likes
-* GitHub {} (+{}) stars and {} (+{}) forks of dcrd repository
+* Twitter followers: {} (+{})
+* Reddit subscribers: {} (+{})
+* Matrix users: {} (+{})
+* Slack users: {} (+{})
+* YouTube subscribers: {} (+{})
+* Facebook followers: {} (+{}), likes: {} (+{})
+* LinkedIn followers: {} (+{})
+* GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
 Comm systems news:
 
 * {}
 
-{highlights as bullet list or one paragraph per topic}
+{selected discussed topics, as bullet list or one paragraph per topic}
 
 Reddit: {interesting threads}
 
@@ -136,22 +153,22 @@ Chats: {interesting convos}
 
 ## Relevant External
 
-{PoW and ASIC resistance news}
+{PoW, ASIC resistance, tech}
 
-{governance-related news not mentioned in Community Discussions}
+{governance, forks}
 
-{related exchanges and websites news}
+{DEX}
 
-{other related: regulations, security, fun}
+{related exchanges and websites}
+
+{other: regulations, security, fun}
 
 ## About This Issue
 
-This is the {}th issue of Decred Journal. It is mirrored on [GitHub]({}) and [Reddit]({}). Past issues are available [here](https://xaur.github.io/decred-news/).
+This is the {}th issue of Decred Journal. It is available on [GitHub]({}). Past issues are available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
-Feedback is appreciated: please comment on [Reddit]({}), [GitHub](https://github.com/xaur/decred-news/issues) or #writers_room on [Matrix](https://riot.im/app/#/room/!lbzTjhzNbIaDbuAxkS:decred.org) or [Slack](https://decred.slack.com/messages/C9HC2NVTM/).
+Your feedback and contributions are welcome on [Reddit]({}), [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
-Contributions are also welcome: some areas are adding content, pre-release review or translations to other languages.
-
-Credits (Slack names, alphabetical order): {}, {} and {}.
+Credits (alphabetical order): {}, {} and {}.
