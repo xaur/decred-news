@@ -2,7 +2,7 @@
 
 ![{alt text}](../img/{file.jpg} "{hover text}")
 
-{main news of the month}
+{introduction, major news of the month}
 
 ## Development
 
@@ -16,9 +16,9 @@
 
 [Politeia](https://github.com/decred/politeia): {}
 
-[Android](https://github.com/decred/dcrandroid): {}
+[Android wallet](https://github.com/decred/dcrandroid): {}
 
-[iOS](https://github.com/raedahgroup/dcrios): {}
+[iOS wallet](https://github.com/raedahgroup/dcrios): {}
 
 Trezor: {}
 
@@ -34,15 +34,15 @@ Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {
 
 ## People
 
-{people contributing for the first time}
+{welcome contributors whose work was merged to master branches for the first time}
 
-{new contractor companies, updates from existing ones}
+{welcome new individual and company contractors listed on decred.org, updates from existing}
 
-{interviews}
+{interviews about people}
 
 ## Governance
 
-{recap of decision-making activity, including new proposals, changes to proposals, voting, discussions, pre-proposal drafts, etc}
+{high level recap of decision-making activity, most important events, defer to Politeia Digest for the rest}
 
 ## Network
 
@@ -52,13 +52,13 @@ Staking: {30-day average tix price, low, high, locked DCR million and % of avail
 
 Nodes: {node counts, version distribution}
 
-{any interesting events in the network}
+{any interesting analysis or events in the network}
 
 ## Mining
 
 ## Integrations
 
-{new items of infrastructure or news from existing ones}
+{new items of infrastructure or updates from existing}
 
 Exchange integrations:
 
@@ -104,13 +104,11 @@ Upcoming:
 
 {ratings news}
 
-Featured articles:
-
-* {}
-
 Articles:
 
 * {}
+
+Above are most interesting articles, but more were published on the web. The [decred-media-tracker](https://github.com/RichardRed0x/decred-media-tracker) project is intended to track all articles.
 
 Translations:
 
@@ -132,9 +130,10 @@ Community stats:
 * Reddit subscribers: {} (+{})
 * Matrix users: {} (+{})
 * Slack users: {} (+{})
+* Telegram users: {} (+{})
 * YouTube subscribers: {} (+{})
 * Facebook followers: {} (+{}), likes: {} (+{})
-* LinkedIn followers: {} (+{})
+* LinkedIn followers: Decred page {} (+{}), Politeia page {} (+{})
 * GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
 Comm systems news:
@@ -145,7 +144,9 @@ Comm systems news:
 
 Reddit: {interesting threads}
 
-Chats: {interesting convos}
+Twitter: {interesting threads}
+
+{link to chat index}
 
 ## Markets
 
@@ -155,7 +156,7 @@ Chats: {interesting convos}
 
 {PoW, ASIC resistance, tech}
 
-{governance, forks}
+{governance, forks, chain splits, controversy}
 
 {DEX}
 
@@ -169,6 +170,6 @@ This is the {}th issue of Decred Journal. It is available on [GitHub]({}). Past 
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
-Your feedback and contributions are welcome on [Reddit]({}), [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
+Your feedback and contributions are welcome on Reddit, [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
 Credits (alphabetical order): {}, {} and {}.
