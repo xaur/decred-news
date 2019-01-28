@@ -8,7 +8,7 @@ Monthly issues are published here via GitHub Pages, on [Reddit](https://www.redd
 
 __2018__
 
-English|Translations
+Month|Language
 ---|---
 April|[English](journal/201804.md)|
 May|[English](journal/201805.md)|
