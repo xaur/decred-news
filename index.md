@@ -4,6 +4,8 @@ Decred Journal serves to expose just how much is happening in Decred and save th
 
 Monthly issues are published here via GitHub Pages, on [Reddit](https://www.reddit.com/r/decred/search?q=decred+journal&restrict_sr=on&t=all&sort=new) and on [Medium](https://medium.com/decred/journals/home). Markdown source files and contribution guidelines are available on [GitHub](https://github.com/xaur/decred-news).
 
+For a list of all known translations and mirrors see [Mirrors page](mirrors.md).
+
 # Archive
 
 ## 2018
