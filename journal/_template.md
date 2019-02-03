@@ -8,6 +8,8 @@
 
 {per-project summary, drop items without updates}
 
+{order of reporting: changes released > merged to master > started work > discussions and future plans}
+
 [dcrd](https://github.com/decred/dcrd): {}
 
 [dcrwallet](https://github.com/decred/dcrwallet): {}
@@ -16,9 +18,9 @@
 
 [Politeia](https://github.com/decred/politeia): {}
 
-[Android wallet](https://github.com/decred/dcrandroid): {}
+[dcrandroid](https://github.com/decred/dcrandroid): {}
 
-[iOS wallet](https://github.com/raedahgroup/dcrios): {}
+[dcrios](https://github.com/raedahgroup/dcrios): {}
 
 Trezor: {}
 
@@ -44,13 +46,15 @@ Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {
 
 {high level recap of decision-making activity, most important events, defer to Politeia Digest for the rest}
 
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {} DCR and spent {} DCR. Using {month}'s daily average DCR/USD rate of ${}, this is ${}K received and ${}K spent. As these payments were for work completed in December, it is also informative to consider them in the context of the December average daily rate of ${} - in which case the USD received/spent figures are ${}K/${}K.
+
 ## Network
 
-Hashrate: {start, end, low, high, variation; pool distribution}
+Hashrate: {month}'s hashrate opened at ~{} Ph/s and closed ~{} Ph/s, bottoming at {} Ph/s and peaking at {} Ph/s throughout the month. Pool hashrate distribution: {} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
-Staking: {30-day average tix price, low, high, locked DCR million and % of avail supply}
+Staking: 30-day average ticket price was {} DCR (+{}) per dcrstats.com. The price varied between {}-{} DCR. Locked amount was {}-{} million DCR, which corresponded to {}-{}% of the available supply.
 
-Nodes: {node counts, version distribution}
+Nodes: As of {date} there were {} public listening nodes and {} normal nodes per [dcred.eu](https://dcred.eu/nodeStats). Version distribution: {}.
 
 {any interesting analysis or events in the network}
 
@@ -84,8 +88,6 @@ New merchants:
 
 {overview of outreach/communications/marketing activity for past month and any short-term plans}
 
-Targeted advertising report for {month} was posted by @{}. {short recap}. Read more [here]({link}).
-
 ## Events
 
 Attended:
@@ -104,11 +106,9 @@ Upcoming:
 
 {ratings news}
 
-Articles:
+Selected articles:
 
 * {}
-
-Above are most interesting articles, but more were published on the web. The [decred-media-tracker](https://github.com/RichardRed0x/decred-media-tracker) project is intended to track all articles.
 
 Translations:
 
@@ -146,17 +146,17 @@ Reddit: {interesting threads}
 
 Twitter: {interesting threads}
 
-{link to chat index}
-
 ## Markets
 
 {markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis}
+
+In {month} DCR was trading between USD {}-{} / BTC {}-{}. The average daily rate was ${}.
 
 ## Relevant External
 
 {PoW, ASIC resistance, tech}
 
-{governance, forks, chain splits, controversy}
+{governance, funding, forks, chain splits, controversy}
 
 {DEX}
 
@@ -166,10 +166,10 @@ Twitter: {interesting threads}
 
 ## About This Issue
 
-This is the {}th issue of Decred Journal. It is available on [GitHub]({}). Past issues are available [here](https://xaur.github.io/decred-news/).
+This is the {}th issue of Decred Journal. Index of all issues, mirrors and translations is available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
 Your feedback and contributions are welcome on Reddit, [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
-Credits (alphabetical order): {}, {} and {}.
+Credits (alphabetical order): {}.
