@@ -48,6 +48,7 @@ __December__
 
 * English: [github](journal/201812.md) [medium](https://medium.com/decred/decred-journal-december-2018-7ac754103ac3)
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201812_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-12%E6%9C%88-eb8b42a5e4fd) [jianshu](https://www.jianshu.com/p/65e7a83ac27c) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404328163751677942)
+* Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201812_DecredJournalPL.md)
 * Portuguese: [github](https://github.com/MaiconJunge/decred-news/blob/master/journal/201812PTBR.md) [medium](https://medium.com/@maiconjunge/jornal-decred-dezembro-de-2018-947c616b894f)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C-2018-9528f7a9d24d)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-diciembre-2018-79093f957aac)
