@@ -52,3 +52,9 @@ __December__
 * Portuguese: [github](https://github.com/MaiconJunge/decred-news/blob/master/journal/201812PTBR.md) [medium](https://medium.com/@maiconjunge/jornal-decred-dezembro-de-2018-947c616b894f)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C-2018-9528f7a9d24d)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-diciembre-2018-79093f957aac)
+
+## 2019
+
+__January__
+
+* English: [github](journal/201901.md)

@@ -21,3 +21,9 @@ September|[English](journal/201809.md), [Russian](https://medium.com/decred-russ
 October|[English](journal/201810.md), [Italian](https://medium.com/decred-ita/decred-journal-ottobre-2018-a68e88c926ff), [Russian](https://medium.com/decred-russia/decred-journal-%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C-2018-1eeffc65344c)
 November|[English](journal/201811.md), [Chinese](https://www.jianshu.com/p/32721d65d462), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201811_DecredJournalPL.md), [Russian](https://medium.com/decred-russia/decred-journal-%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8C-2018-d0aceacfd72a), [Spanish](https://medium.com/@decred_es/revista-decred-noviembre-2018-a3e52c5fc1a9)
 December|[English](journal/201812.md), [Chinese](https://www.jianshu.com/p/65e7a83ac27c), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201812_DecredJournalPL.md), [Portuguese](https://medium.com/@maiconjunge/jornal-decred-dezembro-de-2018-947c616b894f), [Russian](https://medium.com/decred-russia/decred-journal-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C-2018-9528f7a9d24d), [Spanish](https://medium.com/@decred_es/revista-decred-diciembre-2018-79093f957aac)
+
+## 2019
+
+Month|Language
+---|---
+January|[English](journal/201901.md)|
