@@ -26,4 +26,4 @@ December|[English](journal/201812.md), [Chinese](https://www.jianshu.com/p/65e7a
 
 Month|Language
 ---|---
-January|[English](journal/201901.md)|
+January|[English](journal/201901.md), [Chinese](https://www.jianshu.com/p/097265621ef6)|
