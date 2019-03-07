@@ -59,3 +59,4 @@ __January__
 
 * English: [github](journal/201901.md)
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201901_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-1%E6%9C%88-472668f76e71) [jianshu](https://www.jianshu.com/p/097265621ef6) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404341509649494386)
+* Spanish: [github](https://github.com/3lian/DecredESJournal/blob/master/Revista%20Decred%20-%20Enero%202019) [medium](https://medium.com/@decred_es/revista-decred-enero-2019-549e2b051f5a)
