@@ -27,3 +27,4 @@ December|[English](journal/201812.md), [Chinese](https://www.jianshu.com/p/65e7a
 Month|Language
 ---|---
 January|[English](journal/201901.md), [Chinese](https://www.jianshu.com/p/097265621ef6), [Spanish](https://medium.com/@decred_es/revista-decred-enero-2019-549e2b051f5a)
+February|[English](journal/201902.md)
