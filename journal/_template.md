@@ -36,7 +36,7 @@ Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {
 
 ## People
 
-{welcome contributors whose work was merged to master branches for the first time}
+Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
 
 {welcome new individual and company contractors listed on decred.org, updates from existing}
 
@@ -46,9 +46,11 @@ Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {
 
 {high level recap of decision-making activity, most important events, defer to Politeia Digest for the rest}
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {} DCR and spent {} DCR. Using {month}'s daily average DCR/USD rate of ${}, this is ${}K received and ${}K spent. As these payments were for work completed in December, it is also informative to consider them in the context of the December average daily rate of ${} - in which case the USD received/spent figures are ${}K/${}K.
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {} DCR and spent {} DCR. Using {month}'s daily average DCR/USD rate of ${}, this is ${}K received and ${}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${} - in which case the USD received/spent figures are ${}K/${}K. As of {date}, Treasury balance is {} DCR ({} million USD at ${}).
 
 ## Network
+
+{cross-check dcred.eu, dcrstats.com and charts.dcr.farm to get the numbers}
 
 Hashrate: {month}'s hashrate opened at ~{} Ph/s and closed ~{} Ph/s, bottoming at {} Ph/s and peaking at {} Ph/s throughout the month. Pool hashrate distribution: {} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
@@ -126,10 +128,12 @@ Audio:
 
 Community stats:
 
+* Politeia users: {} (+{})
 * Twitter followers: {} (+{})
 * Reddit subscribers: {} (+{})
 * Matrix users: {} (+{})
 * Slack users: {} (+{})
+* Discord users: {}, verified to post: {}
 * Telegram users: {} (+{})
 * YouTube subscribers: {} (+{})
 * Facebook followers: {} (+{}), likes: {} (+{})
@@ -166,7 +170,7 @@ In {month} DCR was trading between USD {}-{} / BTC {}-{}. The average daily rate
 
 ## About This Issue
 
-This is the {}th issue of Decred Journal. Index of all issues, mirrors and translations is available [here](https://xaur.github.io/decred-news/).
+This is issue {number} of Decred Journal. Index of all issues, mirrors and translations is available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
