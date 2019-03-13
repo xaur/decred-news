@@ -29,4 +29,4 @@ December|[English](journal/201812.md), [Chinese](https://www.jianshu.com/p/65e7a
 Month|Language
 ---|---
 January|[English](journal/201901.md), [Chinese](https://www.jianshu.com/p/097265621ef6), [Russian](https://medium.com/decred-russia/decred-journal-%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C-2019-77a814bb3a9e), [Spanish](https://medium.com/@decred_es/revista-decred-enero-2019-549e2b051f5a), [Vietnamese](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-01.md)
-February|[English](journal/201902.md)
+February|[English](journal/201902.md)， [Chinese](https://www.jianshu.com/p/06cd808e9313)
