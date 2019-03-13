@@ -66,3 +66,4 @@ __January__
 __February__
 
 * English: [github](journal/201902.md) [decredcommunity](https://decredcommunity.org/blog/decred-journal-february-2019)
+* Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201902_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-2%E6%9C%88-2687578507b2) [jianshu](https://www.jianshu.com/p/06cd808e9313) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404349481440177399)
