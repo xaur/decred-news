@@ -1,14 +1,12 @@
 # {DRAFT} Decred Journal – {MONTH} {YEAR}
 
-![{alt text}](../img/{file.jpg} "{hover text}")
+![{alt text}](../img/{file.jpg} "{hover tooltip text}")
 
-{introduction, major news of the month}
+{introduction, major news of the month ordered by impact}
 
 ## Development
 
-{per-project summary, drop items without updates}
-
-{order of reporting: changes released > merged to master > started work > discussions and future plans}
+{add below overview of activity for each project. add any other project that warranets a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans}
 
 [dcrd](https://github.com/decred/dcrd): {}
 
@@ -22,8 +20,6 @@
 
 [dcrios](https://github.com/raedahgroup/dcrios): {}
 
-Trezor: {}
-
 [dcrdata](https://github.com/decred/dcrdata): {}
 
 [Ticket splitting](https://github.com/matheusd/dcr-split-ticket-matcher): {}
@@ -32,35 +28,49 @@ Trezor: {}
 
 [decred.org](https://github.com/decred/dcrweb): {}
 
-Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {} deleted lines spread across {} repositories. Contributions came from {}-{} developers per repository. ([chart]({}))
+Other:
+
+* {smaller items go here}
+
+Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {} deleted lines spread across {} repositories. Contributions came from {}-{} developers per repository. ([chart]({})) {chart link is optional, drop if not ready}
 
 ## People
 
 Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
 
-{welcome new individual and company contractors listed on decred.org, updates from existing}
+Congratulations to {n} contributors listed on [decred.org](https://decred.org/contributors/):
+
+* {name} ({nickname}, {title})
+
+{welcome new individual and company contractors listed on decred.org}
+
+{updates from existing contractors}
 
 {interviews about people}
 
 ## Governance
 
-{high level recap of decision-making activity, most important events, defer to Politeia Digest for the rest}
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${n.nn} - in which case the USD received/spent figures are ${n}K/${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {} DCR and spent {} DCR. Using {month}'s daily average DCR/USD rate of ${}, this is ${}K received and ${}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${} - in which case the USD received/spent figures are ${}K/${}K. As of {date}, Treasury balance is {} DCR ({} million USD at ${}).
+{high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail}
 
 ## Network
 
-{cross-check dcred.eu, dcrstats.com and charts.dcr.farm to get the numbers}
+{cross-check dcrdata.org, dcred.eu, dcrstats.com and charts.dcr.farm to get the numbers}
 
-Hashrate: {month}'s hashrate opened at ~{} Ph/s and closed ~{} Ph/s, bottoming at {} Ph/s and peaking at {} Ph/s throughout the month. Pool hashrate distribution: {} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
+Hashrate: {month}'s hashrate opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate distribution as of {date}: {pool name n%, ...} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
-Staking: 30-day average ticket price was {} DCR (+{}) per dcrstats.com. The price varied between {}-{} DCR. Locked amount was {}-{} million DCR, which corresponded to {}-{}% of the available supply.
+Staking: 30-day average ticket price was {n.n} DCR (+{n.n}) per dcrstats.com. The price varied between {n.n}-{n.n} DCR. Locked amount was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply.
 
-Nodes: As of {date} there were {} public listening nodes and {} normal nodes per [dcred.eu](https://dcred.eu/nodeStats). Version distribution: {}.
+{recap of ticket price action if it was interesting}
+
+Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per [dcred.eu](https://dcred.eu/nodeStats). Version distribution: {vx.y.z: n% (+n%), ...}.
 
 {any interesting analysis or events in the network}
 
 ## Mining
+
+{new miners, relevant news about existing miners, interesting events or stats}
 
 ## Integrations
 
@@ -76,13 +86,15 @@ Exchange integrations:
 
 {wallets}
 
+Warning: the authors of Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
+
 ## Adoption
 
 New merchants:
 
 * {}
 
-{applications of Decred blockchain and related projects: Politeia, atomicswap}
+{applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap}
 
 {investment adoption}
 
@@ -110,7 +122,7 @@ Upcoming:
 
 Selected articles:
 
-* {}
+* {title} by {author} ([{domain}]({link}) - {optional comment}
 
 Translations:
 
@@ -137,7 +149,7 @@ Community stats:
 * Telegram users: {} (+{})
 * YouTube subscribers: {} (+{})
 * Facebook followers: {} (+{}), likes: {} (+{})
-* LinkedIn followers: Decred page {} (+{}), Politeia page {} (+{})
+* LinkedIn followers: Decred page {} (+{})
 * GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
 Comm systems news:
@@ -152,15 +164,15 @@ Twitter: {interesting threads}
 
 ## Markets
 
-{markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis}
+In {month} DCR was trading between USD {}-{} / BTC {}-{}. The average daily rate was ${n.nn}.
 
-In {month} DCR was trading between USD {}-{} / BTC {}-{}. The average daily rate was ${}.
+{markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis}
 
 ## Relevant External
 
-{PoW, ASIC resistance, tech}
+{PoW, ASIC resistance, cc network security and other cc tech}
 
-{governance, funding, forks, chain splits, controversy}
+{governance, funding, chain forks, community forks, controversy}
 
 {DEX}
 
