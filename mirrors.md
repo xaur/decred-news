@@ -82,3 +82,11 @@ __February__
 __March__
 
 * English: [github](journal/201903.md)
+* Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201903_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-3%E6%9C%88-d1d4fa6f950e) [jianshu](https://www.jianshu.com/p/fcbcad784ad4) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404361275126722545#_0)
+
+__April__
+
+* English: [github](journal/201904.md)
+* Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201904_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-4%E6%9C%88-1d25dd4807b5) [jianshu](https://www.jianshu.com/p/5ff8f658879c)
+
+
