@@ -7,23 +7,28 @@ Here is the list of all known translations and their mirrors.
 __April__
 
 * English: [github](journal/201804.md) [decredcommunity](https://decredcommunity.org/blog/decred-journal-april-2018) [reddit](https://www.reddit.com/r/decred/comments/8hi916/decred_journal_april_2018/)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-04.md)
 
 __May__
 
 * English: [github](journal/201805.md) [medium](https://medium.com/decred/decred-journal-may-2018-6ea021e4f26a) [decredcommunity](https://decredcommunity.org/blog/decred-journal-may-2018) [reddit](https://www.reddit.com/r/decred/comments/8p3b7p/decred_journal_may_2018/)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-05.md)
 
 __June__
 
 * English: [github](journal/201806.md) [medium](https://medium.com/decred/decred-journal-june-2018-b489ccb83b12) [decredcommunity](https://decredcommunity.org/blog/decred-journal-june-2018) [reddit](https://www.reddit.com/r/decred/comments/8woriv/decred_journal_june_2018/)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-06.md)
 
 __July__
 
 * English: [github](journal/201807.md) [medium](https://medium.com/decred/decred-journal-july-2018-4fe7cb50b2f5) [decredcommunity](https://decredcommunity.org/blog/decred-journal-july-2018) [reddit](https://www.reddit.com/r/decred/comments/95541q/decred_journal_july_2018/)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-07.md)
 
 __August__
 
 * English: [github](journal/201808.md) [medium](https://medium.com/decred/decred-journal-august-2018-48bdb4fb14f) [decredcommunity](https://decredcommunity.org/blog/decred-journal-august-2018) [reddit](https://www.reddit.com/r/decred/comments/9dn9ia/decred_journal_august_2018/)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82-2018-8375e838954)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-08.md)
 
 __September__
 
@@ -84,8 +89,10 @@ __March__
 * English: [github](journal/201903.md) [medium](https://medium.com/decred/decred-journal-march-2019-961cfc3b86c7) [decredcommunity](https://decredcommunity.org/blog/decred-journal-march-2019)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201903.html)
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201903_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-3%E6%9C%88-d1d4fa6f950e) [jianshu](https://www.jianshu.com/p/fcbcad784ad4) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404361275126722545)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-03.md)
 
 __April__
 
 * English: [github](journal/201904.md) [medium](https://medium.com/decred/decred-journal-april-2019-7486add3a2fc)
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201904_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-4%E6%9C%88-1d25dd4807b5) [jianshu](https://www.jianshu.com/p/5ff8f658879c)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-04.md)
