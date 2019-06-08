@@ -93,6 +93,10 @@ __March__
 
 __April__
 
-* English: [github](journal/201904.md) [medium](https://medium.com/decred/decred-journal-april-2019-7486add3a2fc)
+* English: [github](journal/201904.md) [medium](https://medium.com/decred/decred-journal-april-2019-7486add3a2fc) [decredcommunity](https://decredcommunity.org/blog/decred-journal-april-2019)
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201904_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-4%E6%9C%88-1d25dd4807b5) [jianshu](https://www.jianshu.com/p/5ff8f658879c)
 * Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-04.md)
+
+__May__
+
+* English: [github](journal/201905.md) [decredcommunity](https://decredcommunity.org/blog/decred-journal-may-2019)
