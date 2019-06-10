@@ -1,4 +1,4 @@
-# {DRAFT} Decred Journal – {MONTH} {YEAR}
+# {DRAFT} Decred Journal – {month} {year}
 
 ![{alt text}](../img/{file.jpg} "{hover tooltip text}")
 
@@ -16,6 +16,8 @@
 
 [Politeia](https://github.com/decred/politeia): {}
 
+[dcrlnd](https://github.com/decred/dcrlnd): {}
+
 [dcrandroid](https://github.com/decred/dcrandroid): {}
 
 [dcrios](https://github.com/raedahgroup/dcrios): {}
@@ -32,7 +34,7 @@ Other:
 
 * {smaller items go here}
 
-Dev activity stats for {month}: {} active PRs, {} master commits, {} added and {} deleted lines spread across {} repositories. Contributions came from {}-{} developers per repository. ([chart]({})) {chart link is optional, drop if not ready}
+Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added and {n}K deleted lines spread across {n} repositories. Contributions came from {n}-{n} developers per repository. ([chart]({chart link is optional, drop if not ready}))
 
 ## People
 
@@ -60,11 +62,15 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 
 Hashrate: {month}'s hashrate opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate distribution as of {date}: {pool name n%, ...} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
+{helpful for PoS: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now}
+
 Staking: 30-day average ticket price was {n.n} DCR (+{n.n}) per dcrstats.com. The price varied between {n.n}-{n.n} DCR. Locked amount was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply.
 
 {recap of ticket price action if it was interesting}
 
-Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per [dcred.eu](https://dcred.eu/nodeStats). Version distribution: {vx.y.z: n% (+n%), ...}.
+{helpful for nodes: https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=now-40d&to=now}
+
+Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per {new source?}. Version distribution: {vx.y.z: n% (+n%), ...}.
 
 {any interesting analysis or events in the network}
 
@@ -106,13 +112,13 @@ New merchants:
 
 Attended:
 
-* {}
+* {dates} - [{title}]({event link}) - {city}, {country}. {recap}
 
 Upcoming:
 
-* {}
+* {dates} - [{title}]({event link}) - {city}, {country}. {info}
 
-{announcements from events people}
+{announcements in Events domain}
 
 ## Media
 
@@ -122,7 +128,7 @@ Upcoming:
 
 Selected articles:
 
-* {title} by {author} ([{domain}]({link}) - {optional comment}
+* {title in Title Case} by {author} ([{domain}]({link}) - {optional comment}
 
 Translations:
 
@@ -158,9 +164,13 @@ Comm systems news:
 
 {selected discussed topics, as bullet list or one paragraph per topic}
 
-Reddit: {interesting threads}
+Selected Reddit posts:
 
-Twitter: {interesting threads}
+* {}
+
+Selected Twitter discussions:
+
+* {}
 
 ## Markets
 
@@ -188,4 +198,8 @@ Most information from third parties is relayed directly from source after a mini
 
 Your feedback and contributions are welcome on Reddit, [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
-Credits (alphabetical order): {}.
+Credits (alphabetical order):
+
+* writing and editing: {}
+* reviews and feedback: {}
+* title image: {}
