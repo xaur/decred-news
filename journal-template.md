@@ -16,6 +16,8 @@
 
 [Politeia](https://github.com/decred/politeia): {}
 
+[dcrstakepool](https://github.com/decred/dcrstakepool): {}
+
 [dcrlnd](https://github.com/decred/dcrlnd): {}
 
 [dcrandroid](https://github.com/decred/dcrandroid): {}
@@ -58,7 +60,7 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 
 ## Network
 
-{cross-check dcrdata.org, dcred.eu, dcrstats.com and charts.dcr.farm to get the numbers}
+{cross-check dcrdata.org, dcrstats.com and charts.dcr.farm to get the numbers}
 
 Hashrate: {month}'s hashrate opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate distribution as of {date}: {pool name n%, ...} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
@@ -155,7 +157,7 @@ Community stats:
 * Telegram users: {} (+{})
 * YouTube subscribers: {} (+{})
 * Facebook followers: {} (+{}), likes: {} (+{})
-* LinkedIn followers: Decred page {} (+{})
+* LinkedIn followers: {} (+{})
 * GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
 Comm systems news:
