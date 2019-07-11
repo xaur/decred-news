@@ -11,6 +11,7 @@ __June__
 __May__
 
 * English: [github](journal/201905.md) [medium](https://medium.com/decred/decred-journal-may-2019-62166706ee37) [decredcommunity](https://decredcommunity.org/blog/decred-journal-may-2019)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201905.html)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%BC%D0%B0%D0%B9-2019-8e6cfe4bd4dc)
 * Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-05.md)
 
