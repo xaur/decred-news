@@ -8,6 +8,7 @@ __May__
 
 * English: [github](journal/201905.md) [medium](https://medium.com/decred/decred-journal-may-2019-62166706ee37) [decredcommunity](https://decredcommunity.org/blog/decred-journal-may-2019)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%BC%D0%B0%D0%B9-2019-8e6cfe4bd4dc)
+* Italian: [medium](https://medium.com/decred-ita/giornale-di-decred-maggio-2019-8dff2b53b1e)
 
 __April__
 
