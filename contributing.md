@@ -16,13 +16,13 @@
   * make People section more interesting
   * track non-dev contributors
 * Network
-  * automate collection of stats (see [issue 41](https://github.com/xaur/decred-news/issues/41) tagged #automate)
+  * automate collection of stats (see items tagged #automate in the [content map](https://github.com/xaur/decred-news/blob/docs/content.md))
   * write about interesting events
 * Integrations
   * add context: write up key/interesting features/events of mentioned exchanges, wallets and payment processors
 * Community Discussions
   * report best quality conversations from Twitter, Reddit, etc
-* automate generation of Medium version (#51)
+* automate generation of Medium version ([issue 51](https://github.com/xaur/decred-news/issues/51))
 * take ownership of an underperforming section
 * add more content, see [this map](https://github.com/xaur/decred-news/blob/docs/content.md) of current and possible content
 
