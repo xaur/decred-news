@@ -20,6 +20,8 @@
   * write about interesting events
 * Integrations
   * add context: write up key/interesting features/events of mentioned exchanges, wallets and payment processors
+* Events
+  * dig info and photos/videos for past and upcoming events
 * Community Discussions
   * report best quality conversations from Twitter, Reddit, etc
 * automate generation of Medium version ([issue 51](https://github.com/xaur/decred-news/issues/51))
