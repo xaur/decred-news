@@ -30,7 +30,11 @@ See [release checklist](https://github.com/xaur/decred-news/blob/docs/release-ch
 
 Tips:
 
+* A lot of work can be done with just a browser, thanks to GitHub UI.
+* For advanced editing, get a comfortable text editor with Markdown syntax support, ideally with Markdown and Git support. Some options to try are Atom, Sublime Text, WebStorm. If you find a strong setup please share with other writers.
 * Have the text file open, throw raw links into the draft as soon as you see something notable.
+* By default your email address will be inserted in Git commits and become public. Learn about email privacy [here](https://help.github.com/en/articles/setting-your-commit-email-address) and [here](https://help.github.com/en/articles/blocking-command-line-pushes-that-expose-your-personal-email-address). For the advanced - Git also leaks your time zone.
+* If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help.
 * Push draft notes daily to stay in sync with other authors.
 * Before making changes, make sure you're on the latest version.
 * Before pushing commits, make sure you're on the latest version. Rebase otherwise.
@@ -62,6 +66,34 @@ Tips:
 * Highlight achievements of our community.
 * Focus on what was **done**.
 * Announcements and plans are good too - just be specific and minimize hype.
+
+### TODOs
+
+"TODOs" or "FIXMEs" are small tasks and notes embedded in the draft document.
+
+Two types of TODOs are used in DJ.
+
+First type is anything `{inside curly braces}`. It can be a task, a placeholder, a question or a note. Tasks need to be done while notes can be just removed when they are no longer needed. Examples:
+
+Task:
+
+> UTXO set optimization was merged {explain in plain English}
+
+Question:
+
+> 3 typos have been fixed {do we need this?}
+
+Placeholders that must be filled:
+
+> In {month} the Treasury received {n} DCR and spent {n} DCR.
+
+Special case of placeholder is an empty TODO, it must be obvious from the context what it should be replaced with:
+
+> Reddit subscribers: {} (+{})
+
+Second type of TODOs are URLs not enclosed in Markdown links. For example, an unenclosed URL in Relevant External simply means "write up this story".
+
+Final release must have all TODOs resolved, i.e. contain no curly braces and no URLs outside of Markdown links.
 
 ### Development
 
@@ -159,6 +191,8 @@ Chats: #event\_planning.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
 
+Look at the events from Decred's perspective, look for experience to learn from.
+
 ### Media
 
 Criteria for "Selected articles" is an [open question](https://github.com/xaur/decred-news/issues/21).
@@ -186,8 +220,10 @@ Some notable stories are discovered in later months. Add them, followed by a tag
 
 ### General
 
-Verify:
+Look into these:
 
+* Save reader's time: keep the most important bits for each story and a link to follow.
+* Avoid hype and fake excitement.
 * No factual errors
 * Attitude: check that nothing damages Decred's public image
 * Grammar, punctuation, wording, tense consistency, sentence and paragraph composition
@@ -354,3 +390,10 @@ Cons:
 * higher learning curve, except most trivial usage
 * conflict resolution is not automatic and is error prone
 * requires experienced Git maintainer to have a pretty repository
+
+## Why curly braces?
+
+* They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
+* They can be easily found and counted to estimate how much work is left.
+* They can be highlighted in various text editors.
+* They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must be on its own separate line.
