@@ -28,6 +28,8 @@ Finally, the issues is polished and released on Medium, GitHub and other places,
 
 See [release checklist](https://github.com/xaur/decred-news/blob/docs/release-checklist-template.md).
 
+See [this issue](https://github.com/xaur/decred-news/issues/65) for a list of areas and their owners.
+
 Tips:
 
 * A lot of work can be done with just a browser, thanks to GitHub UI.
@@ -40,7 +42,9 @@ Tips:
 * Before pushing commits, make sure you're on the latest version. Rebase otherwise.
 * Before doing large changes check with others to avoid conflicts.
 * Avoid sending unfinished document for review, this leads to several roundtrips.
+* Write up stories sooner when possible to prevent the work piling up.
 * Try to give 2 full days for final review.
+* The sooner DJ is released [the better](https://github.com/xaur/decred-news/issues/34).
 * Do not edit the issue after it was released, unless there is a very good reason. If that happens, add commits to `master` branch. Each published version must have a corresponding `master` commit.
 
 ### Updating index
@@ -60,7 +64,7 @@ Tips:
 * Linked pages must be in English in most cases.
 * Non-English links are allowed but they must be significant in some way, e.g. original research or ratings.
 * Archive all linked pages in web.archive.org or archive.today.
-* To check if something was reported in previous issues, do a full text search in .md files, e.g. `grep -ir dcrwallet/pull/1330` shows that this pull request was covered in Nov 2018.
+* To check if something was reported in previous issues, do a full text search in .md files, e.g. `grep -ir dcrwallet/pull/1330` shows that this pull request was covered in Nov 2018. Another way is to use the search box [on GitHub](https://github.com/xaur/decred-news).
 * All claims must reference sources.
 * Stick to facts, minimize opinion and assumptions.
 * Highlight achievements of our community.
@@ -146,7 +150,13 @@ To find commits:
 
 **Chats** may provide additional context for changes and interesting (sometimes notable) discussions. Scanning chats is optional because it may take a lot of time. Dev chat rooms: #dev, #politeia, #dcrdata, #lndev, #documentation, #design.
 
-For dev **stats**, there is a convenient GitHub filter for calculating developers per repository ([example](https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c))
+For dev **stats**, there is a convenient GitHub filter for calculating developers per repository ([example](https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c)).
+
+GitHub can be used to calculate how many people contributed to the repo during the month:
+
+* Find commit IDs of previous and current month's commits
+* Construct GitHub compare link, e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f (8 first characters of commit IDs would do, also mind the 3 dots `...`)
+* Look at the contributors count
 
 ### Governance
 
@@ -170,7 +180,15 @@ Chats: #pow-mining, #pos-voting
 
 ### Integrations
 
-Besides just listing new exchanges, wallets and payment processors, try digging key/interesting features/events about them.
+Besides just listing new exchanges, wallets and payment processors, dig key/interesting features/events about them.
+
+For example,
+
+> Decred [is live](https://twitter.com/roomofsatoshi/status/1052879109099991041) on [Living Room of Satoshi](https://www.livingroomofsatoshi.com/). It allows one to pay any bill or to pay money into any Australian bank account with Decred. Established in 2014, the service helped to pay over 140,000 bills.
+
+Or
+
+> [BitPro](https://bitpro.cc/) payment gateway added Decred and [posted](https://www.reddit.com/r/decred/comments/8og4he/bitpro_payment_gateway_adds_decred/) on Reddit. Notably, it is fully functional without javascript or cookies and does not ask for name or email, among other [features](https://bitpro.cc/start).
 
 ### Adoption
 
@@ -180,6 +198,8 @@ Stories must have something to do with Decred blockchain, for example:
 
 * new merchants accept DCR
 * project or organization uses dcrtime or Politeia
+
+Dig interesting facts similar to Integrations.
 
 ### Outreach
 
@@ -212,9 +232,22 @@ Report any interesting conversations.
   * mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
   * hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
 
+### Relevant External
+
+The ideas behind this section:
+
+1. Show that many good decisions were put into the foundation of Decred, that many problems were predicted and prevented years ago
+2. Learn from experience of other projects
+3. Track interesting trends, detect risks
+4. Educate the audience
+
 ### Missed content
 
 Some notable stories are discovered in later months. Add them, followed by a tag in italics: `_(missed in March issue)_`.
+
+### Title image
+
+Title image used on GitHub Pages must be 768x384 pixels. Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality.
 
 ## Style, Editing
 
@@ -242,7 +275,7 @@ This is an [open question](https://github.com/xaur/decred-news/issues/20).
 
 The current approach is subjective and informal: use the most well known handle to identify Decred community members, full names or handles for everyone else.
 
-### How to credit people
+### How to give credit
 
 When to add credit to an accomplishment is an [open question](https://github.com/xaur/decred-news/issues/26).
 
@@ -252,7 +285,7 @@ When giving credit to multiple people sort the names alphabetically:
 
 > Thing X is released, credits to @alex, @maria and @sam
 
-Speaking of the Credits sections at the end of the issue, make sure to note everyone who contributed.
+Speaking of the Credits sections at the end of the DJ issue, make sure to add everyone who contributed.
 
 ### Quotes
 
