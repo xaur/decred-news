@@ -136,13 +136,18 @@ Stats and metrics websites:
 
 Chats: #pow-mining, #pos-voting
 
+### Integrations
+
+Besides just listing new exchanges, wallets and payment processors, try digging key/interesting features/events about them.
+
 ### Adoption
+
+The line between Integrations and Adoption is blurry, but the guiding rule is: Integrations is aboud _building_ our Decred infrastructure, while Adoption is about _using_ Decred infrastructure. 
 
 Stories must have something to do with Decred blockchain, for example:
 
 * new merchants accept DCR
 * project or organization uses dcrtime or Politeia
-* project integrates atomicswap
 
 ### Outreach
 
