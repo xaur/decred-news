@@ -191,7 +191,7 @@ Chats: #event\_planning.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
 
-Look at the events from Decred's perspective, look for experience to learn from.
+Look at the events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many people, what they know, what they don't know, what they think about Decred, any interesting trends that could shape our events activity.
 
 ### Media
 
