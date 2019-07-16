@@ -37,6 +37,7 @@ Tips:
 * Before doing large changes check with others to avoid conflicts.
 * Avoid sending unfinished document for review, this leads to several roundtrips.
 * Try to give 2 full days for final review.
+* Do not edit the issue after it was released, unless there is a very good reason. If that happens, add commits to `master` branch. Each published version must have a corresponding `master` commit.
 
 ### Updating index
 
@@ -155,7 +156,9 @@ For each past event, add some basic info following the standard format in the te
 
 ### Media
 
-Informal criteria for "Selected articles": something you would recommend reading to a wide audience, something we don't know or a fresh look at something we know, any original research, content from community members, something that took more than 2 hours to write.
+Criteria for "Selected articles" is an [open question](https://github.com/xaur/decred-news/issues/21).
+
+Current informal criteria: something you would recommend reading to a wide audience, something we don't know or a fresh look at something we know, any original research, content from community members, something that took more than 2 hours to write.
 
 ### Community Discussions
 
@@ -200,7 +203,9 @@ The current approach is subjective and informal: use the most well known handle 
 
 ### How to credit people
 
-When to add credit to an accomplishment is an open question. There is no formal criteria at the moment. A lot of work is done each month. Adding credit to everything would overwhelm the reader. On the other hand, sometimes it feels right to give a shoutout to someone. Use your best judgement.
+When to add credit to an accomplishment is an [open question](https://github.com/xaur/decred-news/issues/26).
+
+There is no formal criteria at the moment. A lot of work is done each month. Adding credit to everything would overwhelm the reader. On the other hand, sometimes it feels right to give someone a shoutout. Use your best judgement.
 
 When giving credit to multiple people sort the names alphabetically:
 
