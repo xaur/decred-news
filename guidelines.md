@@ -2,13 +2,18 @@
 
 ## Goals
 
-1. Show the depth of Decred. Decred is advanced and sophisticated on all levels. Expose this, give a sense of how much is happening.
-2. Community is greatest asset. Highlight community initiatives (projects, articles) and intelligence (discussions).
+1. Keep Decred community updated
+2. Attract more builders to the project
+3. Expose the quality and depth of Decred
+4. Convey Decred culture and values
 
-Target audience is twofold:
+The target audiences can be grouped by the level of engagement (the Decred community, potential builders and everyone else) and by the technical level (high and low).
 
-* less technical: current and potential Decred users, investors and the world - most of the text must read well for these
-* more technical: developers, designers and experts in other domains - carefuly inject some goodness for these groups
+As a general rule, use less technical language whenever possible. Try to explain complex things in simple terms. At the same time, carefully inject technical goodness for developers, designers and experts in other fields.
+
+Decred is advanced and sophisticated on all levels. Expose this, give a sense of how much is happening.
+
+Community is the greatest asset. Highlight community initiatives (projects, articles) and intelligence (discussions).
 
 ## Workflow
 
@@ -70,6 +75,8 @@ Tips:
 * Highlight achievements of our community.
 * Focus on what was **done**.
 * Announcements and plans are good too - just be specific and minimize hype.
+* DJ issues are huge and many stories involve understanding a fair bit of historical context and domain expertise. It comes with time.
+* all work is important, the challenge is how to not kill the reader and balance between bird's eye and the details, which are often interesting
 
 ### TODOs
 
@@ -101,13 +108,22 @@ Final release must have all TODOs resolved, i.e. contain no curly braces and no 
 
 ### Development
 
+Per the [Goals](#goals), this section aims to update technical and less technical community members, attract more builders and expose the solid progress to everyone else. Development is perhaps the most challenging in this regard for the constant need to balance between these audiences and switch between zooming in and zooming out.
+
+A side goal is to educate people about the real effort needed to build robust cryptocurrency software.
+
+There are two target subgroups of devs:
+
+1. devs that already work for Decred - to them we give the big picture so if they see something interesting they can follow and discover new opportunities (interest often makes for the best performance)
+2. devs who do not yet work on Decred - for them we show why Decred is a good place. For example, any effort to cut bloat, keep the stack up to date (no [horrific](http://catb.org/jargon/html/C/cthulhic.html) legacy tentacles), to improve privacy or in general do something elegantly would attract me personally (@bee).
+
 Where do we look for updates:
 
 * [Decred project](https://github.com/decred) repos
 * corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
 * individual developers repos, e.g. [matheusd](https://github.com/matheusd)
 * scan dev chats (optional)
-* ask the devs
+* ask the devs. The more updates we get directly from the devs, the better.
 
 What do we look for:
 
@@ -120,18 +136,26 @@ Stages in work lifecycle considered for reporting:
 * work released in binaries or deployed to production sites
 * work released in source code (merged in master branches)
 * work finished but still in review
-* work in progress (some work happened this month)
+* work in progress (new work done this month)
 * work started
 * discussion started
 * planned work, from near to long term
 
-The same work may be reported multiple times in multiple DJ issues as it moves to next stage.
+In each project section, order work items from "most released" to "least released".
 
-Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
-
-Within each project section, order work items from "most released" to "least released".
+The same effort may be reported multiple times in multiple DJ issues as it moves to next stage. Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
 
 All updates must be **notable**. Signs of a _not_ notable pull request or commit: few lines changed, no description, no discussion, not many people involved, no references from or to this PR, short time span, few commits, not much happened during the month.
+
+Some work sounds less "exciting": small bugfixes, increased test coverage, code refactoring, dependency upgrades, code cleanup, etc. Normally, such items are not reported on their own but grouped in a general statement like "increased test coverage", unless the total amount is so small that can be omitted. These items do get a standalone mention when they are big (thousands of lines affected in non trivial way), took a ton of effort (e.g. hunting down a super tricky bug), have huge impact (e.g. one line fix for a vulnerability) or otherwise interesting (e.g. someone went on a crusade to [remove jQuery](https://github.com/decred/dcrdata/pull/915) or bad practice like [inline JS](https://github.com/decred/dcrdata/pull/873)). Infrastructure upgrades like linters, CI, vulnerability detection, etc, are often notable.
+
+When using catch-all updates, be specific when possible e.g. "refactoring to increase separation of concerns" instead of just "refactoring".
+
+While things like "tests added" may sound too generic, they are often mentioned to give a general sense that infra work never stops and takes a lot of effort. Indirectly, it shows that our devs are experienced and know "the price" of a large codebase - if you don't consistently take care of it and just keep adding features it may blow up.
+
+Special category we try to mention is changes backported from other Go codebases like btcd or lnd. Indirectly, it shows returns from past contributions into the ecosystem - seeds planted years ago by C0 by investing into btcsuite.
+
+Don't worry of a project is short on updates. There are a lot of them and sometimes devs move their focus.
 
 The primary source of updates for most Decred projects are the **pull requests** (PRs), currently hosted on GitHub.
 
@@ -207,9 +231,13 @@ Chats: #marketing, #event\_planning, #social\_media
 
 ### Events
 
+Some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe to it to watch for updates.
+
 Chats: #event\_planning.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
+
+If info is missing for some events closer to the release, actively post a list of such events in #event\_planning and ask for info.
 
 Look at the events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many people, what they know, what they don't know, what they think about Decred, any interesting trends that could shape our events activity.
 
@@ -218,6 +246,16 @@ Look at the events from Decred's perspective, look for experience to learn from.
 Criteria for "Selected articles" is an [open question](https://github.com/xaur/decred-news/issues/21).
 
 Current informal criteria: something you would recommend reading to a wide audience, something we don't know or a fresh look at something we know, any original research, content from community members, something that took more than 2 hours to write.
+
+For each selected article, optionally add a small note why it is great.
+
+### Markets
+
+Report any interesting market movements, and ideally, action in markets not frequently covered by the media - OTC and DEX.
+
+Do not speculate about the price.
+
+Chats: #trading.
 
 ### Community Discussions
 
@@ -247,7 +285,13 @@ Some notable stories are discovered in later months. Add them, followed by a tag
 
 ### Title image
 
-Title image used on GitHub Pages must be 768x384 pixels. Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality.
+Title image used on GitHub Pages must be 768x384 pixels.
+
+Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality. Motivation: Git repositories keep all versions of all files ever committed, therefore they quickly grow in size when adding binary files like images.
+
+For caption, at the minimum add the title of the work and its author, e.g. `Image: Anomaly by @saneder`.
+
+So far DJ images are abstract art. If possible, add extra text hinting at what is pictured. The text must either make sense or be abstract enough to not need it, but not something in between.
 
 ## Style, Editing
 
@@ -285,7 +329,7 @@ When giving credit to multiple people sort the names alphabetically:
 
 > Thing X is released, credits to @alex, @maria and @sam
 
-Speaking of the Credits sections at the end of the DJ issue, make sure to add everyone who contributed.
+Speaking of the credits for DJ production at the end of the issue, make sure to add everyone who contributed. There is no formal criteria at the moment. The informal criteria is: add people who _actively_ brought us something, opposed to content that DJ authors find and incorporate.
 
 ### Quotes
 
@@ -360,7 +404,8 @@ This applies to English only:
 
 * Use simple word forms when possible.
 * For large numbers always use either uppercase `K/M/G` or full `thousand/millions/billions`, e.g. `$53K`.
-* Stick to ASCII character set, except the title and names. Modern renderers like GitHub Pages or Medium take care of it, and properly render dashes, quotes, etc.
+* For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Example: for the percentage of locked DCR we use two decimal places because the fluctuations are small and because a lot of money is behind this number.
+* Stick to ASCII character set, except the title and names. Modern renderers like GitHub Pages or Medium take care of it and properly render dashes, quotes, etc.
   * Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
   * Use hyphen for number ranges where you would use endash.
   * Use `'` for single and `"` for double quotes.
@@ -410,13 +455,15 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 Pros of the Git/GitHub workflow:
 
-* all content can be easily downloaded and synced
+* all content can be easily downloaded and synced (nearly decentralized storage)
 * all changes recorded
 * get more contributions in a proven workflow
 * integrity protection
 * devs can seamlessly engage/contribute since the workflow is similar to theirs
 * show off: one of the most advanced productions in the space
 * possible authenticity protection via PGP signatures (requires extra setup)
+* Git software is widespread
+* Cloning is permissionless and does not require an account
 
 Cons:
 
