@@ -182,7 +182,20 @@ GitHub can be used to calculate how many people contributed to the repo during t
 * Construct GitHub compare link, e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f (8 first characters of commit IDs would do, also mind the 3 dots `...`)
 * Look at the contributors count
 
+### People
+
+Main goals of People are:
+
+1. Greet new contributors, both individuals and organizations
+2. Make the community more familiar with people making Decred
+
+The latter includes interviews and staff changes.
+
 ### Governance
+
+Goal: provide a digest of decision-making activity and finances.
+
+Finances include income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section, per the [content plan](content.md).
 
 Sources:
 
@@ -193,6 +206,10 @@ Sources:
 
 ### Network
 
+The main goal of Network is to keep people's eyes on network health indicators such as hashrate, locked DCR amount and percentage, count of nodes, node version distribution. Any notable incidents go here too.
+
+Network, Mining and Integrations together cover the infrastructure area.
+
 Stats and metrics websites:
 
 * [dcrdata.org](https://explorer.dcrdata.org/)
@@ -202,21 +219,29 @@ Stats and metrics websites:
 
 Chats: #pow-mining, #pos-voting
 
+### Mining
+
+Mining used to cover the mining space: new miner units and their stats, new PoW pools and updates from existing ones, relevant news about colocation, sellers, energy, cooling, etc.
+
+Recent issues of DJ have this section omitted because the first phase of Blake mining arms race is over, there are no big news and we simply don't have journalists tracking this space. [Contributions](contribute.md) are welcome.
+
 ### Integrations
 
-Besides just listing new exchanges, wallets and payment processors, dig key/interesting features/events about them.
+In contrast with Network that is about "raw" infrastructure and health indicators, Integrations is about services expanding Decred infrastructure, most commonly businesses.
+
+Besides just listing new exchanges, wallets and payment processors, dig key/interesting features and events about them.
 
 For example,
 
 > Decred [is live](https://twitter.com/roomofsatoshi/status/1052879109099991041) on [Living Room of Satoshi](https://www.livingroomofsatoshi.com/). It allows one to pay any bill or to pay money into any Australian bank account with Decred. Established in 2014, the service helped to pay over 140,000 bills.
 
-Or
+or
 
 > [BitPro](https://bitpro.cc/) payment gateway added Decred and [posted](https://www.reddit.com/r/decred/comments/8og4he/bitpro_payment_gateway_adds_decred/) on Reddit. Notably, it is fully functional without javascript or cookies and does not ask for name or email, among other [features](https://bitpro.cc/start).
 
 ### Adoption
 
-The line between Integrations and Adoption is blurry, but the guiding rule is: Integrations is aboud _building_ our Decred infrastructure, while Adoption is about _using_ Decred infrastructure. 
+The line between Integrations and Adoption is blurry, but the guiding rule is: Integrations is aboud _building_ out Decred infrastructure, while Adoption is about _using_ Decred infrastructure. In other words, Adoption is about simply using DCR and building new products and services on top of Decred infrastructure.
 
 Stories must have something to do with Decred blockchain, for example:
 
@@ -227,13 +252,15 @@ Dig interesting facts similar to Integrations.
 
 ### Outreach
 
+Provide overview of outreach/communications/marketing activity for past month and any plans.
+
+Logically, Events and Media sections belong to Outreach.
+
 Chats: #marketing, #event\_planning, #social\_media
 
 ### Events
 
-Some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe to it to watch for updates.
-
-Chats: #event\_planning.
+Cover past and upcoming physical and web events where Decred had presence.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
 
@@ -241,7 +268,17 @@ If info is missing for some events closer to the release, actively post a list o
 
 Look at the events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many people, what they know, what they don't know, what they think about Decred, any interesting trends that could shape our events activity.
 
+Sources:
+
+* Some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe to it to watch for updates.
+* Chats: #event\_planning
+* Follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES).
+
 ### Media
+
+Cover the best Decred-related content posted in the media.
+
+Ratings go here too.
 
 Criteria for "Selected articles" is an [open question](https://github.com/xaur/decred-news/issues/21).
 
@@ -249,17 +286,15 @@ Current informal criteria: something you would recommend reading to a wide audie
 
 For each selected article, optionally add a small note why it is great.
 
-### Markets
-
-Report any interesting market movements, and ideally, action in markets not frequently covered by the media - OTC and DEX.
-
-Do not speculate about the price.
-
-Chats: #trading.
-
 ### Community Discussions
 
-Report any interesting conversations.
+Goals:
+
+1. Track community growth
+2. Update about communications infrastructure (critical for online communities)
+3. Track interesting conversations on social media
+
+Sources:
 
 * Reddit
   * watch [r/decred](https://www.reddit.com/r/decred/)
@@ -270,6 +305,19 @@ Report any interesting conversations.
   * mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
   * hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
 
+### Markets
+
+Report any interesting market movements, and ideally, action in markets not frequently covered by the media - OTC and DEX.
+
+Mention both USD and BTC price:
+
+* USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury)
+* BTC price shows how Decred competes against Bitcoin, another SoV+MoE focused cryptocurrency with similar properties
+
+Do not speculate about the price.
+
+Chats: #trading.
+
 ### Relevant External
 
 The ideas behind this section:
@@ -277,7 +325,19 @@ The ideas behind this section:
 1. Show that many good decisions were put into the foundation of Decred, that many problems were predicted and prevented years ago
 2. Learn from experience of other projects
 3. Track interesting trends, detect risks
-4. Educate the audience
+4. Educate the audience about things that have big influence on Decred: cryptocurrency tech, governance, computer security, regulations.
+
+Topics commonly covered here:
+
+* PoW, ASIC resistance
+* Security of cryptocurrency networks (double spends and other attacks)
+* Cryptocurrency tech
+* Governance, funding, chain forks, community forks, and the controversy that often surrounds these
+* DEX
+* Exchanges and other services
+* Regulations
+* Computer security
+* Fun stuff
 
 ### Missed content
 
