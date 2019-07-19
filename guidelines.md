@@ -86,15 +86,13 @@ To avoid commit churn on `master`, changes to these files are merged in batches 
 
 * Linked pages must be in English in most cases.
 * Non-English links are allowed but they must be significant in some way, e.g. original research or ratings.
-* Archive all linked pages in web.archive.org or archive.today.
-* To check if something was reported in previous issues, do a full text search in .md files, e.g. `grep -ir dcrwallet/pull/1330` shows that this pull request was covered in Nov 2018. Another way is to use the search box [on GitHub](https://github.com/xaur/decred-news).
+* Archive all linked pages in [web.archive.org](https://web.archive.org/) or [archive.today](https://archive.today/).
+* To check if something was reported in previous issues, search the .md files, e.g. `grep -ir dcrwallet/pull/1330` shows that this pull request was covered in Nov 2018. Another way is to use the search box [on GitHub](https://github.com/xaur/decred-news).
 * All claims must reference sources.
-* Stick to facts, minimize opinion and assumptions.
-* Highlight achievements of our community.
-* Focus on what was **done**.
-* Announcements and plans are good too - just be specific and minimize hype.
-* DJ issues are huge and many stories involve understanding a fair bit of historical context and domain expertise. It comes with time.
-* all work is important, the challenge is how to not kill the reader and balance between bird's eye and the details, which are often interesting
+* Stick to facts, minimize opinions and assumptions.
+* Focus on what was **done**. Announcements and plans are good too - just be specific and minimize hype.
+* All work is important, the challenge is how to not kill the reader and balance between bird's eye and the details, which are often interesting.
+* DJ issues are huge and many stories require understanding a fair bit of historical context and domain expertise. It comes with time.
 
 ### TODOs
 
@@ -120,7 +118,7 @@ Special case of placeholder is an empty TODO, it must be obvious from the contex
 
 > Reddit subscribers: {} (+{})
 
-Second type of TODOs are URLs not enclosed in Markdown links. For example, an unenclosed URL in Relevant External simply means "write up this story".
+Second type of TODOs are "hanging" URLs not wrapped in Markdown links. For example, a hanging URL in Relevant External simply means "write up this story".
 
 Final release must have all TODOs resolved, i.e. contain no curly braces and no URLs outside of Markdown links.
 
@@ -141,15 +139,16 @@ Where do we look for updates:
 * corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
 * individual developers repos, e.g. [matheusd](https://github.com/matheusd)
 * scan dev chats (optional)
-* ask the devs. The more updates we get directly from the devs, the better.
+* ask the devs. The more updates we get directly from them, the better.
 
 What do we look for:
 
+* release notes
 * pull requests
 * commits
 * interesting conversations
 
-Stages in work lifecycle considered for reporting:
+Stages of work lifecycle considered for reporting:
 
 * work released in binaries or deployed to production sites
 * work released in source code (merged in master branches)
@@ -163,21 +162,23 @@ In each project section, order work items from "most released" to "least release
 
 The same effort may be reported multiple times in multiple DJ issues as it moves to next stage. Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
 
-All updates must be **notable**. Signs of a _not_ notable pull request or commit: few lines changed, no description, no discussion, not many people involved, no references from or to this PR, short time span, few commits, not much happened during the month.
+All updates must be **notable** in some way.
 
-Some work sounds less "exciting": small bugfixes, increased test coverage, code refactoring, dependency upgrades, code cleanup, etc. Normally, such items are not reported on their own but grouped in a general statement like "increased test coverage", unless the total amount is so small that can be omitted. These items do get a standalone mention when they are big (thousands of lines affected in non trivial way), took a ton of effort (e.g. hunting down a super tricky bug), have huge impact (e.g. one line fix for a vulnerability) or otherwise interesting (e.g. someone went on a crusade to [remove jQuery](https://github.com/decred/dcrdata/pull/915) or bad practice like [inline JS](https://github.com/decred/dcrdata/pull/873)). Infrastructure upgrades like linters, CI, vulnerability detection, etc, are often notable.
+The most notable event is the release of new software version. These don't happen every month, so most of the time we report changes in source code that happen in pull requests (PRs) or commits.
 
-When using catch-all updates, be specific when possible e.g. "refactoring to increase separation of concerns" instead of just "refactoring".
+Signs of a _not_ notable pull request or commit: few lines changed, no description, no discussion, not many people involved, no references from or to this PR, short time span, few commits, not much happened during the month.
 
-While things like "tests added" may sound too generic, they are often mentioned to give a general sense that infra work never stops and takes a lot of effort. Indirectly, it shows that our devs are experienced and know "the price" of a large codebase - if you don't consistently take care of it and just keep adding features it may blow up.
+Some work sounds less "exciting": small bugfixes, increased test coverage, code refactoring, dependency upgrades, code cleanup, etc. Normally, such items are not reported on their own but grouped in a general statement like "increased test coverage", unless the total amount is so small that can be omitted. These items do get a standalone mention when they are big (thousands of lines affected in non trivial way), took a ton of effort (e.g. hunting down a super tricky bug), have huge impact (e.g. vulnerability fix) or are otherwise interesting (e.g. someone went on a crusade to [remove jQuery](https://github.com/decred/dcrdata/pull/915) or remove a bad practice like [inline JS](https://github.com/decred/dcrdata/pull/873)). Infrastructure upgrades like linters, CI, vulnerability detection, etc, are often notable.
 
-Special category we try to mention is changes backported from other Go codebases like btcd or lnd. Indirectly, it shows returns from past contributions into the ecosystem - seeds planted years ago by C0 by investing into btcsuite.
+Try to be specific when using catch-all phrases, e.g. "refactoring to increase separation of concerns" instead of just "refactoring".
 
-Don't worry of a project is short on updates. There are a lot of them and sometimes devs move their focus.
+While things like "tests added" may sound too generic, they are often mentioned to give a general sense that infra work never stops and that takes a lot of effort. Indirectly, it shows that our devs are experienced and know "the price" of a large codebase - if you don't consistently take care of it and just keep adding features it may blow up.
 
-The primary source of updates for most Decred projects are the **pull requests** (PRs), currently hosted on GitHub.
+Special category we try to mention is changes backported from other Go codebases like btcd or lnd. Indirectly, it shows returns from past contributions in the space - seeds planted years ago by C0 by investing into btcsuite.
 
-To find PRs for the month:
+Don't worry if a project is short on updates. There are many projects and sometimes devs move their focus.
+
+To find **pull requests** for the month:
 
 1. Use GitHub search features, notably the `updated:2019-06-01..2019-06-30` query to find pull requests that were active in a given month ([example](https://github.com/decred/politeia/pulls?q=is%3Apr+is%3Aclosed+updated%3A2019-06-01..2019-06-30)). Merged ones are in the Closed tab with a purple icon. In progress ones are in the Open tab.
 2. For each PR in that "updated" list, check that some notable activity happened in a given month. The are false positives. Some activity like deletion of feature branches may paint the PR as updated while nothing of interest happened. Example: [politeia#833](https://github.com/decred/politeia/pull/833) - work was merged on May 1, branch deleted on Jun 20 and the PR shows up as updated in the June search query above.
@@ -196,7 +197,7 @@ For dev **stats**, there is a convenient GitHub filter for calculating developer
 
 GitHub can be used to calculate how many people contributed to the repo during the month:
 
-* Find commit IDs of previous and current month's commits
+* Find IDs of last commit in previous month and last commit in current month
 * Construct GitHub compare link, e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f (8 first characters of commit IDs would do, also mind the 3 dots `...`)
 * Look at the contributors count
 
@@ -552,6 +553,7 @@ Cons:
 ## Why curly braces?
 
 * They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
+* They do not conflict with HTML syntax that uses angle brackets for tags: `<img>`. Markdown allows embedding HTML.
 * They can be easily found and counted to estimate how much work is left.
 * They can be highlighted in various text editors.
 * They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must be on its own separate line.
