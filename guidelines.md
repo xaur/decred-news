@@ -11,55 +11,73 @@ The target audiences can be grouped by the level of engagement (the Decred commu
 
 As a general rule, use less technical language whenever possible. Try to explain complex things in simple terms. At the same time, carefully inject technical goodness for developers, designers and experts in other fields.
 
-Decred is advanced and sophisticated on all levels. Expose this, give a sense of how much is happening.
+Decred is advanced and sophisticated on all levels. Expose this and give a sense of how much is happening.
 
 Community is the greatest asset. Highlight community initiatives (projects, articles) and intelligence (discussions).
 
 ## Workflow
 
-Lifecycle of a new Decred Journal (DJ) issue starts from creating a "draft" Git branch named like `draft07`, where `07` stands for July.
+On a high level, DJ uses GitHub to coordinate incremental creation of documents.
 
-In this draft branch, a Markdown file for the new issue is created from a [template](https://github.com/xaur/decred-news/blob/docs/journal-template.md).
+Lifecycle of a new DJ issue starts with creating a "draft" Git branch named like `draft07`, where `07` stands for July.
 
-Throughout the month DJ authors add notes to the draft file.
+In this draft branch, a Markdown file for the new issue is created from a [template](journal-template.md).
 
-Main writing work starts somewhere in last week of the month.
+Throughout the month DJ authors add notes of the stories that must be covered to the draft file.
 
-Somewhere around 3rd-5th of the next month some sections are posted for review by their corresponding domains.
+Main writing work starts around the last week of the month.
 
-Soon after that the whole issue is posted for final review in #writers\_room.
+As soon as individual sections are ready, they are submitted for review to people with proper project and domain knowledge:
 
-Finally, the issues is polished and released on Medium, GitHub and other places, and the links are disseminated through various social media channels.
+* Development and People are posted in #dev with notifying people deeply engaged in each project (most commonly project leads)
+* Events is posted in #event\_planning
+* Outreach, Events and Media are posted in #marketing
 
-See [release checklist](https://github.com/xaur/decred-news/blob/docs/release-checklist-template.md).
+Once all sections are finished the whole issue is posted for final review in #writers\_room.
+
+All feedback received is incorporated in the draft.
+
+Finally, the issue is polished and released on Medium, GitHub and other places, and the links are disseminated through various social media channels.
+
+Release steps are captured in greater detail in the [release checklist template](release-checklist-template.md) that is used to generate a checklist for each issue.
 
 See [this issue](https://github.com/xaur/decred-news/issues/65) for a list of areas and their owners.
 
-Tips:
+Setup tips:
 
 * A lot of work can be done with just a browser, thanks to GitHub UI.
-* For advanced editing, get a comfortable text editor with Markdown syntax support, ideally with Markdown and Git support. Some options to try are Atom, Sublime Text, WebStorm. If you find a strong setup please share with other writers.
-* Have the text file open, throw raw links into the draft as soon as you see something notable.
-* By default your email address will be inserted in Git commits and become public. Learn about email privacy [here](https://help.github.com/en/articles/setting-your-commit-email-address) and [here](https://help.github.com/en/articles/blocking-command-line-pushes-that-expose-your-personal-email-address). For the advanced - Git also leaks your time zone.
-* If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help.
+* For advanced text editing, comparison and Git operations you will need to setup local software. Get a comfortable text editor with Markdown syntax support, ideally also with Markdown preview and Git support. Some options to try are Atom, Sublime Text, WebStorm. If you find a strong setup please [share](https://github.com/decredcommunity/issues/issues/114) with other writers.
+* For comparing revisions use GitHub UI [features](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests), diff tool bundled in your text editor or a standalone tool like [Meld](http://meldmerge.org/).
+* By default your email address will be inserted in Git commits and become public. Learn about email privacy [here](https://help.github.com/en/articles/setting-your-commit-email-address) and [here](https://help.github.com/en/articles/blocking-command-line-pushes-that-expose-your-personal-email-address). For the advanced - Git also leaks your machine time zone.
+
+Workflow tips:
+
+* Keep the draft file open. As soon as you see something notable, throw a raw link into the draft. If you are comfortable to write up the story immediately, go for it. Otherwise, add any notes, directions or questions that will help to expand the story later, possibly by other writers. See [TODO](#todos) syntax.
 * Push draft notes daily to stay in sync with other authors.
 * Before making changes, make sure you're on the latest version.
-* Before pushing commits, make sure you're on the latest version. Rebase otherwise.
+* Before pushing changes, make sure you based them on the latest version. Use Git rebase otherwise.
 * Before doing large changes check with others to avoid conflicts.
-* Avoid sending unfinished document for review, this leads to several roundtrips.
 * Write up stories sooner when possible to prevent the work piling up.
+* Avoid sending too unfinished content for review, this leads to more roundtrips.
 * Try to give 2 full days for final review.
-* The sooner DJ is released [the better](https://github.com/xaur/decred-news/issues/34).
-* Do not edit the issue after it was released, unless there is a very good reason. If that happens, add commits to `master` branch. Each published version must have a corresponding `master` commit.
+* The sooner the DJ issue is released [the better](https://github.com/xaur/decred-news/issues/34).
+* Do not edit the issue after it was released, unless there is a very good reason. If that happens, add commits to `master` branch (not the draft branch). Each released version must have a corresponding `master` commit.
+* If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help (ask for invite).
 
 ### Updating index
 
-* create new branch e.g. `index07` (`07` means July)
-* add GitHub Pages link to `index.md`
-* add GitHub Pages, Medium and decredcommunity links to `mirros.md`
+There are two files that track all DJ issues and their translations. `index.md` contains _primary_ locations of documents, while `mirrors.md` tracks _all_ known locations where the issues or their translations are mirrored.
+
+To avoid commit churn on `master`, changes to these files are merged in batches around 1-3 times a month:
+
+* create new branch e.g. `index07` (`07` for July)
+* for the initial English version:
+  * add GitHub Pages link to `index.md`
+  * add GitHub Pages, Medium and decredcommunity links to `mirros.md`
+* add all new known translations to `index.md` and `mirrors.md` accordingly
 * push the branch, open a PR against `master`
-* notify translators in #writers\_room to submit any missed translations, share a preview link and PR link
-* collect submissions for a few days
+* share the links to previews of index and mirrors in #writers\_room, ask translators to submit any missed translations
+* collect submissions for several days
 * add a single combined commit to `master` and `gh-pages`
 
 ## Collecting content
