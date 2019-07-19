@@ -15,6 +15,8 @@ Decred is advanced and sophisticated on all levels. Expose this and give a sense
 
 Community is the greatest asset. Highlight community initiatives (projects, articles) and intelligence (discussions).
 
+For direct voting system like Decred, accurate information is critical for making good decisions.
+
 ## Workflow
 
 On a high level, DJ uses GitHub to coordinate incremental creation of documents.
@@ -159,6 +161,8 @@ In each project section, order work items from "most released" to "least release
 
 The same effort may be reported multiple times in multiple DJ issues as it moves to next stage. Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
 
+For each update, make it clear if and how it is tangible by users or by developers. Put user tangible updates first.
+
 Don't worry if a project is short on updates. There are many projects and sometimes devs move their focus.
 
 Where do we look for updates:
@@ -208,11 +212,17 @@ Main goals of People are:
 
 The latter includes interviews and staff changes.
 
+Ways to detect new contributors:
+
+* use the [contributor tracker](https://github.com/degeri/decred_contributor_track)
+* watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
+* when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently ([example](https://github.com/decred/politeia/commits?author=martonp))
+
 ### Governance
 
 Goal: provide a digest of decision-making activity and finances.
 
-Finances include income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section, per the [content plan](content.md).
+Finances include Treasury income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section per the [content plan](content.md).
 
 Sources:
 
@@ -223,7 +233,9 @@ Sources:
 
 ### Network
 
-The main goal of Network is to keep people's eyes on network health indicators such as hashrate, locked DCR amount and percentage, count of nodes, node version distribution. Any notable incidents go here too.
+The main goal of Network is to keep people's eyes on network health indicators such as hashrate, rate of missed tickets, locked DCR amount and percentage, count of nodes, node version distribution.
+
+This section als covers any notable incidents and updates such as consensus rules voting.
 
 Network, Mining and Integrations together cover the infrastructure area.
 
@@ -240,13 +252,13 @@ Chats: #pow-mining, #pos-voting
 
 Mining used to cover the mining space: new miner units and their stats, new PoW pools and updates from existing ones, relevant news about colocation, sellers, energy, cooling, etc.
 
-Recent issues of DJ have this section omitted because the first phase of Blake mining arms race is over, there are no big news and we simply don't have journalists tracking this space. [Contributions](contribute.md) are welcome.
+Recent issues of DJ have this section omitted because the first phase of Blake mining arms race is over and there are no big news, and also because we simply don't have journalists tracking this space. [Contributions](contribute.md) are welcome.
 
 ### Integrations
 
 In contrast with Network that is about "raw" infrastructure and health indicators, Integrations is about services expanding Decred infrastructure, most commonly businesses.
 
-Besides just listing new exchanges, wallets and payment processors, dig key/interesting features and events about them.
+Besides just news from VSPs, exchanges, wallets and payment processors, try to add interesting facts about them.
 
 For example,
 
@@ -258,22 +270,28 @@ or
 
 ### Adoption
 
-The line between Integrations and Adoption is blurry, but the guiding rule is: Integrations is aboud _building_ out Decred infrastructure, while Adoption is about _using_ Decred infrastructure. In other words, Adoption is about simply using DCR and building new products and services on top of Decred infrastructure.
+The line between Integrations and Adoption is blurry, but the guiding rule is: Integrations is aboud _building_ out Decred infrastructure, while Adoption is about _using_ Decred infrastructure. In other words, Adoption is about simply using DCR and building new products and services on top of Decred.
 
 Stories must have something to do with Decred blockchain, for example:
 
 * new merchants accept DCR
 * project or organization uses dcrtime or Politeia
+* projects building on top of atomicswap
 
-Dig interesting facts similar to Integrations.
+Similar to Integrations, try to dig interesting facts.
 
 ### Outreach
 
-Provide overview of outreach/communications/marketing activity for past month and any plans.
+Provide overview of outreach/communications/marketing activity for past month and any future plans.
 
-Logically, Events and Media sections belong to Outreach.
+Logically, Events and Media are sub-sections of Outreach, but they have their own level 2 headers to keep the document more flat.
 
-Chats: #marketing, #event\_planning, #social\_media
+Most of the content for this section is currently provided by outreach leads at Decred (@Dustorf) and Ditto (@liz\_bagot, @cryptoleslie).
+
+Other sources:
+
+* [r/decred](https://www.reddit.com/r/decred/new/)
+* chats: #marketing, #event\_planning, #social\_media
 
 ### Events
 
@@ -281,27 +299,25 @@ Cover past and upcoming physical and web events where Decred had presence.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
 
-If info is missing for some events closer to the release, actively post a list of such events in #event\_planning and ask for info.
+If the release is close but some events still lack info, actively post a list of such events in #event\_planning and ask for comments.
 
-Look at the events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many people, what they know, what they don't know, what they think about Decred, any interesting trends that could shape our events activity.
+Look at the events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many visitors, what they know, what they don't know, what they ask, what they think about Decred, any interesting trends that could shape our events activity.
 
 Sources:
 
-* Some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe to it to watch for updates.
-* Chats: #event\_planning
-* Follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES).
+* some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe to it to watch for updates
+* chats: #event\_planning
+* Follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES)
 
 ### Media
 
-Cover the best Decred-related content posted in the media.
-
-Ratings go here too.
+Cover the best Decred-related content posted in the media. Ratings go here too.
 
 Criteria for "Selected articles" is an [open question](https://github.com/xaur/decred-news/issues/21).
 
 Current informal criteria: something you would recommend reading to a wide audience, something we don't know or a fresh look at something we know, any original research, content from community members, something that took more than 2 hours to write.
 
-For each selected article, optionally add a small note why it is great.
+For each selected article, optionally add a small note about why it is great.
 
 ### Community Discussions
 
@@ -314,7 +330,7 @@ Goals:
 Sources:
 
 * Reddit
-  * watch [r/decred](https://www.reddit.com/r/decred/)
+  * watch [r/decred](https://www.reddit.com/r/decred/new/)
   * use Reddit's follow/friend features to follow prominent posters
 * Twitter
   * [@decredproject](https://twitter.com/decredproject)
@@ -324,12 +340,12 @@ Sources:
 
 ### Markets
 
-Report any interesting market movements, and ideally, action in markets not frequently covered by the media - OTC and DEX.
+Report any interesting market movements. Ideally, cover the action in markets not frequently covered by the media - OTC and DEX.
 
 Mention both USD and BTC price:
 
-* USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury)
-* BTC price shows how Decred competes against Bitcoin, another SoV+MoE focused cryptocurrency with similar properties
+* USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury - important health indicator)
+* BTC price shows how Decred competes against Bitcoin, since they both are sovereign SoV+MoE focused cryptocurrencies with similar properties
 
 Do not speculate about the price.
 
@@ -358,33 +374,48 @@ Topics commonly covered here:
 
 ### Missed content
 
-Some notable stories are discovered in later months. Add them, followed by a tag in italics: `_(missed in March issue)_`.
+Some notable stories are discovered after the release. Add them in the next issue, followed by a tag in italics e.g. `_(missed in March issue)_`.
 
 ### Title image
 
 Title image used on GitHub Pages must be 768x384 pixels.
 
-Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality. Motivation: Git repositories keep all versions of all files ever committed, therefore they quickly grow in size when adding binary files like images.
+Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality. Motivation: Git repositories store all versions of all files ever committed, therefore they quickly grow in size when adding binary files like images.
 
 For caption, at the minimum add the title of the work and its author, e.g. `Image: Anomaly by @saneder`.
 
-So far DJ images are abstract art. If possible, add extra text hinting at what is pictured. The text must either make sense or be abstract enough to not need it, but not something in between.
+So far DJ images have been abstract art. If possible, add extra text hinting at what is pictured. The text must either make sense or be abstract enough to not need it, but not something in between. See [this discussion](https://github.com/xaur/decred-news/issues/76).
 
 ## Style, Editing
 
 ### General
 
-Look into these:
+Principles:
 
 * Save reader's time: keep the most important bits for each story and a link to follow.
 * Avoid hype and fake excitement.
-* No factual errors
-* Attitude: check that nothing damages Decred's public image
-* Grammar, punctuation, wording, tense consistency, sentence and paragraph composition
-* Make the language less boring
-* Proportion: check that more important stories get more space, and the other way round
-* Order of content
-* Remove empty sections (e.g. no news for Mining)
+* Attitude: check that nothing damages Decred's public image (this does not mean hiding inconvenient facts, see [Neutrality](#neutrality)).
+
+Areas of improvement:
+
+* No factual errors.
+* Grammar, punctuation, wording, tense consistency, sentence and paragraph composition.
+* Make the language less boring.
+* Proportion: check that more important stories get more space, and the other way round.
+* Order of content.
+* Remove empty sections (e.g. no news for Mining).
+
+### Neutrality
+
+One of the goals of DJ is to assist Decred stakeholders in making good decisions. For this reason DJ strives to present facts accurately, avoid opinions and assumptions, put reasonable effort in verifying claims, and always link to sources.
+
+At the same time, DJ arguably cannot be called "neutral" because it is produced by Decred enthusiasts who believe in certain values and have a certain sense of humor.
+
+DJ shall put best effort to maintain a good public image of Decred, but not by the means of omitting inconvenient facts. Instead, any such facts must be presented as clearly as possible.
+
+If there is a need to add an opinion, it must be inside a [quote block](#quotes).
+
+See [this discussion](https://github.com/xaur/decred-news/issues/93).
 
 ### Order of reporting work
 
@@ -394,23 +425,23 @@ For any work reported, order the items from "most released" to "least released".
 
 This is an [open question](https://github.com/xaur/decred-news/issues/20).
 
-The current approach is subjective and informal: use the most well known handle to identify Decred community members, full names or handles for everyone else.
+The current approach is subjective and informal: use the most well known handle to identify Decred community members, use full names or handles for everyone else.
 
 ### How to give credit
 
-When to add credit to an accomplishment is an [open question](https://github.com/xaur/decred-news/issues/26).
+When to credit someone for an accomplishment is an [open question](https://github.com/xaur/decred-news/issues/26).
 
-There is no formal criteria at the moment. A lot of work is done each month. Adding credit to everything would overwhelm the reader. On the other hand, sometimes it feels right to give someone a shoutout. Use your best judgement.
+There is no formal criteria at the moment. A lot of work is done each month. Adding credit to everything would overwhelm the reader. On the other hand, sometimes it feels right to give someone a shoutout, especially newcomers. Use your best judgement.
 
 When giving credit to multiple people sort the names alphabetically:
 
 > Thing X is released, credits to @alex, @maria and @sam
 
-Speaking of the credits for DJ production at the end of the issue, make sure to add everyone who contributed. There is no formal criteria at the moment. The informal criteria is: add people who _actively_ brought us something, opposed to content that DJ authors find and incorporate.
+Speaking of the credits for DJ production at the end of the issue, make sure to add everyone who contributed. There is no formal criteria at the moment. The informal criteria is: add people who _actively_ brought us something, opposed to content found by DJ authors.
 
 ### Quotes
 
-Try to follow the standard format: `quoted text (source)`.
+Follow the standard format: `quoted text (source)`.
 
 Example formats:
 
@@ -428,7 +459,7 @@ Example formats:
 
 ### Link text
 
-Put links on 1-3 words. Avoid too short link text (hard to click) and too long link text (visual noise). Examples:
+Links should span 1-3 words. Avoid too short link and too long link text. Examples:
 
 * "feature X [is](link) now available": bad, too short, hard to click
 * "[feature X is now available](link)": bad, too long, visual noise
@@ -436,9 +467,9 @@ Put links on 1-3 words. Avoid too short link text (hard to click) and too long l
 
 ### Use canonical links without tracking
 
-1. Ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This implies using www.reddit.com over old.reddit.com. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source.
+1. Remove any tracking parameters like Medium's `gi=...`, Google Analytics `utm_...`, etc. As a general rule, remove any URL parameters that don't break the link.
 
-2. Remove any tracking parameters like Medium's `gi=...`, Google Analytics `utm_...`, etc. As a general rule, remove any URL parameters that don't break the link.
+2. Ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This implies using www.reddit.com over old.reddit.com. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source. Use of canonical links improves linking of content together (e.g. on Reddit).
 
 **Examples**
 
@@ -448,7 +479,7 @@ https://www.youtube.com/watch?v=3RGoUQK0g24&feature=share
 
 https://youtu.be/3RGoUQK0g24
 
-Good URL: https://www.youtube.com/watch?v=3RGoUQK0g24
+Canonical URL: https://www.youtube.com/watch?v=3RGoUQK0g24
 
 Forbes tracking (remove the `#425f36a11067`):
 
@@ -473,34 +504,37 @@ Avoid Markdown features that are problematic in the Medium version:
 * Paragraphs and blockquotes inside list items
 * Nested lists
 
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists
+See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) of Markdown features.
 
 ### Typography
 
 This applies to English only:
 
+* Use US English spelling for consistency.
 * Use simple word forms when possible.
-* For large numbers always use either uppercase `K/M/G` or full `thousand/millions/billions`, e.g. `$53K`.
+* For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`, e.g. `$53K`.
 * For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Example: for the percentage of locked DCR we use two decimal places because the fluctuations are small and because a lot of money is behind this number.
-* Stick to ASCII character set, except the title and names. Modern renderers like GitHub Pages or Medium take care of it and properly render dashes, quotes, etc.
+* Stick to ASCII character set, except the title line and names. Modern renderers like GitHub Pages or Medium take care of it and properly render dashes, quotes, etc.
   * Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
   * Use hyphen for number ranges where you would use endash.
   * Use `'` for single and `"` for double quotes.
   * The exception is names, e.g. `Permabull Niño`
-* For dates use short month format without `th`: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`.
-* Use proper [title case](https://en.wikipedia.org/wiki/Letter_case) for Selected articles, even when original title is not in proper case.
+* For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
+* Use proper [title case](https://en.wikipedia.org/wiki/Letter_case) for Selected articles, even when original title was not in title case.
 
 ### Linting
 
-* Remove non-ASCII characters (except the main title and names).
-* Remove double space, trailing space, more than 2 subsequent newlines
+Right before the release:
+
+* Remove non-ASCII characters (except the title line and the names).
+* Remove double space, trailing space, more than 2 subsequent newlines.
 * Add any missing newlines around headings and bullet lists.
-* Remove `?via` from matrix.to links
-* Remove tracking parameters from URLs
+* Remove `?via` from matrix.to links.
+* Remove tracking parameters from URLs.
 
 ## Reviewing
 
-Take a note of the Git revision you review. If the file changes after your review, only the difference needs to be re-reviewed. This difference can be seen by constructing a diff link:
+Take a note of the Git revision you review. If the file changes after your review, only the difference needs to be re-reviewed. This difference can be seen by constructing a diff link, e.g.:
 
 https://github.com/xaur/decred-news/compare/5df8b0f2...draft06
 
@@ -508,11 +542,11 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 ## Translations
 
-1\. Check the [index](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements. If that fails somehow, nobody stops you from creating your own translation.
+1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements. If that fails somehow you can still create your own translation.
 
 2\. Ideally, wait for the document you wish to translate to be fully finished and released.
 
-3\. Before you start translating, make note of the Git branch and revision that you translate. It will be useful later to track changes to the source document.
+3\. Before you start translating, make note of the Git branch and revision that you translate. It will help to track changes to the source document.
 
 4\. Add people who worked on the translation to the separate credits line at the bottom
 
@@ -520,11 +554,11 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 > 
 > Translated by: x, y, z
 
-5\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. The best places for such note are start or end of the document.
+5\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
 
 6\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in [#writers\_room](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
 
-7\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, thus hardening censorship resistance. For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar) or [Chinese](https://github.com/Guang168/DecredCNJournal) repos.
+7\. Consider mirroring your translations in a GitHub repository. This will allow easy replication and increase censorship resistance. For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar) or [Chinese](https://github.com/Guang168/DecredCNJournal) repos.
 
 8\. Coordinate with writers and other translators in [#writers\_room](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
 
@@ -532,26 +566,26 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 Pros of the Git/GitHub workflow:
 
-* all content can be easily downloaded and synced (nearly decentralized storage)
-* all changes recorded
-* get more contributions in a proven workflow
+* all content can be easily downloaded and synced (semi-decentralized storage)
+* cloning is permissionless and does not require an account
+* all changes are recorded
 * integrity protection
+* allows more contributions in a proven workflow
 * devs can seamlessly engage/contribute since the workflow is similar to theirs
 * show off: one of the most advanced productions in the space
 * possible authenticity protection via PGP signatures (requires extra setup)
 * Git software is widespread
-* Cloning is permissionless and does not require an account
 
 Cons:
 
-* higher learning curve, except most trivial usage
+* higher learning curve, except most trivial usage via GitHub web UI
 * conflict resolution is not automatic and is error prone
 * requires experienced Git maintainer to have a pretty repository
 
-## Why curly braces?
+## Why curly braces for TODOs?
 
 * They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
 * They do not conflict with HTML syntax that uses angle brackets for tags: `<img>`. Markdown allows embedding HTML.
-* They can be easily found and counted to estimate how much work is left.
+* They can be easily found and counted to estimate how much work remains.
 * They can be highlighted in various text editors.
 * They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must be on its own separate line.
