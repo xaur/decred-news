@@ -133,35 +133,6 @@ There are two target subgroups of devs:
 1. devs that already work for Decred - to them we give the big picture so if they see something interesting they can follow and discover new opportunities (interest often makes for the best performance)
 2. devs who do not yet work on Decred - for them we show why Decred is a good place. For example, any effort to cut bloat, keep the stack up to date (no [horrific](http://catb.org/jargon/html/C/cthulhic.html) legacy tentacles), to improve privacy or in general do something elegantly would attract me personally (@bee).
 
-Where do we look for updates:
-
-* [Decred project](https://github.com/decred) repos
-* corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
-* individual developers repos, e.g. [matheusd](https://github.com/matheusd)
-* scan dev chats (optional)
-* ask the devs. The more updates we get directly from them, the better.
-
-What do we look for:
-
-* release notes
-* pull requests
-* commits
-* interesting conversations
-
-Stages of work lifecycle considered for reporting:
-
-* work released in binaries or deployed to production sites
-* work released in source code (merged in master branches)
-* work finished but still in review
-* work in progress (new work done this month)
-* work started
-* discussion started
-* planned work, from near to long term
-
-In each project section, order work items from "most released" to "least released".
-
-The same effort may be reported multiple times in multiple DJ issues as it moves to next stage. Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
-
 All updates must be **notable** in some way.
 
 The most notable event is the release of new software version. These don't happen every month, so most of the time we report changes in source code that happen in pull requests (PRs) or commits.
@@ -176,7 +147,34 @@ While things like "tests added" may sound too generic, they are often mentioned 
 
 Special category we try to mention is changes backported from other Go codebases like btcd or lnd. Indirectly, it shows returns from past contributions in the space - seeds planted years ago by C0 by investing into btcsuite.
 
+In each project section, order work items from "most released" to "least released". Stages of work lifecycle considered for reporting:
+
+* work released in binaries or deployed to production sites
+* work released in source code (merged in master branches)
+* work finished but still in review
+* work in progress (new work done this month)
+* work started
+* discussion started
+* planned work, from near to long term
+
+The same effort may be reported multiple times in multiple DJ issues as it moves to next stage. Reporting after merge tells developers and enthusiasts new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
+
 Don't worry if a project is short on updates. There are many projects and sometimes devs move their focus.
+
+Where do we look for updates:
+
+* [Decred project](https://github.com/decred) repos
+* corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
+* individual developers repos, e.g. [matheusd](https://github.com/matheusd)
+* scan dev chats (optional)
+* ask the devs. The more updates we get directly from them, the better.
+
+What do we look for:
+
+* release notes
+* pull requests
+* commits
+* interesting conversations
 
 To find **pull requests** for the month:
 
