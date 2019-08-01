@@ -7,6 +7,7 @@ Here is the list of all known translations and their mirrors.
 __June__
 
 * English: [github](journal/201906.md) [medium](https://medium.com/decred/decred-journal-june-2019-81c78144013c)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201906.html)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-june-2019-709e5301ad0)
 
 __May__
