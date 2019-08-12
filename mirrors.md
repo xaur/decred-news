@@ -4,6 +4,10 @@ Here is the list of all known translations and their mirrors.
 
 ## 2019
 
+__July__
+
+* English: [github](journal/201907.md)
+
 __June__
 
 * English: [github](journal/201906.md) [medium](https://medium.com/decred/decred-journal-june-2019-81c78144013c)
