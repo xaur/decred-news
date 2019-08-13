@@ -348,7 +348,7 @@ Sources:
   * use Reddit's follow/friend features to follow prominent posters
 * Twitter
   * [@decredproject](https://twitter.com/decredproject)
-  * prominent users, e.g. [@lukebp_](https://twitter.com/lukebp_), [NoahPierau](https://twitter.com/NoahPierau), [RichardRed0x](https://twitter.com/RichardRed0x), etc
+  * prominent users, e.g. [@lukebp_](https://twitter.com/lukebp_), [@NoahPierau](https://twitter.com/NoahPierau), [@RichardRed0x](https://twitter.com/RichardRed0x), etc
   * mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
   * hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
 
@@ -363,7 +363,7 @@ Mention both USD and BTC price:
 
 Do not speculate about the price.
 
-Chats: #trading.
+Chats: #trading
 
 ### Relevant External
 
@@ -397,9 +397,11 @@ Title image used on GitHub Pages must be 768x384 pixels.
 
 Try to fit it into 100-200 KiB to save space, e.g. by saving as JPEG with 98% quality. Motivation: Git repositories store all versions of all files ever committed, therefore they quickly grow in size when adding binary files like images.
 
-For caption, at the minimum add the title of the work and its author, e.g. `Image: Anomaly by @saneder`.
+For artwork caption, at the minimum add the title of the work and its author, e.g. `Image: Anomaly by @saneder`.
 
-So far DJ images have been abstract art. If possible, add extra text hinting at what is pictured. The text must either make sense or be abstract enough to not need it, but not something in between. See [this discussion](https://github.com/xaur/decred-news/issues/76).
+So far DJ images have been abstract art. If possible, add extra text hinting at what is expressed. The text must either make sense or be abstract enough to not need it, but not something in between. See [this discussion](https://github.com/xaur/decred-news/issues/76).
+
+For photos, the caption must be a brief description of what is pictured.
 
 ## Style, Editing
 
@@ -416,9 +418,9 @@ Areas of improvement:
 * No factual errors.
 * Grammar, punctuation, wording, tense consistency, sentence and paragraph composition.
 * Make the language less boring.
-* Proportion: check that more important stories get more space, and the other way round.
+* Proportion: check that more important stories get more space.
 * Order of content.
-* Remove empty sections (e.g. no news for Mining).
+* Remove empty sections (e.g. when no news for Mining).
 
 ### Neutrality
 
@@ -452,7 +454,7 @@ When giving credit to multiple people sort the names alphabetically:
 
 > Thing X is released, credits to @alex, @maria and @sam
 
-Speaking of the credits for DJ production at the end of the issue, make sure to add everyone who contributed. There is no formal criteria at the moment. The informal criteria is: add people who _actively_ brought us something, opposed to content found by DJ authors.
+Speaking of the credits for DJ production at the end of the issue, make sure to add everyone who contributed. There is no formal criteria at the moment. The informal criteria is: add people who _actively_ brought us something, opposed to content just picked up by DJ authors.
 
 ### Quotes
 
@@ -474,7 +476,7 @@ Example formats:
 
 ### Link text
 
-Links should span 1-3 words. Avoid too short link and too long link text. Examples:
+Links should span 1-3 words. Avoid too short and too long link text. Examples:
 
 * "feature X [is](link) now available": bad, too short, hard to click
 * "[feature X is now available](link)": bad, too long, visual noise
@@ -482,66 +484,66 @@ Links should span 1-3 words. Avoid too short link and too long link text. Exampl
 
 ### Use canonical links without tracking
 
-1. Remove any tracking parameters like Medium's `gi=...`, Google Analytics `utm_...`, etc. As a general rule, remove any URL parameters that don't break the link.
+First, remove any tracking parameters like Medium's `gi=...`, Google Analytics `utm_...`, etc. As a general rule, remove any URL parameters that don't break the link. "URL parameters" is the stuff that comes after `?` in the URL.
 
-2. Ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This implies using www.reddit.com over old.reddit.com. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source. Use of canonical links improves linking of content together (e.g. on Reddit).
+Second, ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This means using www.reddit.com over old.reddit.com, www.youtube.com over youtu.be, and so on. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source. Use of canonical links improves linking of content together (e.g. on Reddit).
 
 **Examples**
 
-Non-canonical URLs with junk parameters:
+Bad: junk parameters: https://www.youtube.com/watch?v=3RGoUQK0g24&feature=share
 
-https://www.youtube.com/watch?v=3RGoUQK0g24&feature=share
+Bad: non canonical domain: https://youtu.be/3RGoUQK0g24
 
-https://youtu.be/3RGoUQK0g24
+Good: https://www.youtube.com/watch?v=3RGoUQK0g24
 
-Canonical URL: https://www.youtube.com/watch?v=3RGoUQK0g24
-
-Forbes tracking (remove the `#425f36a11067`):
+Bad: Forbes tracking (remove the `#425f36a11067`):
 
 https://www.forbes.com/sites/kenrapoza/2019/06/20/facebooks-libra-coin-is-both-vampire-project-and-regulatory-nightmare/#425f36a11067
 
-Medium tracking (remove the `?gi=68a95d076f04`):
+Bad: Medium tracking (remove the `?gi=68a95d076f04`):
 
 https://hackernoon.com/decred-wants-you-be-one-of-the-first-to-test-the-dcr-lightning-network-dd9ecf14d95e?gi=68a95d076f04
 
-### Matrix links
+### Chat links
 
-For links to messages always use Matrix links, specifically matrix.to links (don't use riot.im links).
+For links to chat messages always use Matrix links, specifically matrix.to links (don't use riot.im links).
 
 For links to files that were uploaded to Matrix, don't link to file directly. Instead, link to (relevant) message that uploaded it. It is trivial to open the message and download the file, but it is not trivial to find the message by the direct file link.
 
 ### Markdown
-
-Use backslash `\` to escape underscore `_` so it won't be treated as italics. Example: `under\_score`.
 
 Avoid Markdown features that are problematic in the Medium version:
 
 * Paragraphs and blockquotes inside list items
 * Nested lists
 
+Use backslash `\` to escape underscore `_` so it won't be treated as italics. Example: `under\_score`.
+
 See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) of Markdown features.
 
 ### Typography
 
-This applies to English only:
+This applies to English texts only:
 
 * Use US English spelling for consistency.
 * Use simple word forms when possible.
 * For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`, e.g. `$53K`.
 * For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Example: for the percentage of locked DCR we use two decimal places because the fluctuations are small and because a lot of money is behind this number.
-* Stick to ASCII character set, except the title line and names. Modern renderers like GitHub Pages or Medium take care of it and properly render dashes, quotes, etc.
+* Stick to ASCII character set, except the main heading (first line) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
   * Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
-  * Use hyphen for number ranges where you would use endash.
+  * Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
   * Use `'` for single and `"` for double quotes.
-  * The exception is names, e.g. `Permabull Niño`
+  * Non-ASCII is ok in names, e.g. `Permabull Niño`.
 * For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
 * Use proper [title case](https://en.wikipedia.org/wiki/Letter_case) for Selected articles, even when original title was not in title case.
 
+Translations are encouraged to follow the spirit of simplicity and consistency above, but are free to adapt to standards of their language.
+
 ### Linting
 
-Right before the release:
+Just before the release:
 
-* Remove non-ASCII characters (except the title line and the names).
+* Remove non-ASCII characters (except the main heading and the names).
 * Remove double space, trailing space, more than 2 subsequent newlines.
 * Add any missing newlines around headings and bullet lists.
 * Remove `?via` from matrix.to links.
@@ -549,7 +551,7 @@ Right before the release:
 
 ## Reviewing
 
-Take a note of the Git revision you review. If the file changes after your review, only the difference needs to be re-reviewed. This difference can be seen by constructing a diff link, e.g.:
+Take a note of the Git revision you review. If the file changes after your review, only the difference needs to be re-reviewed. This difference can be shown by constructing a diff link, e.g.:
 
 https://github.com/xaur/decred-news/compare/5df8b0f2...draft06
 
@@ -557,9 +559,9 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 ## Translations
 
-1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements. If that fails somehow you can still create your own translation.
+1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements. If that somehow fails you can still create your own translation.
 
-2\. Ideally, wait for the document you wish to translate to be fully finished and released.
+2\. Ideally, wait for the document to be finished and released before starting to translate it.
 
 3\. Before you start translating, make note of the Git branch and revision that you translate. It will help to track changes to the source document.
 
@@ -585,10 +587,10 @@ Pros of the Git/GitHub workflow:
 * cloning is permissionless and does not require an account
 * all changes are recorded
 * integrity protection
-* allows more contributions in a proven workflow
+* allows more people to contribute in a proven workflow
 * devs can seamlessly engage/contribute since the workflow is similar to theirs
 * show off: one of the most advanced productions in the space
-* possible authenticity protection via PGP signatures (requires extra setup)
+* possible authenticity protection via digital signatures (requires extra setup)
 * Git software is widespread
 
 Cons:
@@ -602,5 +604,9 @@ Cons:
 * They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
 * They do not conflict with HTML syntax that uses angle brackets for tags: `<img>`. Markdown allows embedding HTML.
 * They can be easily found and counted to estimate how much work remains.
-* They can be highlighted in various text editors.
-* They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must be on its own separate line.
+* They can be highlighted in text editors.
+* They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must take its own separate line.
+
+## Contributing
+
+See [here](contributing.md).
