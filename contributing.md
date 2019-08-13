@@ -1,12 +1,12 @@
-## Feedback
+## Contact and Feedback
 
-... is a contribution too!
+Feedback is a contribution too!
 
 * comment on [Reddit](https://www.reddit.com/r/decred/search?q=decred+journal&restrict_sr=on&t=all&sort=new)
-* comment in #writers\_room via [Matrix](https://decred.org/matrix/), [Discord](https://discord.gg/GJ2GXfz) or [Slack](https://slack.decred.org/)
+* comment in #writers\_room via [Matrix](https://chat.decred.org/), [Discord](https://discord.gg/GJ2GXfz) or [Slack](https://slack.decred.org/)
 * comment on existing GitHub [issues](https://github.com/xaur/decred-news/issues) or submit new ideas how to improve DJ
 
-## Writing, content
+## Writing, Content
 
 You don't need great writing skills to contribute. Collection of content, fact checking, fixing typos and improvement ideas are all needed. Those who are good with words can polish the text prior to the release.
 
@@ -26,6 +26,7 @@ You don't need great writing skills to contribute. Collection of content, fact c
   * dig info and photos/videos for past and upcoming events
 * Community Discussions
   * report best quality conversations from Twitter, Reddit, etc
+* look for awesome pics and photos of the month
 * automate generation of Medium version ([issue 51](https://github.com/xaur/decred-news/issues/51))
 * take ownership of an underperforming section
 * add more content, see [this map](content.md) of current and possible content
@@ -42,6 +43,5 @@ You don't need great writing skills to contribute. Collection of content, fact c
 
 ## General
 
-* More translations is always welcome. See an [index](https://xaur.github.io/decred-news/) of existing translations.
-* Improve existing translations - reach out in [#writers\_room](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
+* More translations is always welcome. You can also improve existing ones. See [guidelines](guidelines.md#translations) for translators.
 * Bring contributors who can do any of the other items
