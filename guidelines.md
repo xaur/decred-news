@@ -54,9 +54,25 @@ See [here](https://github.com/xaur/decred-news/issues/65) for a list of sections
 * When the release commit settles, fast-forward `master` to `gh-pages`.
 * If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
 * Generally do not edit the document after it was released, unless there is a very good reason.
-* Add mew issue to the index. Update index in batches, see [Updating index](#updating-index).
+* Add new issue to the index. Update index in batches, see [Updating index](#updating-index).
 * Create Git tag from the draft branch for archival purposes, e.g. `archive/draft1907`.
 * Delete the draft branch.
+
+### Updating index
+
+There are two files that track all DJ issues and their translations. `index.md` contains _primary_ locations of documents, while `mirrors.md` tracks _all_ known locations where the issues or their translations are mirrored.
+
+To avoid commit churn on `master`, changes to these files are merged in batches around 1-3 times a month:
+
+* create new branch e.g. `index07` (`07` for July)
+* for the initial English version:
+  * add GitHub Pages link to `index.md`
+  * add GitHub Pages, Medium and other links to `mirros.md`
+* add all new known translations to `index.md` and `mirrors.md` accordingly
+* push the branch, open a PR against `master`
+* share the PR link in #writers\_room, ask translators to submit any missed translations
+* collect submissions for several days
+* add a single combined commit to `master` and `gh-pages`
 
 ### Setup tips
 
@@ -77,22 +93,6 @@ See [here](https://github.com/xaur/decred-news/issues/65) for a list of sections
 * Try to give 2 full days for final review.
 * The sooner the DJ issue is released [the better](https://github.com/xaur/decred-news/issues/34).
 * If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help (ask for invite).
-
-### Updating index
-
-There are two files that track all DJ issues and their translations. `index.md` contains _primary_ locations of documents, while `mirrors.md` tracks _all_ known locations where the issues or their translations are mirrored.
-
-To avoid commit churn on `master`, changes to these files are merged in batches around 1-3 times a month:
-
-* create new branch e.g. `index07` (`07` for July)
-* for the initial English version:
-  * add GitHub Pages link to `index.md`
-  * add GitHub Pages, Medium and other links to `mirros.md`
-* add all new known translations to `index.md` and `mirrors.md` accordingly
-* push the branch, open a PR against `master`
-* share the PR link in #writers\_room, ask translators to submit any missed translations
-* collect submissions for several days
-* add a single combined commit to `master` and `gh-pages`
 
 ## Collecting content
 
