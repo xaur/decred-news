@@ -2,11 +2,13 @@
 
 ![{alt text}](../img/{file.jpg} "{hover tooltip text}")
 
+_Image: {caption: "$title by $author. $optional-description" for artwork, or just description for photos}_
+
 {introduction, major news of the month ordered by impact}
 
 ## Development
 
-{add below overview of activity for each project. add any other project that warranets a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans}
+{add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans}
 
 [dcrd](https://github.com/decred/dcrd): {}
 
@@ -44,7 +46,7 @@ Welcome to new first time contributors with code merged to master: {list people 
 
 Congratulations to {n} contributors listed on [decred.org](https://decred.org/contributors/):
 
-* {name} ({nickname}, {title})
+* {name, sort names alphabetically} ({nickname}, {title})
 
 {welcome new individual and company contractors listed on decred.org}
 
@@ -52,9 +54,23 @@ Congratulations to {n} contributors listed on [decred.org](https://decred.org/co
 
 {interviews about people}
 
+Community stats:
+
+* Politeia users: {} (+{})
+* Twitter followers: {} (+{})
+* Reddit subscribers: {} (+{})
+* Matrix users: {} (+{})
+* Slack users: {} (+{})
+* Discord users: {}, verified to post: {}
+* Telegram users: {} (+{})
+* YouTube subscribers: {} (+{})
+* Facebook followers: {} (+{}), likes: {} (+{})
+* LinkedIn followers: {} (+{})
+* GitHub dcrd stars: {} (+{}), forks: {} (+{})
+
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${n.nn} - in which case the USD received/spent figures are ${n}K/${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${n.nn} - in which case the USD spent figure is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
 
 {high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail}
 
@@ -146,20 +162,6 @@ Audio:
 
 ## Community Discussions
 
-Community stats:
-
-* Politeia users: {} (+{})
-* Twitter followers: {} (+{})
-* Reddit subscribers: {} (+{})
-* Matrix users: {} (+{})
-* Slack users: {} (+{})
-* Discord users: {}, verified to post: {}
-* Telegram users: {} (+{})
-* YouTube subscribers: {} (+{})
-* Facebook followers: {} (+{}), likes: {} (+{})
-* LinkedIn followers: {} (+{})
-* GitHub dcrd stars: {} (+{}), forks: {} (+{})
-
 Comm systems news:
 
 * {}
@@ -176,13 +178,13 @@ Selected Twitter discussions:
 
 ## Markets
 
-In {month} DCR was trading between USD {}-{} / BTC {}-{}. The average daily rate was ${n.nn}.
+In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average daily rate was ${n.nn}.
 
 {markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis}
 
 ## Relevant External
 
-{PoW, ASIC resistance, cc network security and other cc tech}
+{PoW, ASIC resistance, full nodes, cc network security and other cc tech}
 
 {governance, funding, chain forks, community forks, controversy}
 
@@ -198,7 +200,7 @@ This is issue {number} of Decred Journal. Index of all issues, mirrors and trans
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
-Your feedback and contributions are welcome on Reddit, [GitHub](https://github.com/xaur/decred-news/issues) and [Matrix](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
+Your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) and [contributions](https://github.com/xaur/decred-news/blob/docs/contributing.md) are always welcome.
 
 Credits (alphabetical order):
 
