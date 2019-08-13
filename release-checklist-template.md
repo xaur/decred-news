@@ -6,11 +6,11 @@ Optional steps are marked with `(opt)`.
 
 - [ ] Request title image via an [issue in dcrdesign](https://github.com/decred/dcrdesign/issues)
   * GitHub version must be 768x384 px
-  * Ask for image title and theme to be used in the tooltip (saender)
-- [ ] Request new first time contributors from (degeri, s_ben or #research)
-- [ ] Request dev activity stats from (degeri, s_ben or #research)
+  * ask for image title and theme to be used in the image caption (saender)
+- [ ] Request month's first time contributors (degeri, s_ben or #research)
+- [ ] Request dev activity stats (degeri, s_ben or #research)
 
-**End of month snapshots**: Snapshots data that is hard to obtain later.
+**End of month snapshots**: Snapshot data that is hard to obtain later.
 
 - [ ] snapshot social media stats
   * Politeia, Matrix, Discord, Slack, Telegram, Twitter, Reddit, YouTube, Facebook, LinkedIn, GitHub dcrd, Instagram
@@ -41,23 +41,23 @@ Optional steps are marked with `(opt)`.
 - [ ] Pre-review read: check spelling, grammar, test that links work
 - [ ] Ask #writers_room to review
 - [ ] (opt) Wait for GitHub dev activity tweet (lustosa)
-- [ ] Resolve all todos: `{}`'s and any URLs outside of Markdown links
-- [ ] Carefully check that all people who contributed or gave feedback are in credits
-- [ ] Lint
-- [ ] Add title image (compress into JPEG with 98% quality to save 2x vs PNG)
+- [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
+- [ ] Carefully check that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
+- [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
+- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Remove `{DRAFT}` from title
 - [ ] Final read
-- [ ] Publish on GitHub with a single commit to `gh-pages` branch
+- [ ] Publish on GitHub with a single commit to `gh-pages`
 - [ ] (opt) Ask karamble to add the post on decredcommunity.org
 - [ ] Publish on Medium (richardred or Haon)
 - [ ] (opt) Verify Medium version, check for formatting issues
 - [ ] Choose the best link to disseminate: Medium vs GitHub Pages vs decredcommunity, etc
 - [ ] Submit best link to r/decred
 - [ ] Tweet best link via decredproject. Don't forget to add title image.
-- [ ] If bugs are found in the published version within minutes after the release, quickly add commits to the draft branch and amend the commit on the `gh-pages` branch
-- [ ] Fast-forward master to `gh-pages`
-- [ ] If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
-- [ ] Update index and mirrors
+- [ ] If bugs are found in the published version quickly after the release, add commits to the draft branch and amend the commit on `gh-pages`
+- [ ] Fast-forward `master` to `gh-pages`
+- [ ] If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`.
+- [ ] [Update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] Create Git tag from the draft branch, e.g. `archive/draft1901`
 - [ ] Delete the draft branch
 - [ ] (opt) Update `journal-template.md` in `docs` branch
