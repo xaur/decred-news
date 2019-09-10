@@ -2,7 +2,9 @@
 
 This checklist has both what we do now and ideas of what we could do to in the future. For current working checklist see [release-checklist-template.md](release-checklist-template.md).
 
-Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X.
+Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X, `PO` - product owner responsible for the overall quality.
+
+Copy the raw Markdown below into a new issue.
 
 **Dependencies**: Send notice in advance so people can plan their work.
 
@@ -30,29 +32,38 @@ Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X
   * call target review date (~3rd), ask who will be available
 - [ ] Extract more dev updates from GitHub repos
 - [ ] Complete Development (by: 2nd)
-- [ ] Ask in #dev to review Development
+- [ ] Complete People (by: 2nd)
+- [ ] PO review Development and People
+- [ ] Ask in #dev to review Development and People
 - [ ] Complete Events
 - [ ] (opt) Ask #event_planning to review Events
 - [ ] Complete Outreach
 - [ ] Complete Media
 - [ ] (opt) Ask #marketing to review Outreach+Events+Media
+- [ ] Complete Governance
+- [ ] Complete Network
+- [ ] Complete Mining, Integrations, Adoption
 - [ ] (opt) Ask #trading to review/improve Markets section
 - [ ] (opt) Find interesting Reddit and Twitter threads
+- [ ] Complete Community Discussions
+- [ ] Complete Markets
+- [ ] Complete Relevant External
 - [ ] (opt) Ask #general for awesome Decred-related pics and photos of the month
 - [ ] (opt) Look for awesome pics and photos
 - [ ] (opt) Add a few interesting pics up to 300 px height
 - [ ] (opt) Ask quoted people to review their texts
-- [ ] Pre-review read: check spelling, grammar, test that links work
+- [ ] Complete Intro
+- [ ] Pre-review: check spelling, grammar, test that links work
+- [ ] PO review of all sections
+- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Ask #writers_room to review (by: 3rd)
-- [ ] (opt) Wait for GitHub dev activity tweet (lustosa)
+- [ ] Incorporate all feedback
 - [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] Carefully check that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
-- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Remove `{DRAFT}` from title
-- [ ] Pre-release read
+- [ ] Pre-release review
 - [ ] Publish on GitHub with a single commit to `gh-pages`
-- [ ] (opt) Ask karamble to add the post on decredcommunity.org
 - [ ] Publish on Medium (richardred or Haon)
 - [ ] (opt) Verify Medium version, check for formatting issues
 - [ ] Choose the best link to disseminate: Medium vs GitHub Pages vs decredcommunity, etc
