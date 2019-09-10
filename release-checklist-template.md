@@ -2,7 +2,9 @@
 
 Checklist that is currently in use. For ideas see [release-checklist-ideas.md](release-checklist-ideas.md).
 
-Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X.
+Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X, `PO` - product owner responsible for the overall quality.
+
+Copy the raw Markdown below into a new issue.
 
 **Dependencies**: Send notice in advance so people can plan their work.
 
@@ -28,22 +30,33 @@ Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X
 
 - [ ] Extract more dev updates from GitHub repos
 - [ ] Complete Development (by: 2nd)
-- [ ] Ask in #dev to review Development
+- [ ] Complete People (by: 2nd)
+- [ ] PO review Development and People
+- [ ] Ask in #dev to review Development and People
 - [ ] Complete Events
 - [ ] (opt) Ask #event_planning to review Events
 - [ ] Complete Outreach
 - [ ] Complete Media
 - [ ] (opt) Ask #marketing to review Outreach+Events+Media
+- [ ] Complete Governance
+- [ ] Complete Network
+- [ ] Complete Mining, Integrations, Adoption
 - [ ] (opt) Find interesting Reddit and Twitter threads
+- [ ] Complete Community Discussions
+- [ ] Complete Markets
+- [ ] Complete Relevant External
 - [ ] (opt) Ask quoted people to review their texts
-- [ ] Pre-review read: check spelling, grammar, test that links work
+- [ ] Complete Intro
+- [ ] Pre-review: check spelling, grammar, test that links work
+- [ ] PO review of all sections
+- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Ask #writers_room to review (by: 3rd)
+- [ ] Incorporate all feedback
 - [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] Carefully check that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
-- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Remove `{DRAFT}` from title
-- [ ] Pre-release read
+- [ ] Pre-release review
 - [ ] Publish on GitHub with a single commit to `gh-pages`
 - [ ] Publish on Medium (richardred or Haon)
 - [ ] (opt) Verify Medium version, check for formatting issues
