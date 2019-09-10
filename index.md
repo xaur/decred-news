@@ -14,6 +14,7 @@ Markdown source files and contribution guidelines are available on [GitHub](http
 
 Month|Language
 ---|---
+August|[English](journal/201908.md)
 July|[English](journal/201907.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201907.html), [Spanish](https://medium.com/@decred_es/revista-decred-julio-2019-574a5e6e3bd2)
 June|[English](journal/201906.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201906.html), [Chinese](https://github.com/Guang168/DecredCNJournal/blob/master/201906_DecredJournalCN.md), [Italian](https://medium.com/decred-ita/decred-journal-giugno-2019-31f722da056e), [Russian](https://medium.com/decred-russia/decred-journal-june-2019-709e5301ad0), [Spanish](https://medium.com/@decred_es/revista-decred-junio-2019-9ab180513913)
 May|[English](journal/201905.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201905.html), [Italian](https://medium.com/decred-ita/giornale-di-decred-maggio-2019-8dff2b53b1e), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201905_DecredJournalPL.md), [Russian](https://medium.com/decred-russia/decred-journal-%D0%BC%D0%B0%D0%B9-2019-8e6cfe4bd4dc), [Spanish](https://medium.com/@decred_es/revista-decred-mayo-2019-3bd81daa91f9), [Vietnamese](https://github.com/raedahgroup/translations/blob/master/vietnamese/2019-05.md)
