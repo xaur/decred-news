@@ -6,7 +6,7 @@ Here is the list of all known translations and their mirrors.
 
 __August__
 
-* English: [github](journal/201908.md)
+* English: [github](journal/201908.md) [medium](https://medium.com/decred/decred-journal-august-2019-43626ee68ff)
 
 __July__
 
