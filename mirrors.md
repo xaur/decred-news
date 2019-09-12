@@ -13,6 +13,7 @@ __July__
 
 * English: [github](journal/201907.md) [medium](https://medium.com/decred/decred-journal-july-2019-c97307579c55)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201907.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201907_DecredJournalCN.md)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-julio-2019-574a5e6e3bd2)
 
 __June__
