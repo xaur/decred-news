@@ -246,12 +246,19 @@ Ways to detect new contributors:
 
 Goal: provide a digest of decision-making activity and finances.
 
-Finances include Treasury income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section per the [content plan](content.md).
+Finances overview includes Treasury income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section per the [content plan](content.md).
+
+Decision-making activity overview covers proposal activity on Politeia, pre-proposals posted in other places, as well as (meta) discussions about how Politeia and other governance processes should work.
+
+For proposals with voting in progress or finished, mention ticket participation (turnout) in addition to Yes/No percentages. The idea here is to constantly bring turnout numbers to public attention. The higher the turnout, the more engaged are the stakeholders and the healthier is the network.
+
+Since Politeia Digest provides more frequent and more detailed coverage of Politeia activity, limit Governance to higher level overview and link to Politeia Digest issues for more details and analysis.
 
 Sources:
 
 * [Politeia](https://proposals.decred.org/) activity, [@pi_crumbs](https://twitter.com/pi_crumbs), [@slices_of_pi](https://twitter.com/slices_of_pi)
 * [Politeia Digest](https://medium.com/politeia-digest)
+* dcrdata's [proposals page] has a convenient list of proposals and their main stats
 * some [r/decred](https://www.reddit.com/r/decred/) discussions
 * chats: #governance, #proposals
 
