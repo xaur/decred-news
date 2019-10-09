@@ -9,12 +9,14 @@ __August__
 * English: [github](journal/201908.md) [medium](https://medium.com/decred/decred-journal-august-2019-43626ee68ff)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201908.html)
 * Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201908_DecredJournalCN.md)
+* Russian: [medium](https://medium.com/decred-russia/decred-journal-august-2019-7c1822319cc6)
 
 __July__
 
 * English: [github](journal/201907.md) [medium](https://medium.com/decred/decred-journal-july-2019-c97307579c55)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201907.html)
 * Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201907_DecredJournalCN.md)
+* Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B8%D1%8E%D0%BB%D1%8C-2019-b7554ec2c66b)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-julio-2019-574a5e6e3bd2)
 
 __June__
