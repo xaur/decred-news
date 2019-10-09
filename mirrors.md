@@ -10,6 +10,7 @@ __August__
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201908.html)
 * Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201908_DecredJournalCN.md)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-august-2019-7c1822319cc6)
+* Spanish: [medium](https://medium.com/decred-es/revista-decred-agosto-2019-d83f28f3f44e)
 
 __July__
 
