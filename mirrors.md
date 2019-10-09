@@ -29,6 +29,7 @@ __June__
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-june-2019-709e5301ad0)
 * Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201906_DecredJournalPL.md)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-junio-2019-9ab180513913)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-06.md)
 
 __May__
 
