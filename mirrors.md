@@ -4,14 +4,25 @@ Here is the list of all known translations and their mirrors.
 
 ## 2019
 
+__September__
+
+* English: [github](journal/201909.md) [medium](https://medium.com/decred/decred-journal-september-2019-cf23b7f9272)
+
 __August__
 
 * English: [github](journal/201908.md) [medium](https://medium.com/decred/decred-journal-august-2019-43626ee68ff)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201908.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201908_DecredJournalCN.md)
+* Russian: [medium](https://medium.com/decred-russia/decred-journal-august-2019-7c1822319cc6)
+* Spanish: [medium](https://medium.com/decred-es/revista-decred-agosto-2019-d83f28f3f44e)
 
 __July__
 
 * English: [github](journal/201907.md) [medium](https://medium.com/decred/decred-journal-july-2019-c97307579c55)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201907.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201907_DecredJournalCN.md)
+* Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B8%D1%8E%D0%BB%D1%8C-2019-b7554ec2c66b)
+* Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201907_DecredJournalPL.md)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-julio-2019-574a5e6e3bd2)
 
 __June__
@@ -21,7 +32,9 @@ __June__
 * Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201906_DecredJournalCN.md)
 * Italian: [medium](https://medium.com/decred-ita/decred-journal-giugno-2019-31f722da056e)
 * Russian: [medium](https://medium.com/decred-russia/decred-journal-june-2019-709e5301ad0)
+* Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201906_DecredJournalPL.md)
 * Spanish: [medium](https://medium.com/@decred_es/revista-decred-junio-2019-9ab180513913)
+* Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-06.md)
 
 __May__
 
