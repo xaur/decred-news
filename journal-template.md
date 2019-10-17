@@ -38,7 +38,7 @@ _Image: {caption: "$title by $author. $optional-description" for artwork, or jus
 
 Other:
 
-* {smaller items go here}
+- {smaller items go here}
 
 Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added and {n}K deleted lines spread across {n} repositories. Contributions came from {n}-{n} developers per repository.
 
@@ -48,7 +48,7 @@ Welcome to new first time contributors with code merged to master: {list people 
 
 Congratulations to {n} contributors listed on [decred.org](https://decred.org/contributors/):
 
-* {name, sort names alphabetically} ({nickname}, {title})
+- {name, sort names alphabetically} ({nickname}, {title})
 
 {welcome new individual and company contractors listed on decred.org}
 
@@ -58,17 +58,17 @@ Congratulations to {n} contributors listed on [decred.org](https://decred.org/co
 
 Community stats:
 
-* Politeia users: {} (+{})
-* Twitter followers: {} (+{})
-* Reddit subscribers: {} (+{})
-* Matrix users: {} (+{})
-* Slack users: {} (+{})
-* Discord users: {}, verified to post: {}
-* Telegram users: {} (+{})
-* YouTube subscribers: {} (+{})
-* Facebook followers: {} (+{}), likes: {} (+{})
-* LinkedIn followers: {} (+{})
-* GitHub dcrd stars: {} (+{}), forks: {} (+{})
+- Politeia users: {} (+{})
+- Twitter followers: {} (+{})
+- Reddit subscribers: {} (+{})
+- Matrix users: {} (+{})
+- Slack users: {} (+{})
+- Discord users: {}, verified to post: {}
+- Telegram users: {} (+{})
+- YouTube subscribers: {} (+{})
+- Facebook followers: {} (+{}), likes: {} (+{})
+- LinkedIn followers: {} (+{})
+- GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
 ## Governance
 
@@ -104,7 +104,7 @@ Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes p
 
 Exchange integrations:
 
-* {}
+- {}
 
 {OTC desks}
 
@@ -118,7 +118,7 @@ Warning: the authors of Decred Journal have no idea about the trustworthiness of
 
 New merchants:
 
-* {}
+- {}
 
 {applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap}
 
@@ -132,11 +132,11 @@ New merchants:
 
 Attended:
 
-* {dates} - [{title}]({event link}) - {city}, {country}. {recap}
+- {dates} - [{title}]({event link}) - {city}, {country}. {recap}
 
 Upcoming:
 
-* {dates} - [{title}]({event link}) - {city}, {country}. {info}
+- {dates} - [{title}]({event link}) - {city}, {country}. {info}
 
 {announcements in Events domain}
 
@@ -148,35 +148,35 @@ Upcoming:
 
 Selected articles:
 
-* {title in Title Case} by {author} ([{domain}]({link}) - {optional comment}
+- {title in Title Case} by {author} ([{domain}]({link}) - {optional comment}
 
 Translations:
 
-* {}
+- {}
 
 Videos:
 
-* {}
+- {}
 
 Audio:
 
-* {}
+- {}
 
 ## Community Discussions
 
 Comm systems news:
 
-* {}
+- {}
 
 {selected discussed topics, as bullet list or one paragraph per topic}
 
 Selected Reddit posts:
 
-* {}
+- {}
 
 Selected Twitter discussions:
 
-* {}
+- {}
 
 ## Markets
 
@@ -206,6 +206,6 @@ Your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#fe
 
 Credits (alphabetical order):
 
-* writing and editing: {}
-* reviews and feedback: {}
-* title image: {}
+- writing and editing: {}
+- reviews and feedback: {}
+- title image: {}
