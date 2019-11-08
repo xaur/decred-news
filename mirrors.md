@@ -8,6 +8,7 @@ __September__
 
 * English: [github](journal/201909.md) [medium](https://medium.com/decred/decred-journal-september-2019-cf23b7f9272)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201909.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201909_DecredJournalCN.md)
 * Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201909_DecredJournalPL.md)
 * Spanish: [medium](https://medium.com/decred-es/revista-decred-septiembre-2019-6b9f8afd4c67)
 
