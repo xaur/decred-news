@@ -7,6 +7,7 @@ Here is the list of all known translations and their mirrors.
 __September__
 
 * English: [github](journal/201909.md) [medium](https://medium.com/decred/decred-journal-september-2019-cf23b7f9272)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201909.html)
 * Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201909_DecredJournalPL.md)
 
 __August__
