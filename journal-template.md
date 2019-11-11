@@ -2,7 +2,7 @@
 
 ![{alt text}](../img/{file.jpg} "{hover tooltip text}")
 
-_Image: {caption: "$title by $author. $optional-description" for artwork, or just description for photos}_
+_Image: {caption: "$title by $author. $optional-description" for artwork, or just "$description" for photos}_
 
 {introduction, major news of the month ordered by impact}
 
@@ -19,6 +19,8 @@ _Image: {caption: "$title by $author. $optional-description" for artwork, or jus
 [Politeia](https://github.com/decred/politeia): {}
 
 [dcrstakepool](https://github.com/decred/dcrstakepool): {}
+
+[dcrpool](https://github.com/decred/dcrpool): {}
 
 [dcrlnd](https://github.com/decred/dcrlnd): {}
 
@@ -72,7 +74,7 @@ Community stats:
 
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. As these payments were for work completed in {prev month}, it is also informative to consider them in the context of the {prev month} average daily rate of ${n.nn} - in which case the USD spent figure is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for work completed in that month is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
 
 {high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail}
 
@@ -192,7 +194,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average da
 
 {DEX}
 
-{related exchanges and websites}
+{relevant exchanges and websites}
 
 {other: regulations, security, fun}
 
