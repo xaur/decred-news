@@ -147,6 +147,38 @@ Second type of TODOs are "hanging" URLs not wrapped in Markdown links. For examp
 
 Final release must have all TODOs resolved, i.e. contain no curly braces and no URLs outside of Markdown links.
 
+### Intro
+
+Give a short and high level recap of month's highlights.
+
+Don't add too much detail. Don't add any links, links will appear later in the text.
+
+### Important Notice
+
+If there is an important notice to deliver, place it immediately after the Intro. Some examples:
+
+- prepare for upcoming consensus vote ([example](https://xaur.github.io/decred-news/journal/201910.html))
+- reminder to vote in ongoing consensus vote
+- reminder to vote in proposals with high impact
+- upgrade software
+- updates on incidents
+
+The idea of first three items is to stimulate higher voter participation which is extremely important for project's success.
+
+Fourth item reminds readers to upgrade to have good stuff deployed sooner.
+
+### Major Release Coverage
+
+If there is a major software release or feature release, place it after the Important Notice (if any). Examples:
+
+- [v1.4.0 Upgrade and Consensus Vote](https://xaur.github.io/decred-news/journal/201901.html#v140-upgrade-and-consensus-vote)
+- [Privacy release](https://xaur.github.io/decred-news/journal/201908.html#privacy)
+- [v1.5 Release Candidates](https://xaur.github.io/decred-news/journal/201910.html#v15-release-candidates)
+
+Release coverage is more focused on _users_ because it talks about features they can get by downloading new binaries (i.e. no need to build from source) or just visiting a website (Politeia, dcrdata). Development also tries to translate tech speak for users, but often includes tech goodies for _developers_ as noted below.
+
+Whenever software downloads are mentioned, remind people to [verify](https://docs.decred.org/advanced/verifying-binaries/) them.
+
 ### Development
 
 Per the [Goals](#goals), this section aims to update technical and less technical community members, attract more builders and expose the solid progress to everyone else. Development is perhaps the most challenging in this regard because of the constant need to balance between these audiences and switch between zooming in and zooming out.
