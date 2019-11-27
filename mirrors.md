@@ -7,6 +7,7 @@ Here is the list of all known translations and their mirrors.
 __October__
 
 * English: [github](journal/201910.md) [medium](https://medium.com/decred/decred-journal-october-2019-66927ec198bf)
+* Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201910_DecredJournalPL.md)
 
 __September__
 
