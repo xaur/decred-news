@@ -4,7 +4,7 @@
 
 _Image: {caption: "$title by $author. $optional-description" for artwork, or just "$description" for photos}_
 
-{introduction, major news of the month ordered by impact}
+{introduction, major news of the month ordered by impact, don't put any links here}
 
 ## Development
 
@@ -33,6 +33,8 @@ _Image: {caption: "$title by $author. $optional-description" for artwork, or jus
 [dcrios](https://github.com/raedahgroup/dcrios): {}
 
 [dcrdata](https://github.com/decred/dcrdata): {}
+
+[tinydecred](https://github.com/decred/tinydecred): {}
 
 [docs](https://github.com/decred/dcrdocs): {}
 
