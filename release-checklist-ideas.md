@@ -28,7 +28,7 @@ Copy the raw Markdown below into a new issue.
 
 **Release**
 
-- [ ] (opt) Notify #writers_room few days in advance (by: 1st)
+- [ ] (opt) Notify #writers few days in advance (by: 1st)
   * call target review date (~3rd), ask who will be available
 - [ ] Extract more dev updates from GitHub repos
 - [ ] Complete Development (by: 2nd)
@@ -36,7 +36,7 @@ Copy the raw Markdown below into a new issue.
 - [ ] PO review Development and People
 - [ ] Ask in #dev to review Development and People
 - [ ] Complete Events
-- [ ] (opt) Ask #event_planning to review Events
+- [ ] (opt) Ask #events to review Events
 - [ ] Complete Outreach
 - [ ] Complete Media
 - [ ] (opt) Ask #marketing to review Outreach+Events+Media
@@ -55,12 +55,12 @@ Copy the raw Markdown below into a new issue.
 - [ ] Complete Intro
 - [ ] Pre-review: check spelling, grammar, test that links work
 - [ ] PO review of all sections
-- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
-- [ ] Ask #writers_room to review (by: 3rd)
+- [ ] Ask #writers to review (by: 3rd)
 - [ ] Incorporate all feedback
 - [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] Carefully check that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
+- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Remove `{DRAFT}` from title
 - [ ] Pre-release review
 - [ ] Publish on GitHub with a single commit to `gh-pages`
