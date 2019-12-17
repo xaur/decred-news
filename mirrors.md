@@ -6,7 +6,7 @@ Here is the list of all known translations and their mirrors.
 
 __November__
 
-* English: [github](journal/201911.md)
+* English: [github](journal/201911.md) [medium](https://medium.com/decred/decred-journal-november-2019-3f4a5d0ad6de)
 
 __October__
 
