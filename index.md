@@ -14,7 +14,8 @@ Markdown source files and contribution guidelines are available on [GitHub](http
 
 Month|Language
 ---|---
-October|[English](journal/201910.md)
+November|[English](journal/201911.md)
+October|[English](journal/201910.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201910.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201910_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201910_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-octubre-2019-5d45cf20ac8a)
 September|[English](journal/201909.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201909.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201909_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201909_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-septiembre-2019-6b9f8afd4c67)
 August|[English](journal/201908.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201908.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201908_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201908_DecredJournalPL.md), [Russian](https://medium.com/decred-russia/decred-journal-august-2019-7c1822319cc6), [Spanish](https://medium.com/decred-es/revista-decred-agosto-2019-d83f28f3f44e)
 July|[English](journal/201907.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201907.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201907_DecredJournalCN.md), [Russian](https://medium.com/decred-russia/decred-journal-%D0%B8%D1%8E%D0%BB%D1%8C-2019-b7554ec2c66b), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201907_DecredJournalPL.md), [Spanish](https://medium.com/@decred_es/revista-decred-julio-2019-574a5e6e3bd2)

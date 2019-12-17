@@ -4,9 +4,17 @@ Here is the list of all known translations and their mirrors.
 
 ## 2019
 
+__November__
+
+* English: [github](journal/201911.md) [medium](https://medium.com/decred/decred-journal-november-2019-3f4a5d0ad6de)
+
 __October__
 
 * English: [github](journal/201910.md) [medium](https://medium.com/decred/decred-journal-october-2019-66927ec198bf)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201910.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201910_DecredJournalCN.md)
+* Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201910_DecredJournalPL.md)
+* Spanish: [medium](https://medium.com/decred-es/revista-decred-octubre-2019-5d45cf20ac8a)
 
 __September__
 
