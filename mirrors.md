@@ -8,6 +8,7 @@ __November__
 
 * English: [github](journal/201911.md) [medium](https://medium.com/decred/decred-journal-november-2019-3f4a5d0ad6de)
 * Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201911.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201911_DecredJournalCN.md)
 * Spanish: [medium](https://medium.com/decred-es/revista-decred-noviembre-2019-abe801718370)
 
 __October__
