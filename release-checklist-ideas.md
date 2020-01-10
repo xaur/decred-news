@@ -6,7 +6,11 @@ Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X
 
 Copy the raw Markdown below into a new issue.
 
-**Dependencies**: Send notice in advance so people can plan their work.
+---
+
+**DRAFT**: {link}
+
+**Dependencies**: Send notice in advance so that people can plan their work.
 
 - [ ] Title image via an [issue in dcrdesign](https://github.com/decred/dcrdesign/issues) (notify by: 20th, ready by: 3rd)
   * GitHub version must be 768x384 px
@@ -77,3 +81,4 @@ Copy the raw Markdown below into a new issue.
 - [ ] Delete the draft branch
 - [ ] (opt) Update `journal-template.md` in `docs` branch
 - [ ] (opt) Update this release checklist template in the `docs` branch
+- [ ] Start the new cycle
