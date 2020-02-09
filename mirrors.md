@@ -2,11 +2,20 @@
 
 Here is the list of all known translations and their mirrors.
 
+## 2020
+
+__January__
+
+* English: [github](journal/202001.md) [medium](https://medium.com/decred/decred-journal-january-2020-616d919784ff)
+
 ## 2019
 
 __December__
 
 * English: [github](journal/201912.md) [medium](https://medium.com/decred/decred-journal-december-2019-9b48c8bf8516)
+* Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201912.html)
+* Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201912_DecredJournalCN.md)
+* Spanish: [medium](https://medium.com/decred-es/revista-decred-diciembre-2019-f02cc8365b84)
 
 __November__
 

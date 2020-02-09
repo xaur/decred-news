@@ -10,11 +10,17 @@ Markdown source files and contribution guidelines are available on [GitHub](http
 
 # Archive
 
+## 2020
+
+Month|Language
+---|---
+January|[English](journal/202001.md)
+
 ## 2019
 
 Month|Language
 ---|---
-December|[English](journal/201912.md)
+December|[English](journal/201912.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201912.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201912_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-diciembre-2019-f02cc8365b84)
 November|[English](journal/201911.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201911.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201911_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201911_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-noviembre-2019-abe801718370)
 October|[English](journal/201910.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201910.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201910_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201910_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-octubre-2019-5d45cf20ac8a)
 September|[English](journal/201909.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201909.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201909_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201909_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-septiembre-2019-6b9f8afd4c67)
