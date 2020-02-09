@@ -17,13 +17,14 @@ Copy the raw Markdown below into a new issue.
   * ask for image title and description (saender)
 - [ ] first time contributors (degeri or s_ben)
 - [ ] dev activity stats (degeri or s_ben)
-- [ ] Ditto update (cryptoleslie or liz_bagot, notify by: 28th, ready by: 3rd)
+- [ ] PR update (l1ndseymm, notify by: 28th, ready by: 3rd)
 - [ ] Outreach update (Dustorf, notify by: 28th, ready by: 3rd)
 
 **End of month snapshots**: Snapshot data that is hard to obtain later.
 
 - [ ] snapshot social media stats
   * Politeia, Matrix, Discord, Slack, Telegram, Twitter, Reddit, YouTube, Facebook, LinkedIn, GitHub dcrd, Instagram
+  * can help: http://dcrextdata.planetdecred.org/community
   * (opt) non-English platforms: Telegram (es pt zh it ru), Twitter (es), Instagram
 - [ ] staking
   * 30-day average ticket price (https://dcrstats.com)
@@ -67,7 +68,7 @@ Copy the raw Markdown below into a new issue.
 - [ ] Choose the best link to disseminate: Medium vs GitHub Pages vs decredcommunity, etc
 - [ ] Submit best link to r/decred
 - [ ] Tweet best link via decredproject. Don't forget to add title image. (by: 6th)
-- [ ] If bugs are found in the published version quickly after the release, add commits to the draft branch and amend the commit on `gh-pages`
+- [ ] Watch for bug reports in the published version quickly after the release, add commits to the draft branch and amend the commit on `gh-pages`
 - [ ] Fast-forward `master` to `gh-pages`
 - [ ] If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`.
 - [ ] [Update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
