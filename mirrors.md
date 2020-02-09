@@ -2,6 +2,12 @@
 
 Here is the list of all known translations and their mirrors.
 
+## 2020
+
+__January__
+
+* English: [github](journal/202001.md) [medium](https://medium.com/decred/decred-journal-january-2020-616d919784ff)
+
 ## 2019
 
 __December__

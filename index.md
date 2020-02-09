@@ -10,6 +10,12 @@ Markdown source files and contribution guidelines are available on [GitHub](http
 
 # Archive
 
+## 2020
+
+Month|Language
+---|---
+January|[English](journal/202001.md)
+
 ## 2019
 
 Month|Language
