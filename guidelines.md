@@ -32,10 +32,10 @@ Main writing work starts around the last week of the month.
 As soon as individual sections are ready, they are submitted for review to people with relevant project and domain knowledge:
 
 * Development and People are posted in #dev with notifying people deeply engaged in each project (most commonly project leads)
-* Events is posted in #event\_planning
+* Events is posted in #events
 * Outreach, Events and Media are posted in #marketing
 
-Once all sections are finished the whole issue is posted for final review in #writers\_room.
+Once all sections are finished the whole issue is posted for final review in the #writers room.
 
 All feedback received is incorporated in the draft.
 
@@ -79,7 +79,7 @@ To avoid commit churn on `master`, changes to these files are merged in batches 
   * add GitHub Pages, Medium and other links to `mirros.md`
 * add all new known translations to `index.md` and `mirrors.md` accordingly
 * push the branch, open a PR against `master`
-* share the PR link in #writers\_room, ask translators to submit any missed translations
+* share the PR link in #writers, ask translators to submit any missed translations
 * collect submissions for several days
 * add a single combined commit to `master` and `gh-pages`
 
@@ -246,7 +246,7 @@ Some projects have commits that don't go the pull request route. For these, we s
 2. Find notable commits for the month.
 3. If a commit links to its corresponding pull request, check that PR too for more context.
 
-**Chats** may provide additional context for changes and interesting (sometimes notable) discussions. Scanning chats is optional because it can take a lot of time. Dev chat rooms: #dev, #politeia, #dcrdata, #lndev, #documentation, #design.
+**Chats** may provide additional context for changes and interesting (sometimes notable) discussions. Scanning chats is optional because it can take a lot of time. Dev chat rooms: #dev, #politeia, #dcrdata, #lndev, #documentation, #design, and others.
 
 For dev **stats**, there is a convenient GitHub filter for calculating developers per repository ([example](https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c)). 
 
@@ -354,7 +354,7 @@ Most of the content for this section is currently provided by outreach leads at 
 Other sources:
 
 * [r/decred](https://www.reddit.com/r/decred/new/)
-* chats: #marketing, #event\_planning, #social\_media
+* chats: #marketing, #events, #media
 
 ### Events
 
@@ -369,7 +369,7 @@ Look at events from Decred's perspective, look for experience to learn from. Som
 Sources:
 
 * some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe and watch for updates
-* chats: #event\_planning
+* chats: #events
 * follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES)
 
 ### Media
@@ -625,11 +625,11 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 5\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
 
-6\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in [#writers\_room](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org).
+6\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org) room.
 
 7\. Consider mirroring your translations in a GitHub repository. This will allow easy replication and increase censorship resistance. For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar) or [Chinese](https://github.com/Guang168/DecredCNJournal) repos.
 
-8\. Coordinate with writers and other translators in [#writers\_room](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
+8\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
 
 ## Why Git?
 
