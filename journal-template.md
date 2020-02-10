@@ -50,11 +50,13 @@ Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added a
 
 Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
 
-Congratulations to {n} contributors listed on [decred.org](https://decred.org/contributors/):
+Congratulations to [active contributors](https://decred.org/contributors/) listed on decred.org:
 
-- {name, sort names alphabetically} ({nickname}, {title})
+- {name, sort names alphabetically} ({nickname}, {title or domain})
 
-{welcome new individual and company contractors listed on decred.org}
+{welcome new corporate contractors with short intros, if any}
+
+The following people were removed from the list of [active contributors](https://decred.org/contributors/): {...} Thank you for all the good work and don't hesitate to drop by! { rotate/improve the thank you + inviting message if possible }
 
 {updates from existing contractors}
 
@@ -97,10 +99,6 @@ Staking: 30-day average ticket price was {n.n} DCR (+{n.n}) per dcrstats.com. Th
 Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per {new source?}. Version distribution: {vx.y.z: n% (+n%), ...}.
 
 {any interesting analysis or events in the network}
-
-## Mining
-
-{new miners, relevant news about existing miners, interesting events or stats}
 
 ## Integrations
 
