@@ -8,7 +8,7 @@ _Image: {caption: "$title by $author. $optional-description" for artwork, or jus
 
 ## Development
 
-{add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans}
+{ hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
 [dcrd](https://github.com/decred/dcrd): {}
 
@@ -84,17 +84,17 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 
 ## Network
 
-{cross-check dcrdata.org, dcrstats.com and charts.dcr.farm to get the numbers}
+{ hint: cross-check dcrdata.org, dcrstats.com and charts.dcr.farm to get the numbers }
 
 Hashrate: {month}'s hashrate opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate distribution as of {date}: {pool name n%, ...} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
 
-{helpful for PoS: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
+{ hint: helpful for PoS: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
 
 Staking: 30-day average ticket price was {n.n} DCR (+{n.n}) per dcrstats.com. The price varied between {n.n}-{n.n} DCR. Locked amount was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply.
 
 {recap of ticket price action if it was interesting}
 
-{helpful for nodes: https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=now-40d&to=now }
+{ hint: helpful for nodes: https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=now-40d&to=now }
 
 Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per {new source?}. Version distribution: {vx.y.z: n% (+n%), ...}.
 
@@ -102,9 +102,9 @@ Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes p
 
 ## Integrations
 
-{new items of infrastructure or updates from existing}
+{ hint: new items of infrastructure or updates from existing }
 
-Exchange integrations:
+Exchanges:
 
 - {}
 
@@ -188,15 +188,15 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average da
 
 ## Relevant External
 
-{PoW, ASIC resistance, full nodes, cc network security and other cc tech}
+{cc tech: PoW, ASIC resistance, full nodes, cc network security, etc}
 
-{governance, funding, chain forks, community forks, controversy}
+{governance, funding, chain forks, community forks}
 
 {DEX}
 
 {relevant exchanges and websites}
 
-{other: regulations, security, fun}
+{other: regulations, privacy, security, fun}
 
 ## About This Issue
 
