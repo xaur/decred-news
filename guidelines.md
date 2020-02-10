@@ -290,6 +290,10 @@ Ways to detect new contributors:
 * watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
 * when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently (for [example](https://github.com/decred/politeia/commits?author=martonp), martonp started in June)
 
+Social media stats:
+
+- http://dcrextdata.planetdecred.org/community
+
 ### Governance
 
 Goal: provide a digest of decision-making activity and finances.
