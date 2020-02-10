@@ -263,10 +263,26 @@ GitHub can be used to calculate how many people contributed to the repo during t
 Main goals of People are:
 
 1. Greet new contributors, both individuals and organizations
-2. Make the community more familiar with people making Decred
-3. Track community growth
+2. Say a good goodbye to contributors removed from the active list
+3. Make the community more familiar with people making Decred
+4. Track community growth
 
-Item 2 includes interviews and staff changes.
+"1. Greet new contributors" includes:
+
+- cheering people whose code got merged to master branches for the first time
+- congratulating people who were granted a Decred Contractor Clearance (DCC)
+- congratulating people who were added to the list of [active contributors](https://decred.org/contributors/) at decred.org
+
+"2. Say goodbye" must be done in a decent way to people who were removed from the active list at decred.org or got their DCC revoked. Decently means:
+
+1. Make it clear where they were removed from.
+   - People get removed from the "active list" at decred.org to keep that list up-to-date. It is not an excommunication or anything like that, rather stating a status change.
+   - DCC revocation is a bit more "bad" but is also not an eternal mark of shame. People are welcome to improve and try again.
+2. Thank them for all the good work done to improve Decred.
+3. Invite for collaborating again in the future and hint that there's always a lot of work to do.
+4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and be quite about "bad news" of people left.
+
+"Make the community more familiar with people making Decred" includes both telling who is joining and leaving, as well as telling more about existing contributors with personal stories and interviews.
 
 Ways to detect new contributors:
 
