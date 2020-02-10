@@ -617,19 +617,24 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 3\. Before you start translating, make note of the Git branch and revision that you translate. It will help to track changes to the source document.
 
-4\. Add people who worked on the translation to the separate credits line at the bottom
+4\. Try to get at least one reviewer for your translation to ensure high quality.
 
-> Credits (alphabetical order): a, b, c
+5\. Add people who worked on the translation to the separate credits line at the bottom, for example:
+
+> Credits (alphabetical order):
 > 
-> Translated by: x, y, z
+> - writing and editing: a, b, c
+> - reviews and feedback: d, e, f
+> - title image: g
+> - Spanish translation: h, i, j
 
-5\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
+6\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
 
-6\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org) room.
+7\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org) room.
 
-7\. Consider mirroring your translations in a GitHub repository. This will allow easy replication and increase censorship resistance. For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar) or [Chinese](https://github.com/Guang168/DecredCNJournal) repos.
+8\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, increase censorship resistance and give other benefits (see [Why Git?](#why-git)). For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar) or [Chinese](https://github.com/Guang168/DecredCNJournal) repositories.
 
-8\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
+9\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!lbzTjhzNbIaDbuAxkS:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
 
 ## Why Git?
 
