@@ -14,7 +14,7 @@ Markdown source files and contribution guidelines are available on [GitHub](http
 
 Month|Language
 ---|---
-January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html)
+January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Spanish](https://medium.com/decred-es/revista-decred-enero-2020-721a67517a76)
 
 ## 2019
 
