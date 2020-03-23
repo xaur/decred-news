@@ -50,13 +50,11 @@ Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added a
 
 Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
 
-Congratulations to [active contributors](https://decred.org/contributors/) listed on decred.org:
+Congratulations to new [contributors](https://decred.org/contributors/) listed on decred.org:
 
 - {name, sort names alphabetically} ({nickname}, {title or domain})
 
 {welcome new corporate contractors with short intros, if any}
-
-The following people were removed from the list of [active contributors](https://decred.org/contributors/): {...} Thank you for all the good work and don't hesitate to drop by! { rotate/improve the thank you + inviting message if possible }
 
 {updates from existing contractors}
 
@@ -68,7 +66,6 @@ Community stats:
 - Twitter followers: {} (+{})
 - Reddit subscribers: {} (+{})
 - Matrix users: {} (+{})
-- Slack users: {} (+{})
 - Discord users: {}, verified to post: {}
 - Telegram users: {} (+{})
 - YouTube subscribers: {} (+{})
@@ -102,25 +99,13 @@ Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes p
 
 ## Integrations
 
-{ hint: new items of infrastructure or updates from existing }
-
-Exchanges:
-
-- {}
-
-{OTC desks}
-
-{payment processors}
-
-{wallets}
+{ hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best in a given month's compilation }
 
 Warning: the authors of Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
 ## Adoption
 
-New merchants:
-
-- {}
+{new merchants}
 
 {applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap}
 
