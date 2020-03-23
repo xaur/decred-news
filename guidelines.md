@@ -263,26 +263,14 @@ GitHub can be used to calculate how many people contributed to the repo during t
 Main goals of People are:
 
 1. Greet new contributors, both individuals and organizations
-2. Say a good goodbye to contributors removed from the active list
-3. Make the community more familiar with people making Decred
-4. Track community growth
+2. Make the community more familiar with people building Decred
+3. Track community growth
 
 "1. Greet new contributors" includes:
 
 - cheering people whose code got merged to master branches for the first time
 - congratulating people who were granted a Decred Contractor Clearance (DCC)
-- congratulating people who were added to the list of [active contributors](https://decred.org/contributors/) at decred.org
-
-"2. Say goodbye" must be done in a decent way to people who were removed from the active list at decred.org or got their DCC revoked. Decently means:
-
-1. Make it clear where they were removed from.
-   - People get removed from the "active list" at decred.org to keep that list up-to-date. It is not an excommunication or anything like that, rather stating a status change.
-   - DCC revocation is a bit more "bad" but is also not an eternal mark of shame. People are welcome to improve and try again.
-2. Thank them for all the good work done to improve Decred.
-3. Invite for collaborating again in the future and hint that there's always a lot of work to do.
-4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and be quite about "bad news" of people left.
-
-"Make the community more familiar with people making Decred" includes both telling who is joining and leaving, as well as telling more about existing contributors with personal stories and interviews.
+- congratulating people who were added to the list of [contributors](https://decred.org/contributors/) at decred.org
 
 Ways to detect new contributors:
 
@@ -290,9 +278,32 @@ Ways to detect new contributors:
 * watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
 * when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently (for [example](https://github.com/decred/politeia/commits?author=martonp), martonp started in June)
 
-Social media stats:
+"2. Make the community more familiar with people making Decred" includes noting who is joining or leaving, as well as telling more about existing contributors with personal stories and interviews.
 
-- http://dcrextdata.planetdecred.org/community
+"3. Track community growth" keeps an eye on user and follower counts in various social media platforms.
+
+Some platforms are tracked hourly and charted at http://dcrextdata.planetdecred.org/community
+
+#### Reporting departures
+
+In [January 2020](https://xaur.github.io/decred-news/journal/202001.html#people) issue the people section also covered people removed from the [contributors](https://decred.org/contributors/) page at decred.org. @bee [argued](https://matrix.to/#/!psRvVbtljHXLzCBrjf:decred.org/$vhrC9Ak1Nc3UR4cgIXznoBC1Ci6wbO7dfpZuW57zsaI) that the contributors page shall be treated as a list of _active_ contributors and that we should not fear talking about departures. However, after [more discussion](https://matrix.to/#/!RwcqjIOMNizkPzGnLr:decred.org/$158375819434036swOfM:decred.org) it was decided to stop mentioning removals in DJ based on the following points from @richardred:
+
+- what that page actually represents is probably quite different to how most people will interpret it
+- goes also for the converse, if we mention every removal from contributors page people may assume it can be used as list of current contractors, which afaik it is not good for. it's not a formal process and I don't know what the criteria are for determining when someone is removed from the page, it reflects maintenance of decred.org as well as Decred's staffing
+- devoting too much attention to the changes to a page of decred.org, in the absence of any other public source, may give people a misleading impression about how useful or comprehensive that page is
+- in many cases people may remain on that page for a considerable period after they have stopped contributing, which decreases its reliability further
+- there are contractors who aren't listed at all
+
+In case we decide to report removals from the contributors page again, or report other kinds of "departures", below are guidelines for presenting that.
+
+"Goodbye" must be done in a decent way to people who were removed from decred.org/contributors or got their DCC revoked. Decent means:
+
+1. Make it clear where they were removed from.
+   - People are removed from decred.org/contributors to keep that list up-to-date. It is not an excommunication or anything like that, rather reflecting a status change.
+   - DCC revocation is a bit more "severe" but is also not an eternal mark of shame. People are welcome to improve and try again.
+2. Thank them for all the good work done to improve Decred.
+3. Invite for collaborating again in the future and hint that there's always a lot of work to do.
+4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and suppress "bad news" of people leaving.
 
 ### Governance
 
