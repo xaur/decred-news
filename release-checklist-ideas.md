@@ -23,13 +23,13 @@ Copy the raw Markdown below into a new issue.
 **End of month snapshots**: Snapshot data that is hard to obtain later.
 
 - [ ] snapshot social media stats
-  * Politeia, Matrix, Discord, Slack, Telegram, Twitter, Reddit, YouTube, Facebook, LinkedIn, GitHub dcrd, Instagram
-  * can help: http://dcrextdata.planetdecred.org/community
+  * Politeia, Matrix, Discord, Telegram, Twitter, Reddit, YouTube, Facebook, LinkedIn, GitHub dcrd, Instagram
+  * very helpful: http://dcrextdata.planetdecred.org/community
   * (opt) non-English platforms: Telegram (es pt zh it ru), Twitter (es), Instagram
 - [ ] staking
   * 30-day average ticket price (https://dcrstats.com)
 - [ ] nodes
-  * node count, versions, etc (ask chappjc or #dev or dcr.farm)
+  * node count, versions, etc (https://charts.dcr.farm/)
 
 **Release**
 
@@ -47,7 +47,7 @@ Copy the raw Markdown below into a new issue.
 - [ ] (opt) Ask #marketing to review Outreach+Events+Media
 - [ ] Complete Governance
 - [ ] Complete Network
-- [ ] Complete Mining, Integrations, Adoption
+- [ ] Complete Integrations, Adoption
 - [ ] (opt) Ask #trading to review/improve Markets section
 - [ ] (opt) Find interesting Reddit and Twitter threads
 - [ ] Complete Community Discussions
@@ -58,7 +58,6 @@ Copy the raw Markdown below into a new issue.
 - [ ] (opt) Add a few interesting pics up to 300 px height
 - [ ] (opt) Ask quoted people to review their texts
 - [ ] Complete Intro
-- [ ] Pre-review: check spelling, grammar, test that links work
 - [ ] PO review of all sections
 - [ ] Ask #writers to review (by: 3rd)
 - [ ] Incorporate all feedback
@@ -67,17 +66,15 @@ Copy the raw Markdown below into a new issue.
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Remove `{DRAFT}` from title
-- [ ] Pre-release review
+- [ ] Pre-release review: check spelling, grammar, test that links work
 - [ ] Publish on GitHub with a single commit to `gh-pages`
 - [ ] Publish on Medium (richardred or Haon)
 - [ ] (opt) Verify Medium version, check for formatting issues
-- [ ] Choose the best link to disseminate: Medium vs GitHub Pages vs decredcommunity, etc
-- [ ] Submit best link to r/decred
-- [ ] Tweet best link via decredproject. Don't forget to add title image. (by: 6th)
-- [ ] Watch for bug reports in the published version quickly after the release, add commits to the draft branch and amend the commit on `gh-pages`
-- [ ] Fast-forward `master` to `gh-pages`
-- [ ] If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`.
+- [ ] Submit Medium link to r/decred
+- [ ] Tweet Medium link via decredproject. Don't forget to add title image. (by: 6th)
+- [ ] If changes are necessary after the release, add commits to `gh-pages` (test in `draft` if needed) and update Medium
 - [ ] [Update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
+- [ ] Fast-forward `master` to `gh-pages`
 - [ ] Create Git tag from the draft branch, e.g. `archive/draft1901`
 - [ ] Delete the draft branch
 - [ ] (opt) Update `journal-template.md` in `docs` branch
