@@ -466,6 +466,10 @@ Topics commonly covered here:
 * Computer security
 * Fun stuff
 
+Sources:
+
+- Kraken's [Weekly Market Reports](https://blog.kraken.com/post/category/market-reports/weekly-market-reports/) is a goldmine for news stories
+
 ### Missed content
 
 Some notable stories are discovered after the release. Add them in the next issue, followed by a tag in italics e.g. `_(missed in March issue)_`.
@@ -672,12 +676,14 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 Pros of the Git/GitHub workflow:
 
 * all content can be easily downloaded and synced (semi-decentralized storage)
+  * protects from knowledge loss from censorship by centralized platforms like Medium
 * cloning is permissionless and does not require an account
+  * no need to visit Google Docs
 * all changes are recorded
 * integrity protection
 * allows more people to contribute in a proven workflow
-* devs can seamlessly engage/contribute since the workflow is similar to theirs
-* you can work offline
+  * devs can seamlessly engage/contribute since the workflow is similar to theirs
+* you can use your favorite text editor and work offline
 * show off: one of the most advanced productions in the space
 * possible authenticity protection via digital signatures (requires extra setup)
 * Git software is widespread
