@@ -1,12 +1,14 @@
 # About
 
-Decred Journal serves to expose just how much is happening in Decred and save the time for people unable to actively follow all project activity. It aims to cover all relevant developments with a short description and links to read further. It shows the depth of the project and the involvement of the community.
+Decred Journal serves to expose just how much is happening in [Decred](https://decred.org/) and save time for people who cannot actively follow all project activity. It aims to cover all relevant developments with a short description and links to read further. It shows the depth of the project and the involvement of the community.
 
-Monthly issues are published on [GitHub](https://xaur.github.io/decred-news/), on [Medium](https://medium.com/decred/journals/home) and on [decredcommunity.org](https://decredcommunity.org/filter?tag=Decred%20Journal&key=category). Older issues were mirrored on [Reddit](https://www.reddit.com/r/decred/search?q=decred+journal&restrict_sr=on&t=all&sort=new).
+Monthly issues are published on [GitHub](https://xaur.github.io/decred-news/) and [Medium](https://medium.com/decred/journals/home).
 
 [Mirrors page](mirrors.md) lists all known translations and mirrors.
 
-Markdown source files and contribution guidelines are available on [GitHub](https://github.com/xaur/decred-news).
+Markdown source files are available on [GitHub](https://github.com/xaur/decred-news).
+
+Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contributing.md)!
 
 # Archive
 
