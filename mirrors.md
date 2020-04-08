@@ -7,6 +7,7 @@ Here is the list of all known translations and their mirrors.
 __February__
 
 - English: [github](journal/202002.md) [medium](https://medium.com/decred/decred-journal-february-2020-8ff1eac92305)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202002.html)
 
 __January__
 
