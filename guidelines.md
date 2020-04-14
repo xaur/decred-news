@@ -45,26 +45,34 @@ See [here](https://github.com/xaur/decred-news/issues/65) for a list of sections
 
 ### Git workflow
 
+DJ uses the "draft branch" Git workflow where each document is developed in its own "draft branch". It was designed to:
+
+1. Have low amount of commits in the `master` branch. This allows to follow the history on the high level, where commits mainly add new documents. Another use case is archivists can clone and update only the `master` branch and ignore the churn of draft changes.
+2. The draft branch can be rather "dirty" in terms of both the document contents and its Git history. This gives more flexibility to editors and allows to grant them direct write access to this branch to save them from the pains of the pull request workflow.
+
+The workflow is as follows:
+
 * Create draft branch named like `draft07`, where `07` stands for July.
 * In the draft branch, create a Markdown file from a [template](journal-template.md).
-* Do not push merge commits, they make history hard to read. Use rebase to sync.
-* Avoid adding large binary files, see [Title image](#title-image).
-* When the issue is ready, push a single commit adding it and its image to `gh-pages` branch. This will publish it on GitHub Pages.
-* If bugs are found in the published version within minutes after the release, quickly add commits to the draft branch and amend the commit on the `gh-pages` branch.
-* When the release commit settles, fast-forward `master` to `gh-pages`.
-* If changes are necessary after the release (>1 h), add extra commits to both `master` and `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
-* Generally do not edit the document after it was released, unless there is a very good reason.
-* Add new issue to the index. Update index in batches, see [Updating index](#updating-index).
+* Make edits to the document.
+* Do not push merge commits, they make history hard to read. If the branch was updated since your last sync, use rebase to apply your changes on top.
+* Add any images embedded by the document. In general, avoid adding large binary files. See [Title image](#title-image) section.
+* When the document is finished, publish it on GitHub Pages (see example below).
+* Fast-forward `master` to `gh-pages`.
+* If bugs are found in the published version after the release, add more commits to `gh-pages` branch. Then again fast-forward `master` to `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
+* In general, do not edit the document after it was released, unless there is a very good reason to do so.
+* Add new issue to the index page. Update index in batches, see [Updating index](#updating-index).
 * Create Git tag from the draft branch for archival purposes, e.g. `archive/draft1907`.
-* Delete the draft branch.
+* Delete the draft branch locally and on GitHub.
 
-To add a single commit to `gh-pages` with the latest draft:
+Steps to publish the draft:
 
 ```
 git checkout gh-pages
-git checkout draft06 img/journal-201906-384.jpg
 git checkout draft06 journal/201906.md
+git checkout draft06 img/journal-201906-384.jpg
 git commit -a -m "Add Decred Journal - June 2019"
+git push origin gh-pages
 ```
 
 ### Updating index
