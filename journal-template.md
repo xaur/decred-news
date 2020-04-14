@@ -81,19 +81,22 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 
 ## Network
 
-{ hint: cross-check dcrdata.org, dcrstats.com and charts.dcr.farm to get the numbers }
+{ hint:
 
-Hashrate: {month}'s hashrate opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate distribution as of {date}: {pool name n%, ...} per [dcrstats.com](https://dcrstats.com/pow). Pool distribution numbers are approximate and cannot be accurately determined.
+- check dcrdata.org (preferred), dcrstats.com and charts.dcr.farm to get the numbers
+- use the same `zoom` parameter for all dcrdata links }
 
-{ hint: helpful for PoS: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
+Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date}: {pool name n%, ...}. Pool distribution numbers are approximate and cannot be accurately determined.
 
-Staking: 30-day average ticket price was {n.n} DCR (+{n.n}) per dcrstats.com. The price varied between {n.n}-{n.n} DCR. Locked amount was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply.
+Staking: [30-day average](https://dcrstats.com/) ticket price was {n.n, try to snapshot it on 1st} DCR (+{n.n}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&bin=window&axis=time) {set zoom to show the month} varied between {n.n}-{n.n} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=k73pwcch-k8jayo3s&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=k73pwcch-k8jayo3s&bin=block&axis=time) in PoS.
+
+{ hint: second source for locked %: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
 
 {recap of ticket price action if it was interesting}
 
-{ hint: helpful for nodes: https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=now-40d&to=now }
+{ hint: for dcr.farm set the zoom to show exactly UTC month 1st 00:00:00 - next month 1st 00:00:00 }
 
-Nodes: As of {date} there were {n} public listening nodes and {n} normal nodes per {new source?}. Version distribution: {vx.y.z: n% (+n%), ...}.
+Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes per dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
 
 {any interesting analysis or events in the network}
 
@@ -129,13 +132,15 @@ Upcoming:
 
 ## Media
 
-{community efforts: Decred Assembly, websites, etc}
+{notable community efforts}
 
 {ratings news}
 
+{ hint: use the following format: (title in Sentence case) by (author) ([domain](link)) - (optional comment) }
+
 Selected articles:
 
-- {title in Title Case} by {author} ([{domain}]({link}) - {optional comment}
+- {}
 
 Translations:
 
@@ -185,7 +190,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average da
 
 ## About This Issue
 
-This is issue {number} of Decred Journal. Index of all issues, mirrors and translations is available [here](https://xaur.github.io/decred-news/).
+This is issue {number} of Decred Journal. Index of all issues, mirrors, and translations is available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
