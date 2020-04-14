@@ -13,6 +13,7 @@ __February__
 - English: [github](journal/202002.md) [medium](https://medium.com/decred/decred-journal-february-2020-8ff1eac92305)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202002.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202002_DecredJournalPL.md)
 - Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202002.html) [medium](https://medium.com/decred-es/revista-decred-febrero-2020-e06761e4b9d3)
 
 __January__
