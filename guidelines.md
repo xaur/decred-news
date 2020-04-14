@@ -622,7 +622,12 @@ This applies to English texts only:
   * Use `'` for single and `"` for double quotes.
   * Non-ASCII is ok in names, e.g. `Permabull Niño`.
 * For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
-* Use proper [title case](https://en.wikipedia.org/wiki/Letter_case) for Selected articles, even when original title was not in title case.
+* Use "Sentence case" for Selected articles, Videos and Audio.
+
+> In sentence case, the title is written as if it were a sentence. This is considered a more casual style and is commonly used in newspapers and on the web for headline capitalization. There are a couple reasons why writers choose sentence case over title case:
+> 
+> - One could argue that capitalized words slow down a reader's ability to scan, while a title written in sentence case could be perceived as having an uninterrupted flow.
+> - Some publications prefer this style simply because it's more likely to preserve consistency. With sentence case, there's no nitpicking over the capitalization of a three-letter preposition. ([grammar.yourdictionary.com](https://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html))
 
 Translations are encouraged to follow the spirit of simplicity and consistency above, but are free to adapt to standards of their language.
 
