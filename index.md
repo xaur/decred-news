@@ -18,7 +18,7 @@ Month|Language
 ---|---
 March|[English](journal/202003.md)
 February|[English](journal/202002.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202002.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202002.html)
-January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202001.html)
+January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202001.html)
 
 ## 2019
 
