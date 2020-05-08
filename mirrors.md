@@ -8,6 +8,7 @@ __March__
 
 - English: [github](journal/202003.md) [medium](https://medium.com/decred/decred-journal-march-2020-46a3df734ec5)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202003.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202003_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202003_DecredJournalPL.md)
 - Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202003.html) [medium](https://medium.com/decred-es/revista-decred-marzo-2020-5c445b9227ac)
 
