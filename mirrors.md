@@ -6,7 +6,7 @@ Here is the list of all known translations and their mirrors.
 
 __April__
 
-- English: [github](journal/202004.md)
+- English: [github](journal/202004.md) [medium](https://medium.com/decred/decred-journal-april-2020-8ddca048dc67)
 
 __March__
 
