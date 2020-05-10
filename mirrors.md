@@ -4,15 +4,24 @@ Here is the list of all known translations and their mirrors.
 
 ## 2020
 
+__April__
+
+- English: [github](journal/202004.md) [medium](https://medium.com/decred/decred-journal-april-2020-8ddca048dc67)
+
 __March__
 
 - English: [github](journal/202003.md) [medium](https://medium.com/decred/decred-journal-march-2020-46a3df734ec5)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202003.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202003_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202003_DecredJournalPL.md)
+- Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202003.html) [medium](https://medium.com/decred-es/revista-decred-marzo-2020-5c445b9227ac)
 
 __February__
 
 - English: [github](journal/202002.md) [medium](https://medium.com/decred/decred-journal-february-2020-8ff1eac92305)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202002.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202002_DecredJournalPL.md)
 - Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202002.html) [medium](https://medium.com/decred-es/revista-decred-febrero-2020-e06761e4b9d3)
 
 __January__
@@ -20,6 +29,7 @@ __January__
 - English: [github](journal/202001.md) [medium](https://medium.com/decred/decred-journal-january-2020-616d919784ff)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202001.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md)
 - Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202001.html) [medium](https://medium.com/decred-es/revista-decred-enero-2020-721a67517a76)
 
 ## 2019
@@ -29,6 +39,7 @@ __December__
 - English: [github](journal/201912.md) [medium](https://medium.com/decred/decred-journal-december-2019-9b48c8bf8516)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/201912.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/201912_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201912_DecredJournalPL.md)
 - Spanish: [medium](https://medium.com/decred-es/revista-decred-diciembre-2019-f02cc8365b84)
 
 __November__

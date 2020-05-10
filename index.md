@@ -16,15 +16,16 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
-March|[English](journal/202003.md)
-February|[English](journal/202002.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202002.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202002.html)
-January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202001.html)
+April|[English](journal/202004.md)
+March|[English](journal/202003.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202003.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202003_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202003_DecredJournalPL.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202003.html)
+February|[English](journal/202002.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202002.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202002_DecredJournalPL.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202002.html)
+January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md), [Spanish](https://francov99.github.io/DecredJournalSPA/journal/202001.html)
 
 ## 2019
 
 Month|Language
 ---|---
-December|[English](journal/201912.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201912.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201912_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-diciembre-2019-f02cc8365b84)
+December|[English](journal/201912.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201912.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201912_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201912_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-diciembre-2019-f02cc8365b84)
 November|[English](journal/201911.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201911.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201911_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201911_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-noviembre-2019-abe801718370)
 October|[English](journal/201910.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201910.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201910_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201910_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-octubre-2019-5d45cf20ac8a)
 September|[English](journal/201909.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201909.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/201909_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201909_DecredJournalPL.md), [Spanish](https://medium.com/decred-es/revista-decred-septiembre-2019-6b9f8afd4c67)
