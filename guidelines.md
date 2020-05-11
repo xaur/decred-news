@@ -624,12 +624,12 @@ This applies to English texts only:
 * Use US English spelling for consistency.
 * Use simple word forms when possible.
 * For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`
-  * e.g. `$53K`
+  * e.g. `$53K` or `$7 million`
 * For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
-  * for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.25-49.84% of the available supply.`
+  * for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
   * for double-digit pool's hashrate share no decimals are necessary, but are needed for smaller numbes: `F2Pool 21%, UUPool 19%, lab.antpool.com 16.5%, Poolin 9.5%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08%`
   * same for node versions: `Roughly 78% run dcrd v1.4.0, 5.7% are dcrwallet v1.4.0 and 6.2% are v1.5.0(pre) dev builds.`
-* Stick to ASCII character set, except the main heading (first line) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
+* Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
   * Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
   * Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
   * Use `'` for single and `"` for double quotes.
