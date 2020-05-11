@@ -278,7 +278,6 @@ Main goals of People are:
 
 - cheering people whose code got merged to master branches for the first time
 - congratulating people who were granted a Decred Contractor Clearance (DCC)
-- congratulating people who were added to the list of [contributors](https://decred.org/contributors/) at decred.org
 
 Ways to detect new contributors:
 
@@ -291,6 +290,12 @@ Ways to detect new contributors:
 "3. Track community growth" keeps an eye on user and follower counts in various social media platforms.
 
 Some platforms are tracked hourly and charted at http://dcrextdata.planetdecred.org/community
+
+#### Contributors list at decred.org
+
+Following the [decision](#reporting-departures) to stop reporting removals from decred.org [contributors](https://decred.org/contributors/) page, in [April 2020](https://xaur.github.io/decred-news/journal/202004.html#people) issue we have decided to also not report additions, for the same reasons.
+
+Originally, changes to the contributors page were reported based on the assumption that it reflects the list of active Decred contributors. But later it was realiezd that it does not and there is [no intention](https://github.com/decred/dcrweb/issues/781#issuecomment-594903664) to do so.
 
 #### Reporting departures
 
@@ -311,7 +316,7 @@ In case we decide to report removals from the contributors page again, or report
    - DCC revocation is a bit more "severe" but is also not an eternal mark of shame. People are welcome to improve and try again.
 2. Thank them for all the good work done to improve Decred.
 3. Invite for collaborating again in the future and hint that there's always a lot of work to do.
-4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and suppress "bad news" of people leaving.
+4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and suppress the "bad news" of people leaving.
 
 ### Governance
 
