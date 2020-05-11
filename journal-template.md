@@ -10,9 +10,13 @@ _Image: {caption: "$title by $author. $optional-description" for artwork, or jus
 
 { hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
+Unless otherwise noted, the work reported here has the "merged to master" status. It means that the work is completed, reviewed, and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
+
 [dcrd](https://github.com/decred/dcrd): {}
 
 [dcrwallet](https://github.com/decred/dcrwallet): {}
+
+[dcrctl](https://github.com/decred/dcrctl): {}
 
 [Decrediton](https://github.com/decred/decrediton): {}
 
@@ -50,10 +54,6 @@ Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added a
 
 Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
 
-Congratulations to new [contributors](https://decred.org/contributors/) listed on decred.org:
-
-- {name, sort names alphabetically} ({nickname}, {title or domain})
-
 {welcome new corporate contractors with short intros, if any}
 
 {updates from existing contractors}
@@ -86,9 +86,9 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 - check dcrdata.org (preferred), dcrstats.com and charts.dcr.farm to get the numbers
 - use the same `zoom` parameter for all dcrdata links }
 
-Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date}: {pool name n%, ...}. Pool distribution numbers are approximate and cannot be accurately determined.
+Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date}: {pool name n%, ...}. Pool distribution numbers are approximate and cannot be accurately determined.
 
-Staking: [30-day average](https://dcrstats.com/) ticket price was {n.n, try to snapshot it on 1st} DCR (+{n.n}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&bin=window&axis=time) {set zoom to show the month} varied between {n.n}-{n.n} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=k73pwcch-k8jayo3s&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=k73pwcch-k8jayo3s&bin=block&axis=time) in PoS.
+Staking: [30-day average](https://dcrstats.com/) ticket price was {n.n, try to snapshot it on 1st} DCR (+{n.n}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=t1-t2&bin=window&axis=time&visibility=true-false&mode=stepped) {set zoom to show the month} varied between {n.n}-{n.n} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=t1-t2&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=t1-t2&scale=linear&bin=block&axis=time) in PoS.
 
 { hint: second source for locked %: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
 
@@ -110,7 +110,9 @@ Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&fr
 
 { hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best in a given month's compilation }
 
-Warning: the authors of Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
+{ check https://github.com/decred/dcrwebapi/commits/master for changes to the VSP list }
+
+Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
 ## Adoption
 
@@ -198,7 +200,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average da
 
 This is issue {number} of Decred Journal. Index of all issues, mirrors, and translations is available [here](https://xaur.github.io/decred-news/).
 
-Most information from third parties is relayed directly from source after a minimal sanity check. The authors of Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
+Most information from third parties is relayed directly from source after a minimal sanity check. The authors of the Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
 Your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) and [contributions](https://github.com/xaur/decred-news/blob/docs/contributing.md) are always welcome.
 
