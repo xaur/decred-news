@@ -52,7 +52,9 @@ Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added a
 
 ## People
 
-Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, ordered by repo importance, format as: username ([repo](link to user's commits))}
+Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, in alphabetical order, format as: @handle ([repo](link to user's commits))}
+
+Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}). { hint: check the CMS }
 
 {welcome new corporate contractors with short intros, if any}
 
@@ -86,7 +88,7 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 - check dcrdata.org (preferred), dcrstats.com and charts.dcr.farm to get the numbers
 - use the same `zoom` parameter for all dcrdata links }
 
-Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date}: {pool name n%, ...}. Pool distribution numbers are approximate and cannot be accurately determined.
+Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date} (approximate): {pool name n%, ...}.
 
 Staking: [30-day average](https://dcrstats.com/) ticket price was {n.n, try to snapshot it on 1st} DCR (+{n.n}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=t1-t2&bin=window&axis=time&visibility=true-false&mode=stepped) {set zoom to show the month} varied between {n.n}-{n.n} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=t1-t2&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=t1-t2&scale=linear&bin=block&axis=time) in PoS.
 
@@ -124,7 +126,7 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 ## Outreach
 
-{overview of outreach/communications/marketing activity for past month and any short-term plans}
+{overview of outreach/communications/marketing/PR activity for past month and any short-term plans}
 
 ## Events
 
