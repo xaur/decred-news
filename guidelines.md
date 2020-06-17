@@ -243,10 +243,13 @@ What do we look for:
 * commits
 * interesting conversations
 
-To find **pull requests** for the month:
+To find **merged pull requests** for the month:
 
-1. Use GitHub search features, notably the `merged:2019-06-01..2019-06-31` query to find pull requests that were [merged](https://help.github.com/en/articles/searching-issues-and-pull-requests#search-by-when-a-pull-request-was-merged) in a given month ([example](https://github.com/decred/politeia/pulls?q=is%3Apr+is%3Aclosed+merged%3A2019-06-01..2019-06-30)).
-2. To find open PRs with activity use another query `is:open updated:2019-06-01..2019-06-31`. For each PR in that list, check that some notable activity happened in that month. The are false positives. Some activity may paint the PR as updated while nothing of interest happened. Example: [politeia#833](https://github.com/decred/politeia/pull/833) - work was merged on May 1, branch deleted on Jun 20 and the PR shows up as updated in the June search query above.
+- Use GitHub search features, notably the `merged:2019-06-01..2019-06-31` query to find pull requests that were [merged](https://help.github.com/en/articles/searching-issues-and-pull-requests#search-by-when-a-pull-request-was-merged) in a given month ([example](https://github.com/decred/politeia/pulls?q=is%3Apr+is%3Aclosed+merged%3A2019-06-01..2019-06-30)).
+
+To find **open PRs** with activity:
+
+- Check two queries, `is:open updated:2019-06-01..2019-06-31` and `is:open created:2019-06-01..2019-06-31`. Checking the `created` one separately is necessary because GitHub search does not list PRs which were created but not updated in the `updated` query. And unfortunately it does not support a logical `OR` so we have to check both. For each PR in the merged list, check that some notable activity happened in that month. There are false positives. Some activity may mark the PR as updated while nothing of interest happened. Example: [politeia#833](https://github.com/decred/politeia/pull/833) - work was merged on May 1, branch deleted on Jun 20 and the PR shows up as updated in the June search query above.
 
 Some projects have commits that don't go the pull request route. For these, we scan **commits** on the `master` branches:
 
@@ -256,15 +259,17 @@ Some projects have commits that don't go the pull request route. For these, we s
 
 **Chats** may provide additional context for changes and interesting (sometimes notable) discussions. Scanning chats is optional because it can take a lot of time. Dev chat rooms: #dev, #politeia, #dcrdata, #lndev, #documentation, #design, and others.
 
-For dev **stats**, there is a convenient GitHub filter for calculating developers per repository ([example](https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c)). 
+For dev **stats**, there is a nice GitHub filter for calculating developers per repository ([example](https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c)). 
 
-GitHub can be used to calculate how many people contributed to the repo during the month:
+GitHub can be used to calculate the count of commits, added/deleted lines, and the count of contributors for a _single repo_ during the month:
 
-* Find IDs of last commit in previous month and last commit in current month
-* Construct GitHub compare link
+* find IDs of last commit in previous month and last commit in current month
+* construct GitHub compare link
   * e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f
   * 8 first characters of commit IDs would do, also mind the 3 dots `...`
-* Look at the contributors count
+* look at the contributors count
+
+One more way to get the stats is Insights tab -> Pulse tab ([example](https://github.com/decred/dcrd/pulse)). The advantage is that it includes the count of "Active PRs" (whatever GitHub's definition of "active" is). A disadvantage is it's impossible to specify start and end of the period, which requires to take numbers from this page on 1st day of the month (ideally at UTC midnight).
 
 ### People
 
