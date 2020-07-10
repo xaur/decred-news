@@ -1,6 +1,10 @@
 # Contributing to Decred Journal
 
-There are many ways to contribute. Below are just some ideas.
+## Submit Your Story for Next DJ
+
+As Decred and wider cryptocurrency ecosystems are expanding it becomes hard to track all important events. You can help DJ to capture more relevant stories by submitting them on GitHub. To do that, open [GitHub issues](https://github.com/xaur/decred-news/issues), find one for the [next release](https://github.com/xaur/decred-news/labels/next%20release) (e.g. "DJ July 2020") and comment with a link and a short description for the story.
+
+There are many other ways to contribute. Below are just some ideas.
 
 ## Feedback
 
