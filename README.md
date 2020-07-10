@@ -2,6 +2,8 @@
 
 This repository hosts Markdown sources of the Decred Journal project. Currently deployed at https://xaur.github.io/decred-news/ and mirrored on [Medium](https://medium.com/decred/journals/home).
 
+To **submit a story** for next DJ, open the GitHub issue for the [next release](https://github.com/xaur/decred-news/labels/next%20release) and comment with a link and a short description for the story.
+
 Contributions are welcome in all areas: collection, writing, editing, pre-release review, translations and deciding things like content and structure. Please see [contributing directions](https://github.com/xaur/decred-news/blob/docs/contributing.md).
 
 **Git users** should expect rebases on master since the Git workflow is not stable yet (see [this issue](https://github.com/xaur/decred-news/issues/25)).
