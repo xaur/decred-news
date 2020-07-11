@@ -22,6 +22,8 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 [Politeia](https://github.com/decred/politeia): {}
 
+[vspd](https://github.com/decred/vspd): {}
+
 [dcrstakepool](https://github.com/decred/dcrstakepool): {}
 
 [dcrpool](https://github.com/decred/dcrpool): {}
@@ -32,9 +34,9 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 [dcrdex](https://github.com/decred/dcrdex): {}
 
-[dcrandroid](https://github.com/decred/dcrandroid): {}
+[dcrandroid](https://github.com/planetdecred/dcrandroid): {}
 
-[dcrios](https://github.com/raedahgroup/dcrios): {}
+[dcrios](https://github.com/planetdecred/dcrios): {}
 
 [dcrdata](https://github.com/decred/dcrdata): {}
 
@@ -62,15 +64,15 @@ Congratulations to new contractors granted the Decred Contractor Clearance (DCC)
 
 {interviews about people}
 
-Community stats:
+Community stats as of {date}:
 
 - Politeia users: {} (+{})
 - Twitter followers: {} (+{})
 - Reddit subscribers: {} (+{})
-- Matrix users: {} (+{})
+- Matrix #general users: {} (+{})
 - Discord users: {}, verified to post: {}
 - Telegram users: {} (+{})
-- YouTube subscribers: {} (+{})
+- YouTube subscribers: {} (+{}), views: {} (+{})
 - Facebook followers: {} (+{}), likes: {} (+{})
 - LinkedIn followers: {} (+{})
 - GitHub dcrd stars: {} (+{}), forks: {} (+{})
