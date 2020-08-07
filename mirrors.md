@@ -4,9 +4,16 @@ Here is the list of all known translations and their mirrors.
 
 ## 2020
 
+__July__
+
+- English: [github](journal/202007.md) [medium](https://medium.com/decred/decred-journal-july-2020-7da45ed48660)
+
 __June__
 
 - English: [github](journal/202006.md) [medium](https://medium.com/decred/decred-journal-june-2020-7f9eb7c0d122)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202006.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202006_DecredJournalCN.md)
+- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202006.md) [medium](https://medium.com/decred-es/revista-decred-junio-2020-a7716b71251e)
 
 __May__
 
