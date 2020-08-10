@@ -33,9 +33,7 @@ Code stats:
 - https://github.com/decred/dcrd/pulse
 - https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c
 
-Chats:
-
-- #dev
+Chats: #dev, #politeia, #dcrdata, #lndev, #dexdev, #tinydecred, #documentation, #design.
 
 Twitter:
 
