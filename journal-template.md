@@ -36,7 +36,11 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 [dcrandroid](https://github.com/planetdecred/dcrandroid): {}
 
+{ also check the base library https://github.com/planetdecred/dcrlibwallet }
+
 [dcrios](https://github.com/planetdecred/dcrios): {}
+
+[godcr](https://github.com/planetdecred/godcr): {}
 
 [dcrdata](https://github.com/decred/dcrdata): {}
 
@@ -73,7 +77,6 @@ Community stats as of {date}:
 - Discord users: {}, verified to post: {}
 - Telegram users: {} (+{})
 - YouTube subscribers: {} (+{}), views: {} (+{})
-- Facebook followers: {} (+{}), likes: {} (+{})
 - LinkedIn followers: {} (+{})
 - GitHub dcrd stars: {} (+{}), forks: {} (+{})
 
@@ -206,7 +209,7 @@ This is issue {number} of Decred Journal. Index of all issues, mirrors, and tran
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of the Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
 
-Your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) and [contributions](https://github.com/xaur/decred-news/blob/docs/contributing.md) are always welcome.
+You can submit a story [here](https://github.com/xaur/decred-news/labels/next%20release) to be considered for the next release. [Feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) and [contributions](https://github.com/xaur/decred-news/blob/docs/contributing.md) are always welcome.
 
 Credits (alphabetical order):
 
