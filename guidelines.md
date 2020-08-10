@@ -271,6 +271,8 @@ GitHub can be used to calculate the count of commits, added/deleted lines, and t
 
 One more way to get the stats is Insights tab -> Pulse tab ([example](https://github.com/decred/dcrd/pulse)). The advantage is that it includes the count of "Active PRs" (whatever GitHub's definition of "active" is). A disadvantage is it's impossible to specify start and end of the period, which requires to take numbers from this page on 1st day of the month (ideally at UTC midnight).
 
+Pay attention to very large changes (thousands of lines) and try to exclude automated changes that heavily skew the stats, such as regenerating code from ProtoBuf definitions ([example](https://github.com/decred/decrediton/pull/2565)) or mass reformatting ([example](https://github.com/decred/decrediton/pull/2481)).
+
 ### People
 
 Main goals of People are:
