@@ -273,6 +273,8 @@ One more way to get the stats is Insights tab -> Pulse tab ([example](https://gi
 
 Pay attention to very large changes (thousands of lines) and try to exclude automated changes that heavily skew the stats, such as regenerating code from ProtoBuf definitions ([example](https://github.com/decred/decrediton/pull/2565)) or mass reformatting ([example](https://github.com/decred/decrediton/pull/2481)).
 
+See [Development](sources.md#development) in the sources cheat sheet.
+
 ### People
 
 Main goals of People are:
@@ -296,7 +298,7 @@ Ways to detect new contributors:
 
 "3. Track community growth" keeps an eye on user and follower counts in various social media platforms.
 
-Some platforms are tracked hourly and charted at http://dcrextdata.planetdecred.org/community
+Sources: [People](sources.md#people).
 
 #### Contributors list at decred.org
 
@@ -337,13 +339,7 @@ For proposals with voting in progress or finished, mention ticket participation 
 
 Since Politeia Digest provides more frequent and more detailed coverage of Politeia activity, limit Governance to higher level overview and link to Politeia Digest issues for more details and analysis.
 
-Sources:
-
-- [Politeia](https://proposals.decred.org/) activity, [@pi_crumbs](https://twitter.com/pi_crumbs), [@slices_of_pi](https://twitter.com/slices_of_pi)
-- [Politeia Digest](https://medium.com/politeia-digest)
-- dcrdata's [proposals page] has a convenient list of proposals and their main stats
-- some [r/decred](https://www.reddit.com/r/decred/) discussions
-- chats: #governance, #proposals
+Sources: [Governance](sources.md#governance).
 
 ### Network
 
@@ -353,14 +349,7 @@ This section also covers any notable dynamics (like sharp hashrate drop or spike
 
 Network, Mining and Integrations together cover the infrastructure area.
 
-Stats and metrics websites:
-
-- [dcrdata.org](https://explorer.dcrdata.org/)
-- [charts.dcr.farm](https://charts.dcr.farm/)
-- [dcrstats.com](https://dcrstats.com/)
-- [dcr-data.netlify.com](https://dcr-data.netlify.com/)
-
-Chats: #pow-mining, #pos-voting
+Sources: [Network](sources.md#network).
 
 ### Mining
 
@@ -400,12 +389,7 @@ Provide overview of outreach/communications/marketing activity for past month an
 
 Logically, Events and Media are sub-sections of Outreach, but they have their own level 2 headers to keep the document flat.
 
-Most of the content for this section is currently provided by outreach leads at Decred (@Dustorf) and Ditto (@liz\_bagot, @cryptoleslie).
-
-Other sources:
-
-- [r/decred](https://www.reddit.com/r/decred/new/)
-- chats: #marketing, #events, #media
+Sources: [Outreach](sources.md#outreach).
 
 ### Events
 
@@ -420,8 +404,8 @@ Look at events from Decred's perspective, look for experience to learn from. Som
 Sources:
 
 - some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe and watch for updates
-- chats: #events
 - follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES)
+- more sources: [Events](sources.md#events).
 
 ### Media
 
@@ -442,14 +426,9 @@ Goals:
 
 Sources:
 
-- Reddit
-  - watch [r/decred](https://www.reddit.com/r/decred/new/)
-  - use Reddit's follow/friend features to follow prominent posters
-- Twitter
-  - [@decredproject](https://twitter.com/decredproject)
-  - prominent users, e.g. [@lukebp_](https://twitter.com/lukebp_), [@NoahPierau](https://twitter.com/NoahPierau), [@RichardRed0x](https://twitter.com/RichardRed0x), etc
-  - mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
-  - hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
+- watch [r/decred](https://www.reddit.com/r/decred/new/)
+- use Reddit's follow/friend features to follow prominent posters
+- for more sources check [Community Discussions](sources.md#community-discussions).
 
 ### Markets
 
@@ -462,7 +441,7 @@ Mention both USD and BTC price:
 
 Do not speculate about the price.
 
-Chats: #trading
+Sources: [Markets](sources.md#markets).
 
 ### Relevant External
 
@@ -486,9 +465,7 @@ Topics commonly covered here:
 - Computer security
 - Fun stuff
 
-Sources:
-
-- Kraken's [Weekly Market Reports](https://blog.kraken.com/post/category/market-reports/weekly-market-reports/) is a goldmine for news stories
+Sources: [Relevant External](sources.md#relevant-external).
 
 ### Missed content
 
