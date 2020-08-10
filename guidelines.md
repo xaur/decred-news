@@ -397,7 +397,7 @@ Cover past and upcoming physical and web events where Decred had presence.
 
 For each past event, add some basic info following the standard format in the template. On top of that, try to add the most interesting highlights (1-3 sentence per event). Same for upcoming events.
 
-If the DJ release is close but some events still lack info, actively post a list of such events in #event\_planning and ask for comments.
+If the DJ release is close but some events still lack info, actively post a list of such events in #event and ask for comments.
 
 Look at events from Decred's perspective, look for experience to learn from. Some hints: how it went, how many visitors, what they know, what they don't know, what they ask, what they think about Decred, any interesting trends that could shape our events activity.
 
