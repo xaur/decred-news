@@ -31,9 +31,9 @@ Main writing work starts around the last week of the month.
 
 As soon as individual sections are ready, they are submitted for review to people with relevant project and domain knowledge:
 
-* Development and People are posted in #dev with notifying people deeply engaged in each project (most commonly project leads)
-* Events is posted in #events
-* Outreach, Events and Media are posted in #marketing
+- Development and People are posted in #dev with notifying people deeply engaged in each project (most commonly project leads)
+- Events is posted in #events
+- Outreach, Events and Media are posted in #marketing
 
 Once all sections are finished the whole issue is posted for final review in the #writers room.
 
@@ -52,18 +52,18 @@ DJ uses the "draft branch" Git workflow where each document is developed in its 
 
 The workflow is as follows:
 
-* Create draft branch named like `draft07`, where `07` stands for July.
-* In the draft branch, create a Markdown file from a [template](journal-template.md).
-* Make edits to the document.
-* Do not push merge commits, they make history hard to read. If the branch was updated since your last sync, use rebase to apply your changes on top.
-* Add any images embedded by the document. In general, avoid adding large binary files. See [Title image](#title-image) section.
-* When the document is finished, publish it on GitHub Pages (see example below).
-* Fast-forward `master` to `gh-pages`.
-* If bugs are found in the published version after the release, add more commits to `gh-pages` branch. Then again fast-forward `master` to `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
-* In general, do not edit the document after it was released, unless there is a very good reason to do so.
-* Add new issue to the index page. Update index in batches, see [Updating index](#updating-index).
-* Create Git tag from the draft branch for archival purposes, e.g. `archive/draft1907`.
-* Delete the draft branch locally and on GitHub.
+- Create draft branch named like `draft07`, where `07` stands for July.
+- In the draft branch, create a Markdown file from a [template](journal-template.md).
+- Make edits to the document.
+- Do not push merge commits, they make history hard to read. If the branch was updated since your last sync, use rebase to apply your changes on top.
+- Add any images embedded by the document. In general, avoid adding large binary files. See [Title image](#title-image) section.
+- When the document is finished, publish it on GitHub Pages (see example below).
+- Fast-forward `master` to `gh-pages`.
+- If bugs are found in the published version after the release, add more commits to `gh-pages` branch. Then again fast-forward `master` to `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
+- In general, do not edit the document after it was released, unless there is a very good reason to do so.
+- Add new issue to the index page. Update index in batches, see [Updating index](#updating-index).
+- Create Git tag from the draft branch for archival purposes, e.g. `archive/draft1907`.
+- Delete the draft branch locally and on GitHub.
 
 Steps to publish the draft:
 
@@ -81,51 +81,51 @@ There are two files that track all DJ issues and their translations. `index.md` 
 
 To avoid commit churn on `master`, changes to these files are merged in batches around 1-3 times a month:
 
-* create new branch e.g. `index07` (`07` for July)
-* for the initial English version:
-  * add GitHub Pages link to `index.md`
-  * add GitHub Pages, Medium and other links to `mirros.md`
-* add all new known translations to `index.md` and `mirrors.md` accordingly
-* push the branch, open a PR against `master`
-* share the PR link in #writers, ask translators to submit any missed translations
-* collect submissions for several days
-* add a single combined commit to `master` and `gh-pages`
+- create new branch e.g. `index07` (`07` for July)
+- for the initial English version:
+  - add GitHub Pages link to `index.md`
+  - add GitHub Pages, Medium and other links to `mirros.md`
+- add all new known translations to `index.md` and `mirrors.md` accordingly
+- push the branch, open a PR against `master`
+- share the PR link in #writers, ask translators to submit any missed translations
+- collect submissions for several days
+- add a single combined commit to `master` and `gh-pages`
 
 ### Setup tips
 
-* A lot of work can be done with just a browser, thanks to GitHub UI.
-* For advanced text editing, comparison and Git operations you will need to setup local software. Get a comfortable text editor with Markdown support, ideally also with Markdown preview and Git support. Some options to try are Atom, Sublime Text, WebStorm. We are still looking for a solid combo, if you find one, please [share](https://github.com/decredcommunity/issues/issues/114) with other writers.
-* For comparing revisions use GitHub UI [features](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests), diff tool bundled in your text editor or a standalone tool like [Meld](http://meldmerge.org/).
-* By default your email address will be inserted in Git commits and become public. Learn about email privacy [here](https://help.github.com/en/articles/setting-your-commit-email-address) and [here](https://help.github.com/en/articles/blocking-command-line-pushes-that-expose-your-personal-email-address). For the advanced - Git also leaks your machine time zone.
+- A lot of work can be done with just a browser, thanks to GitHub UI.
+- For advanced text editing, comparison and Git operations you will need to setup local software. Get a comfortable text editor with Markdown support, ideally also with Markdown preview and Git support. Some options to try are Atom, Sublime Text, WebStorm. We are still looking for a solid combo, if you find one, please [share](https://github.com/decredcommunity/issues/issues/114) with other writers.
+- For comparing revisions use GitHub UI [features](https://help.github.com/en/articles/about-comparing-branches-in-pull-requests), diff tool bundled in your text editor or a standalone tool like [Meld](http://meldmerge.org/).
+- By default your email address will be inserted in Git commits and become public. Learn about email privacy [here](https://help.github.com/en/articles/setting-your-commit-email-address) and [here](https://help.github.com/en/articles/blocking-command-line-pushes-that-expose-your-personal-email-address). For the advanced - Git also leaks your machine time zone.
 
 ### Workflow tips
 
-* Keep the draft file open. As soon as you see something notable, throw a raw link into the draft. If you are comfortable to write up the story immediately, go for it. Otherwise, add any notes, directions or questions that will help to expand the story later, possibly by other writers. See [TODO](#todos) syntax.
-* Push the draft changes daily to stay in sync with other authors.
-* Before making changes, make sure you're on the latest version.
-* Before making large changes check with others to avoid conflicts.
-* Before pushing changes, make sure you based them on the latest version. Use Git [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) otherwise.
-* Write up stories sooner to prevent the work piling up.
-* Avoid sending too unfinished content for review, this leads to more roundtrips.
-* Try to give 2 full days for final review.
-* The sooner the DJ issue is released [the better](https://github.com/xaur/decred-news/issues/34).
-* If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help (ask for invite).
+- Keep the draft file open. As soon as you see something notable, throw a raw link into the draft. If you are comfortable to write up the story immediately, go for it. Otherwise, add any notes, directions or questions that will help to expand the story later, possibly by other writers. See [TODO](#todos) syntax.
+- Push the draft changes daily to stay in sync with other authors.
+- Before making changes, make sure you're on the latest version.
+- Before making large changes check with others to avoid conflicts.
+- Before pushing changes, make sure you based them on the latest version. Use Git [rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing) otherwise.
+- Write up stories sooner to prevent the work piling up.
+- Avoid sending too unfinished content for review, this leads to more roundtrips.
+- Try to give 2 full days for final review.
+- The sooner the DJ issue is released [the better](https://github.com/xaur/decred-news/issues/34).
+- If you get stuck with Git, check the [Git Book](https://git-scm.com/book) or ask in #git\_help (ask for invite).
 
 ## Collecting content
 
 ### General
 
-* All claims must reference sources.
-* Stick to facts, minimize opinions and assumptions.
-* Focus on what was **done**. Announcements and plans are good too - just be specific and minimize hype.
-* All work is important, the challenge is to not overwhelm the reader and balance between bird's eye and the details, which are often interesting.
-* Linked pages must be in English in most cases.
-* Non-English links are allowed but they must be significant in some way, e.g. original research or ratings.
-* Archive all linked pages in [web.archive.org](https://web.archive.org/) or [archive.today](https://archive.today/).
-* To check if something was reported in previous issues, search the .md files
-  * e.g. `grep -ir dcrwallet/pull/1330` shows that this PR was covered in Nov 2018
-  * another way is to use the search box [on GitHub](https://github.com/xaur/decred-news)
-* DJ issues are huge and writing many stories require understanding a fair bit of historical context and domain expertise. It comes with time.
+- All claims must reference sources.
+- Stick to facts, minimize opinions and assumptions.
+- Focus on what was **done**. Announcements and plans are good too - just be specific and minimize hype.
+- All work is important, the challenge is to not overwhelm the reader and balance between bird's eye and the details, which are often interesting.
+- Linked pages must be in English in most cases.
+- Non-English links are allowed but they must be significant in some way, e.g. original research or ratings.
+- Archive all linked pages in [web.archive.org](https://web.archive.org/) or [archive.today](https://archive.today/).
+- To check if something was reported in previous issues, search the .md files
+  - e.g. `grep -ir dcrwallet/pull/1330` shows that this PR was covered in Nov 2018
+  - another way is to use the search box [on GitHub](https://github.com/xaur/decred-news)
+- DJ issues are huge and writing many stories require understanding a fair bit of historical context and domain expertise. It comes with time.
 
 ### TODOs
 
@@ -214,13 +214,13 @@ Special category we try to mention is changes backported from other Go codebases
 
 In each project sub-section, order work items from "most released" to "least released". Stages of work life cycle considered for reporting:
 
-* work released in binaries or deployed to production sites
-* work released in source code (merged in master branches)
-* work finished but still in review
-* work in progress (new work done this month)
-* work started
-* discussion started
-* planned work, from near to long term
+- work released in binaries or deployed to production sites
+- work released in source code (merged in master branches)
+- work finished but still in review
+- work in progress (new work done this month)
+- work started
+- discussion started
+- planned work, from near to long term
 
 The same effort may be reported multiple times in multiple DJ issues as it moves to next stages. For example, reporting merged work tells developers and enthusiasts that new feature is available on master so they can build from source. Reporting after release tells everybody else the new feature is available in the binaries.
 
@@ -230,18 +230,18 @@ Don't worry if a project is short on updates. There are many projects and someti
 
 Where do we look for updates:
 
-* [Decred project](https://github.com/decred) repos
-* corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
-* individual developers repos, e.g. [matheusd](https://github.com/matheusd)
-* scan dev chats (optional)
-* ask the devs. The more updates we get directly from devs, the better.
+- [Decred project](https://github.com/decred) repos
+- corporate contractors repos, e.g. [Raedah Group](https://github.com/raedahgroup)
+- individual developers repos, e.g. [matheusd](https://github.com/matheusd)
+- scan dev chats (optional)
+- ask the devs. The more updates we get directly from devs, the better.
 
 What do we look for:
 
-* release notes
-* pull requests
-* commits
-* interesting conversations
+- release notes
+- pull requests
+- commits
+- interesting conversations
 
 To find **merged pull requests** for the month:
 
@@ -263,11 +263,11 @@ For dev **stats**, there is a nice GitHub filter for calculating developers per 
 
 GitHub can be used to calculate the count of commits, added/deleted lines, and the count of contributors for a _single repo_ during the month:
 
-* find IDs of last commit in previous month and last commit in current month
-* construct GitHub compare link
-  * e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f
-  * 8 first characters of commit IDs would do, also mind the 3 dots `...`
-* look at the contributors count
+- find IDs of last commit in previous month and last commit in current month
+- construct GitHub compare link
+  - e.g.: https://github.com/decred/dcrd/compare/70c14042...5048959f
+  - 8 first characters of commit IDs would do, also mind the 3 dots `...`
+- look at the contributors count
 
 One more way to get the stats is Insights tab -> Pulse tab ([example](https://github.com/decred/dcrd/pulse)). The advantage is that it includes the count of "Active PRs" (whatever GitHub's definition of "active" is). A disadvantage is it's impossible to specify start and end of the period, which requires to take numbers from this page on 1st day of the month (ideally at UTC midnight).
 
@@ -286,9 +286,9 @@ Main goals of People are:
 
 Ways to detect new contributors:
 
-* use the [contributor tracker](https://github.com/degeri/decred_contributor_track)
-* watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
-* when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently (for [example](https://github.com/decred/politeia/commits?author=martonp), martonp started in June)
+- use the [contributor tracker](https://github.com/degeri/decred_contributor_track)
+- watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
+- when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently (for [example](https://github.com/decred/politeia/commits?author=martonp), martonp started in June)
 
 "2. Make the community more familiar with people making Decred" includes noting who is joining or leaving, as well as telling more about existing contributors with personal stories and interviews.
 
@@ -337,11 +337,11 @@ Since Politeia Digest provides more frequent and more detailed coverage of Polit
 
 Sources:
 
-* [Politeia](https://proposals.decred.org/) activity, [@pi_crumbs](https://twitter.com/pi_crumbs), [@slices_of_pi](https://twitter.com/slices_of_pi)
-* [Politeia Digest](https://medium.com/politeia-digest)
-* dcrdata's [proposals page] has a convenient list of proposals and their main stats
-* some [r/decred](https://www.reddit.com/r/decred/) discussions
-* chats: #governance, #proposals
+- [Politeia](https://proposals.decred.org/) activity, [@pi_crumbs](https://twitter.com/pi_crumbs), [@slices_of_pi](https://twitter.com/slices_of_pi)
+- [Politeia Digest](https://medium.com/politeia-digest)
+- dcrdata's [proposals page] has a convenient list of proposals and their main stats
+- some [r/decred](https://www.reddit.com/r/decred/) discussions
+- chats: #governance, #proposals
 
 ### Network
 
@@ -353,10 +353,10 @@ Network, Mining and Integrations together cover the infrastructure area.
 
 Stats and metrics websites:
 
-* [dcrdata.org](https://explorer.dcrdata.org/)
-* [charts.dcr.farm](https://charts.dcr.farm/)
-* [dcrstats.com](https://dcrstats.com/)
-* [dcr-data.netlify.com](https://dcr-data.netlify.com/)
+- [dcrdata.org](https://explorer.dcrdata.org/)
+- [charts.dcr.farm](https://charts.dcr.farm/)
+- [dcrstats.com](https://dcrstats.com/)
+- [dcr-data.netlify.com](https://dcr-data.netlify.com/)
 
 Chats: #pow-mining, #pos-voting
 
@@ -386,9 +386,9 @@ The line between Integrations and Adoption is blurred but the guiding rule is: I
 
 Stories must have something to do with Decred blockchain, for example:
 
-* new merchants accept DCR
-* project or organization uses dcrtime or Politeia
-* projects building on top of atomicswap
+- new merchants accept DCR
+- project or organization uses dcrtime or Politeia
+- projects building on top of atomicswap
 
 Similar to Integrations, try to dig interesting facts.
 
@@ -402,8 +402,8 @@ Most of the content for this section is currently provided by outreach leads at 
 
 Other sources:
 
-* [r/decred](https://www.reddit.com/r/decred/new/)
-* chats: #marketing, #events, #media
+- [r/decred](https://www.reddit.com/r/decred/new/)
+- chats: #marketing, #events, #media
 
 ### Events
 
@@ -417,9 +417,9 @@ Look at events from Decred's perspective, look for experience to learn from. Som
 
 Sources:
 
-* some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe and watch for updates
-* chats: #events
-* follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES)
+- some events have reports written up in the [events repo](https://github.com/decredcommunity/events) - you can subscribe and watch for updates
+- chats: #events
+- follow Twitter accounts that often tweet about events, e.g. [Decred_ES](https://twitter.com/Decred_ES)
 
 ### Media
 
@@ -440,14 +440,14 @@ Goals:
 
 Sources:
 
-* Reddit
-  * watch [r/decred](https://www.reddit.com/r/decred/new/)
-  * use Reddit's follow/friend features to follow prominent posters
-* Twitter
-  * [@decredproject](https://twitter.com/decredproject)
-  * prominent users, e.g. [@lukebp_](https://twitter.com/lukebp_), [@NoahPierau](https://twitter.com/NoahPierau), [@RichardRed0x](https://twitter.com/RichardRed0x), etc
-  * mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
-  * hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
+- Reddit
+  - watch [r/decred](https://www.reddit.com/r/decred/new/)
+  - use Reddit's follow/friend features to follow prominent posters
+- Twitter
+  - [@decredproject](https://twitter.com/decredproject)
+  - prominent users, e.g. [@lukebp_](https://twitter.com/lukebp_), [@NoahPierau](https://twitter.com/NoahPierau), [@RichardRed0x](https://twitter.com/RichardRed0x), etc
+  - mentions of [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR), etc
+  - hashtags [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), etc
 
 ### Markets
 
@@ -455,8 +455,8 @@ Report any interesting market movements. Ideally, cover the action in markets no
 
 Mention both USD and BTC price:
 
-* USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury - important health indicator)
-* BTC price shows how Decred competes against Bitcoin, since they both are sovereign SoV+MoE focused cryptocurrencies with similar properties
+- USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury - important health indicator)
+- BTC price shows how Decred competes against Bitcoin, since they both are sovereign SoV+MoE focused cryptocurrencies with similar properties
 
 Do not speculate about the price.
 
@@ -473,16 +473,16 @@ The ideas behind this section:
 
 Topics commonly covered here:
 
-* PoW, ASIC resistance
-* Full nodes
-* Security of cryptocurrency networks (double spends and other attacks)
-* Cryptocurrency tech
-* Governance, funding, chain forks, community forks, and the controversy that often surrounds these
-* DEX
-* Exchanges and other services
-* Regulations
-* Computer security
-* Fun stuff
+- PoW, ASIC resistance
+- Full nodes
+- Security of cryptocurrency networks (double spends and other attacks)
+- Cryptocurrency tech
+- Governance, funding, chain forks, community forks, and the controversy that often surrounds these
+- DEX
+- Exchanges and other services
+- Regulations
+- Computer security
+- Fun stuff
 
 Sources:
 
@@ -510,18 +510,18 @@ For photos, the caption must be a brief description of what is pictured.
 
 Principles:
 
-* Save reader's time: keep the most important bits for each story and a link to follow.
-* Avoid hype and fake excitement.
-* Attitude: check that nothing damages Decred's public image (this does not mean hiding inconvenient facts, see [Neutrality](#neutrality)).
+- Save reader's time: keep the most important bits for each story and a link to follow.
+- Avoid hype and fake excitement.
+- Attitude: check that nothing damages Decred's public image (this does not mean hiding inconvenient facts, see [Neutrality](#neutrality)).
 
 Areas of improvement:
 
-* No factual errors.
-* Grammar, punctuation, wording, tense consistency, sentence and paragraph composition.
-* Make the language less boring.
-* Proportion: check that more important stories get more space.
-* Order of content.
-* Remove empty sections (e.g. when no news for Mining).
+- No factual errors.
+- Grammar, punctuation, wording, tense consistency, sentence and paragraph composition.
+- Make the language less boring.
+- Proportion: check that more important stories get more space.
+- Order of content.
+- Remove empty sections (e.g. when no news for Mining).
 
 ### Neutrality
 
@@ -579,9 +579,9 @@ Example formats:
 
 Links should span 1-3 words. Avoid too short and too long link text. Examples:
 
-* "feature X [is](link) now available": bad, too short, hard to click
-* "[feature X is now available](link)": bad, too long, visual noise
-* "[feature X](link) is now available": good balance
+- "feature X [is](link) now available": bad, too short, hard to click
+- "[feature X is now available](link)": bad, too long, visual noise
+- "[feature X](link) is now available": good balance
 
 ### Use canonical links without tracking
 
@@ -615,8 +615,8 @@ For links to files that were uploaded to Matrix, don't link to file directly. In
 
 Avoid Markdown features that are problematic in the Medium version:
 
-* Paragraphs and blockquotes inside list items
-* Nested lists
+- Paragraphs and blockquotes inside list items
+- Nested lists
 
 Use backslash `\` to escape underscore `_` so it won't be treated as italics. Example: `under\_score`.
 
@@ -626,21 +626,21 @@ See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 This applies to English texts only:
 
-* Use US English spelling for consistency.
-* Use simple word forms when possible.
-* For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`
-  * e.g. `$53K` or `$7 million`
-* For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
-  * for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
-  * for double-digit pool's hashrate share no decimals are necessary, but are needed for smaller numbes: `F2Pool 21%, UUPool 19%, lab.antpool.com 16.5%, Poolin 9.5%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08%`
-  * same for node versions: `Roughly 78% run dcrd v1.4.0, 5.7% are dcrwallet v1.4.0 and 6.2% are v1.5.0(pre) dev builds.`
-* Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
-  * Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
-  * Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
-  * Use `'` for single and `"` for double quotes.
-  * Non-ASCII is ok in names, e.g. `Permabull Niño`.
-* For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
-* Use "Sentence case" for Selected articles, Videos and Audio.
+- Use US English spelling for consistency.
+- Use simple word forms when possible.
+- For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`
+  - e.g. `$53K` or `$7 million`
+- For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
+  - for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
+  - for double-digit pool's hashrate share no decimals are necessary, but are needed for smaller numbes: `F2Pool 21%, UUPool 19%, lab.antpool.com 16.5%, Poolin 9.5%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08%`
+  - same for node versions: `Roughly 78% run dcrd v1.4.0, 5.7% are dcrwallet v1.4.0 and 6.2% are v1.5.0(pre) dev builds.`
+- Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
+  - Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
+  - Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
+  - Use `'` for single and `"` for double quotes.
+  - Non-ASCII is ok in names, e.g. `Permabull Niño`.
+- For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
+- Use "Sentence case" for Selected articles, Videos and Audio.
 
 > In sentence case, the title is written as if it were a sentence. This is considered a more casual style and is commonly used in newspapers and on the web for headline capitalization. There are a couple reasons why writers choose sentence case over title case:
 > 
@@ -653,11 +653,11 @@ Translations are encouraged to follow the spirit of simplicity and consistency a
 
 Just before the release:
 
-* Remove non-ASCII characters (except the main heading and the names).
-* Remove double space, trailing space, more than 2 subsequent newlines.
-* Add any missing newlines around headings and bullet lists.
-* Remove `?via` from matrix.to links.
-* Remove tracking parameters from URLs.
+- Remove non-ASCII characters (except the main heading and the names).
+- Remove double space, trailing space, more than 2 subsequent newlines.
+- Add any missing newlines around headings and bullet lists.
+- Remove `?via` from matrix.to links.
+- Remove tracking parameters from URLs.
 
 ## Reviewing
 
@@ -700,32 +700,32 @@ where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the 
 
 Pros of the Git/GitHub workflow:
 
-* all content can be easily downloaded and synced (semi-decentralized storage)
-  * protects from knowledge loss from censorship by centralized platforms like Medium
-* cloning is permissionless and does not require an account
-  * no need to visit Google Docs
-* all changes are recorded
-* integrity protection
-* allows more people to contribute in a proven workflow
-  * devs can seamlessly engage/contribute since the workflow is similar to theirs
-* you can use your favorite text editor and work offline
-* show off: one of the most advanced productions in the space
-* possible authenticity protection via digital signatures (requires extra setup)
-* Git software is widespread
+- all content can be easily downloaded and synced (semi-decentralized storage)
+  - protects from knowledge loss from censorship by centralized platforms like Medium
+- cloning is permissionless and does not require an account
+  - no need to visit Google Docs
+- all changes are recorded
+- integrity protection
+- allows more people to contribute in a proven workflow
+  - devs can seamlessly engage/contribute since the workflow is similar to theirs
+- you can use your favorite text editor and work offline
+- show off: one of the most advanced productions in the space
+- possible authenticity protection via digital signatures (requires extra setup)
+- Git software is widespread
 
 Cons:
 
-* higher learning curve, except most trivial usage via GitHub web UI
-* conflict resolution is not automatic and is error prone
-* requires experienced Git maintainer to have a pretty repository
+- higher learning curve, except most trivial usage via GitHub web UI
+- conflict resolution is not automatic and is error prone
+- requires experienced Git maintainer to have a pretty repository
 
 ## Why curly braces for TODOs?
 
-* They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
-* They do not conflict with HTML syntax that uses angle brackets for tags: `<img>`. Markdown allows embedding HTML.
-* They can be easily found and counted to estimate how much work remains.
-* They can be highlighted in text editors.
-* They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must take its own separate line.
+- They do not conflict with Markdown syntax that uses square brackets and parens for links: `[click here](http://example.com)`.
+- They do not conflict with HTML syntax that uses angle brackets for tags: `<img>`. Markdown allows embedding HTML.
+- They can be easily found and counted to estimate how much work remains.
+- They can be highlighted in text editors.
+- They can sit between words (aka "inline"). In contrast with typical TODO syntax in programming languages, where a TODO must take its own separate line.
 
 ## Contributing
 
