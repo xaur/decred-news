@@ -1,6 +1,6 @@
 # Sources
 
-This file lists is a quick cheat sheet of common sources of notable events for Decred Journal. See [guidelines](guidelines.md) for background and usage instructions.
+This is a quick cheat sheet of common sources of notable events for Decred Journal. See [guidelines](guidelines.md) for background and usage instructions.
 
 ## All
 
@@ -8,6 +8,7 @@ Other news efforts where we can check for missed stories:
 
 - Decred Drive by @DecredDragon https://medium.com/@decreddrive
 - bi-weekly video updates by @Exitus https://www.youtube.com/decredchannel
+- https://twitter.com/Decred_News
 
 ## Development
 
@@ -67,7 +68,7 @@ Key project accounts to report stats on:
 Community stats:
 
 - https://dcrextdata.planetdecred.org/community
-- https://github.com/xaur/social-media-data
+- https://github.com/decredcommunity/social-media-stats
 
 ## Governance
 
@@ -85,8 +86,9 @@ Community stats:
 - [dcrdata.org](https://explorer.dcrdata.org/)
 - [charts.dcr.farm](https://charts.dcr.farm/)
 - [dcrstats.com](https://dcrstats.com/)
+- https://miningpoolstats.stream/decred
 - [dcr-data.netlify.com](https://dcr-data.netlify.com/)
-- https://github.com/xaur/decred-network-stats
+- https://github.com/decredcommunity/network-stats
 - chats: #pow-mining, #pos-voting
 
 ## Integrations
@@ -102,10 +104,11 @@ Community stats:
 
 ## Events
 
+- chats: #events
 - https://github.com/decredcommunity/events
 - https://github.com/DecredES/Monthly_reports
-- https://github.com/francov99/dcrspanish/blob/master/events.md
-- chats: #events
+- https://www.facebook.com/groups/decredinternational/
+- https://github.com/francov99/dcrspanish/blob/master/events.md (idle since May 2020)
 
 Twitter accounts that often tweet about events:
 
@@ -123,6 +126,11 @@ Article translations:
 - Arabic: https://github.com/Insaf01/decred-arabic
 - Portuguese: https://stakey.club/pt/translated/
 - Spanish: Medium [decred-es](https://medium.com/decred-es), GitHub [DecredES](https://github.com/DecredES/traducciones), GitHub [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/articles)
+
+PD translations:
+
+- Arabic: https://github.com/Insaf01/politeia-digest-ar
+- Spanish: https://medium.com/decred-es/politeia-digest-spanish/home
 
 DJ translations:
 
@@ -142,6 +150,7 @@ Audio:
 
 - https://decredindepth.libsyn.com/
 - https://roughconsensus.libsyn.com/
+- https://anchor.fm/staked-podcast/
 
 Art:
 
@@ -161,6 +170,7 @@ Twitter:
 Old-time community members
 
 - https://twitter.com/_Checkmatey_
+- https://twitter.com/PermabullNino
 - https://twitter.com/RichardRed0x
 - https://twitter.com/lukebp_
 - https://twitter.com/NoahPierau
