@@ -1,8 +1,8 @@
 ## Translating DJ
 
-1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements to the author of that translation. If that somehow fails you can still create your own translation and compete with existing one.
+1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements to the author of that translation. If that somehow fails you can still create your own translation and compete with the existing one.
 
-2\. Ideally, wait for the original document to be finished and released before starting to translate it.
+2\. Ideally, wait for the original DJ document to be finished and released before starting to translate it.
 
 3\. Before you start translating, make note of the Git branch and revision of the original document that you translate. It will help to track changes to the source document.
 
@@ -25,4 +25,4 @@
 
 9\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, increase censorship resistance and give other benefits (see [Why Git?](guidelines.md#why-git)). For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar), [Chinese](https://github.com/DominicTing/DecredCNJournal) or [Spanish](https://github.com/DecredES/traducciones/tree/master/revista-decred) repositories. If you take this route, consider our [Git workflow](guidelines.md#git-workflow). If you need help with Git or GitHub, ask @bee for an invite to #git\_help room.
 
-10\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!NkCFEoJGXyDMwLfgMb:decred.org). Share your experiences: how long the translation took to make, how big is your audience, what do they find more or less valuable to translate.
+10\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!NkCFEoJGXyDMwLfgMb:decred.org). Share your experiences: how long it took to make the translation, how big is your audience, what parts of DJ do they find more or less valuable.
