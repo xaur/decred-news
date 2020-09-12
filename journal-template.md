@@ -2,15 +2,15 @@
 
 ![{alt text}](../img/{file.jpg} "{hover tooltip text}")
 
-_Image: {caption: "$title by $author. $optional-description" for artwork, or just "$description" for photos}_
+_Image: {"$title by $author. $optional-description" for artwork, "$description" for photos}_
 
-{introduction, major news of the month ordered by impact, don't put any links here}
+{ introduction, major news of the month ordered by impact, don't put any links here }
 
 ## Development
 
-{ hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
-
 Unless otherwise noted, the work reported here has the "merged to master" status. It means that the work is completed, reviewed, and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
+
+{ hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
 [dcrd](https://github.com/decred/dcrd): {}
 
@@ -52,21 +52,23 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 Other:
 
-- {smaller items go here}
+- { smaller items go here }
 
 Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added and {n}K deleted lines spread across {n} repositories. Contributions came from {n}-{n} developers per repository.
 
 ## People
 
-Welcome to new first time contributors with code merged to master: {list people who made meaningful commits merged in master branches, in alphabetical order, format as: @handle ([repo](link to user's commits))}
+{ hint: list people who made meaningful commits merged in master branches, in alphabetical order }
+
+Welcome to new first time contributors with code merged to master: {@handle} ([{repo}]({link to user's commits})), ...
 
 Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}). { hint: check the CMS }
 
-{welcome new corporate contractors with short intros, if any}
+{ welcome new corporate contractors with short intros, if any }
 
-{updates from existing contractors}
+{ updates from existing contractors }
 
-{interviews about people}
+{ interviews about people }
 
 Community stats as of {date}:
 
@@ -84,22 +86,24 @@ Community stats as of {date}:
 
 In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for work completed in that month is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
 
-{high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail}
+{ high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail }
 
 ## Network
 
-{ hint:
+{ section hint:
 
 - check dcrdata.org (preferred), dcrstats.com and charts.dcr.farm to get the numbers
 - use the same `zoom` parameter for all dcrdata links }
 
-Hashrate: [{month}'s hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool [hashrate distribution](https://dcrstats.com/pow) as of {date} (approximate): {pool name n%, ...}.
+Hashrate: {month}'s [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate [distribution](https://miningpoolstats.stream/decred) as of {date}: {pool name n%, ...}.
+
+{ hint: fallback link for pool distribution: https://dcrstats.com/pow }
 
 Staking: [30-day average](https://dcrstats.com/) ticket price was {n.n, try to snapshot it on 1st} DCR (+{n.n}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=t1-t2&bin=window&axis=time&visibility=true-false&mode=stepped) {set zoom to show the month} varied between {n.n}-{n.n} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=t1-t2&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, which corresponded to {n.n}-{n.n}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=t1-t2&scale=linear&bin=block&axis=time) in PoS.
 
-{ hint: second source for locked %: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
+{ hint: fallback link for locked %: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
 
-{recap of ticket price action if it was interesting}
+{ recap of ticket price action if it was interesting }
 
 { hint: consider keeping Block size and Transactions sections every 2nd or 3rd month, unless there is something interesting to report }
 
@@ -111,7 +115,7 @@ Transactions: In {month}, Decred users made {n} regular transactions and bought 
 
 Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes per dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
 
-{any interesting analysis or events in the network}
+{ any interesting analysis or events in the network }
 
 ## Integrations
 
@@ -123,15 +127,15 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 ## Adoption
 
-{new merchants}
+{ new merchants }
 
-{applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap}
+{ applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap }
 
-{investment adoption}
+{ investment adoption }
 
 ## Outreach
 
-{overview of outreach/communications/marketing/PR activity for past month and any short-term plans}
+{ overview of outreach/communications/marketing/PR activity for past month and any short-term plans }
 
 ## Events
 
@@ -147,9 +151,9 @@ Upcoming:
 
 ## Media
 
-{notable community efforts}
+{ notable community efforts }
 
-{ratings news}
+{ ratings news }
 
 { hint: use the following format: (title in Sentence case) by (author) ([domain](link)) - (optional comment) }
 
@@ -175,7 +179,7 @@ Comm systems news:
 
 - {}
 
-{selected discussed topics, as bullet list or one paragraph per topic}
+{ selected discussed topics, as bullet list or one paragraph per topic }
 
 Selected Reddit posts:
 
@@ -189,19 +193,19 @@ Selected Twitter discussions:
 
 In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average daily rate was ${n.nn}.
 
-{markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis}
+{ markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis }
 
 ## Relevant External
 
-{cc tech: PoW, ASIC resistance, full nodes, cc network security, etc}
+{ cc tech: PoW, ASIC resistance, full nodes, cc network security, etc }
 
-{governance, funding, chain forks, community forks}
+{ governance, funding, chain forks, community splits }
 
-{DEX}
+{ DEX }
 
-{relevant exchanges and websites}
+{ relevant exchanges and websites }
 
-{other: regulations, privacy, security, fun}
+{ other: regulations, privacy, security, fun }
 
 ## About This Issue
 
