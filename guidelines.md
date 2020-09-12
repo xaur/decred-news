@@ -79,7 +79,7 @@ git push origin gh-pages
 
 There are two files that track all DJ issues and their translations. `index.md` contains _primary_ locations of documents, while `mirrors.md` tracks _all_ known locations where the issues or their translations are mirrored.
 
-To avoid commit churn on `master`, changes to these files are merged in batches around 1-3 times a month:
+To avoid commit churn on `master`, changes to these files are merged in batches once a month after the release:
 
 - create new branch e.g. `index07` (`07` for July)
 - for the initial English version:
@@ -90,6 +90,8 @@ To avoid commit churn on `master`, changes to these files are merged in batches 
 - share the PR link in #writers, ask translators to submit any missed translations
 - collect submissions for several days
 - add a single combined commit to `master` and `gh-pages`
+
+Note: this workflow may change if we start to track all translations in a [single place](https://github.com/decredcommunity/translations).
 
 ### Setup tips
 
@@ -626,7 +628,7 @@ This applies to English texts only:
 > - One could argue that capitalized words slow down a reader's ability to scan, while a title written in sentence case could be perceived as having an uninterrupted flow.
 > - Some publications prefer this style simply because it's more likely to preserve consistency. With sentence case, there's no nitpicking over the capitalization of a three-letter preposition. ([grammar.yourdictionary.com](https://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html))
 
-Translations are encouraged to follow the spirit of simplicity and consistency above, but are free to adapt to standards of their language.
+[Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency above, but are free to adapt to standards of their language.
 
 ### Linting
 
@@ -645,6 +647,10 @@ Take a note of the Git revision you review. If the file changes after your revie
 https://github.com/xaur/decred-news/compare/5df8b0f2...draft06
 
 where `5df8b0f2` is a 8-character Git revision and `draft06` is the name of the branch. Reads like "show me the changes since 5df8b0f2 until the latest draft06".
+
+## Translations
+
+See [Translating DJ](translating.md).
 
 ## Why Git?
 
