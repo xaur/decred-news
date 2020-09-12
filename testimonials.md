@@ -2,6 +2,58 @@ Thanks to our readers for all the kind words.
 
 ---
 
+I feel like I post something similar on every one of these, but, I really am impressed with the quality and huge amount of content month over month in the DJ.
+
+It shows that, not only are the authors of DJ doing a fantastic job of compiling all of the information, but also that there are high quality people doing great work across multiple domains of the project. I want to express my sincere gratitude to everyone continuously producing high quality work for the project, in all of the areas. It really brings a smile to my face every time I see just how much everyone is doing compiled into one place. It's truly incredible to see.
+
+(@davecgh on [2020-09-12](https://www.reddit.com/r/decred/comments/ir40wb/decred_journal_august_2020/g4wfwfw/))
+
+---
+
+If you haven't already, check out June's edition of the Decred Journal. Spending at least 30min with this document has always informed me of exciting progress on projects within the Decred ecosystem. I love this publication, as it is essentially the mothership of Decred news.
+
+(Decred Drive on [2020-07-23](https://medium.com/@decreddrive/the-decred-drive-july-23-abcc2f1ec98c))
+
+_@bee: sorry for spamming Decred Drive quotes here, I just love the sound of "mothership of Decred news" :)_
+
+---
+
+Always love seeing names of "first time contributors with code merged to master" - welcome.
+
+(Decred Drive on [2020-05-14](https://medium.com/@decreddrive/the-decred-drive-may-14-822fd6833e2b))
+
+---
+
+Congrats DJ team on 2 years! The signal to noise on these journals is unreal. It captures and reveals decentralized human coordination at work. A real pleasure.
+
+(u/oiezz on [2020-04-10](https://www.reddit.com/r/decred/comments/fy493y/decred_journal_march_2020/fmzhcfg/))
+
+---
+
+Can't imagine the Decred community without the Decred Journal. So much depth, and detail. (...) Reading through DJ issues always provide me with a sense for progress across the major software repositories - which is crucial to track and follow.
+
+(Decred Drive on [2020-03-13](https://medium.com/@decreddrive/the-decred-drive-mar-12-c8638c131b2e))
+
+---
+
+Well known to much of the community, the Decred Journal is a comprehensive synopsis of monthly news about Decred, plus the most important external news and information. (...) The quality of the Journal matches the depth of thought that prevails within Decred, and well-represents the project.
+
+(@Dustorf on [2020-02-26](https://blog.decred.org/2020/02/26/Decred-2019-Marketing-Report/))
+
+---
+
+The Decred Journal was published for January 2020. Big thanks to Richard Red, Bee, and others for all their effort on this publication. It really makes such a massive difference to have a core publication within the Decred community. Incredible piece of work. There is so much color published in the Decred Journals, covering all aspects of the Decred ecosystem - it's an amazing piece to go through once a month. I can only imagine, as Decred grows into a much larger global community, we may need a large team of people working on this just to cover everything that is happening - but that is going to be a good problem to have.
+
+(Decred Drive on [2020-02-13](https://medium.com/@decreddrive/the-decred-drive-feb-13-e6a35cf1a8fc))
+
+---
+
+December's issue of the Decred Journal was released! This is the mother-ship of Decred publications - highly recommend making a cup of coffee and taking 30min out of your week to read through in detail. If you're not following the Decred Journal, then you're missing out.
+
+(The Decred Drive on [2020-01-16](https://medium.com/@decreddrive/the-decred-drive-jan-16-9bb063e1f4df))
+
+---
+
 Every month without fail, the best presented and most insightful article you can find on any project. So thankful to have such a great team and community as a stakeholder!
 
 (burfy174 on [2019-11-11](https://twitter.com/burfy174/status/1193705410370273281))
