@@ -4,9 +4,16 @@ Here is the list of all known translations and their mirrors.
 
 ## 2020
 
+__September__
+
+- English: [github](journal/202009.md) [medium](https://medium.com/decred/decred-journal-september-2020-fb6608ff74be) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-september-2020-xqojnvm)
+
 __August__
 
 - English: [github](journal/202008.md) [medium](https://medium.com/decred/decred-journal-august-2020-37bd63997722)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202008.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202008_DecredJournalCN.md)
+- Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202008.md) [medium](https://medium.com/decred-es/revista-decred-agosto-2020-721718972b5a)
 
 __July__
 
@@ -22,7 +29,7 @@ __June__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202006.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202006_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202006_DecredJournalPL.md)
-- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202006.md) [medium](https://medium.com/decred-es/revista-decred-junio-2020-a7716b71251e)
+- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202006.md) [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202006.md) [medium](https://medium.com/decred-es/revista-decred-junio-2020-a7716b71251e)
 
 __May__
 
@@ -46,7 +53,7 @@ __March__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202003.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202003_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202003_DecredJournalPL.md)
-- Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202003.html) [medium](https://medium.com/decred-es/revista-decred-marzo-2020-5c445b9227ac)
+- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202003.md) [medium](https://medium.com/decred-es/revista-decred-marzo-2020-5c445b9227ac)
 
 __February__
 
@@ -54,7 +61,7 @@ __February__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202002.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202002_DecredJournalPL.md)
-- Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202002.html) [medium](https://medium.com/decred-es/revista-decred-febrero-2020-e06761e4b9d3)
+- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202002.md) [medium](https://medium.com/decred-es/revista-decred-febrero-2020-e06761e4b9d3)
 
 __January__
 
@@ -62,7 +69,7 @@ __January__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202001.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md)
-- Spanish: [github](https://francov99.github.io/DecredJournalSPA/journal/202001.html) [medium](https://medium.com/decred-es/revista-decred-enero-2020-721a67517a76)
+- Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202001.md) [medium](https://medium.com/decred-es/revista-decred-enero-2020-721a67517a76)
 
 ## 2019
 
@@ -184,7 +191,7 @@ __December__
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201812_DecredJournalPL.md) [decredcommunity](https://decredcommunity.org/pl/blog/decred-journal-december-2018)
 - Portuguese: [github](https://github.com/MaiconJunge/decred-news/blob/master/journal/201812PTBR.md) [medium](https://medium.com/@maiconjunge/jornal-decred-dezembro-de-2018-947c616b894f) [decredcommunity](https://decredcommunity.org/pt/blog/decred-journal-december-2018)
 - Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8C-2018-9528f7a9d24d) [decredcommunity](https://decredcommunity.org/ru/blog/decred-journal-december-2018)
-- Spanish: [medium](https://medium.com/@decred_es/revista-decred-diciembre-2018-79093f957aac) [decredcommunity](https://decredcommunity.org/sp/blog/decred-journal-december-2018)
+- Spanish: [medium](https://medium.com/@decred_es/revista-decred-diciembre-2018-79093f957aac) [decredcommunity](https://decredcommunity.org/sp/blog/decred-journal-december-2018) [github](https://github.com/3lian/DecredESJournal/blob/master/Revista%20Decred%20-%20Diciembre%202018)
 - Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-12.md)
 
 __November__
@@ -193,7 +200,7 @@ __November__
 - Chinese: [github](https://github.com/Guang168/DecredCNJournal/blob/master/201811_DecredJournalCN.md) [medium](https://medium.com/@guang.dcr/decred%E6%9C%88%E6%8A%A5-11%E6%9C%88-1ddac6598830) [jianshu](https://www.jianshu.com/p/32721d65d462) [weibo](https://www.weibo.com/ttarticle/p/show?id=2309404314486369594181) [wechat](https://mp.weixin.qq.com/s?__biz=Mzg2NTExNzc3MA==&mid=2247483663&idx=1&sn=01f72bbe68103ac75ff925f9a6454b84)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201811_DecredJournalPL.md) [decredcommunity](https://decredcommunity.org/pl/blog/decred-journal-november-2018)
 - Russian: [medium](https://medium.com/decred-russia/decred-journal-%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8C-2018-d0aceacfd72a) [decredcommunity](https://decredcommunity.org/ru/blog/decred-journal-november-2018)
-- Spanish: [medium](https://medium.com/@decred_es/revista-decred-noviembre-2018-a3e52c5fc1a9) [decredcommunity](https://decredcommunity.org/sp/blog/decred-journal-november-2018)
+- Spanish: [medium](https://medium.com/@decred_es/revista-decred-noviembre-2018-a3e52c5fc1a9) [decredcommunity](https://decredcommunity.org/sp/blog/decred-journal-november-2018) [github](https://github.com/3lian/DecredESJournal/blob/master/Revista%20Decred%20-%20Noviembre%202018)
 - Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2018-11.md)
 
 __October__
