@@ -46,7 +46,11 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 [tinydecred](https://github.com/decred/tinydecred): {}
 
+[dcrros](https://github.com/decred/dcrros): {}
+
 [docs](https://github.com/decred/dcrdocs): {}
+
+[dcrdevdocs](https://github.com/decred/dcrdevdocs): {}
 
 [decred.org](https://github.com/decred/dcrweb): {}
 
