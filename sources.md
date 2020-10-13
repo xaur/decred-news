@@ -192,8 +192,13 @@ Interesting Twitter accounts:
 
 ## Relevant External
 
+Scams:
+
+- https://twitter.com/Scams_alarms
+
 Digests:
 
+- Coinmonks newsletter https://medium.com/coinmonks/newsletters/coinmonks
 - https://github.com/Enegnei/This-Month-In-Bitcoin-Privacy
 - Weekly Crypto News Roundup https://www.publish0x.com/crypto-101
 - CoinStory https://medium.com/coin-story/newsletter/home
