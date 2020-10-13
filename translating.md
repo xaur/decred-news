@@ -21,8 +21,8 @@
 
 7\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
 
-8\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#writers](https://matrix.to/#/!NkCFEoJGXyDMwLfgMb:decred.org) room.
+8\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#translations](https://chat.decred.org/#/room/#translations:decred.org) room.
 
 9\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, increase censorship resistance and give other benefits (see [Why Git?](guidelines.md#why-git)). For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar), [Chinese](https://github.com/DominicTing/DecredCNJournal) or [Spanish](https://github.com/DecredES/traducciones/tree/master/revista-decred) repositories. If you take this route, consider our [Git workflow](guidelines.md#git-workflow). If you need help with Git or GitHub, ask @bee for an invite to #git\_help room.
 
-10\. Coordinate with writers and other translators in [#writers](https://matrix.to/#/!NkCFEoJGXyDMwLfgMb:decred.org). Share your experiences: how long it took to make the translation, how big is your audience, what parts of DJ do they find more or less valuable.
+10\. Coordinate with writers and other translators in [#translations](https://chat.decred.org/#/room/#translations:decred.org). Share your experiences: how long it took to make the translation, how big is your audience, what parts of DJ do they find more or less valuable.
