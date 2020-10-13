@@ -16,7 +16,6 @@ Copy the raw Markdown below into a new issue.
 - [ ] first time contributors (degeri or s_ben)
 - [ ] dev activity stats (degeri or s_ben)
 - [ ] PR update (l1ndseymm, notify by: 28th, ready by: 3rd)
-- [ ] Outreach update (Dustorf, notify by: 28th, ready by: 3rd)
 
 **End of month snapshots**: Snapshot data that is hard to obtain later.
 
@@ -66,6 +65,7 @@ Copy the raw Markdown below into a new issue.
 - [ ] Publish on Medium (richardred or Haon)
 - [ ] Add new issue to https://medium.com/decred/journals/home
 - [ ] (opt) Verify Medium version, check for formatting issues
+- [ ] Publish on Publish0x
 - [ ] Submit Medium link to r/decred
 - [ ] Tweet Medium link via decredproject. Don't forget to add title image. (by: 6th)
 - [ ] If changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update Medium
