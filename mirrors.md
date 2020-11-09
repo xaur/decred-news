@@ -9,6 +9,7 @@ __September__
 - English: [github](journal/202009.md) [medium](https://medium.com/decred/decred-journal-september-2020-fb6608ff74be) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-september-2020-xqojnvm)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202009_DecredJournalCN.md)
 - Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202009.md) [medium](https://medium.com/decred-es/revista-decred-septiembre-2020-476f2d584c08)
+- Vietnamese: [github](https://github.com/raedahgroup/translations/blob/master/vietnamese/202009.md)
 
 __August__
 
