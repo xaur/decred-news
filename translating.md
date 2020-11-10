@@ -1,6 +1,8 @@
 ## Translating DJ
 
-1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists. If it does exist but you don't like it, feel free to submit improvements to the author of that translation. If that somehow fails you can still create your own translation and compete with the existing one.
+1\. Check the [index page](https://xaur.github.io/decred-news/) to see if translation to your language already exists.
+
+If it does exist but you don't like it, feel free to submit improvements to the author of that translation. If that somehow fails you can still create your own translation and compete with the existing one.
 
 2\. Ideally, wait for the original DJ document to be finished and released before starting to translate it.
 
@@ -19,10 +21,14 @@
 > - title image: g
 > - Spanish translation: h, i, j
 
-7\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start or end of the document.
+7\. Note whether the translation is full or partial. If partial, note what was covered or what was omitted. Put this note at the start of the document.
 
-8\. When finished, submit your translation for listing on the [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages. Either create a [pull request](https://github.com/xaur/decred-news/pulls), or create an [issue](https://github.com/xaur/decred-news/issues) or let us know in the [#translations](https://chat.decred.org/#/room/#translations:decred.org) room.
+8\. When finished and published, submit your translation for listing in the global [index](https://github.com/decredcommunity/translations/blob/master/index.md) of Decred translations.
 
-9\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, increase censorship resistance and give other benefits (see [Why Git?](guidelines.md#why-git)). For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar), [Chinese](https://github.com/DominicTing/DecredCNJournal) or [Spanish](https://github.com/DecredES/traducciones/tree/master/revista-decred) repositories. If you take this route, consider our [Git workflow](guidelines.md#git-workflow). If you need help with Git or GitHub, ask @bee for an invite to #git\_help room.
+Either create a [pull request](https://github.com/decredcommunity/translations/pulls), or post it in a [new issue](https://github.com/decredcommunity/translations/issues) (simpler), or just post the link in the [#translations](https://chat.decred.org/#/room/#translations:decred.org) Matrix chat room (simplest).
+
+The global [index](https://github.com/decredcommunity/translations/blob/master/index.md) file is the master source from which DJ's [index](https://xaur.github.io/decred-news/) and [mirrors](https://xaur.github.io/decred-news/mirrors.html) pages will be updated. Also, new issues of DJ source translations from the index.
+
+9\. Consider mirroring your translations in a GitHub repository. This will allow easy replication, increase censorship resistance and give other benefits (see [Why Git?](guidelines.md#why-git)). For example, see [Arabic](https://github.com/Insaf01/decred-journal-ar), [Chinese](https://github.com/DominicTing/DecredCNJournal) or [Spanish](https://github.com/DecredES/traducciones/tree/master/revista-decred) repositories. If you take this route, consider our [Git workflow](guidelines.md#git-workflow). If you need help with Git or GitHub, ask @bee for an invite to #git\_help Matrix room.
 
 10\. Coordinate with writers and other translators in [#translations](https://chat.decred.org/#/room/#translations:decred.org). Share your experiences: how long it took to make the translation, how big is your audience, what parts of DJ do they find more or less valuable.
