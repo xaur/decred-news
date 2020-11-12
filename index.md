@@ -16,6 +16,7 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
+October|[English](journal/202010.md)
 September|[English](journal/202009.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202009.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202009_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202009.md), [Vietnamese](https://github.com/raedahgroup/translations/blob/master/vietnamese/202009.md)
 August|[English](journal/202008.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202008.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202008_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202008.md)
 July|[English](journal/202007.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202007.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202007_DecredJournalCN.md), [Portuguese](https://stakey.club/translated/decred-journal-july-2020/), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202007.md)
