@@ -128,9 +128,13 @@ Community stats as of {date}:
 
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for work completed in that month is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.nn} million USD at ${n.nn}).
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for past work is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.n} million USD at ${n.nn}).
 
-{ high level recap of decision-making activity and most important events. link to Politeia Digest for higher detail }
+{ high level recap of decision-making activity and most important events }
+
+- {}
+
+Politeia Digest [issue {}]({}) and [issue {}]({}) have more details on the month's proposals.
 
 ## Network
 
