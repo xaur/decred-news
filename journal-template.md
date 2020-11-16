@@ -94,6 +94,14 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 - {}
 
+{ check if anything interesting happened in the other repos under
+
+- https://github.com/decred
+- https://github.com/planetdecred
+- https://github.com/raedahgroup
+
+}
+
 Other:
 
 - { smaller items go here }
