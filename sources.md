@@ -152,8 +152,9 @@ Audio:
 - https://roughconsensus.libsyn.com/
 - https://anchor.fm/staked-podcast/
 
-Art:
+Art and memes:
 
+- https://twitter.com/coveryfire7777
 - https://twitter.com/aithzakaria1
 - https://twitter.com/OfficialCryptos
 
@@ -191,6 +192,10 @@ Interesting Twitter accounts:
 - chats: #trading
 
 ## Relevant External
+
+Governance, funding:
+
+- https://github.com/block-commons
 
 Scams:
 
