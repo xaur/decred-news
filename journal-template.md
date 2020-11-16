@@ -12,47 +12,87 @@ Unless otherwise noted, the work reported here has the "merged to master" status
 
 { hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
-[dcrd](https://github.com/decred/dcrd): {}
+**[dcrd](https://github.com/decred/dcrd)**
 
-[dcrwallet](https://github.com/decred/dcrwallet): {}
+- {}
 
-[dcrctl](https://github.com/decred/dcrctl): {}
+**[dcrwallet](https://github.com/decred/dcrwallet)**
 
-[Decrediton](https://github.com/decred/decrediton): {}
+- {}
 
-[Politeia](https://github.com/decred/politeia): {}
+**[dcrctl](https://github.com/decred/dcrctl)**
 
-[vspd](https://github.com/decred/vspd): {}
+- {}
 
-[dcrstakepool](https://github.com/decred/dcrstakepool): {}
+**[Decrediton](https://github.com/decred/decrediton)**
 
-[dcrpool](https://github.com/decred/dcrpool): {}
+- {}
 
-[dcrlnd](https://github.com/decred/dcrlnd): {}
+**[Politeia](https://github.com/decred/politeia)**
 
-[cspp](https://github.com/decred/cspp): {}
+- {}
 
-[dcrdex](https://github.com/decred/dcrdex): {}
+**[vspd](https://github.com/decred/vspd)**
 
-[dcrandroid](https://github.com/planetdecred/dcrandroid): {}
+- {}
+
+**[dcrstakepool](https://github.com/decred/dcrstakepool)**
+
+- {}
+
+**[dcrpool](https://github.com/decred/dcrpool)**
+
+- {}
+
+**[dcrlnd](https://github.com/decred/dcrlnd)**
+
+- {}
+
+**[cspp](https://github.com/decred/cspp)**
+
+- {}
+
+**[dcrdex](https://github.com/decred/dcrdex)**
+
+- {}
+
+**[dcrandroid](https://github.com/planetdecred/dcrandroid)**
+
+- {}
 
 { also check the base library https://github.com/planetdecred/dcrlibwallet }
 
-[dcrios](https://github.com/planetdecred/dcrios): {}
+**[dcrios](https://github.com/planetdecred/dcrios)**
 
-[godcr](https://github.com/planetdecred/godcr): {}
+- {}
 
-[dcrdata](https://github.com/decred/dcrdata): {}
+**[godcr](https://github.com/planetdecred/godcr)**
 
-[tinydecred](https://github.com/decred/tinydecred): {}
+- {}
 
-[dcrros](https://github.com/decred/dcrros): {}
+**[dcrdata](https://github.com/decred/dcrdata)**
 
-[docs](https://github.com/decred/dcrdocs): {}
+- {}
 
-[dcrdevdocs](https://github.com/decred/dcrdevdocs): {}
+**[tinydecred](https://github.com/decred/tinydecred)**
 
-[decred.org](https://github.com/decred/dcrweb): {}
+- {}
+
+**[dcrros](https://github.com/decred/dcrros)**
+
+- {}
+
+**[docs](https://github.com/decred/dcrdocs)**
+
+- {}
+
+**[dcrdevdocs](https://github.com/decred/dcrdevdocs)**
+
+- {}
+
+**[decred.org](https://github.com/decred/dcrweb)**
+
+- {}
 
 Other:
 
