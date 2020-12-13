@@ -4,9 +4,17 @@ Here is the list of all known translations and their mirrors.
 
 ## 2020
 
+__November__
+
+- English: [github](journal/202011.md) [medium](https://medium.com/decred/decred-journal-november-2020-d1bb2681a4d8) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-november-2020-xlylzyj)
+
 __October__
 
 - English: [github](journal/202010.md) [medium](https://medium.com/decred/decred-journal-october-2020-b7e9a71de788) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-october-2020-xejgmww)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202010.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202010_DecredJournalCN.md)
+- Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202010.md) [medium](https://medium.com/decred-es/revista-decred-octubre-2020-6046236fc0c1)
+- Vietnamese: [github](https://github.com/raedahgroup/translations/blob/master/vietnamese/202010.md)
 
 __September__
 
@@ -22,6 +30,7 @@ __August__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202008.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202008_DecredJournalCN.md)
 - Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202008.md) [medium](https://medium.com/decred-es/revista-decred-agosto-2020-721718972b5a)
+- Vietnamese: [github](https://github.com/raedahgroup/translations/blob/master/vietnamese/202008.md)
 
 __July__
 
