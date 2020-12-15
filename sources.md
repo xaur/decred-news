@@ -6,9 +6,12 @@ This is a quick cheat sheet of common sources of notable events for Decred Journ
 
 Other news efforts where we can check for missed stories:
 
-- Decred Drive by @DecredDragon https://medium.com/@decreddrive
 - bi-weekly video updates by @Exitus https://www.youtube.com/decredchannel
 - https://twitter.com/Decred_News
+
+Inactive:
+
+- Decred Drive by @DecredDragon https://medium.com/@decreddrive
 
 ## Development
 
@@ -105,10 +108,10 @@ Community stats:
 ## Events
 
 - chats: #events
+- https://decredcommunity.github.io/events/index/
 - https://github.com/decredcommunity/events
 - https://github.com/DecredES/Monthly_reports
 - https://www.facebook.com/groups/decredinternational/
-- https://github.com/francov99/dcrspanish/blob/master/events.md (idle since May 2020)
 
 Twitter accounts that often tweet about events:
 
@@ -120,6 +123,10 @@ Articles:
 
 - https://twitter.com/decredproject
 - https://stakey.club/en/articles/
+
+All translations:
+
+- https://github.com/decredcommunity/translations/blob/master/index.md
 
 Article translations:
 
@@ -138,23 +145,26 @@ DJ translations:
 - Chinese: https://github.com/DominicTing/DecredCNJournal
 - Polish: https://github.com/artikozel/DecredJournalPL
 - Spanish: [Medium](https://medium.com/decred-es/revista-2020/home) versions with stripped Dev, full [GitHub](https://github.com/DecredES/traducciones/tree/master/revista-decred) versions (older issues in [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/decred-journal-spanish) repo)
-- Vietnamese (inactive as of Aug 2020): https://github.com/raedahgroup/translations
+- Vietnamese: https://github.com/raedahgroup/translations
 - index (updated after each DJ release): https://xaur.github.io/decred-news/
 
 Videos:
 
 - https://www.youtube.com/decredchannel
 - Decred Society https://www.youtube.com/channel/UCZSFAqUMp8v58eEQl_bzWYg
+- search YouTube for "Decred", newest first
 
 Audio:
 
 - https://decredindepth.libsyn.com/
 - https://roughconsensus.libsyn.com/
-- https://anchor.fm/staked-podcast/
+- Staked Podcast
+  - https://www.youtube.com/channel/UCWoknbkENz-W4pg18p57rNA
+  - https://anchor.fm/staked-podcast/
 
-Art and memes:
+Art and fun:
 
-- https://twitter.com/coveryfire7777
+- https://twitter.com/exitusdcr
 - https://twitter.com/aithzakaria1
 - https://twitter.com/OfficialCryptos
 
@@ -168,7 +178,7 @@ Twitter:
 - mentions: [@decredproject](https://twitter.com/search?q=%40decredproject), [$DCR](https://twitter.com/search?q=%24DCR)
 - hashtags: [#Decred](https://twitter.com/hashtag/Decred), [#DecredChallenge](https://twitter.com/hashtag/DecredChallenge), [#DidYouKnowDecred](https://twitter.com/hashtag/DidYouKnowDecred)
 
-Old-time community members
+Veterans:
 
 - https://twitter.com/_Checkmatey_
 - https://twitter.com/PermabullNino
@@ -189,7 +199,7 @@ Interesting Twitter accounts:
 - https://twitter.com/PermabullNino
 - https://medium.com/@permabullnino
 - https://medium.com/@_Checkmatey_
-- chats: #trading
+- chats: #dex, #trading
 
 ## Relevant External
 
@@ -199,17 +209,19 @@ Governance, funding:
 
 Scams:
 
-- https://twitter.com/Scams_alarms
+- https://twitter.com/Scams_alarms (epic)
 
 Digests:
 
+- Bitcoin Optech newsletter https://bitcoinops.org/en/newsletters/
+- Daily Crypto News https://www.publish0x.com/daily-crypto-news-by-crypto-lemon
 - Coinmonks newsletter https://medium.com/coinmonks/newsletters/coinmonks
 - https://github.com/Enegnei/This-Month-In-Bitcoin-Privacy
 - Weekly Crypto News Roundup https://www.publish0x.com/crypto-101
 - CoinStory https://medium.com/coin-story/newsletter/home
 - Our Network https://ournetwork.substack.com/?no_cover=true
 
-Stalled digests:
+Inactive:
 
 - https://blog.kraken.com/post/category/market-reports/weekly-market-reports/ (last entries March 2020)
 - https://medium.com/circle-research
