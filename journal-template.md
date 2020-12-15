@@ -217,15 +217,23 @@ Selected articles:
 
 - {}
 
-Translations:
-
-- {}
-
 Videos:
 
 - {}
 
 Audio:
+
+- {}
+
+Art/Fun:
+
+- {}
+
+Translations:
+
+- {}
+
+Other non-English content:
 
 - {}
 
@@ -247,9 +255,11 @@ Selected Twitter discussions:
 
 ## Markets
 
-In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {}-{}. The average daily rate was ${n.nn}.
+In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. The average daily rate was ${n.nn}.
 
 { markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis }
+
+{ dcrdex updates, esp. volume }
 
 ## Relevant External
 
@@ -276,3 +286,4 @@ Credits (alphabetical order):
 - writing and editing: {}
 - reviews and feedback: {}
 - title image: {}
+- funding: Decred Treasury
