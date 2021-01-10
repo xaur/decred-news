@@ -6,7 +6,10 @@ Here is the list of all known translations and their mirrors.
 
 __November__
 
-- English: [github](journal/202011.md) [medium](https://medium.com/decred/decred-journal-november-2020-d1bb2681a4d8) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-november-2020-xlylzyj)
+- English: [github](journal/202011.md) [medium](https://medium.com/decred/decred-journal-november-2020-d1bb2681a4d8) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-november-2020-xlylzyj) [coinmarketcap](https://coinmarketcap.com/headlines/signals/decred-journal-november-2020-decred/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202011.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202011_DecredJournalCN.md)
+- Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202011.md) [medium](https://medium.com/decred-es/revista-decred-noviembre-2020-9bd9ee68e253)
 
 __October__
 
