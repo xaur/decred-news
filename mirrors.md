@@ -4,6 +4,10 @@ Here is the list of all known translations and their mirrors.
 
 ## 2020
 
+__December__
+
+- English: [github](journal/202012.md) [medium](https://medium.com/decred/decred-journal-december-2020-d9e89313f480) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-december-2020-xmkmnge)
+
 __November__
 
 - English: [github](journal/202011.md) [medium](https://medium.com/decred/decred-journal-november-2020-d1bb2681a4d8) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-november-2020-xlylzyj) [coinmarketcap](https://coinmarketcap.com/headlines/signals/decred-journal-november-2020-decred/)
