@@ -6,7 +6,7 @@ Here is the list of all known translations and their mirrors.
 
 __December__
 
-- English: [github](journal/202012.md) [medium](https://medium.com/decred/decred-journal-december-2020-d9e89313f480) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-december-2020-xmkmnge)
+- English: [github](journal/202012.md) [medium](https://medium.com/decred/decred-journal-december-2020-d9e89313f480) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-december-2020-xmkmnge) [coinmarketcap](https://coinmarketcap.com/headlines/signals/decred-journal-december-2020-decred/)
 
 __November__
 
