@@ -16,7 +16,8 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
-November|[English](journal/202011.md)
+December|[English](journal/202012.md)
+November|[English](journal/202011.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202011.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202011_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202011.md)
 October|[English](journal/202010.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202010.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202010_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202010.md), [Vietnamese](https://github.com/raedahgroup/translations/blob/master/vietnamese/202010.md)
 September|[English](journal/202009.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202009.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202009_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202009.md), [Vietnamese](https://github.com/raedahgroup/translations/blob/master/vietnamese/202009.md)
 August|[English](journal/202008.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202008.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202008_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2020/202008.md), [Vietnamese](https://github.com/raedahgroup/translations/blob/master/vietnamese/202008.md)
