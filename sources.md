@@ -163,6 +163,7 @@ Audio:
 Art and fun:
 
 - [@exitusdcr](https://twitter.com/exitusdcr)
+- [@decredmemelord](https://twitter.com/decredmemelord)
 - [@aithzakaria1](https://twitter.com/aithzakaria1)
 - [@OfficialCryptos](https://twitter.com/OfficialCryptos)
 
