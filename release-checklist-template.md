@@ -21,12 +21,15 @@ Copy the raw Markdown below into a new issue.
 
 - [ ] social media stats
   - at the very minimum, snapshot stats reported in People
-  - (opt) snapshot all accounts tracked by [social-media-stats](https://github.com/decredcommunity/social-media-stats) repo
+  - (opt) all accounts tracked by [social-media-stats](https://github.com/decredcommunity/social-media-stats)
+  - Reddit mod stats
 - [ ] mining: absolute and share% pool hashrate values
   - https://miningpoolstats.stream/decred
   - https://dcrstats.com/pow
 - [ ] staking
   - 30-day average ticket price (https://dcrstats.com)
+- [ ] LN
+  - [LN map](https://ln-map.jamieholdstock.com/)
 
 **Writing**
 
