@@ -8,7 +8,7 @@ _Image: {"$title by $author. $optional-description" for artwork, "$description" 
 
 ## Development
 
-Unless otherwise noted, the work reported here has the "merged to master" status. It means that the work is completed, reviewed, and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
+The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
 
 { hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
@@ -125,14 +125,14 @@ Congratulations to new contractors granted the Decred Contractor Clearance (DCC)
 Community stats as of {date}:
 
 - Politeia users: {} (+{})
-- Twitter followers: {} (+{})
-- Reddit subscribers: {} (+{})
-- Matrix #general users: {} (+{})
-- Discord users: {}, verified to post: {}
-- Telegram users: {} (+{})
-- YouTube subscribers: {} (+{}), views: {} (+{})
-- LinkedIn followers: {} (+{})
-- GitHub dcrd stars: {} (+{}), forks: {} (+{})
+- [Twitter](https://twitter.com/decredproject) followers: {} (+{})
+- [Reddit](https://www.reddit.com/r/decred/) subscribers: {} (+{})
+- [Matrix](https://chat.decred.org/) #general users: {} (+{})
+- [Discord](https://discord.gg/GJ2GXfz) users: {}, verified to post: {}
+- [Telegram](https://t.me/Decred) users: {} (+{})
+- [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
+- [LinkedIn](https://www.linkedin.com/company/decredproject) followers: {} (+{})
+- GitHub [dcrd](https://github.com/decred/dcrd) stars: {} (+{}), forks: {} (+{})
 
 ## Governance
 
@@ -141,6 +141,8 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 { high level recap of decision-making activity and most important events }
 
 - {}
+
+{ check https://github.com/decredcommunity/proposals/commits/master for updates }
 
 Politeia Digest [issue {}]({}) and [issue {}]({}) have more details on the month's proposals.
 
@@ -163,7 +165,7 @@ Staking: [30-day average](https://dcrstats.com/) ticket price was {n.d, try to s
 
 { hint: for dcr.farm set the zoom to show exactly UTC month 1st 00:00:00 - next month 1st 00:00:00 }
 
-Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes per dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
+Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes according to dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
 
 { maybe mention LN status https://ln-map.jamieholdstock.com/ }
 
@@ -174,6 +176,8 @@ Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&fr
 { hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best }
 
 { check https://github.com/decred/dcrwebapi/commits/master for changes to the VSP list }
+
+{ check https://github.com/decred/dcrweb/commits/master to detect added/removed services }
 
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
@@ -282,4 +286,4 @@ Credits (alphabetical order):
 - writing and editing: {}
 - reviews and feedback: {}
 - title image: {}
-- funding: Decred Treasury
+- funding: Decred stakeholders
