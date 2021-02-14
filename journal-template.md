@@ -110,7 +110,7 @@ Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added a
 
 ## People
 
-{ hint: list people who made meaningful commits merged in master branches, in alphabetical order }
+{ hint: list people who made their first non-trivial commits merged in master branches, in alphabetical order }
 
 Welcome to new first time contributors with code merged to master: {@handle} ([{repo}]({link to user's commits})), ...
 
@@ -161,21 +161,17 @@ Staking: [30-day average](https://dcrstats.com/) ticket price was {n.d, try to s
 
 { recap of ticket price action if it was interesting }
 
-{ hint: consider keeping Block size and Transactions sections every 2nd or 3rd month, unless there is something interesting to report }
-
-Block size: This month, the blockchain size grew by {n} MB. [Block size](https://explorer.dcrdata.org/charts?chart=block-size&bin=block&axis=time) {set zoom to show the month} varied between {n.d}-{n.d} with an average of {n.d} KB. {any interesting fact about this month's blocks}
-
-Transactions: In {month}, Decred users made {n} regular transactions and bought {n} tickets. {n} tickets were rewarded for voting and {n} were revoked. On average, there were {n} regular DCR transactions and {n} new tickets per day.
-
 { hint: for dcr.farm set the zoom to show exactly UTC month 1st 00:00:00 - next month 1st 00:00:00 }
 
 Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes per dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
+
+{ maybe mention LN status https://ln-map.jamieholdstock.com/ }
 
 { any interesting analysis or events in the network }
 
 ## Integrations
 
-{ hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best in a given month's compilation }
+{ hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best }
 
 { check https://github.com/decred/dcrwebapi/commits/master for changes to the VSP list }
 
