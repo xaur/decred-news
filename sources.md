@@ -79,6 +79,7 @@ Community stats:
 - [Politeia Digest](https://blockcommons.red/politeia-digest/)
 - [Proposals](https://proposals.decred.org/) at Politeia
 - [Proposals](https://explorer.dcrdata.org/proposals) at dcrdata
+- [proposals](https://github.com/decredcommunity/proposals/commits/master) repo commits
 - [@pi_crumbs](https://twitter.com/pi_crumbs)
 - [@slices_of_pi](https://twitter.com/slices_of_pi)
 - [r/decred new](https://www.reddit.com/r/decred/new/)
@@ -97,6 +98,8 @@ Community stats:
 ## Integrations
 
 - [@decredproject](https://twitter.com/decredproject)
+- #services chat
+- [dcrwebapi](https://github.com/decred/dcrweb/commits/master) commits
 - [r/decred new](https://www.reddit.com/r/decred/new/)
 
 ## Outreach
