@@ -17,19 +17,23 @@ Copy the raw Markdown below into a new issue.
 - [ ] dev activity stats
 - [ ] PR update (notify by: 28th, ready by: 3rd)
 
-**End of month snapshots**: Snapshot data that is hard to obtain later.
+**Monthly snapshots**: Snapshot data that is hard to obtain later. Aim to capture it at 1st day of the month at 00:00 UTC.
 
 - [ ] social media stats
-  - at the very minimum, snapshot stats reported in People
-  - (opt) all accounts tracked by [social-media-stats](https://github.com/decredcommunity/social-media-stats)
-  - Reddit mod stats
-- [ ] mining: absolute and share% pool hashrate values
+  - stats reported in People (minimum)
+  - all accounts tracked by [social-media-stats](https://github.com/decredcommunity/social-media-stats)
+  - see if any new accounts need to be tracked
+- [ ] Reddit mod stats
+- [ ] mining
+  - pools' hashrate absolute Ph/s and share %  values
   - https://miningpoolstats.stream/decred
   - https://dcrstats.com/pow
 - [ ] staking
-  - 30-day average ticket price (https://dcrstats.com)
-- [ ] LN
-  - [LN map](https://ln-map.jamieholdstock.com/)
+  - 30-day average ticket price ([dcrstats](https://dcrstats.com))
+- [ ] vspd and dcrstakepool instance stats
+- [ ] LN stats ([LN map](https://ln-map.jholdstock.uk/))
+- [ ] network-stats
+  - update the list of known nodes and groups
 
 **Writing**
 
@@ -66,16 +70,17 @@ Copy the raw Markdown below into a new issue.
 
 - [ ] publish on GitHub with a single commit to `gh-pages`
 - [ ] publish on Medium
+  - upload images
   - add to /decred/journals
   - add relevant tags
   - test short preview shown at /decred and /decred/journals
-  - check for formatting issues
 - [ ] publish on Publish0x
+  - upload images
   - add relevant tags
-- [ ] submit Medium link to r/decred
-- [ ] tweet Medium link via decredproject. Don't forget to add title image. (by: 6th)
+- [ ] check mirrors for formatting issues
+- [ ] post on r/decred
+- [ ] tweet via decredproject. Don't forget to add title image. (by: 6th)
 - [ ] submit new issue to decred.org Press page ([example](https://github.com/decred/dcrweb/pull/898))
-- [ ] publish on CoinMarketCap
 - [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
 - [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] fast-forward `master` to `gh-pages`
