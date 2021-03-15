@@ -16,7 +16,8 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
-January|[English](journal/202101.md)
+February|[English](journal/202102.md)
+January|[English](journal/202101.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202101.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202101_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2021/202101.md)
 
 ## 2020
 
