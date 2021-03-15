@@ -6,9 +6,23 @@ _Image: {"$title by $author. $optional-description" for artwork, "$description" 
 
 { introduction, major news of the month ordered by impact, don't put any links here }
 
+Contents:
+
+- [Development](#development)
+- [People](#people)
+- [Governance](#governance)
+- [Network](#network)
+- [Integrations](#integrations)
+- [Outreach](#outreach)
+- [Events](#events)
+- [Media](#media)
+- [Community Discussions](#community-discussions)
+- [Markets](#markets)
+- [Relevant External](#relevant-external)
+
 ## Development
 
-The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can build and run, but is not yet available in release binaries for regular users.
+The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can [build and run](https://medium.com/@artikozel/the-decred-node-back-to-the-source-part-one-27d4576e7e1c), but is not yet available in release binaries for regular users.
 
 { hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
@@ -106,8 +120,6 @@ Other:
 
 - { smaller items go here }
 
-Dev activity stats for {month}: {n} active PRs, {n} master commits, {n}K added and {n}K deleted lines spread across {n} repositories. Contributions came from {n}-{n} developers per repository.
-
 ## People
 
 { hint: list people who made their first non-trivial commits merged in master branches, in alphabetical order }
@@ -128,10 +140,9 @@ Community stats as of {date}:
 - [Twitter](https://twitter.com/decredproject) followers: {} (+{})
 - [Reddit](https://www.reddit.com/r/decred/) subscribers: {} (+{})
 - [Matrix](https://chat.decred.org/) #general users: {} (+{})
-- [Discord](https://discord.gg/GJ2GXfz) users: {}, verified to post: {}
+- [Discord](https://discord.gg/GJ2GXfz) users: {} (+{})
 - [Telegram](https://t.me/Decred) users: {} (+{})
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
-- [LinkedIn](https://www.linkedin.com/company/decredproject) followers: {} (+{})
 - GitHub [dcrd](https://github.com/decred/dcrd) stars: {} (+{}), forks: {} (+{})
 
 ## Governance
@@ -148,26 +159,27 @@ Politeia Digest [issue {}]({}) and [issue {}]({}) have more details on the month
 
 ## Network
 
-{ section hint:
+{ section hint: use the same `zoom` parameter for all dcrdata links }
 
-- check dcrdata.org (preferred), dcrstats.com and charts.dcr.farm to get the numbers
-- use the same `zoom` parameter for all dcrdata links }
+**Hashrate**: {month}'s [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
-Hashrate: {month}'s [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom=t1-t2&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month. Pool hashrate [distribution](https://miningpoolstats.stream/decred) as of {date}: {pool name n%, ...}.
+Pool hashrate [distribution](https://miningpoolstats.stream/decred) as of {date}: {PoolName n%, ...}.
+
+Distribution of 1,000 blocks [mined](https://miningpoolstats.stream/decred) before {date}: {PoolName n%, ...}.
 
 { hint: fallback link for pool distribution: https://dcrstats.com/pow }
 
-Staking: [30-day average](https://dcrstats.com/) ticket price was {n.d, try to snapshot it on 1st} DCR (+{n.d}). The [price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom=t1-t2&bin=window&axis=time&visibility=true-false&mode=stepped) {set zoom to show the month} varied between {n.d}-{n.d} DCR. [Locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom=t1-t2&scale=linear&bin=block&axis=time) was {n.dd}-{n.dd} million DCR, which corresponded to {n.d}-{n.d}% of the available supply [participating](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom=t1-t2&scale=linear&bin=block&axis=time) in PoS.
+**Staking**: [Ticket price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.d}-{n.d} DCR, with 30-day [average](https://dcrstats.com/) at {n.d} DCR (+{n.d}). { use same t1-t2 for zoom }
 
-{ hint: fallback link for locked %: https://charts.dcr.farm/d/000000003/proof-of-stake?orgId=1&from=now-40d&to=now }
+The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) was {n.dd}-{n.dd} million DCR, meaning that {n.d}-{n.d}% of the circulating supply [participated](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) in proof-of-stake.
 
 { recap of ticket price action if it was interesting }
 
-{ hint: for dcr.farm set the zoom to show exactly UTC month 1st 00:00:00 - next month 1st 00:00:00 }
+**Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes). Version distribution: {n% app version, ...}.
 
-Nodes: Throughout [{month}](https://charts.dcr.farm/d/000000014/nodes?orgId=1&from=1583020800000&to=1585699200000) {set zoom to show the month} there was an average of {} public listening nodes and {} total nodes according to dcr.farm. Version distribution: {vx.y.z: n% (+n%), ...}.
+{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.d}-{n.d}%.
 
-{ maybe mention LN status https://ln-map.jamieholdstock.com/ }
+{ maybe } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.d} DCR (+{n.d}), as of {date}.
 
 { any interesting analysis or events in the network }
 
@@ -225,7 +237,7 @@ Audio:
 
 - {}
 
-Art/Fun:
+Art/fun:
 
 - {}
 
