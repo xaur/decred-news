@@ -147,7 +147,7 @@ Community stats as of {date}:
 
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.dd}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.dd}, the USD figure billed for past work is ${n}K. As of {date}, Treasury balance is {n} DCR ({n.d} million USD at ${n.dd}).
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for past work is ${n}K. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
 
 { high level recap of decision-making activity and most important events }
 
@@ -169,17 +169,17 @@ Distribution of 1,000 blocks [mined](https://miningpoolstats.stream/decred) befo
 
 { hint: fallback link for pool distribution: https://dcrstats.com/pow }
 
-**Staking**: [Ticket price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.d}-{n.d} DCR, with 30-day [average](https://dcrstats.com/) at {n.d} DCR (+{n.d}). { use same t1-t2 for zoom }
+**Staking**: [Ticket price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.n}-{n.n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
 
-The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) was {n.dd}-{n.dd} million DCR, meaning that {n.d}-{n.d}% of the circulating supply [participated](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) in proof-of-stake.
+The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) in proof-of-stake.
 
 { recap of ticket price action if it was interesting }
 
 **Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes). Version distribution: {n% app version, ...}.
 
-{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.d}-{n.d}%.
+{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%.
 
-{ maybe } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.d} DCR (+{n.d}), as of {date}.
+{ maybe } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
 
 { any interesting analysis or events in the network }
 
@@ -267,7 +267,7 @@ Selected Twitter discussions:
 
 ## Markets
 
-In {month} DCR was trading between USD {n.dd}-{n.dd} / BTC {n.ddddd}-{n.ddddd}. The average daily rate was ${n.dd}.
+In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. The average daily rate was ${n.nn}.
 
 { markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis }
 
