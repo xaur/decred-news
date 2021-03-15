@@ -113,7 +113,6 @@ Community stats:
 - chats: #events
 - [events index](https://decredcommunity.github.io/events/index/)
 - [events repo](https://github.com/decredcommunity/events)
-- [DecredES/Monthly_reports](https://github.com/DecredES/Monthly_reports)
 - [decredinternational](https://www.facebook.com/groups/decredinternational/) Facebook
 
 Twitter accounts that often tweet about events:
@@ -217,6 +216,7 @@ Digests:
 
 - [Bitcoin Optech](https://bitcoinops.org/en/newsletters/) newsletter
 - [Our Network](https://ournetwork.substack.com/?no_cover=true)
+- [Monthly Market Updates](https://www.kanaandkatana.com/blog?tag=Monthly%20Update&category=Markets) at Kana and Katana
 - [Coinmonks newsletter](https://medium.com/coinmonks/newsletters/coinmonks)
 - [This month in Bitcoin privacy](https://github.com/Enegnei/This-Month-In-Bitcoin-Privacy)
 - [Daily Crypto News](https://www.publish0x.com/daily-crypto-news-by-crypto-lemon)
