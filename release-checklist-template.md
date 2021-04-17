@@ -28,13 +28,16 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
   - pool hashrate absolute Ph/s and share %  values
   - [miningpoolstats.stream](https://miningpoolstats.stream/decred)
   - [dcrstats.com/pow](https://dcrstats.com/pow)
+  - luxor.tech API
   - save raw data where possible (JSON etc)
 - [ ] staking
   - ticket price [30-day average](https://dcrstats.com)
+- [ ] network stats
+  - nodes at [Decred Mapper](https://nodes.jholdstock.uk/user_agents)
+  - nodes at [dcrextdata](https://dcrextdata.planetdecred.org/nodes)
+  - update the list of known [nodes and groups](https://github.com/decredcommunity/network-stats/tree/master/nodes)
 - [ ] vspd and dcrstakepool instance stats
 - [ ] [LN stats](https://ln-map.jholdstock.uk/)
-- [ ] network stats
-  - update the list of known [nodes and groups](https://github.com/decredcommunity/network-stats/tree/master/nodes)
 
 **Writing**
 
@@ -70,28 +73,30 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 **Publishing**
 
 - [ ] publish on GitHub with a single commit to `gh-pages`
+- [ ] add all images to the [files repo](https://github.com/xaur/decred-journal-files)
 - [ ] publish on Medium
   - upload images
+  - make Table of Contents
   - add to /decred/journals
   - add relevant tags
-  - test short preview shown at /decred and /decred/journals
+  - verify text previews shown at /decred and /decred/journals
+  - check for formatting issues
 - [ ] publish on Publish0x
   - upload images
   - add relevant tags
-- [ ] check Medium/Publish0x for formatting issues
+  - check for formatting issues
 - [ ] post on r/decred
 - [ ] tweet via decredproject
   - add title image
 - [ ] submit new issue to decred.org Press page ([example](https://github.com/decred/dcrweb/pull/898))
 - [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
-- [ ] announce on: t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
+- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
 - [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] fast-forward `master` to `gh-pages`
 
 **Housekeeping**
 
-- [ ] create archival Git tag from the draft branch, e.g. `archive/draft1901`
-- [ ] delete the draft branch
+- [ ] remember last draft commit, reset `draft` branch to master, merge latest draft commit
 - [ ] (opt) update `journal-template.md` in `docs` branch
 - [ ] (opt) update this `release-checklist-template.md` in the `docs` branch
 - [ ] start new cycle
