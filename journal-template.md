@@ -1,12 +1,12 @@
 # {DRAFT} Decred Journal – {month} {year}
 
-![{alt text}](../img/{file.jpg} "{hover tooltip text}")
+![{alt text}](../img/{file.ext} "{hover tooltip text}")
 
 _Image: {"$title by $author. $optional-description" for artwork, "$description" for photos}_
 
 { introduction, major news of the month ordered by impact, don't put any links here }
 
-Contents:
+Contents: { sync }
 
 - [Development](#development)
 - [People](#people)
@@ -26,49 +26,73 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 { hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
+<a id="dcrd" />
+
 **[dcrd](https://github.com/decred/dcrd)**
 
 - {}
+
+<a id="dcrwallet" />
 
 **[dcrwallet](https://github.com/decred/dcrwallet)**
 
 - {}
 
+<a id="dcrctl" />
+
 **[dcrctl](https://github.com/decred/dcrctl)**
 
 - {}
+
+<a id="decrediton" />
 
 **[Decrediton](https://github.com/decred/decrediton)**
 
 - {}
 
+<a id="politeia" />
+
 **[Politeia](https://github.com/decred/politeia)**
 
 - {}
+
+<a id="vspd" />
 
 **[vspd](https://github.com/decred/vspd)**
 
 - {}
 
+<a id="dcrstakepool" />
+
 **[dcrstakepool](https://github.com/decred/dcrstakepool)**
 
 - {}
+
+<a id="dcrpool" />
 
 **[dcrpool](https://github.com/decred/dcrpool)**
 
 - {}
 
+<a id="dcrlnd" />
+
 **[dcrlnd](https://github.com/decred/dcrlnd)**
 
 - {}
+
+<a id="cspp" />
 
 **[cspp](https://github.com/decred/cspp)**
 
 - {}
 
-**[dcrdex](https://github.com/decred/dcrdex)**
+<a id="dcrdex" />
+
+**[DCRDEX](https://github.com/decred/dcrdex)**
 
 - {}
+
+<a id="dcrandroid" />
 
 **[dcrandroid](https://github.com/planetdecred/dcrandroid)**
 
@@ -76,33 +100,49 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 { also check the base library https://github.com/planetdecred/dcrlibwallet }
 
+<a id="dcrios" />
+
 **[dcrios](https://github.com/planetdecred/dcrios)**
 
 - {}
+
+<a id="godcr" />
 
 **[godcr](https://github.com/planetdecred/godcr)**
 
 - {}
 
+<a id="dcrdata" />
+
 **[dcrdata](https://github.com/decred/dcrdata)**
 
 - {}
+
+<a id="tinydecred" />
 
 **[tinydecred](https://github.com/decred/tinydecred)**
 
 - {}
 
+<a id="dcrros" />
+
 **[dcrros](https://github.com/decred/dcrros)**
 
 - {}
+
+<a id="dcrdocs" />
 
 **[docs](https://github.com/decred/dcrdocs)**
 
 - {}
 
+<a id="dcrdevdocs" />
+
 **[dcrdevdocs](https://github.com/decred/dcrdevdocs)**
 
 - {}
+
+<a id="dcrweb" />
 
 **[decred.org](https://github.com/decred/dcrweb)**
 
@@ -163,11 +203,11 @@ Politeia Digest [issue {}]({}) and [issue {}]({}) have more details on the month
 
 **Hashrate**: {month}'s [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
-Pool hashrate [distribution](https://miningpoolstats.stream/decred) as of {date}: {PoolName n%, ...}.
-
-Distribution of 1,000 blocks [mined](https://miningpoolstats.stream/decred) before {date}: {PoolName n%, ...}.
+Distribution of hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
 { hint: fallback link for pool distribution: https://dcrstats.com/pow }
+
+Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) before {date}: {PoolName n%, ...}.
 
 **Staking**: [Ticket price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.n}-{n.n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
 
@@ -175,9 +215,11 @@ The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&
 
 { recap of ticket price action if it was interesting }
 
-**Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes). Version distribution: {n% app version, ...}.
+**Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes).
 
-{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%.
+Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) ({} total, dcrd only): { vX.Y.Z  n%, ... }
+
+{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://explorer.dcrdata.org/charts?chart=privacy-participation&zoom={t1}-{t2}&bin=day&axis=time) varied between {n}-{n}K DCR.
 
 { maybe } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
 
