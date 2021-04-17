@@ -214,6 +214,7 @@ Scams:
 
 Digests:
 
+- f2pool's [PoW Round-Up](https://f2pool.io/mining/pow-round-up/)
 - [Bitcoin Optech](https://bitcoinops.org/en/newsletters/) newsletter
 - [Our Network](https://ournetwork.substack.com/?no_cover=true)
 - [Monthly Market Updates](https://www.kanaandkatana.com/blog?tag=Monthly%20Update&category=Markets) at Kana and Katana
