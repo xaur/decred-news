@@ -1,5 +1,4 @@
 title: Decred Journal
-description: Monthly digest
-theme: jekyll-theme-cayman
-github:
-  is_project_page: false
+description: Detailed monthly reports of Decred development, network and social stats, ecosystem growth and new media content
+theme: jekyll-theme-primer
+permalink: :title
