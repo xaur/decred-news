@@ -16,7 +16,8 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
-March|[English](journal/202103.md)
+April|[English](journal/202104.md)
+March|[English](journal/202103.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202103.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202103_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2021/202103.md)
 February|[English](journal/202102.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202102.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202102_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/202102.md)
 January|[English](journal/202101.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202101.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202101_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2021/202101.md)
 
