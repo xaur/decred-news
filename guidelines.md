@@ -285,32 +285,36 @@ Main goals of People are:
 2. Make the community more familiar with people building Decred
 3. Track community growth
 
-"1. Greet new contributors" includes:
+**1. Greet new contributors**
 
-- cheering people whose code got merged to master branches for the first time
-- congratulating people who were granted a Decred Contractor Clearance (DCC)
+- cheer people whose code got merged to master branches for the first time
+- congratulate people who were granted a Decred Contractor Clearance (DCC)
 
 Ways to detect new contributors:
 
 - use the [contributor tracker](https://github.com/degeri/decred_contributor_track)
-- watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb
+- watch for changes to [contributors](https://decred.org/contributors/) page in [commits](https://github.com/decred/dcrweb/commits/master) to dcrweb (this is not a perfect source as described below, but it may help not miss new people)
 - when lurking GitHub, click the username on the commit to show all commits by that user and see if they started recently (for [example](https://github.com/decred/politeia/commits?author=martonp), martonp started in June)
 
-"2. Make the community more familiar with people making Decred" includes noting who is joining or leaving, as well as telling more about existing contributors with personal stories and interviews.
+**2. Make the community more familiar with people making Decred**
 
-"3. Track community growth" keeps an eye on user and follower counts in various social media platforms.
+- tell about active contributors via personal stories and interviews. If an interview was released, add it to People if it has something about personalities (e.g. personal background, motivation, aspirations, stories, etc). Don't add purely technical interviews.
+
+**3. Track community growth**
+
+- keep an eye on user and follower counts in relevant social media accounts
 
 Sources: [People](sources.md#people).
 
-#### Contributors list at decred.org
+#### Why new contributors at decred.org are not reported
 
-Following the [decision](#reporting-departures) to stop reporting removals from decred.org [contributors](https://decred.org/contributors/) page, in [April 2020](https://xaur.github.io/decred-news/journal/202004.html#people) issue we have decided to also not report additions, for the same reasons.
+Following the [decision](#reporting-departures) to stop reporting removals from decred.org [Contributors](https://decred.org/contributors/) page, in [April 2020](https://xaur.github.io/decred-news/journal/202004.html#people) issue we have decided to also not report additions, for the same reasons.
 
-Originally, changes to the contributors page were reported based on the assumption that it reflects the list of active Decred contributors. But later it was realiezd that it does not and there is [no intention](https://github.com/decred/dcrweb/issues/781#issuecomment-594903664) to do so.
+Originally, we reported changes to the Contributors page assuming that it reflects the list of active Decred contributors. But later we realized that it does not and there is [no intention](https://github.com/decred/dcrweb/issues/781#issuecomment-594903664) to do so.
 
-#### Reporting departures
+#### Why departures are not reported
 
-In [January 2020](https://xaur.github.io/decred-news/journal/202001.html#people) issue the people section also covered people removed from the [contributors](https://decred.org/contributors/) page at decred.org. @bee [argued](https://matrix.to/#/!psRvVbtljHXLzCBrjf:decred.org/$vhrC9Ak1Nc3UR4cgIXznoBC1Ci6wbO7dfpZuW57zsaI) that the contributors page shall be treated as a list of _active_ contributors and that we should not fear talking about departures. However, after [more discussion](https://matrix.to/#/!RwcqjIOMNizkPzGnLr:decred.org/$158375819434036swOfM:decred.org) it was decided to stop mentioning removals in DJ based on the following points from @richardred:
+In [January 2020](https://xaur.github.io/decred-news/journal/202001.html#people) issue the People section covered removals from the [Contributors](https://decred.org/contributors/) page at decred.org. @bee [argued](https://matrix.to/#/!psRvVbtljHXLzCBrjf:decred.org/$vhrC9Ak1Nc3UR4cgIXznoBC1Ci6wbO7dfpZuW57zsaI) that the Contributors page shall be treated as a list of _active_ contributors and that we should not fear talking about departures. However, after [more discussion](https://matrix.to/#/!RwcqjIOMNizkPzGnLr:decred.org/$158375819434036swOfM:decred.org) it was decided to stop mentioning removals in DJ based on the following points from @richardred:
 
 - what that page actually represents is probably quite different to how most people will interpret it
 - goes also for the converse, if we mention every removal from contributors page people may assume it can be used as list of current contractors, which afaik it is not good for. it's not a formal process and I don't know what the criteria are for determining when someone is removed from the page, it reflects maintenance of decred.org as well as Decred's staffing
@@ -318,7 +322,9 @@ In [January 2020](https://xaur.github.io/decred-news/journal/202001.html#people)
 - in many cases people may remain on that page for a considerable period after they have stopped contributing, which decreases its reliability further
 - there are contractors who aren't listed at all
 
-In case we decide to report removals from the contributors page again, or report other kinds of "departures", below are guidelines for presenting that.
+#### Reporting departures
+
+In case we decide to report removals from the Contributors page again, or report other kinds of "departures", below are guidelines for presenting that.
 
 "Goodbye" must be done in a decent way to people who were removed from decred.org/contributors or got their DCC revoked. Decent means:
 
@@ -327,7 +333,7 @@ In case we decide to report removals from the contributors page again, or report
    - DCC revocation is a bit more "severe" but is also not an eternal mark of shame. People are welcome to improve and try again.
 2. Thank them for all the good work done to improve Decred.
 3. Invite for collaborating again in the future and hint that there's always a lot of work to do.
-4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations who try to amplify the "good news" of people joined and suppress the "bad news" of people leaving.
+4. Don't be afraid to talk about people leaving. People join and leave all the time, there are many reasons for both events and this is normal. When presented decently, it is actually a "power move", compared to organizations that try to amplify the "good news" of people joined and suppress the "bad news" of people leaving.
 
 ### Governance
 
