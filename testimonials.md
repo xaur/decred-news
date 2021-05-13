@@ -1,4 +1,18 @@
+# Testimonials
+
 Thanks to our readers for all the kind words.
+
+---
+
+There is not a single project in the market that has this thorough documentation.
+
+The Decred Journal is truly an asset that continues to blow away with the sheer volume of activity each month.
+
+Confidence and conviction are a result of clarity and high quality.
+
+\#DecredDelivers
+
+(@Checkmate on [2021-01-12](https://twitter.com/_Checkmatey_/status/1349073097316474884))
 
 ---
 
@@ -48,9 +62,27 @@ The Decred Journal was published for January 2020. Big thanks to Richard Red, Be
 
 ---
 
+I'm always impressed by the high quality and comprehensive coverage of these. Great work!
+
+(@davecgh on [2020-02-08](https://www.reddit.com/r/decred/comments/f0xw7c/decred_journal_january_2020/fgzyjtj/))
+
+---
+
+The audience was well impressed with the amount of effort and the level of detail the Decred contractors and community members put into the creation of Decred newsletters, publications, and the Decred Journal in particular, which, as they said themselves, rarely exists even in the world where people are very well compensated for their work.
+
+(@kozel on [2020-02-05](https://github.com/decredcommunity/events/blob/master/reports/20200114-gocracow7-meetup-krakow-poland.md))
+
+---
+
 December's issue of the Decred Journal was released! This is the mother-ship of Decred publications - highly recommend making a cup of coffee and taking 30min out of your week to read through in detail. If you're not following the Decred Journal, then you're missing out.
 
 (The Decred Drive on [2020-01-16](https://medium.com/@decreddrive/the-decred-drive-jan-16-9bb063e1f4df))
+
+---
+
+Being up-to-date with the Journal gives you tons of ammunition for meetups
+
+(@kozel on 2019-11-28)
 
 ---
 
