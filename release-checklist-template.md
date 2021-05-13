@@ -19,10 +19,11 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 **Monthly snapshots**: Snapshot data that is hard to obtain later. Aim to capture it at 1st day of the month at 00:00 UTC.
 
 - [ ] social media stats
-  - stats reported in People (minimum)
-  - all accounts tracked by [social-media-stats](https://github.com/decredcommunity/social-media-stats)
-  - untracked candidate accounts
+  - accs reported in People ("key" list)
+  - all accs in [social-media-stats](https://github.com/decredcommunity/social-media-stats)
+  - untracked candidate accounts ("maybe" list)
   - see if any new accounts need to be tracked
+- [ ] Medium and Publish0x post stats
 - [ ] Reddit traffic stats
 - [ ] mining
   - pool hashrate absolute Ph/s and share %  values
@@ -96,7 +97,8 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 
 **Housekeeping**
 
-- [ ] remember last draft commit, reset `draft` branch to master, merge latest draft commit
+- [ ] archive draft history
+  - create `tmp` at `master`, merge both `drafts` and the latest draft commit, fast-forward `drafts` to `tmp`
 - [ ] (opt) update `journal-template.md` in `docs` branch
 - [ ] (opt) update this `release-checklist-template.md` in the `docs` branch
 - [ ] start new cycle
