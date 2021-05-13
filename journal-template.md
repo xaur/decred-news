@@ -4,7 +4,7 @@
 
 _Image: {"$title by $author. $optional-description" for artwork, "$description" for photos}_
 
-{ introduction, major news of the month ordered by impact, don't put any links here }
+{ intro, major news of the month, don't put any links here }
 
 Contents: { sync }
 
@@ -12,11 +12,11 @@ Contents: { sync }
 - [People](#people)
 - [Governance](#governance)
 - [Network](#network)
-- [Integrations](#integrations)
+- [Ecosystem](#ecosystem)
 - [Outreach](#outreach)
 - [Events](#events)
 - [Media](#media)
-- [Community Discussions](#community-discussions)
+- [Discussions](#discussions)
 - [Markets](#markets)
 - [Relevant External](#relevant-external)
 
@@ -24,7 +24,7 @@ Contents: { sync }
 
 The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can [build and run](https://medium.com/@artikozel/the-decred-node-back-to-the-source-part-one-27d4576e7e1c), but is not yet available in release binaries for regular users.
 
-{ hint: add below overview of activity for each project. add any other project that warrants a paragraph, drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
+{ hint: below add an overview of activity for each project. add any other project that warrants a paragraph. drop projects without notable updates. for each project the order of reporting is: changes released > merged to master > started work > discussions and future plans }
 
 <a id="dcrd" />
 
@@ -148,7 +148,7 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 - {}
 
-{ check if anything interesting happened in the other repos under
+{ check other repos in:
 
 - https://github.com/decred
 - https://github.com/planetdecred
@@ -187,7 +187,7 @@ Community stats as of {date}:
 
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s daily average DCR/USD rate of ${n.nn}, this is ${n}K received and ${n}K spent. At {prev month}'s average daily rate of ${n.nn}, the USD figure billed for past work is ${n}K. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
+In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s average of ${n.nn}, this is ${n} received and ${n} spent. At {prev month}'s average rate of ${n.nn}, the USD billed for past work is ${n}. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
 
 { high level recap of decision-making activity and most important events }
 
@@ -195,7 +195,7 @@ In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhN
 
 { check https://github.com/decredcommunity/proposals/commits/master for updates }
 
-Politeia Digest [issue {}]({}) and [issue {}]({}) have more details on the month's proposals.
+See Politeia Digest [issue {}]({}) and [issue {}]({}) for more details on the month's proposals.
 
 ## Network
 
@@ -215,9 +215,11 @@ The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&
 
 { recap of ticket price action if it was interesting }
 
+**VSP**: On {}, {} (+{}) live tickets were managed by vspd servers and {} (-{}) by the [listed](https://decred.org/vsp/) legacy dcrstakepool servers. Collectively the {} legacy and {} new VSPs managed {}% of the ticket pool.
+
 **Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes).
 
-Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) ({} total, dcrd only): { vX.Y.Z  n%, ... }
+Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) ({} total, dcrd only): { vX.Y.Z - n%, ... }
 
 { maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://explorer.dcrdata.org/charts?chart=privacy-participation&zoom={t1}-{t2}&bin=day&axis=time) varied between {n}-{n}K DCR.
 
@@ -225,7 +227,7 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 
 { any interesting analysis or events in the network }
 
-## Integrations
+## Ecosystem
 
 { hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best }
 
@@ -257,7 +259,7 @@ Upcoming:
 
 - {dates} - [{title}]({event link}) - {city}, {country}. {info}
 
-{announcements in Events domain}
+{ announcements from events ppl }
 
 ## Media
 
@@ -291,7 +293,7 @@ Other non-English content:
 
 - {}
 
-## Community Discussions
+## Discussions
 
 Comm systems news:
 
@@ -327,13 +329,13 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. 
 
 { other: regulations, privacy, security, fun }
 
-## About This Issue
+That's all for {month}. Submit your stories [here](https://github.com/xaur/decred-news/labels/next%20release) or simply share your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback). We're always looking for [contributors](https://github.com/xaur/decred-news/blob/docs/contributing.md) to improve DJ!
+
+## About
 
 This is issue {number} of Decred Journal. Index of all issues, mirrors, and translations is available [here](https://xaur.github.io/decred-news/).
 
 Most information from third parties is relayed directly from source after a minimal sanity check. The authors of the Decred Journal have no ability to verify all claims. Please beware of scams and do your own research.
-
-You can submit a story [here](https://github.com/xaur/decred-news/labels/next%20release) to be considered for the next release. [Feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback) and [contributions](https://github.com/xaur/decred-news/blob/docs/contributing.md) are always welcome.
 
 Credits (alphabetical order):
 
