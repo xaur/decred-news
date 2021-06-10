@@ -4,9 +4,15 @@ Here is the list of all known translations and their mirrors.
 
 ## 2021
 
+__May__
+
+- English: [github](journal/202105.md) [medium](https://medium.com/decred/decred-journal-may-2021-364042ccbecd) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-may-2021-xxyjymk)
+
 __April__
 
 - English: [github](journal/202104.md) [medium](https://medium.com/decred/decred-journal-april-2021-8f3bb25e6eb2) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-april-2021-xrydoqd)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202104.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202104_DecredJournalCN.md)
 
 __March__
 
