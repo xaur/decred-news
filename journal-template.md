@@ -187,10 +187,14 @@ Community stats as of {date}:
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
 - GitHub [dcrd](https://github.com/decred/dcrd) stars: {} (+{}), forks: {} (+{})
 
+{ notable SM activity }
+
 
 ## Governance
 
-In {month} the [Treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s average of ${n.nn}, this is ${n} received and ${n} spent. At {prev month}'s average rate of ${n.nn}, the USD billed for past work is ${n}. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
+In {month} the new [Treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}. As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and new Treasury is {n} DCR ({n} million USD at ${n.nn}).
+
+{ check the legacy treasury for any activity }
 
 { high level recap of decision-making activity and most important events }
 
@@ -281,7 +285,7 @@ Audio:
 
 - {}
 
-Art/fun:
+Art and fun:
 
 - {}
 
@@ -332,7 +336,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. 
 
 { other: regulations, privacy, security, fun }
 
-That's all for {month}. Submit your stories [here](https://github.com/xaur/decred-news/labels/next%20release) or simply share your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback). We're always looking for [contributors](https://github.com/xaur/decred-news/blob/docs/contributing.md) to improve DJ!
+That's all for {month}. Share your updates for the next issue in our [#journal](https://chat.decred.org/#/room/#journal:decred.org) chat room.
 
 
 ## About
