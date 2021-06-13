@@ -187,7 +187,7 @@ Community stats as of {date}:
 
 ## Governance
 
-In {month} the [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s average of ${n.nn}, this is ${n} received and ${n} spent. At {prev month}'s average rate of ${n.nn}, the USD billed for past work is ${n}. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
+In {month} the [Treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s average of ${n.nn}, this is ${n} received and ${n} spent. At {prev month}'s average rate of ${n.nn}, the USD billed for past work is ${n}. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
 
 { high level recap of decision-making activity and most important events }
 
@@ -201,7 +201,7 @@ See Politeia Digest [issue {}]({}) and [issue {}]({}) for more details on the mo
 
 { section hint: use the same `zoom` parameter for all dcrdata links }
 
-**Hashrate**: {month}'s [hashrate](https://explorer.dcrdata.org/charts?chart=hashrate&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
+**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) {set zoom to show the month} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
 Distribution of hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
@@ -209,9 +209,9 @@ Distribution of hashrate [reported](https://miningpoolstats.stream/decred) by th
 
 Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) before {date}: {PoolName n%, ...}.
 
-**Staking**: [Ticket price](https://explorer.dcrdata.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.n}-{n.n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
+**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&zoom={t1}-{t2}&axis=time&visibility=true-true&mode=stepped) varied between {n.n}-{n.n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
 
-The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://explorer.dcrdata.org/charts?chart=stake-participation&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) in proof-of-stake.
+The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&zoom={t1}-{t2}&scale=linear&bin=block&axis=time) in proof-of-stake.
 
 { recap of ticket price action if it was interesting }
 
@@ -221,7 +221,7 @@ The [locked amount](https://explorer.dcrdata.org/charts?chart=ticket-pool-value&
 
 Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) ({} total, dcrd only): { vX.Y.Z - n%, ... }
 
-{ maybe } The share of [mixed coins](https://explorer.dcrdata.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://explorer.dcrdata.org/charts?chart=privacy-participation&zoom={t1}-{t2}&bin=day&axis=time) varied between {n}-{n}K DCR.
+{ maybe } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom={t1}-{t2}&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://dcrdata.decred.org/charts?chart=privacy-participation&zoom={t1}-{t2}&bin=day&axis=time) varied between {n}-{n}K DCR.
 
 { maybe } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
 
