@@ -243,15 +243,6 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
 
-## Adoption
-
-{ new merchants }
-
-{ applications of Decred blockchain and related projects: Politeia, dcrtime, atomicswap }
-
-{ investment adoption }
-
-
 ## Outreach
 
 { overview of outreach/communications/marketing/PR activity for past month and any short-term plans }
