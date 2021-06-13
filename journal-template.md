@@ -20,6 +20,7 @@ Contents: { sync }
 - [Markets](#markets)
 - [Relevant External](#relevant-external)
 
+
 ## Development
 
 The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can [build and run](https://medium.com/@artikozel/the-decred-node-back-to-the-source-part-one-27d4576e7e1c), but is not yet available in release binaries for regular users.
@@ -160,6 +161,7 @@ Other:
 
 - { smaller items go here }
 
+
 ## People
 
 { hint: list people who made their first non-trivial commits merged in master branches, in alphabetical order }
@@ -185,6 +187,7 @@ Community stats as of {date}:
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
 - GitHub [dcrd](https://github.com/decred/dcrd) stars: {} (+{}), forks: {} (+{})
 
+
 ## Governance
 
 In {month} the [Treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) received {n} DCR and spent {n} DCR. Using {month}'s average of ${n.nn}, this is ${n} received and ${n} spent. At {prev month}'s average rate of ${n.nn}, the USD billed for past work is ${n}. As of {date}, Treasury balance is {n} DCR ({n} million USD at ${n.nn}).
@@ -196,6 +199,7 @@ In {month} the [Treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqD
 { check https://github.com/decredcommunity/proposals/commits/master for updates }
 
 See Politeia Digest [issue {}]({}) and [issue {}]({}) for more details on the month's proposals.
+
 
 ## Network
 
@@ -227,6 +231,7 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 
 { any interesting analysis or events in the network }
 
+
 ## Ecosystem
 
 { hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best }
@@ -237,6 +242,7 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
+
 ## Adoption
 
 { new merchants }
@@ -245,9 +251,11 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 { investment adoption }
 
+
 ## Outreach
 
 { overview of outreach/communications/marketing/PR activity for past month and any short-term plans }
+
 
 ## Events
 
@@ -260,6 +268,7 @@ Upcoming:
 - {dates} - [{title}]({event link}) - {city}, {country}. {info}
 
 { announcements from events ppl }
+
 
 ## Media
 
@@ -293,6 +302,7 @@ Other non-English content:
 
 - {}
 
+
 ## Discussions
 
 Comm systems news:
@@ -309,6 +319,7 @@ Selected Twitter discussions:
 
 - {}
 
+
 ## Markets
 
 In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. The average daily rate was ${n.nn}.
@@ -316,6 +327,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. 
 { markets overview: USD and BTC prices, highs and lows, interesting events, interesting analysis }
 
 { dcrdex updates, esp. volume }
+
 
 ## Relevant External
 
@@ -330,6 +342,7 @@ In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. 
 { other: regulations, privacy, security, fun }
 
 That's all for {month}. Submit your stories [here](https://github.com/xaur/decred-news/labels/next%20release) or simply share your [feedback](https://github.com/xaur/decred-news/blob/docs/contributing.md#feedback). We're always looking for [contributors](https://github.com/xaur/decred-news/blob/docs/contributing.md) to improve DJ!
+
 
 ## About
 
