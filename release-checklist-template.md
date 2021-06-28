@@ -26,7 +26,7 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] Medium and Publish0x post stats
 - [ ] Reddit traffic stats
 - [ ] mining
-  - pool hashrate absolute Ph/s and share %  values
+  - pool hashrate absolute Ph/s and share % values
   - [miningpoolstats.stream](https://miningpoolstats.stream/decred)
   - [dcrstats.com/pow](https://dcrstats.com/pow)
   - luxor.tech API
@@ -54,9 +54,9 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] (opt) ask #marketing to review Outreach+Events+Media
 - [ ] complete Governance
 - [ ] complete Network
-- [ ] complete Integrations, Adoption
+- [ ] complete Ecosystem
 - [ ] (opt) find interesting Reddit and Twitter threads
-- [ ] complete Community Discussions
+- [ ] complete Discussions
 - [ ] complete Markets
 - [ ] complete Relevant External
 - [ ] (opt) ask quoted people to review their texts
@@ -89,7 +89,8 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] post on r/decred
 - [ ] tweet via decredproject
   - add title image
-- [ ] submit new issue to decred.org Press page ([example](https://github.com/decred/dcrweb/pull/898))
+- [ ] add new issue to decred.org Press page ([coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml))
+  - verify deployment
 - [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
 - [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
 - [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
@@ -102,3 +103,4 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] (opt) update `journal-template.md` in `docs` branch
 - [ ] (opt) update this `release-checklist-template.md` in the `docs` branch
 - [ ] start new cycle
+- [ ] delete the draft branch (will auto-close the PR)
