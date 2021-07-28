@@ -166,7 +166,7 @@ Other:
 
 { hint: list people who made their first non-trivial commits merged in master branches, in alphabetical order }
 
-Welcome to new first time contributors with code merged to master: {@handle} ([{repo}]({link to user's commits})), ...
+Welcome to new first time contributors with code merged to master: {@handle} ([{repo}]({link to user's commits})), ... !
 
 Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}). { hint: check the CMS }
 
@@ -192,7 +192,7 @@ Community stats as of {date}:
 
 ## Governance
 
-In {month} the new [Treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}. As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and new Treasury is {n} DCR ({n} million USD at ${n.nn}).
+In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}. As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and new treasury is {n} DCR ({n} million USD at ${n.nn}).
 
 { check the legacy treasury for any activity }
 
@@ -241,6 +241,10 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 { hint: new pieces of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors. use bullets or paragraphs, whatever looks best }
 
 { check https://github.com/decred/dcrwebapi/commits/master for changes to the VSP list }
+
+{ check https://github.com/decred/dcrwebapi/pulls for new VSPs }
+
+{ check #services for news }
 
 { check https://github.com/decred/dcrweb/commits/master to detect added/removed services }
 
