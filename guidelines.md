@@ -147,7 +147,7 @@ Question:
 
 Placeholders that must be filled:
 
-> In {month} the Treasury received {n} DCR and spent {n} DCR.
+> In {month} the treasury received {n} DCR and spent {n} DCR.
 
 Special case of placeholder is an empty TODO, it must be obvious from the context what it should be replaced with:
 
@@ -339,7 +339,7 @@ In case we decide to report removals from the Contributors page again, or report
 
 Goal: provide a digest of decision-making activity and finances.
 
-Finances overview includes Treasury income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury section per the [content plan](content.md).
+Finances overview includes treasury income and expenses in DCR and USD. When more finance info is available for reporting we may split this into a separate Treasury or Finances section per the [content plan](content.md).
 
 Decision-making activity overview covers proposal activity on Politeia, pre-proposals posted in other places, as well as (meta) discussions about how Politeia and other governance processes should work.
 
@@ -444,7 +444,7 @@ Report any interesting market movements. Ideally, cover the action in markets no
 
 Mention both USD and BTC price:
 
-- USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the Treasury - important health indicator)
+- USD price shows how Decred competes against fiat and the collective purchasing power of DCR holders (including the treasury - important health indicator)
 - BTC price shows how Decred competes against Bitcoin, since they both are sovereign SoV+MoE focused cryptocurrencies with similar properties
 
 Do not speculate about the price.
@@ -627,6 +627,7 @@ This applies to English texts only:
   - Use `'` for single and `"` for double quotes.
   - Non-ASCII is ok in names, e.g. `Permabull Niño`.
 - For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
+- Capitalize `Treasury` when used as a proper noun or formal entity, e.g. `The (Decred) Treasury`. Other uses must be lowercase, e.g. `The Decred project has a treasury`, `treasury funds`, `treasury payouts`, etc. ([discussion](https://matrix.to/#/!TbVdEHFJcNnQyCJpZI:decred.org/$K43TEh3otkfjYZBWJ9WeM7fSrFDRzHu5vk4LjHRDVF0))
 - Use "Sentence case" for Selected articles, Videos and Audio.
 
 > In sentence case, the title is written as if it were a sentence. This is considered a more casual style and is commonly used in newspapers and on the web for headline capitalization. There are a couple reasons why writers choose sentence case over title case:
