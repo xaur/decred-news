@@ -4,11 +4,23 @@ Here is the list of all known translations and their mirrors.
 
 ## 2021
 
+__July__
+
+- English: [github](journal/202107.md) [medium](https://medium.com/decred/decred-journal-july-2021-fa3ce428b3ed) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-july-2021-xznglgy)
+
+__June__
+
+- English: [github](journal/202106.md) [medium](https://medium.com/decred/decred-journal-june-2021-9b631d2f8218) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-june-2021-xknyrzr)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202106.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202106_DecredJournalCN.md)
+- Spanish: [github](https://github.com/DecredES/translations/blob/master/decredJournal/2021/06/index.md) [medium](https://medium.com/decred-es/revista-decred-junio-2021-e7a792cc1b4d)
+
 __May__
 
 - English: [github](journal/202105.md) [medium](https://medium.com/decred/decred-journal-may-2021-364042ccbecd) [publish0x](https://www.publish0x.com/decredjournal/decred-journal-may-2021-xxyjymk)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202105.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202105_DecredJournalCN.md)
+- Spanish: [github](https://github.com/DecredES/translations/blob/master/decredJournal/2021/05/index.md) [medium](https://medium.com/decred-es/revista-decred-mayo-2021-a82edbed3277)
 
 __April__
 
