@@ -223,7 +223,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&zo
 
 { recap of ticket price action if it was interesting }
 
-**VSP**: On {}, {} (+{}) live tickets were managed by vspd servers and {} (-{}) by the [listed](https://decred.org/vsp/) legacy dcrstakepool servers. Collectively the {} legacy and {} new VSPs managed {}% of the ticket pool.
+**VSP**: On {}, {} (+{}) live tickets were managed by [listed](https://decred.org/vsp/) vspd servers and {} (-{}) by listed legacy dcrstakepool servers. Collectively the {} legacy and {} new VSPs managed {}% of the ticket pool.
 
 **Nodes**: Throughout {month} there were around {n} reachable nodes according to [dcrextdata](https://dcrextdata.planetdecred.org/nodes).
 
