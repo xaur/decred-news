@@ -16,7 +16,8 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 Month|Language
 ---|---
-July|[English](journal/202107.md)
+August|[English](journal/202108.md)
+July|[English](journal/202107.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202107.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202107_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-julio-2021-6961b11bc856)
 June|[English](journal/202106.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202106.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202106_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-junio-2021-e7a792cc1b4d)
 May|[English](journal/202105.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202105.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202105_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-mayo-2021-a82edbed3277)
 April|[English](journal/202104.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202104.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202104_DecredJournalCN.md), [Spanish](https://medium.com/decred-es/revista-decred-abril-2021-c1e5b7bc0410)
