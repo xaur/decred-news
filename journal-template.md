@@ -174,7 +174,7 @@ Congratulations to new contractors granted the Decred Contractor Clearance (DCC)
 
 { updates from existing contractors }
 
-{ interviews about people }
+{ interviews about people. link to #media for generic references ("3 interviews") and link directly for specific references and/or with quotes }
 
 Community stats as of {date}:
 
@@ -185,14 +185,13 @@ Community stats as of {date}:
 - [Discord](https://discord.gg/GJ2GXfz) users: {} (+{})
 - [Telegram](https://t.me/Decred) users: {} (+{})
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
-- GitHub [dcrd](https://github.com/decred/dcrd) stars: {} (+{}), forks: {} (+{})
 
-{ notable SM activity }
+{ maybe list/link notable SM activity }
 
 
 ## Governance
 
-In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}. As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and new treasury is {n} DCR ({n} million USD at ${n.nn}).
+In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at month's average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}. As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and new treasury is {n} DCR ({n} million USD at ${n.nn}).
 
 { check the legacy treasury for any activity }
 
