@@ -66,8 +66,9 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] incorporate all feedback
 - [ ] resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] ensure that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
-- [ ] [lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
+- [ ] add images
+- [ ] [lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] remove `{DRAFT}` from title
 - [ ] pre-release review: check spelling, grammar, test that links work
 
@@ -88,19 +89,19 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
   - check for formatting issues
 - [ ] post on r/decred
 - [ ] tweet via decredproject
-  - add title image
+  - add proper title image
+- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
+- [ ] fast-forward `master` to `gh-pages`
+- [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
+- [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] add new issue to decred.org Press page ([coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml))
   - verify deployment
-- [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
-- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
-- [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
-- [ ] fast-forward `master` to `gh-pages`
 
 **Housekeeping**
 
 - [ ] archive draft history
   - create `tmp` at `master`, merge both `drafts` and the latest draft commit, fast-forward `drafts` to `tmp`
 - [ ] (opt) update `journal-template.md` in `docs` branch
-- [ ] (opt) update this `release-checklist-template.md` in the `docs` branch
+- [ ] (opt) update `release-checklist-template.md` in the `docs` branch
 - [ ] start new cycle
 - [ ] delete the draft branch (will auto-close the PR)
