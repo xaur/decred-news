@@ -593,7 +593,7 @@ Links should span 1-3 words. Avoid too short and too long link text. Examples:
 
 First, remove any tracking parameters like Medium's `gi=...`, Google Analytics `utm_...`, etc. As a general rule, remove any URL parameters that don't break the link. "URL parameters" is the stuff that comes after `?` in the URL.
 
-Second, ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This means using www.reddit.com over old.reddit.com, www.youtube.com over youtu.be, and so on. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source. Use of canonical links improves linking of content together (e.g. on Reddit).
+Second, ensure URLs are [canonical](https://en.wikipedia.org/wiki/Canonical_link_element). This means using `www.reddit.com` over `old.reddit.com`, `www.youtube.com` over `youtu.be`, and so on. On most pages canonical link can be found in `<link rel="canonical" href="..."/>` in the page source. Use of canonical links improves linking of content together (e.g. on Reddit).
 
 **Examples**
 
@@ -613,7 +613,13 @@ https://hackernoon.com/decred-wants-you-be-one-of-the-first-to-test-the-dcr-ligh
 
 ### Chat links
 
-For links to chat messages always use Matrix links, specifically matrix.to links (don't use riot.im links).
+For links to chat messages always use Matrix links over Discord or Telegram links.
+
+Currently, we use links that open target messages in a web client hosted at `chat.decred.org`:
+
+> Share your updates for the next issue in our [#journal](https://chat.decred.org/#/room/#journal:decred.org) chat room.
+
+In the future we should start using `matrix.to` links or even `mxc://` links, when they become easy to use.
 
 For links to files that were uploaded to Matrix, don't link to file directly. Instead, link to (relevant) message that uploaded it. It is trivial to open the message and download the file, but it is not trivial to find the message by the direct file link.
 
@@ -630,31 +636,56 @@ See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 ### Typography
 
-This applies to English texts only:
+This applies to English texts only.
 
-- Use US English spelling for consistency.
-- Use simple word forms when possible.
-- For large numbers always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`
-  - e.g. `$53K` or `$7 million`
-- For small numbers use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
-  - for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
-  - for double-digit pool's hashrate share no decimals are necessary, but are needed for smaller numbes: `F2Pool 21%, UUPool 19%, lab.antpool.com 16.5%, Poolin 9.5%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08%`
-  - same for node versions: `Roughly 78% run dcrd v1.4.0, 5.7% are dcrwallet v1.4.0 and 6.2% are v1.5.0(pre) dev builds.`
-- Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
-  - Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
-  - Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
-  - Use `'` for single and `"` for double quotes.
-  - Non-ASCII is ok in names, e.g. `Permabull Niño`.
-- For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on. In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
-- Capitalize `Treasury` when used as a proper noun or formal entity, e.g. `The (Decred) Treasury`. Other uses must be lowercase, e.g. `The Decred project has a treasury`, `treasury funds`, `treasury payouts`, etc. ([discussion](https://matrix.to/#/!TbVdEHFJcNnQyCJpZI:decred.org/$K43TEh3otkfjYZBWJ9WeM7fSrFDRzHu5vk4LjHRDVF0))
-- Use "Sentence case" for Selected articles, Videos and Audio.
+#### Spelling
+
+Use US English consistently, see common spelling [differences](https://www.tysto.com/uk-us-spelling-list.html) with British English.
+
+Use simple word forms when possible.
+
+#### Numbers
+
+For _large numbers_ always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`, e.g.:
+
+- `$53K`
+- `$7 million`
+
+For _small numbers_ use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
+
+- for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
+
+- for double-digit pool's hashrate share no decimals are necessary, but are needed for smaller numbes: `F2Pool 21%, UUPool 19%, AntPool 17%, Poolin 10%, BTC.com 7.3%, Luxor 2.2%, BeePool 0.14%, Coinmine 0.12%, suprnova 0.08%`
+
+- same for node versions: `Roughly 78% run dcrd v1.4.0, 5.7% are dcrwallet v1.4.0 and 6.2% are v1.5.0(pre) dev builds.`
+
+#### Dates
+
+For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on.
+
+In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
+
+#### Characters
+
+Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
+
+- Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
+- Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
+- Use `'` for single and `"` for double quotes.
+- Non-ASCII is ok in names, e.g. `Permabull Niño`.
+
+#### Capitalization
+
+Capitalize `Treasury` when used as a proper noun or formal entity, e.g. `The (Decred) Treasury`. Other uses must be lowercase, e.g. `The Decred project has a treasury`, `treasury funds`, `treasury payouts`, etc. ([discussion](https://matrix.to/#/!TbVdEHFJcNnQyCJpZI:decred.org/$K43TEh3otkfjYZBWJ9WeM7fSrFDRzHu5vk4LjHRDVF0))
+
+Use "Sentence case" for Selected articles, Videos and Audio.
 
 > In sentence case, the title is written as if it were a sentence. This is considered a more casual style and is commonly used in newspapers and on the web for headline capitalization. There are a couple reasons why writers choose sentence case over title case:
 > 
 > - One could argue that capitalized words slow down a reader's ability to scan, while a title written in sentence case could be perceived as having an uninterrupted flow.
 > - Some publications prefer this style simply because it's more likely to preserve consistency. With sentence case, there's no nitpicking over the capitalization of a three-letter preposition. ([grammar.yourdictionary.com](https://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html))
 
-[Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency above, but are free to adapt to standards of their language.
+[Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency of this style guide, but are free to adapt to standards of their language.
 
 ### Linting
 
