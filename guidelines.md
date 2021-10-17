@@ -23,7 +23,7 @@ On a high level, DJ uses Git and GitHub to coordinate the creation of documents.
 
 Life cycle of a new DJ issue starts with creating a draft file from a [template](journal-template.md).
 
-To keep everyone updated about release progress, a GitHub issue is created from a [template](release-checklist-template.md) with a detailed checklist ([example](https://github.com/xaur/decred-news/issues/99)).
+To keep everyone updated on release progress, a GitHub pull request is created from a [template](release-checklist-template.md) with a detailed checklist ([example](https://github.com/xaur/decred-news/pull/165)).
 
 Throughout the month DJ authors add notes of the stories that must be covered to the draft file.
 
@@ -45,33 +45,49 @@ See [here](https://github.com/xaur/decred-news/issues/65) for a list of sections
 
 ### Git workflow
 
-DJ uses the "draft branch" Git workflow where each document is developed in its own "draft branch". It was designed to:
+Summary: Each document is developed in its own "draft branch". When finished, only a single commit is added to `master`. Draft history is then archived in a special location.
 
-1. Have low amount of commits in the `master` branch. This allows to follow the history on the high level, where commits mainly add new documents. Another use case is archivists can clone and update only the `master` branch and ignore the churn of draft changes.
-2. The draft branch can be rather "dirty" in terms of both the document contents and its Git history. This gives more flexibility to editors and allows to grant them direct write access to this branch to save them from the pains of the pull request workflow.
+Design goals of this workflows:
+
+1. Remove drafting churn from the `master` branch.
+
+   - Most users of the repo won't need draft commits after the doc has been published.
+   - Keeping draft commits separately also allows archivists to fetch only the `master` branch to save time and space.
+
+2. Save draft history _somewhere_.
+
+   - May be useful for billing or analyzing person's track record of contributing.
+
+3. Allow flexible editing.
+
+   - The draft branch can be rather "dirty" in terms of both the document contents and its Git history. This gives more flexibility to editors and allows to grant them direct write access to this branch to save them from the pains of the pull request workflow.
 
 The workflow is as follows:
 
-- Create draft branch named like `draft07`, where `07` stands for July.
-- In the draft branch, create a Markdown file from a [template](journal-template.md).
-- Make edits to the document.
-- Do not push merge commits, they make history hard to read. If the branch was updated since your last sync, use rebase to apply your changes on top.
-- Add any images embedded by the document. In general, avoid adding large binary files. See [Title image](#title-image) section.
-- When the document is finished, publish it on GitHub Pages (see example below).
-- Fast-forward `master` to `gh-pages`.
-- If bugs are found in the published version after the release, add more commits to `gh-pages` branch. Then again fast-forward `master` to `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
-- In general, do not edit the document after it was released, unless there is a very good reason to do so.
-- Add new issue to the index page. Update index in batches, see [Updating index](#updating-index).
-- Create Git tag from the draft branch for archival purposes, e.g. `archive/draft1907`.
+- Create draft branch named like `draft202107`, where `202107` denotes July 2021.
+- In the draft branch, create a Markdown file from a [template](journal-template.md) and name it like `202107.md`.
+- Make edits to the doc.
+- Do not add merge commits, they make history hard to read. If the branch was updated by others since your last sync, use `git rebase` to apply your changes on top.
+- Add any images embedded in the doc. In general, avoid adding large binary files. See [Title image](#title-image) section.
+- When the doc is finished, publish it on GitHub Pages (see example below).
+- If all looks proper, fast-forward `master` to `gh-pages`.
+- If bugs are found after the release, add more commits to `gh-pages` branch. Then again fast-forward `master` to `gh-pages`. All published versions must have matching commits in `master` and `gh-pages`.
+- In general, avoid editing the doc after release, unless there is a very good reason to do so.
+- [Update the index](#updating-index).
+- Archive draft history in a special `drafts` branch
+  - create `tmp` off latest master
+  - merge both `drafts` and `draft202107` into `tmp` with a single commit, e.g. `gitm merge drafts draft202107` (order matters!) with a message like `Archive draft 202107`
+  - fast-forward `drafts` to `tmp`
+  - delete `tmp`
 - Delete the draft branch locally and on GitHub.
 
-Steps to publish the draft:
+Steps to publish the doc:
 
 ```
 git checkout gh-pages
-git checkout draft06 journal/201906.md
-git checkout draft06 img/journal-201906-384.jpg
-git commit -a -m "Add Decred Journal - June 2019"
+git checkout draft202107 journal/201906.md
+git checkout draft202107 img/202107.1.github.png
+git commit -a -m "202107: Add Decred Journal - July 2019"
 git push origin gh-pages
 ```
 
@@ -79,19 +95,7 @@ git push origin gh-pages
 
 There are two files that track all DJ issues and their translations. `index.md` contains _primary_ locations of documents, while `mirrors.md` tracks _all_ known locations where the issues or their translations are mirrored.
 
-To avoid commit churn on `master`, changes to these files are merged in batches once a month after the release:
-
-- create new branch e.g. `index07` (`07` for July)
-- for the initial English version:
-  - add GitHub Pages link to `index.md`
-  - add GitHub Pages, Medium and other links to `mirros.md`
-- add all new known translations to `index.md` and `mirrors.md` accordingly
-- push the branch, open a PR against `master`
-- share the PR link in #writers, ask translators to submit any missed translations
-- collect submissions for several days
-- add a single combined commit to `master` and `gh-pages`
-
-Note: this workflow may change if we start to track all translations in a [single place](https://github.com/decredcommunity/translations).
+To avoid commit churn on `master`, these files are updated in batches once a month, after the release.
 
 ### Setup tips
 
