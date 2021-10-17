@@ -638,20 +638,22 @@ See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 This applies to English texts only.
 
+[Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency of this style guide, but are free to adapt to standards of their language.
+
 #### Spelling
 
-Use US English consistently, see common spelling [differences](https://www.tysto.com/uk-us-spelling-list.html) with British English.
+1\. Use US English consistently, see common spelling [differences](https://www.tysto.com/uk-us-spelling-list.html) with British English.
 
-Use simple word forms when possible.
+2\. Use simple word forms when possible.
 
 #### Numbers
 
-For _large numbers_ always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`, e.g.:
+1\. For _large numbers_ always use either uppercase `K/M/B/T` or full `thousand/millions/billions/trillions`, e.g.:
 
 - `$53K`
 - `$7 million`
 
-For _small numbers_ use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
+2\. For _small numbers_ use as few decimal places as necessary to reduce noise, but enough to retain context. Examples:
 
 - for the locked DCR (absolute DCR and percentage of the circulating supply) we use two decimal places because the fluctuations are small and because a lot of money is behind this number: `Locked amount was 4.83-5.06 million DCR, which corresponded to 48.3-49.8% of the available supply.`
 
@@ -661,13 +663,13 @@ For _small numbers_ use as few decimal places as necessary to reduce noise, but 
 
 #### Dates
 
-For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on.
+1\. For dates use short month format and no `th` after day number: `Jan 7`, `Feb 15` and so on.
 
 In dev speak, the format is `MMM D`. Add year if necessary: `Oct 15, 2018`.
 
 #### Characters
 
-Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
+1\. Stick to ASCII character set, except the main heading (first line in the file) and names. Modern renderers like GitHub Pages or Medium take care of it and properly render quotes, dashes, etc.
 
 - Use ` - ` (space, hyphen, space) to separate parts of sentences where you would use emdash.
 - Use hyphen `-` for number ranges where you would use endash, e.g. `Jan 15-20`.
@@ -676,20 +678,18 @@ Stick to ASCII character set, except the main heading (first line in the file) a
 
 #### Capitalization
 
-Capitalize `Treasury` when used as a proper noun or formal entity, e.g. `The (Decred) Treasury`. Other uses must be lowercase, e.g. `The Decred project has a treasury`, `treasury funds`, `treasury payouts`, etc. ([discussion](https://matrix.to/#/!TbVdEHFJcNnQyCJpZI:decred.org/$K43TEh3otkfjYZBWJ9WeM7fSrFDRzHu5vk4LjHRDVF0))
+1\. Capitalize `Treasury` when used as a proper noun or formal entity, e.g. `The (Decred) Treasury`. Other uses must be lowercase, e.g. `The Decred project has a treasury`, `treasury funds`, `treasury payouts`, etc. ([discussion](https://matrix.to/#/!TbVdEHFJcNnQyCJpZI:decred.org/$K43TEh3otkfjYZBWJ9WeM7fSrFDRzHu5vk4LjHRDVF0))
 
-Use "Sentence case" for Selected articles, Videos and Audio.
+2\. Use "Sentence case" for titles of articles/videos/podcasts.
 
 > In sentence case, the title is written as if it were a sentence. This is considered a more casual style and is commonly used in newspapers and on the web for headline capitalization. There are a couple reasons why writers choose sentence case over title case:
 > 
 > - One could argue that capitalized words slow down a reader's ability to scan, while a title written in sentence case could be perceived as having an uninterrupted flow.
 > - Some publications prefer this style simply because it's more likely to preserve consistency. With sentence case, there's no nitpicking over the capitalization of a three-letter preposition. ([grammar.yourdictionary.com](https://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html))
 
-[Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency of this style guide, but are free to adapt to standards of their language.
-
 #### Punctuation
 
-Simple list items are lowercase without period at the end:
+1\. Simple list items are lowercase without period at the end:
 
 > - added feature 1
 > - feature 2 made easier to use
@@ -697,6 +697,18 @@ Simple list items are lowercase without period at the end:
 To have more sentences in the list item, add a period and the sentence, this time it must end with a period
 
 > - added feature 1. It makes your 30% happier.
+
+2\. Do not insert punctuation into the quote that was originally _not part of the quote_:
+
+> "To protect your privacy we will further reduce your privacy", the official said.
+
+Note the `privacy", the` and not `privacy," the`
+
+> The report added that "Versions prior to 5 are vulnerable. Versions 5-6 are not vulnerable but users are still advised to upgrade to version 7.". As of October 2021, 70% of clients are version 7.
+
+Note the `version 7.". As` and not `version 7." As`.
+
+While this goes [against](https://grammar.yourdictionary.com/grammar/punctuation/does-punctuation-go-inside-quotation-marks.html) many style guides, it is consistent and does not distort the quoted message.
 
 ### Linting
 
