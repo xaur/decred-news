@@ -355,25 +355,36 @@ Sources: [Governance](sources.md#governance).
 
 ### Network
 
-The main goal of Network is to keep people's eyes on network health indicators such as hashrate, rate of missed tickets, locked DCR amount and percentage, count of nodes, node version distribution.
+The main goal of Network is to keep people's eyes on metrics with high impact on network security, such as hashrate, rate of missed tickets, locked DCR amount and percentage, count of nodes, node version distribution, etc.
 
-This section also covers any notable dynamics (like sharp hashrate drop or spike), incidents and updates (such as consensus rules voting).
+This section also covers any notable dynamics like:
 
-Network, Mining and Integrations together cover the infrastructure area.
+- sharp hashrate drop or increase
+- incidents
+- consensus change deployment progress
+- migration of tickets to/from VSPs
+
+Network, Mining and Integrations can be logically grouped in "infrastructure".
 
 Sources: [Network](sources.md#network).
 
-### Mining
+### Ecosystem
+
+Ecosystem covers three distinct areas: Mining, Integrations, and Adoption.
+
+Originally each had its own section, but more recently it is all covered in a single section called Ecosystem.
+
+#### Mining
 
 Mining used to cover the mining scene: new miner units and their stats, new PoW pools and updates from existing ones, relevant news about colocation, sellers, energy, cooling, etc.
 
-Recent issues of DJ have omitted this section because the first phase of Blake mining arms race is over and there are no big news, and also because we simply don't have journalists tracking this space. [Contributions](contributing.md) are welcome.
+Recent issues of DJ have omitted Mining since there is no big news here, and also because we don't have people tracking this space closely. [Contributions](contributing.md) are welcome.
 
-### Integrations
+#### Integrations
 
-In contrast with Network that is about "raw" infrastructure and health indicators, Integrations is about services expanding Decred infrastructure, most commonly businesses.
+In contrast with Network, which is about fundamental infrastructure and health indicators, Integrations is about services expanding Decred infrastructure, most commonly _businesses_.
 
-Besides just news from VSPs, exchanges, wallets and payment processors, try to add interesting facts about them.
+Besides announcements from VSPs, exchanges, wallets and payment processors, try to add interesting facts about them.
 
 For example,
 
@@ -383,17 +394,18 @@ or
 
 > [BitPro](https://bitpro.cc/) payment gateway added Decred and [posted](https://www.reddit.com/r/decred/comments/8og4he/bitpro_payment_gateway_adds_decred/) on Reddit. Notably, it is fully functional without javascript or cookies and does not ask for name or email, among other [features](https://bitpro.cc/start).
 
-### Adoption
+#### Adoption
 
-The line between Integrations and Adoption is blurred but the guiding rule is: Integrations is aboud _building_ out Decred infrastructure, while Adoption is about _using_ Decred infrastructure. In other words, Adoption is about simply using DCR as money and building new products and services on top of Decred.
+There is no strict distinction between Integrations and Adoption. The guiding rule is: Integrations is about _building_ out the Decred infrastructure, while Adoption is about _using_ it by businesses and individuals. In other words, Adoption is about DCR being _adopted_ as store of value or medium of exchange, and building new products and services around it.
 
 Stories must have something to do with Decred blockchain, for example:
 
-- new merchants accept DCR
-- project or organization uses dcrtime or Politeia
-- projects building on top of atomicswap
+- a new fund added DCR to its portfolio
+- a new merchant started accepting DCR
+- project or organization adopted dcrtime or Politeia
+- something has been built on top of DCRDEX or atomicswap
 
-Similar to Integrations, try to dig interesting facts.
+Similar to Integrations, try to add interesting facts about each organization, in addition to a "dry" summary of what happened.
 
 ### Outreach
 
