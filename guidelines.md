@@ -687,6 +687,17 @@ Use "Sentence case" for Selected articles, Videos and Audio.
 
 [Translations](translating.md) are encouraged to follow the spirit of simplicity and consistency of this style guide, but are free to adapt to standards of their language.
 
+#### Punctuation
+
+Simple list items are lowercase without period at the end:
+
+> - added feature 1
+> - feature 2 made easier to use
+
+To have more sentences in the list item, add a period and the sentence, this time it must end with a period
+
+> - added feature 1. It makes your 30% happier.
+
 ### Linting
 
 Just before the release:
