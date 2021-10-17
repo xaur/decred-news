@@ -2,9 +2,9 @@
 
 Checklist currently in use. For unused ideas see [release-checklist-ideas.md](release-checklist-ideas.md).
 
-Legend: `(opt)` - optional steps, `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X, `PO` - product owner responsible for the overall quality.
+Legend: `by: X` - execute step by date X, `ready by: X` - resource must be ready by date X, `PO` - product owner responsible for the overall quality.
 
-Copy the raw Markdown after ``` into a new release issue or pull request.
+Copy the raw Markdown after `---` into a new release issue or pull request.
 
 ---
 
@@ -12,16 +12,16 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 
 **Dependencies**: Send notice in advance so that people can plan their work.
 
-- [ ] [title image](https://github.com/decred/dcrdesign/issues) (notify by: 20th, ready by: 3rd)
+- [ ] [title image](https://github.com/decred/dcrdesign/issues) _(notify by: 20th, ready by: 3rd)_
 - [ ] first time contributors
-- [ ] PR update (notify by: 28th, ready by: 3rd)
+- [ ] PR update _(notify by: 28th, ready by: 3rd)_
 
-**Monthly snapshots**: Snapshot data that is hard to obtain later. Aim to capture it at 1st day of the month at 00:00 UTC.
+**Monthly snapshots**: Snapshot data that is hard to obtain later. Ideally, capture it at 1st day of the month at 00:00 UTC.
 
 - [ ] social media stats
-  - accs reported in People ("key" list)
+  - accs reported in People (the "key" list)
   - all accs in [social-media-stats](https://github.com/decredcommunity/social-media-stats)
-  - untracked candidate accounts ("maybe" list)
+  - untracked candidate accounts (the "maybe" list)
   - see if any new accounts need to be tracked
 - [ ] Medium and Publish0x post stats
 - [ ] Reddit traffic stats
@@ -42,35 +42,35 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 
 **Writing**
 
-- [ ] extract more dev updates from GitHub repos
-- [ ] complete Development (by: 2nd)
-- [ ] complete People (by: 2nd)
+- [ ] scan GitHub repos for dev updates
+- [ ] complete Development _(by: 2nd)_
+- [ ] complete People _(by: 2nd)_
 - [ ] PO review Development and People
 - [ ] ask in #dev to review Development and People
 - [ ] complete Events
-- [ ] (opt) ask #events to review Events
+- [ ] ask #events to review Events
 - [ ] complete Outreach
 - [ ] complete Media
-- [ ] (opt) ask #marketing to review Outreach+Events+Media
+- [ ] ask #marketing to review Outreach+Events+Media
 - [ ] complete Governance
 - [ ] complete Network
 - [ ] complete Ecosystem
-- [ ] (opt) find interesting Reddit and Twitter threads
+- [ ] find interesting Reddit and Twitter threads
 - [ ] complete Discussions
 - [ ] complete Markets
 - [ ] complete Relevant External
-- [ ] (opt) ask quoted people to review their texts
+- [ ] ask quoted people to review their texts
 - [ ] complete Intro
 - [ ] PO review of all sections
-- [ ] (opt) ask #writers to review (by: 3rd)
+- [ ] ask #writers to review _(by: 3rd)_
 - [ ] incorporate all feedback
 - [ ] resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] ensure that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
-- [ ] add images
+- [ ] add other images
+- [ ] pre-release review: check spelling, grammar, test that links work
 - [ ] [lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] remove `{DRAFT}` from title
-- [ ] pre-release review: check spelling, grammar, test that links work
 
 **Publishing**
 
@@ -79,9 +79,9 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 - [ ] publish on Medium
   - upload images
   - make Table of Contents
-  - add to /decred/journals
+  - add to `/decred/journals`
   - add relevant tags
-  - verify text previews shown at /decred and /decred/journals
+  - verify text previews shown at `/decred` and `/decred/journals`
   - check for formatting issues
 - [ ] publish on Publish0x
   - upload images
@@ -89,10 +89,10 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
   - check for formatting issues
 - [ ] post on r/decred
 - [ ] tweet via decredproject
-  - add proper title image
+  - add correct title image for Twitter
 - [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
 - [ ] fast-forward `master` to `gh-pages`
-- [ ] if changes are necessary after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
+- [ ] if changes are needed after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
 - [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] add new issue to decred.org Press page ([coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml))
   - verify deployment
@@ -101,7 +101,7 @@ Copy the raw Markdown after ``` into a new release issue or pull request.
 
 - [ ] archive draft history
   - create `tmp` at `master`, merge both `drafts` and the latest draft commit, fast-forward `drafts` to `tmp`
-- [ ] (opt) update `journal-template.md` in `docs` branch
-- [ ] (opt) update `release-checklist-template.md` in the `docs` branch
+- [ ] update `journal-template.md` in the `docs` branch
+- [ ] update `release-checklist-template.md` in the `docs` branch
 - [ ] start new cycle
 - [ ] delete the draft branch (will auto-close the PR)
