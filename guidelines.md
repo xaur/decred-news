@@ -374,6 +374,8 @@ Ecosystem covers three distinct areas: Mining, Integrations, and Adoption.
 
 Originally each had its own section, but more recently it is all covered in a single section called Ecosystem.
 
+Sources: [Ecosystem](sources.md#ecosystem).
+
 #### Mining
 
 Mining used to cover the mining scene: new miner units and their stats, new PoW pools and updates from existing ones, relevant news about colocation, sellers, energy, cooling, etc.
@@ -393,6 +395,8 @@ For example,
 or
 
 > [BitPro](https://bitpro.cc/) payment gateway added Decred and [posted](https://www.reddit.com/r/decred/comments/8og4he/bitpro_payment_gateway_adds_decred/) on Reddit. Notably, it is fully functional without javascript or cookies and does not ask for name or email, among other [features](https://bitpro.cc/start).
+
+Updates about communications infrastructure (e.g. Matrix, Discord, Telegram, etc) also go here.
 
 #### Adoption
 
@@ -441,18 +445,17 @@ Signs of a good candidate article: something you would recommend reading to a wi
 
 For each selected article, optionally add a small note about why it is great.
 
-### Community Discussions
+Sources: [Media](sources.md#media).
 
-Goals:
+### Discussions
 
-1. Update about communications infrastructure (critical for online communities)
-2. Track interesting conversations on social media
+Goal: Track interesting conversations on social media
 
 Sources:
 
-- watch [r/decred](https://www.reddit.com/r/decred/new/)
+- scan [r/decred](https://www.reddit.com/r/decred/new/)
 - use Reddit's follow/friend features to follow prominent posters
-- for more sources check [Community Discussions](sources.md#community-discussions).
+- [Discussions](sources.md#community-discussions)
 
 ### Markets
 
@@ -493,7 +496,7 @@ Sources: [Relevant External](sources.md#relevant-external).
 
 ### Missed content
 
-Some notable stories are discovered after the release. Add them in the next issue, followed by a tag in italics e.g. `_(missed in March issue)_`.
+Some notable stories are discovered after the release. Add them in the next issue, optionally with a comment tag in italics e.g. `_(missed in March issue)_`.
 
 ### Title image
 

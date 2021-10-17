@@ -95,7 +95,7 @@ Community stats:
 - [network-stats](https://github.com/decredcommunity/network-stats)
 - chats: #pow-mining, #pos-voting
 
-## Integrations
+## Ecosystem
 
 - [@decredproject](https://twitter.com/decredproject)
 - #services chat
