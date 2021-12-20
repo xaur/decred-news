@@ -12,9 +12,9 @@ Copy the raw Markdown after `---` into a new release issue or pull request.
 
 **Dependencies**: Send notice in advance so that people can plan their work.
 
-- [ ] [title image](https://github.com/decred/dcrdesign/issues) _(notify by: 20th, ready by: 3rd)_
+- [ ] [title image](https://github.com/decred/dcrdesign/issues)
 - [ ] first time contributors
-- [ ] PR update _(notify by: 28th, ready by: 3rd)_
+- [ ] PR update
 
 **Monthly snapshots**: Snapshot data that is hard to obtain later. Ideally, capture it at 1st day of the month at 00:00 UTC.
 
@@ -43,38 +43,40 @@ Copy the raw Markdown after `---` into a new release issue or pull request.
 **Writing**
 
 - [ ] scan GitHub repos for dev updates
-- [ ] complete Development _(by: 2nd)_
-- [ ] complete People _(by: 2nd)_
+- [ ] complete Development
+- [ ] complete People
 - [ ] PO review Development and People
 - [ ] ask in #dev to review Development and People
-- [ ] complete Events
-- [ ] ask #events to review Events
-- [ ] complete Outreach
-- [ ] complete Media
-- [ ] ask #marketing to review Outreach+Events+Media
 - [ ] complete Governance
 - [ ] complete Network
+- [ ] scan Twitter for notable news
+- [ ] scan Reddit for notable news
 - [ ] complete Ecosystem
-- [ ] find interesting Reddit and Twitter threads
-- [ ] complete Discussions
+- [ ] complete Events
+- [ ] ask #events to review Events
+- [ ] complete Media
+- [ ] complete Outreach
+- [ ] ask #marketing to review Outreach+Events+Media
 - [ ] complete Markets
 - [ ] complete Relevant External
-- [ ] ask quoted people to review their texts
+- [ ] offer quoted people to review their texts
 - [ ] complete Intro
 - [ ] PO review of all sections
-- [ ] ask #writers to review _(by: 3rd)_
+- [ ] ask #writers to review
 - [ ] incorporate all feedback
 - [ ] resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
 - [ ] ensure that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
-- [ ] add other images
-- [ ] pre-release review: check spelling, grammar, test that links work
+- [ ] add other images with captions
+- [ ] pre-release review: grammar, test that links work
 - [ ] [lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] remove `{DRAFT}` from title
+- [ ] auto grammer check
 
 **Publishing**
 
 - [ ] publish on GitHub with a single commit to `gh-pages`
+- [ ] add new issue to the index.md
 - [ ] add all images to the [files repo](https://github.com/xaur/decred-journal-files)
 - [ ] publish on Medium
   - upload images
@@ -91,7 +93,8 @@ Copy the raw Markdown after `---` into a new release issue or pull request.
 - [ ] tweet via decredproject
   - add correct title image for Twitter
 - [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
-- [ ] fast-forward `master` to `gh-pages`
+- [ ] announce on Instagram
+- [ ] fast-forward `master` to `gh-pages` (translators consume `master`)
 - [ ] if changes are needed after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
 - [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 - [ ] add new issue to decred.org Press page ([coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml))
