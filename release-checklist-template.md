@@ -85,14 +85,12 @@ Copy the raw Markdown after `---` into a new release issue or pull request.
   - add relevant tags
   - verify text previews shown at `/decred` and `/decred/journals`
   - check for formatting issues
-- [ ] publish on Publish0x
-  - upload images
-  - add relevant tags
-  - check for formatting issues
-- [ ] post on r/decred
+- [ ] publish on Odysee
+  - use this pattern for post ID: `decred-journal-YYYY-MM`
+- [ ] post Medium link on r/decred
 - [ ] tweet via decredproject
   - add correct title image for Twitter
-- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko, LinkedIn
+- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko
 - [ ] announce on Instagram
 - [ ] fast-forward `master` to `gh-pages` (translators consume `master`)
 - [ ] if changes are needed after the release, add commits to `gh-pages` (test in `draftXX` if needed) and update other places
