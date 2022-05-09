@@ -7,6 +7,7 @@ Here is the list of all known translations and their mirrors.
 __December__
 
 - English: [github](journal/202112.md) [medium](https://medium.com/decred/decred-journal-december-2021-376a27e7cc4e) [odysee](https://odysee.com/@Decred:c/decred-journal-2021-12:5)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202112.html)
 
 __November__
 
