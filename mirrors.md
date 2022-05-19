@@ -2,6 +2,16 @@
 
 Here is the list of all known translations and their mirrors.
 
+
+## 2022
+
+__April__
+
+- English: [github](journal/202204.md) [medium](https://medium.com/decred/decred-journal-april-2022-c2831e517eb4) [odysee](https://odysee.com/@Decred:c/decred-journal-2022-04:a)
+
+_Note: January, February, and March issues were not produced._
+
+
 ## 2021
 
 __December__
@@ -85,6 +95,7 @@ __January__
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202101.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202101_DecredJournalCN.md)
 - Spanish: [github](https://github.com/DecredES/traducciones/blob/master/revista-decred/2021/202101.md) [medium](https://medium.com/decred-es/revista-decred-enero-2021-7a5b22799d49)
+
 
 ## 2020
 
@@ -181,6 +192,7 @@ __January__
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md)
 - Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md)
 - Spanish: [github](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202001.md) [medium](https://medium.com/decred-es/revista-decred-enero-2020-721a67517a76)
+
 
 ## 2019
 
@@ -292,6 +304,7 @@ __January__
 - Russian: [medium](https://medium.com/decred-russia/decred-journal-%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C-2019-77a814bb3a9e) [decredcommunity](https://decredcommunity.org/ru/blog/decred-journal-january-2019)
 - Spanish: [github](https://github.com/3lian/DecredESJournal/blob/master/Revista%20Decred%20-%20Enero%202019) [medium](https://medium.com/@decred_es/revista-decred-enero-2019-549e2b051f5a) [decredcommunity](https://decredcommunity.org/sp/blog/decred-journal-january-2019)
 - Vietnamese: [github](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-01.md)
+
 
 ## 2018
 

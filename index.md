@@ -10,7 +10,14 @@ Markdown source files are available on [GitHub](https://github.com/xaur/decred-n
 
 Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contributing.md)!
 
+
 ## Archive
+
+
+### 2022
+
+April|[English](journal/202204.md)
+
 
 ### 2021
 
@@ -29,6 +36,7 @@ March|[English](journal/202103.md), [Arabic](https://insaf01.github.io/decred-jo
 February|[English](journal/202102.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202102.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202102_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/202102.md)
 January|[English](journal/202101.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202101.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202101_DecredJournalCN.md), [Spanish](https://github.com/DecredES/traducciones/blob/master/revista-decred/2021/202101.md)
 
+
 ### 2020
 
 Month|Language
@@ -46,6 +54,7 @@ March|[English](journal/202003.md), [Arabic](https://insaf01.github.io/decred-jo
 February|[English](journal/202002.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202002.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202002_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202002_DecredJournalPL.md), [Spanish](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202002.md)
 January|[English](journal/202001.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202001.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202001_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202001_DecredJournalPL.md), [Spanish](https://github.com/francov99/dcrspanish/blob/master/decred-journal-spanish/journal/202001.md)
 
+
 ### 2019
 
 Month|Language
@@ -62,6 +71,7 @@ April|[English](journal/201904.md), [Arabic](https://insaf01.github.io/decred-jo
 March|[English](journal/201903.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201903.html), [Chinese](https://www.jianshu.com/p/fcbcad784ad4), [Russian](https://medium.com/decred-russia/decred-journal-%D0%BC%D0%B0%D1%80%D1%82-2019-b10e4b179336), [Spanish](https://medium.com/@decred_es/revista-decred-marzo-2019-ae0eb9cdceb9), [Vietnamese](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-03.md)
 February|[English](journal/201902.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201902.html), [Chinese](https://www.jianshu.com/p/06cd808e9313), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201902_DecredJournalPL.md), [Russian](https://medium.com/decred-russia/decred-journal-%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8C-2019-b9c8e509c9a5), [Spanish](https://medium.com/@decred_es/revista-decred-febrero-2019-432a461a14a5), [Vietnamese](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-02.md)
 January|[English](journal/201901.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/201901.html), [Chinese](https://www.jianshu.com/p/097265621ef6), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/201901_DecredJournalPL.md), [Russian](https://medium.com/decred-russia/decred-journal-%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8C-2019-77a814bb3a9e), [Spanish](https://medium.com/@decred_es/revista-decred-enero-2019-549e2b051f5a), [Vietnamese](https://github.com/raedahgroup/decred-journal/blob/master/vietnamese/2019-01.md)
+
 
 ### 2018
 
