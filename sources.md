@@ -1,31 +1,49 @@
 # Sources
 
-This is a quick cheat sheet of common sources of notable events for Decred Journal. See [guidelines](guidelines.md) for background and usage instructions.
+This is a quick cheat sheet of common sources of notable news for Decred Journal. See [Guidelines](guidelines.md) for background and usage instructions.
 
-## All
 
-Other news efforts where we can check for missed stories:
+## All sections
 
-- bi-weekly video updates by @Exitus at [decredchannel](https://www.youtube.com/decredchannel)
-- [@Decred_News](https://twitter.com/Decred_News)
+Companion news efforts where we can check for missed stories:
+
+- Bi-weekly video updates by @Exitus at [Decred channel](https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg)
 
 Inactive:
 
 - [Decred Drive](https://medium.com/@decreddrive) by @DecredDragon
+- [@Decred_News](https://twitter.com/Decred_News)
+
+
+## Release announcements
+
+Releases can be found here:
+
+- https://github.com/decred/decred-binaries/releases
+- https://github.com/planetdecred/godcr/releases
+- https://github.com/planetdecred/dcrandroid/releases
+- https://github.com/planetdecred/dcrios/releases
+
 
 ## Development
 
-Organizations:
+GitHub organizations:
 
 - [decred](https://github.com/decred)
 - [planetdecred](https://github.com/planetdecred)
 - [raedahgroup](https://github.com/raedahgroup)
 
-Individuals:
+GitHub individuals:
 
+- [davecgh](https://github.com/davecgh)
+- [jrick](https://github.com/jrick)
 - [matheusd](https://github.com/matheusd)
 
-GitHub queries for pull requests:
+Main GitHub method for finding merged work (dcrd example):
+
+- https://github.com/decred/dcrd/commits/master
+
+Older GitHub method for finding merged work, via pull requests:
 
 - https://github.com/decred/dcrd/pulls?q=is%3Apr+merged%3A2020-07-01..2020-07-31+sort%3Aupdated-asc
 - `is:open updated:2019-06-01..2019-06-31`
@@ -37,94 +55,132 @@ Code stats:
 - https://github.com/decred/dcrd/pulse
 - https://github.com/decred/dcrd/graphs/contributors?from=2019-06-01&to=2019-07-01&type=c
 
-Chats: #dev, #politeia, #dcrdata, #lndev, #dexdev, #tinydecred, #documentation, #design.
+Chats: #dev, #decrediton, #mobile, #godcr:planetdecred.org, #politeia, #dcrdata, #lndev, #dexdev, #tinydecred, #documentation, #design .
 
-Twitter:
+Twitter, organizations:
 
+- [@decredproject](https://twitter.com/decredproject)
+- [@planetdecred](https://twitter.com/planetdecred)
+
+Twitter, individuals:
+
+- [@blockchainbuck](https://twitter.com/blockchainbuck)
 - [@chappjc](https://twitter.com/chappjc)
-- [@lukebp_](https://twitter.com/lukebp_)
-- [@matheusd_tech](https://twitter.com/matheusd_tech)
 - [@degeri_crypto](https://twitter.com/degeri_crypto)
 - [@dnldd](https://twitter.com/dnldd)
-- [@marco_peereboom](https://twitter.com/marco_peereboom)
-- [@davecgh](https://twitter.com/davecgh)
+- [@marco_peereboom](https://twitter.com/marco_peereboom) (protected)
+- [@matheusd_tech](https://twitter.com/matheusd_tech)
+
+Twitter individuals, past/inactive:
+
+- [@davecgh](https://twitter.com/davecgh) (deleted, links to another person now)
+- [@lukebp_](https://twitter.com/lukebp_), [@lukebp](https://twitter.com/lukebp) (deleted)
+
 
 ## People
 
 Contributors:
 
-- [decred_contributor_track](https://github.com/degeri/decred_contributor_track)
+- find new names manually when harvesting GitHub for Development updates
 - new DCCs in the CMS
-- changes to [contributors](https://decred.org/contributors/) page in [dcrweb commits](https://github.com/decred/dcrweb/commits/master)
 
-Key project accounts to report stats on:
+Contributors, past/inactive sources:
+
+- changes to [contributors](https://decred.org/contributors/) page in [dcrweb commits](https://github.com/decred/dcrweb/commits/master)
+- [decred_contributor_track](https://github.com/degeri/decred_contributor_track)
+
+Key project accounts to report social stats on:
 
 - Twitter: [@decredproject](https://twitter.com/decredproject)
 - Reddit: [r/decred new](https://www.reddit.com/r/decred/new/)
 - Matrix: #general
 - [Discord](https://discord.gg/GJ2GXfz)
 - Telegram: [Decred](https://t.me/Decred)
-- YouTube: [decredchannel](https://www.youtube.com/decredchannel)
-- LinkedIn: [decredproject](https://www.linkedin.com/company/decredproject)
+- YouTube: [Decred Channel](https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg)
 - GitHub dcrd: [dcrd](https://github.com/decred/dcrd)
+
+Key project accounts, past, no longer reporting:
+
+- LinkedIn: [decredproject](https://www.linkedin.com/company/decredproject)
 
 Community stats:
 
-- [dcrextdata.planetdecred.org](https://dcrextdata.planetdecred.org/community)
+- [PD Analytics](https://analytics.planetdecred.org/community)
 - [social-media-stats](https://github.com/decredcommunity/social-media-stats)
+
 
 ## Governance
 
-- [Treasury](https://explorer.dcrdata.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx?n=20&start=0&txntype=merged_debit)
+- [New treasury](https://dcrdata.decred.org/treasury)
+- [Legacy treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx?n=20&start=0&txntype=merged_debit)
 - [Politeia Digest](https://blockcommons.red/politeia-digest/)
 - [Proposals](https://proposals.decred.org/) at Politeia
-- [Proposals](https://explorer.dcrdata.org/proposals) at dcrdata
+- [Proposals](https://dcrdata.decred.org/proposals) at dcrdata
 - [proposals](https://github.com/decredcommunity/proposals/commits/master) repo commits
 - [@pi_crumbs](https://twitter.com/pi_crumbs)
 - [@slices_of_pi](https://twitter.com/slices_of_pi)
 - [r/decred new](https://www.reddit.com/r/decred/new/)
 - chats: #proposals, #governance
 
+
 ## Network
 
-- [dcrdata.org](https://explorer.dcrdata.org/)
-- [charts.dcr.farm](https://charts.dcr.farm/)
+- [dcrdata.org](https://dcrdata.decred.org/)
 - [dcrstats.com](https://dcrstats.com/)
+- [dcrsnapshots](https://github.com/bochinchero/dcrsnapshots) charts (ask @bochinchero in #journal)
 - [miningpoolstats.stream](https://miningpoolstats.stream/decred)
+- [network-stats](https://github.com/decredcommunity/network-stats) repo
 - [dcr-data.netlify.com](https://dcr-data.netlify.com/)
-- [network-stats](https://github.com/decredcommunity/network-stats)
 - chats: #pow-mining, #pos-voting
+
+Past, gone now:
+
+- [charts.dcr.farm](https://charts.dcr.farm/)
+
 
 ## Ecosystem
 
-- [@decredproject](https://twitter.com/decredproject)
+- [@decredproject](https://twitter.com/decredproject) Twitter
 - #services chat
 - [dcrwebapi](https://github.com/decred/dcrweb/commits/master) commits
 - [r/decred new](https://www.reddit.com/r/decred/new/)
 
+
 ## Outreach
 
+- [@decredproject](https://twitter.com/decredproject) Twitter
+- follow well-known Decred celebs on Twitter (see [Discussions](#discussions))
 - [r/decred new](https://www.reddit.com/r/decred/new/)
-- [DecredES/Monthly_reports](https://github.com/DecredES/Monthly_reports)
+- ask @l1ndseymm in #journal
 - chats: #marketing, #events, #media
+
+Past, inactive:
+
+- [DecredES/Monthly_reports](https://github.com/DecredES/Monthly_reports)
+
 
 ## Events
 
 - chats: #events
-- [events index](https://decredcommunity.github.io/events/index/)
+- [events index](https://decredcommunity.github.io/events/index/) website
 - [events repo](https://github.com/decredcommunity/events)
 - [decredinternational](https://www.facebook.com/groups/decredinternational/) Facebook
 
-Twitter accounts that often tweet about events:
+Past, inactive:
 
-- [@Decred_ES](https://twitter.com/Decred_ES)
+- [@Decred_ES](https://twitter.com/Decred_ES) Twitter
+
 
 ## Media
 
 Articles:
 
-- [@decredproject](https://twitter.com/decredproject)
+- [@decredproject](https://twitter.com/decredproject) Twitter
+- [Decred Society](https://www.decredsociety.com/archive)
 - [Block Commons](https://blockcommons.red/)
+
+Articles, past, inactive:
+
 - [stakey.club](https://stakey.club/en/articles/)
 
 All translations:
@@ -134,8 +190,11 @@ All translations:
 Article translations:
 
 - Arabic: [Insaf01/decred-arabic](https://github.com/Insaf01/decred-arabic)
-- Portuguese: [stakey.club](https://stakey.club/pt/translated/)
 - Spanish: Medium [decred-es](https://medium.com/decred-es), GitHub [DecredES](https://github.com/DecredES/traducciones), GitHub [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/articles)
+
+Article translations, past, inactive:
+
+- Portuguese: [stakey.club](https://stakey.club/pt/translated/)
 
 PD translations:
 
@@ -146,18 +205,21 @@ DJ translations:
 
 - Arabic: [Insaf01/decred-journal-ar](https://github.com/Insaf01/decred-journal-ar)
 - Chinese: [DominicTing/DecredCNJournal](https://github.com/DominicTing/DecredCNJournal)
-- Polish: [artikozel/DecredJournalPL](https://github.com/artikozel/DecredJournalPL)
 - Spanish: [Medium](https://medium.com/decred-es/revista-2020/home) versions with stripped Dev, full [GitHub](https://github.com/DecredES/traducciones/tree/master/revista-decred) versions (older issues in [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/decred-journal-spanish) repo)
-- Vietnamese: [raedahgroup/translations](https://github.com/raedahgroup/translations)
 - [DJ index](https://xaur.github.io/decred-news/) (updated monthly)
+
+DJ translations, past, inactive:
+
+- Polish: [artikozel/DecredJournalPL](https://github.com/artikozel/DecredJournalPL)
+- Vietnamese: [raedahgroup/translations](https://github.com/raedahgroup/translations)
 
 Videos:
 
-- [decredchannel](https://www.youtube.com/decredchannel)
+- [Decred Channel](https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg)
 - [Decred Society](https://www.youtube.com/channel/UCZSFAqUMp8v58eEQl_bzWYg)
-- search YouTube for "Decred", newest first
+- search [YouTube](https://www.youtube.com/) for "Decred", newest first
 
-Audio:
+Audio, past, inactive:
 
 - [Decred in Depth](https://decredindepth.libsyn.com/)
 - [Rought Consensus](https://roughconsensus.libsyn.com/)
@@ -170,7 +232,8 @@ Art and fun:
 - [@aithzakaria1](https://twitter.com/aithzakaria1)
 - [@OfficialCryptos](https://twitter.com/OfficialCryptos)
 
-## Community Discussions
+
+## Discussions
 
 - [r/decred new](https://www.reddit.com/r/decred/new/)
 
@@ -183,25 +246,36 @@ Twitter:
 Veterans:
 
 - [@_Checkmatey_](https://twitter.com/_Checkmatey_)
+- [@Ammarooni](https://twitter.com/Ammarooni)
+- [@behindtext](https://twitter.com/behindtext)
 - [@PermabullNino](https://twitter.com/PermabullNino)
 - [@RichardRed0x](https://twitter.com/RichardRed0x)
-- [@lukebp_](https://twitter.com/lukebp_)
+- [@WasPraxis](https://twitter.com/WasPraxis)
+
+Veterans, past/inactive:
+
+- [@lukebp_](https://twitter.com/lukebp_), [@lukebp](https://twitter.com/lukebp) (deleted)
 - [@NoahPierau](https://twitter.com/NoahPierau)
-- [@behindtext](https://twitter.com/behindtext)
-- [@Ammarooni](https://twitter.com/Ammarooni)
 
 Interesting Twitter accounts:
 
-- [@DecredSociety](https://twitter.com/DecredSociety)
+- [@DajanaDcr](https://twitter.com/DajanaDcr)
+- [@DCR_Uncle](https://twitter.com/DCR_Uncle)
 - [@decredcitizen](https://twitter.com/decredcitizen)
+- [@DecredSociety](https://twitter.com/DecredSociety)
+
 
 ## Markets
 
-- [@_Checkmatey_](https://twitter.com/_Checkmatey_)
-- [@PermabullNino](https://twitter.com/PermabullNino)
-- Medium [@permabullnino](https://medium.com/@permabullnino)
-- Medium [@_Checkmatey_](https://medium.com/@_Checkmatey_)
+- Get "monthly average rate" in the CMS
+- Exchanges: DCRDEX, Binance
+- [Market](https://dcrdata.decred.org/market) page at dcrdata
+- [@_Checkmatey_](https://twitter.com/_Checkmatey_) Twitter
+- [@_Checkmatey_](https://medium.com/@_Checkmatey_) Medium
+- [@PermabullNino](https://twitter.com/PermabullNino) Twitter
+- [@permabullnino](https://medium.com/@permabullnino) Medium
 - chats: #dex, #trading
+
 
 ## Relevant External
 
@@ -211,6 +285,7 @@ Governance, funding:
 
 Scams:
 
+- [rekt.news](https://rekt.news/) (epic)
 - [@Scams_alarms](https://twitter.com/Scams_alarms) (epic)
 
 Digests:
