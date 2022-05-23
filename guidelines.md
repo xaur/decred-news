@@ -625,14 +625,33 @@ For links to files that were uploaded to Matrix, don't link to file directly. In
 
 ### Markdown
 
-Avoid Markdown features that are problematic in the Medium version:
-
-- Paragraphs and blockquotes inside list items
-- Nested lists
-
-Use backslash `\` to escape underscore `_` so it won't be treated as italics. Example: `under\_score`.
+- Use backslash `\` to escape underscore `_` so it won't be treated as italics. Example: `under\_score`.
+- Always use hyphen `-` for bullet lists.
+- Always use `_underscore_` for italics and `**double asterisk**` for bold.
 
 See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) of Markdown features.
+
+Medium/Odysee/etc versions may require additional processing to look nice. It is recommended that the "Git/Markdown maintainer" role does as much Markdown preparation as possible, and places the final files in a well-known location (e.g. [decred-journal-extra](https://github.com/xaur/decred-journal-extra)) so that Medium/Odysee admins can just copy-paste it without torture (be nice with them, we don't have many).
+
+**Medium specifics**
+
+1\. Avoid Markdown features that cause trouble when pasting into Medium:
+
+- Paragraph breaks and blockquotes inside list items.
+- Nested lists.
+- In general, avoid combining _any_ two structural formatting features to be extra safe.
+
+If you really want to use advanced Markdown features that "just work" on GitHub, please prepare a separate, simplified Markdown file for Medium that work-arounds all Medium's formatting issues.
+
+2\. Table of Contents must be recreated manually.
+
+**Odysee specifics**
+
+1\. Replace all "simple" usages of the `@` character with its HTML escape sequence `&#64;`.
+
+  - "Simple" usages are the ones NOT inside link text (e.g. `[@HotUser](url...)`), NOT coming after a square bracket (e.g. `\[@HotUser, bla bla\]` seems to work), and NOT inside link URLs (e.g. `[bla bla](https://medium.com/@username/...)`).
+
+  - Why: Odysee Markdown renderer tries to automatically create links on `@username`-s. Problems - it may tag or even notify an unintended person, and it adds ugly paragraph breaks.
 
 ### Typography
 
