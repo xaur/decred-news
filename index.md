@@ -16,6 +16,7 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 ### 2022
 
+May|[English](journal/202205.md)
 April|[English](journal/202204.md)
 
 
