@@ -191,7 +191,7 @@ _DCRDEX is a non-custodial exchange for trustless trading, powered by atomic swa
 
 **[GoDCR](https://github.com/planetdecred/godcr)**
 
-_GoDCR is a lightweight desktop wallet app with integrated staking, privacy, and Politeia browsing._
+_GoDCR is a lightweight desktop GUI wallet with integrated staking, privacy, Politeia voting, consensus voting, and more._
 
 { _Check https://github.com/planetdecred/godcr/commits/master ._}
 
@@ -259,26 +259,29 @@ _dcrweb is the source code for the decred.org website._
 
 { _Check for other new/updated repos in:_
 
-- _. https://github.com/decred ._
-- _. https://github.com/planetdecred ._
-- _. https://github.com/raedahgroup ._
+- _. https://github.com/orgs/decred/repositories ._
+- _. https://github.com/orgs/planetdecred/repositories ._
+- _. https://github.com/orgs/raedahgroup/repositories ._
 
 }
 
 **Other**
 
 - { _Smaller/common things go here._ }
+- { _More exotic dev sources: https://github.com/xaur/decred-news/blob/docs/sources.md#development ._ }
 
 
 ## People
 
 { _List people who got their first non-trivial commits merged in master branches, in alphabetical order._ }
 
-Welcome to new first-time contributors with code merged to master: {@handle} ([{repo}]({link to user's commits})), ... !
+Welcome to new first-time contributors with code merged to master:
 
-{ _Check CMS, remove if none._ }
+- {@handle} ([{repo}]({link to user's commits}))
 
-Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}).
+{ _Discover and greet new non-developer contributors too._ }
+
+{ _Check CMS, remove if none._ } Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}).
 
 { _Welcome new corporate contractors with short intros._ }
 
@@ -397,6 +400,8 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 - {}
 
 **Videos:**
+
+{ _Scan https://www.youtube.com/results?search_query=decred&sp=CAI%253D ._ }
 
 - {}
 
