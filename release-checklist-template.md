@@ -10,19 +10,19 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 **DRAFT**: {link}
 
-**Usage**: This list is a soft reminder. Some tasks may be skipped when not needed or short on time.
+**Usage**: This list is a soft reminder. Some tasks may be skipped to save time. `PO` = Product Owner.
 
 **Monthly snapshots**: Snapshot data that is hard to obtain later. Ideally, capture it at 1st day of the month at 00:00 UTC.
 
-- [ ] social media stats for People
-- [ ] mining stats
-  - absolute Ph/s and network share % values as _reported_ by pools and dashboards
-  - counts of blocks _actually mined_ in a certain timeframe
+- [ ] Social media stats for People
+- [ ] Mining stats
+  - Absolute Ph/s and network share % values as _reported_ by pools and dashboards
+  - Counts of blocks _actually mined_ in a certain timeframe
   - [miningpoolstats.stream](https://miningpoolstats.stream/decred)
   - [dcrstats.com/pow](https://dcrstats.com/pow)
-- [ ] staking stats
-  - ticket price [30-day average](https://dcrstats.com)
-- [ ] node stats
+- [ ] Staking stats
+  - Ticket price [30-day average](https://dcrstats.com)
+- [ ] Node stats
   - [Decred Mapper](https://nodes.jholdstock.uk/user_agents)
   - [PD Analytics](https://analytics.planetdecred.org/nodes)
 - [ ] VSP stats
@@ -32,70 +32,75 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 **Writing**
 
-- [ ] request a PR update for Outreach in advance
-- [ ] scan GitHub repos for dev updates
-  - make notes of new names for first-time contributors
-- [ ] complete Development
-- [ ] complete People
+- [ ] Request a PR update for Outreach in advance
+- [ ] Harvest GitHub repos for dev updates
+  - Make notes of new names for first-time contributors in People
+- [ ] Complete Development
+- [ ] Complete People
 - [ ] PO review Development and People
-- [ ] ask in #dev to review Development and People
-- [ ] ask in #planetdecred to review Development
-- [ ] complete Governance
-- [ ] complete Network
-- [ ] scan Twitter for notable news
-- [ ] scan Reddit for notable news
-- [ ] complete Ecosystem
-- [ ] complete Events
-- [ ] ask #events to review Events
-- [ ] complete Media
-- [ ] complete Outreach
-- [ ] ask #marketing to review Outreach+Events+Media
-- [ ] complete Markets
-- [ ] complete Relevant External
-- [ ] offer quoted people to review their texts
-- [ ] complete Intro
+- [ ] Ask in #dev to review Development and People
+- [ ] Ask in #planetdecred to review Development
+- [ ] Complete Governance
+- [ ] Complete Network
+- [ ] Scan Twitter for notable news
+- [ ] Scan Reddit for notable news
+- [ ] Complete Ecosystem
+- [ ] Complete Events
+- [ ] Ask #events to review Events
+- [ ] Complete Media
+- [ ] Complete Outreach
+- [ ] Ask #marketing to review Outreach+Events+Media
+- [ ] Complete Markets
+- [ ] Complete Relevant External
+- [ ] Offer quoted people to review their texts
+- [ ] Complete Intro
 - [ ] PO review of all sections
-- [ ] incorporate all feedback
-- [ ] resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
-- [ ] ensure that all people who contributed or gave feedback are in [credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
-- [ ] add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
-- [ ] add other images with captions
-- [ ] almost final review: grammar, test that links work
-- [ ] [lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
-- [ ] remove `{DRAFT}` from title
-- [ ] final auto grammer check
+- [ ] Incorporate all feedback
+- [ ] Ensure that all people who contributed or gave feedback are in [Credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
+- [ ] Add draft image IDs and captions
+- [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
+- [ ] Review by first reviewer
+- [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
+- [ ] Add other images
+- [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
+- [ ] Remove `{DRAFT}` from title
+- [ ] Final auto grammer check
 
 **Publishing**
 
-- [ ] publish on xaur.github.io with a single commit to `gh-pages`
-- [ ] add all images to the [files repo](https://github.com/xaur/decred-journal-files)
-- [ ] publish on Medium
-  - upload images
-  - make Table of Contents
-  - add to `/decred/journals`
-  - add relevant tags
-  - verify text previews shown at `/decred` and `/decred/journals`
-  - check for formatting issues
-- [ ] post Medium link on r/decred
-- [ ] tweet via decredproject
-  - add correct title image for Twitter
-- [ ] announce on: Matrix #dcr, t.me/DCRann, Blockfolio, CoinGecko
-- [ ] announce on Instagram
-- [ ] publish on Odysee
-  - prepare Odysee-specific markdown, add to the [extras repo](https://github.com/xaur/decred-journal-extra)
-  - use this pattern for post ID: `decred-journal-YYYY-MM`
-- [ ] fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
-- [ ] if changes are needed after the release, add commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
-- [ ] add new issue to decred.org Press page
-  - submit a PR to edit [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml)
-  - verify deployment to decred.org
-- [ ] [update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
+- [ ] Publish on xaur.github.io
+- [ ] Add all images to the [files repo](https://github.com/xaur/decred-journal-files)
+- [ ] Publish on Medium
+  - Upload the right images
+  - Make Table of Contents
+  - Add to `/decred/journals`
+  - Add relevant tags
+  - Verify text previews at `/decred` and `/decred/journals`
+  - Check for formatting issues
+- [ ] Choose which mirror to post (normally Medium)
+- [ ] Post on r/decred
+- [ ] Tweet via decredproject
+  - Add the right title image for Twitter
+- [ ] Announce in Matrix #dcr room
+  - Add links to all mirrors
+- [ ] Announce on t.me/DCRann, Blockfolio, CoinGecko, etc
+- [ ] Announce on Instagram
+- [ ] Publish on Odysee
+  - Prepare Odysee-specific markdown and add it to the [extras repo](https://github.com/xaur/decred-journal-extra)
+  - Use this pattern for post ID: `decred-journal-YYYY-MM`
+- [ ] Squash `gh-pages` to have a single commit for the new issue
+- [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
+- [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
+- [ ] Add new issue to decred.org Press page
+  - Submit a PR editing [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml)
+  - Verify deployment at decred.org
+- [ ] [Update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 
 **Housekeeping**
 
-- [ ] archive draft history
+- [ ] Archive draft history
   - create `tmp` at `master`, merge both `drafts` and the latest draft commit, fast-forward `drafts` to `tmp`
-- [ ] update `journal-template.md` in the `docs` branch
-- [ ] update `release-checklist-template.md` in the `docs` branch
-- [ ] start new cycle
-- [ ] delete the draft branch (will auto-close the PR)
+- [ ] Update `journal-template.md` in the `docs` branch
+- [ ] Update `release-checklist-template.md` in the `docs` branch
+- [ ] Start new cycle
+- [ ] Delete the draft branch (will auto-close the PR)
