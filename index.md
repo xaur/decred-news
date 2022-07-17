@@ -16,8 +16,9 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 ### 2022
 
-May|[English](journal/202205.md)
-April|[English](journal/202204.md)
+June|[English](journal/202206.md)
+May|[English](journal/202205.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202205_DecredJournalCN.md)
+April|[English](journal/202204.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202204.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202204_DecredJournalCN.md)
 
 
 ### 2021

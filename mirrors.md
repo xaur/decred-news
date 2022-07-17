@@ -5,14 +5,20 @@ Here is the list of all known translations and their mirrors.
 
 ## 2022
 
+__June__
+
+- English: [github](journal/202206.md) [medium](https://medium.com/decred/decred-journal-june-2022-306ca1c67685) [odysee](https://odysee.com/@Decred:c/decred-journal-2022-06:8) [decredmagazine](https://www.decredmagazine.com/decred-journal-june-2022/)
+
 __May__
 
 - English: [github](journal/202205.md) [medium](https://medium.com/decred/decred-journal-may-2022-6e59d31c5b1c) [odysee](https://odysee.com/@Decred:c/decred-journal-2022-05:f) [decredmagazine](https://www.decredmagazine.com/decred-journal-may-2022/)
-
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202205_DecredJournalCN.md)
 
 __April__
 
 - English: [github](journal/202204.md) [medium](https://medium.com/decred/decred-journal-april-2022-c2831e517eb4) [odysee](https://odysee.com/@Decred:c/decred-journal-2022-04:a) [decredmagazine](https://www.decredmagazine.com/decred-journal-april-2022/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202204.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202204_DecredJournalCN.md)
 
 _Note: January, February, and March issues were not produced._
 
