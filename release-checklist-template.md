@@ -10,7 +10,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 **DRAFT**: {link}
 
-**Usage**: This list is a soft reminder. Some tasks may be skipped to save time. `PO` = Product Owner.
+**Usage**: This is a "soft" task list, some tasks may be skipped to save time. PO = Product Owner.
 
 **Monthly snapshots**: Snapshot data that is hard to obtain later. Ideally, capture it at 1st day of the month at 00:00 UTC.
 
