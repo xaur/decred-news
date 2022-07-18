@@ -36,6 +36,7 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 
 { _Add individual sections for high-impact announcements before Development, such as consensus votes, software releases, milestones, major bugs, etc._ }
 
+
 ## Development
 
 The work reported below has the "merged to master" status unless noted otherwise. It means that the work is completed, reviewed, and integrated into the source code that advanced users can [build and run](https://medium.com/@artikozel/the-decred-node-back-to-the-source-part-one-27d4576e7e1c), but is not yet available in release binaries for regular users.
@@ -49,31 +50,28 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 }
 
-<a id="dcrd" />
 
-**[dcrd](https://github.com/decred/dcrd)**
+### dcrd
 
-_dcrd is a full node implementation that powers Decred's peer-to-peer network around the world._
+_[dcrd](https://github.com/decred/dcrd) is a full node implementation that powers Decred's peer-to-peer network around the world._
 
 { _Check https://github.com/decred/dcrd/commits/master ._}
 
 - {}
 
-<a id="dcrwallet" />
 
-**[dcrwallet](https://github.com/decred/dcrwallet)**
+### dcrwallet
 
-_dcrwallet is a wallet server used by command-line and graphical wallet applications._
+_[dcrwallet](https://github.com/decred/dcrwallet) is a wallet server used by command-line and graphical wallet apps._
 
 { _Check https://github.com/decred/dcrwallet/commits/master ._}
 
 - {}
 
-<a id="dcrctl" />
 
-**[dcrctl](https://github.com/decred/dcrctl)**
+### dcrctl
 
-_dcrctl is a command-line client for dcrd and dcrwallet._
+_[dcrctl](https://github.com/decred/dcrctl) is a command-line client for dcrd and dcrwallet._
 
 { _Hint: dcrctl is pulling most of the code from dcrd and dcrwallet. Often there is not much to report and this section can be removed._ }
 
@@ -81,21 +79,19 @@ _dcrctl is a command-line client for dcrd and dcrwallet._
 
 - {}
 
-<a id="decrediton" />
 
-**[Decrediton](https://github.com/decred/decrediton)**
+### Decrediton
 
-_Decrediton is a full-featured desktop wallet app with integrated voting, StakeShuffle mixing, Lightning Network, DEX trading, and more. It runs with or without a full blockchain (SPV mode)._
+_[Decrediton](https://github.com/decred/decrediton) is a full-featured desktop wallet app with integrated voting, StakeShuffle mixing, Lightning Network, DEX trading, and more. It runs with or without a full blockchain (SPV mode)._
 
 { _Check https://github.com/decred/decrediton/commits/master ._}
 
 - {}
 
-<a id="politeia" />
 
-**[Politeia](https://github.com/decred/politeia)**
+### Politeia
 
-_Politeia is Decred's proposal system. It is used to request funding from the Decred treasury._
+_[Politeia](https://github.com/decred/politeia) is Decred's proposal system. It is used to request funding from the Decred treasury._
 
 { _Check Check these repos:_
 
@@ -107,21 +103,19 @@ _Politeia is Decred's proposal system. It is used to request funding from the De
 
 - {}
 
-<a id="vspd" />
 
-**[vspd](https://github.com/decred/vspd)**
+### vspd
 
-_vspd is server software for running a Voting Service Provider. A VSP votes on behalf of its users 24/7 and cannot steal funds._
+_[vspd](https://github.com/decred/vspd) is server software for running a Voting Service Provider. A VSP votes on behalf of its users 24/7 and cannot steal funds._
 
 { _Check https://github.com/decred/vspd/commits/master ._}
 
 - {}
 
-<a id="dcrstakepool" />
 
-**[dcrstakepool](https://github.com/decred/dcrstakepool)**
+### dcrstakepool
 
-_dcrstakepool is server software for running a Voting Service Provider. This was used before vspd and is now referred to as "legacy VSP"._
+_[dcrstakepool](https://github.com/decred/dcrstakepool) is server software for running a Voting Service Provider. This was used before vspd and is now referred to as "legacy VSP"._
 
 { _Hint: Not maintained anymore, check just in case for now but will remove from template soon._ }
 
@@ -129,49 +123,46 @@ _dcrstakepool is server software for running a Voting Service Provider. This was
 
 - {}
 
-<a id="dcrpool" />
 
-**[dcrpool](https://github.com/decred/dcrpool)**
+### dcrpool
 
-_dcrpool is server software for running a mining pool._
+_[dcrpool](https://github.com/decred/dcrpool) is server software for running a mining pool._
 
 { _Check https://github.com/decred/dcrpool/commits/master ._}
 
 - {}
 
-<a id="dcrlnd" />
 
-**[dcrlnd](https://github.com/decred/dcrlnd)**
+### Lightning Network
 
-_dcrlnd is Decred's Lightning Network node software. LN enables instant and low-cost transactions._
+_[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node software. LN enables instant and low-cost transactions._
 
 { _Check https://github.com/decred/dcrlnd/commits/master ._}
 
 - {}
 
-<a id="cspp" />
 
-**[cspp](https://github.com/decred/cspp)**
+### cspp
 
-_cspp is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. does not hold any funds._
+_[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. does not hold any funds._
 
 { _Check https://github.com/decred/cspp/commits/master ._}
 
 - {}
 
-<a id="dcrdex" />
 
-**[DCRDEX](https://github.com/decred/dcrdex)**
+### DCRDEX
 
-_DCRDEX is a non-custodial exchange for trustless trading, powered by atomic swaps._
+_[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecting exchange for trustless trading, powered by atomic swaps._
 
 { _Check https://github.com/decred/dcrdex/commits/master ._}
 
 - {}
 
-<a id="dcrandroid" />
 
-**[Decred Wallet (Android)](https://github.com/planetdecred/dcrandroid)**
+### Android Wallet
+
+_[dcrandroid](https://github.com/planetdecred/dcrandroid)_
 
 { _Check https://github.com/planetdecred/dcrandroid/commits ._}
 
@@ -179,79 +170,73 @@ _DCRDEX is a non-custodial exchange for trustless trading, powered by atomic swa
 
 { _Also check the common wallet library and report its (notable) changes in the most relevant section (Android, iOS, or GoDCR): https://github.com/planetdecred/dcrlibwallet/commits/master ._}
 
-<a id="dcrios" />
 
-**[Decred Wallet (iOS)](https://github.com/planetdecred/dcrios)**
+### iOS Wallet
+
+_[dcrios](https://github.com/planetdecred/dcrios)_
 
 { _Check https://github.com/planetdecred/dcrios/commits/master ._}
 
 - {}
 
-<a id="godcr" />
 
-**[GoDCR](https://github.com/planetdecred/godcr)**
+### GoDCR
 
-_GoDCR is a lightweight desktop GUI wallet with integrated staking, privacy, Politeia voting, consensus voting, and more._
+_[GoDCR](https://github.com/planetdecred/godcr) is a lightweight desktop GUI wallet with integrated staking, privacy, Politeia voting, consensus voting, and more._
 
 { _Check https://github.com/planetdecred/godcr/commits/master ._}
 
 - {}
 
-<a id="dcrdata" />
 
-**[dcrdata](https://github.com/decred/dcrdata)**
+### dcrdata
 
-_dcrdata is an explorer for Decred blockchain and off-chain data like Politeia proposals, markets, and more._
+_[dcrdata](https://github.com/decred/dcrdata) is an explorer for Decred blockchain and off-chain data like Politeia proposals, markets, and more._
 
 { _Check https://github.com/decred/dcrdata/commits/master ._}
 
 - {}
 
-<a id="tinydecred" />
 
-**[TinyDecred](https://github.com/decred/tinydecred)**
+### TinyDecred
 
-_TinyDecred is a toolkit for integrating Decred into Python projects. It includes an experimental light GUI wallet based on PyQt5._
+_[TinyDecred](https://github.com/decred/tinydecred) is a Python toolkit for integrating Decred. It includes an experimental light GUI wallet based on PyQt5._
 
 { _Check https://github.com/decred/tinydecred/commits/master ._ }
 
 - {}
 
-<a id="dcrros" />
 
-**[dcrros](https://github.com/decred/dcrros)**
+### Rosetta
 
-_dcrros is a middleware service that provides access to the Decred network via Rosetta API._
+_[dcrros](https://github.com/decred/dcrros) is a middleware service that provides access to the Decred network via Rosetta API._
 
 { _Check https://github.com/decred/dcrros/commits/master ._}
 
 - {}
 
-<a id="dcrdocs" />
 
-**[dcrdocs](https://github.com/decred/dcrdocs)**
+### Documentation
 
-_dcrdocs is the source code for Decred [user documentation](https://docs.decred.org/)._
+_[dcrdocs](https://github.com/decred/dcrdocs) is the source code for Decred [user documentation](https://docs.decred.org/)._
 
 { _Check https://github.com/decred/dcrdocs/commits/master ._}
 
 - {}
 
-<a id="dcrdevdocs" />
 
-**[dcrdevdocs](https://github.com/decred/dcrdevdocs)**
+### Dev Docs
 
-_dcrdevdocs is the source code for Decred [developer documentation](https://devdocs.decred.org/)._
+_[dcrdevdocs](https://github.com/decred/dcrdevdocs) is the source code for Decred [developer documentation](https://devdocs.decred.org/)._
 
 { _Check https://github.com/decred/dcrdevdocs/commits/master ._ }
 
 - {}
 
-<a id="dcrweb" />
 
-**[decred.org](https://github.com/decred/dcrweb)**
+### decred.org
 
-_dcrweb is the source code for the decred.org website._
+_[dcrweb](https://github.com/decred/dcrweb) is the source code for the decred.org website._
 
 { _Check https://github.com/decred/dcrweb/commits/master ._}
 
@@ -265,7 +250,8 @@ _dcrweb is the source code for the decred.org website._
 
 }
 
-**Other**
+
+### Other
 
 - { _Smaller/common things go here._ }
 - { _More exotic dev sources: https://github.com/xaur/decred-news/blob/docs/sources.md#development ._ }
@@ -289,7 +275,7 @@ Welcome to new first-time contributors with code merged to master:
 
 { _Interviews with contributors. Link to #media for generic references (e.g. "Check the 3 interviews with devs") or link directly when referencing a specific interview._ }
 
-Community stats as of {date}:
+Community stats as of {date} (compared to {date}):
 
 - Politeia users: {} (+{})
 - [Twitter](https://twitter.com/decredproject) followers: {} (+{})
@@ -308,9 +294,11 @@ Community stats as of {date}:
 
 In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at month's average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}.
 
-As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
+{ _Treasury spend tx recap: how many outputs, min, max DCR_ }
 
-{ _Report any other activity with the legacy or new treasury._ }
+{ _Any other activity with the legacy or new treasury._ }
+
+As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
 
 { _High-level recap of decision-making activity and most important events._ }
 
@@ -318,7 +306,7 @@ As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dc
 
 { _Check https://github.com/decredcommunity/proposals/commits/master for updates._ }
 
-See Politeia Digest [issue {}]({}) and [issue {}]({}) for more details on the month's proposals.
+See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 
 ## Network
@@ -333,7 +321,7 @@ Distribution of hashrate [reported](https://miningpoolstats.stream/decred) by th
 
 { _Hint: Fallback link for pool distribution: https://dcrstats.com/pow ._ }
 
-Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) before {date}: {PoolName n%, ...}.
+Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) by {date}: {PoolName n%, ...}.
 
 **Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) {_monthly zoom_} varied between {n}-{n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
 
@@ -345,7 +333,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 **Nodes**: Throughout {month} there were around {n} reachable nodes according to [PD Analytics](https://analytics.planetdecred.org/nodes).
 
-Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) ({n} total, dcrd only): { vX.Y.Z - n%, ... }
+Node versions captured by [Decred Mapper](https://nodes.jholdstock.uk/user_agents) on {date} ({n} total, dcrd only): v{} - {n}%, ...
 
 { _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) {_monthly zoom_} varied between {n}-{n}K DCR.
 
@@ -362,11 +350,13 @@ Node versions as of {date} [snapshot](https://nodes.jholdstock.uk/user_agents) (
 
 { _Check https://github.com/decred/dcrwebapi/pulls for new VSPs under review._ }
 
-{ _Check #services room for news._ }
+{ _Check #ecosystem room for news._ }
 
 { _Check https://github.com/decred/dcrweb/commits/master to detect added/removed services._ }
 
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
+
+Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to follow Decred ecosystem updates.
 
 
 ## Outreach
@@ -376,7 +366,7 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 ## Events
 
-{ _Hint: Summarize any important or interesting facts about each event. Link to https://github.com/decredcommunity/events for detailed reports._ }
+{ _Hint: Summarize any important or interesting facts about each event. Link to https://decredcommunity.github.io/events/index/ for detailed reports._ }
 
 **Attended:**
 
@@ -475,7 +465,7 @@ Most information from third parties is relayed directly from the source after a 
 
 Credits (alphabetical order):
 
-- writing and editing: {}
+- writing, editing, publishing: {}
 - reviews and feedback: {}
 - title image: {}
 - funding: Decred stakeholders
