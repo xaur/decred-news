@@ -633,6 +633,10 @@ See this excellent [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Mar
 
 Medium/Odysee/etc versions may require additional processing to look nice. It is recommended that the "Git/Markdown maintainer" role does as much Markdown preparation as possible, and places the final files in a well-known location (e.g. [decred-journal-extra](https://github.com/xaur/decred-journal-extra)) so that Medium/Odysee admins can just copy-paste it without torture (be nice with them, we don't have many).
 
+**GitHub Pages specifics**
+
+1\. Avoid the pipe `|` character, it may trigger an unwanted table to be created on GitHub Pages. This does not happen on regular GitHub and can easily slip through unnoticed.
+
 **Medium specifics**
 
 1\. Avoid Markdown features that cause trouble when pasting into Medium:
