@@ -13,9 +13,13 @@ _Image: { "Title by @author. Description..." OR just "Description..." }_
 { _Month's highlights, no links here, 5-7 bullets max._
 
 - 
+
 - 
+
 - 
+
 - 
+
 - 
 
 }
@@ -292,7 +296,7 @@ Community stats as of {date} (compared to {date}):
 
 { _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._ }
 
-In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at month's average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}.
+In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}.
 
 { _Treasury spend tx recap: how many outputs, min, max DCR_ }
 
@@ -317,7 +321,7 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 **Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=block&axis=time) {_set zoom to show the month_} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
-Distribution of hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
+Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
 { _Hint: Fallback link for pool distribution: https://dcrstats.com/pow ._ }
 
