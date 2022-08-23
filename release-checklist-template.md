@@ -69,21 +69,23 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 **Publishing**
 
 - [ ] Publish on xaur.github.io
-- [ ] Add all images to the [files repo](https://github.com/xaur/decred-journal-files)
+- [ ] Add images of all sizes to the [files repo](https://github.com/xaur/decred-journal-files)
+- [ ] Select "primary" mirror to broadcast (normally Decred Magazine)
+- [ ] Publish on Decred Magazine
+  - Check ToC, formatting, images, captions
 - [ ] Publish on Medium
   - Upload the right images
-  - Make Table of Contents
+  - Make ToC
   - Add to `/decred/journals`
   - Add relevant tags
-  - Verify text previews at `/decred` and `/decred/journals`
+  - Verify text previews on [Decred](https://medium.com/decred) and the [Journals](https://medium.com/decred/journals/home) list
   - Check for formatting issues
-- [ ] Choose which mirror to post (normally Medium)
 - [ ] Post on r/decred
 - [ ] Tweet via decredproject
   - Add the right title image for Twitter
 - [ ] Announce in Matrix #dcr room
   - Add links to all mirrors
-- [ ] Announce on t.me/DCRann, Blockfolio, CoinGecko, etc
+- [ ] Announce on t.me/DCRann, Blockfolio, CoinGecko, etc.
 - [ ] Announce on Instagram
 - [ ] Publish on Odysee
   - Prepare Odysee-specific markdown and add it to the [extras repo](https://github.com/xaur/decred-journal-extra)
@@ -99,7 +101,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 **Housekeeping**
 
 - [ ] Archive draft history
-  - create `tmp` at `master`, merge both `drafts` and the latest draft commit, fast-forward `drafts` to `tmp`
+  - create `tmp` at `master`, merge both `drafts` and the latest draft commit into `tmp`, fast-forward `drafts` to `tmp`, delete `tmp`
 - [ ] Update `journal-template.md` in the `docs` branch
 - [ ] Update `release-checklist-template.md` in the `docs` branch
 - [ ] Start new cycle
