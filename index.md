@@ -2,13 +2,13 @@
 
 Decred Journal serves to expose just how much is happening in [Decred](https://decred.org/) and save time for people who cannot actively follow all project activity. It aims to cover all relevant developments with a short description and links to read further. It shows the depth of the project and the involvement of the community.
 
-Monthly issues are published on [GitHub](https://xaur.github.io/decred-news/) and [Medium](https://medium.com/decred/journals/home).
+Monthly issues are published on: [Decred Magazine](https://www.decredmagazine.com/tag/decred-journal/), [GitHub](https://xaur.github.io/decred-news/), [Medium](https://medium.com/decred/journals/home).
 
-[Mirrors page](mirrors.md) lists all known translations and mirrors.
+All known mirrors and translations are listed on the [Mirrors page](mirrors.md).
 
-Markdown source files are available on [GitHub](https://github.com/xaur/decred-news).
+Markdown source files are available [on GitHub](https://github.com/xaur/decred-news).
 
-Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contributing.md)!
+[Contributors are welcome](https://github.com/xaur/decred-news/blob/docs/contributing.md)!
 
 
 ## Archive
@@ -16,8 +16,9 @@ Contributions are [welcome](https://github.com/xaur/decred-news/blob/docs/contri
 
 ### 2022
 
-June|[English](journal/202206.md)
-May|[English](journal/202205.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202205_DecredJournalCN.md)
+July|[English](journal/202207.md)
+June|[English](journal/202206.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202206_DecredJournalCN.md)
+May|[English](journal/202205.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202205.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202205_DecredJournalCN.md)
 April|[English](journal/202204.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202204.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202204_DecredJournalCN.md)
 
 
