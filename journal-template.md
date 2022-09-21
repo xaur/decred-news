@@ -97,7 +97,7 @@ _[Decrediton](https://github.com/decred/decrediton) is a full-featured desktop w
 
 _[Politeia](https://github.com/decred/politeia) is Decred's proposal system. It is used to request funding from the Decred treasury._
 
-{ _Check Check these repos:_
+{ _Check these repos:_
 
 - _. https://github.com/decred/politeia/commits/master ._
 - _. https://github.com/decred/politeiagui/commits/master ._
@@ -141,7 +141,12 @@ _[dcrpool](https://github.com/decred/dcrpool) is server software for running a m
 
 _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node software. LN enables instant and low-cost transactions._
 
-{ _Check https://github.com/decred/dcrlnd/commits/master ._}
+{ _Check these repos:_
+
+- _. https://github.com/decred/dcrlnd/commits/master ._
+- _. https://github.com/decred/dcrlnlpd/commits/master ._
+
+}
 
 - {}
 
@@ -172,8 +177,6 @@ _[dcrandroid](https://github.com/planetdecred/dcrandroid)_
 
 - {}
 
-{ _Also check the common wallet library and report its (notable) changes in the most relevant section (Android, iOS, or GoDCR): https://github.com/planetdecred/dcrlibwallet/commits/master ._}
-
 
 ### iOS Wallet
 
@@ -188,7 +191,12 @@ _[dcrios](https://github.com/planetdecred/dcrios)_
 
 _[GoDCR](https://github.com/planetdecred/godcr) is a lightweight desktop GUI wallet with integrated staking, privacy, Politeia voting, consensus voting, and more._
 
-{ _Check https://github.com/planetdecred/godcr/commits/master ._}
+{ _Check these repos:
+
+- _. https://github.com/planetdecred/godcr/commits/master ._
+- _. https://github.com/planetdecred/dcrlibwallet/commits/master ._
+
+}
 
 - {}
 
@@ -323,7 +331,7 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
-{ _Hint: Fallback link for pool distribution: https://dcrstats.com/pow ._ }
+{ _Hint: Fallback links for pool distribution: https://poolbay.io/crypto/54/decred , https://dcrstats.com/pow ._ }
 
 Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) by {date}: {PoolName n%, ...}.
 
