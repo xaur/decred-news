@@ -126,9 +126,10 @@ Community stats:
 ## Network
 
 - [dcrdata.org](https://dcrdata.decred.org/)
+- [miningpoolstats.stream](https://miningpoolstats.stream/decred)
+- [poolbay.io](https://poolbay.io/crypto/54/decred) (it pulls data from coingecko.com and minerstat.com - these may be worth checking too)
 - [dcrstats.com](https://dcrstats.com/)
 - [dcrsnapshots](https://github.com/bochinchero/dcrsnapshots) charts (ask @bochinchero in #journal)
-- [miningpoolstats.stream](https://miningpoolstats.stream/decred)
 - [network-stats](https://github.com/decredcommunity/network-stats) repo
 - [dcr-data.netlify.com](https://dcr-data.netlify.com/)
 - chats: #pow-mining, #pos-voting
