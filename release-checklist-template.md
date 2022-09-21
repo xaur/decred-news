@@ -19,12 +19,12 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
   - Absolute Ph/s and network share % values as _reported_ by pools and dashboards
   - Counts of blocks _actually mined_ in a certain timeframe
   - [miningpoolstats.stream](https://miningpoolstats.stream/decred)
-  - [dcrstats.com/pow](https://dcrstats.com/pow)
+  - or [poolbay.io](https://poolbay.io/crypto/54/decred)
+  - or [dcrstats.com/pow](https://dcrstats.com/pow)
 - [ ] Staking stats
   - Ticket price [30-day average](https://dcrstats.com)
 - [ ] Node stats
   - [Decred Mapper](https://nodes.jholdstock.uk/user_agents)
-  - [PD Analytics](https://analytics.planetdecred.org/nodes)
 - [ ] VSP stats
   - rendered: [decred.org/vsp](https://decred.org/vsp/)
   - API: [legacy](https://api.decred.org/?c=gsd), [current](https://api.decred.org/?c=vsp)
@@ -85,11 +85,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
   - Add the right title image for Twitter
 - [ ] Announce in Matrix #dcr room
   - Add links to all mirrors
-- [ ] Announce on t.me/DCRann, Blockfolio, CoinGecko, etc.
-- [ ] Announce on Instagram
-- [ ] Publish on Odysee
-  - Prepare Odysee-specific markdown and add it to the [extras repo](https://github.com/xaur/decred-journal-extra)
-  - Use this pattern for post ID: `decred-journal-YYYY-MM`
+- [ ] Announce on: t.me/DCRann, Blockfolio, CoinGecko, etc.
 - [ ] Squash `gh-pages` to have a single commit for the new issue
 - [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
 - [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
