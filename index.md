@@ -16,8 +16,9 @@ Markdown source files are available [on GitHub](https://github.com/xaur/decred-n
 
 ### 2022
 
-August|[English](journal/202208.md)
-July|[English](journal/202207.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202207_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202207_DecredJournalPL.md)
+September|[English](journal/202209.md)
+August|[English](journal/202208.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202208_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202208_DecredJournalPL.md)
+July|[English](journal/202207.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202207.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202207_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202207_DecredJournalPL.md)
 June|[English](journal/202206.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202206.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202206_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202206_DecredJournalPL.md)
 May|[English](journal/202205.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202205.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202205_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202205_DecredJournalPL.md)
 April|[English](journal/202204.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202204.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202204_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202204_DecredJournalPL.md)
