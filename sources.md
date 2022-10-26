@@ -174,17 +174,25 @@ Past, inactive:
 
 ## Media
 
-Articles:
+Any content:
 
 - [@decredproject](https://twitter.com/decredproject) Twitter
-- [Decred Society](https://www.decredsociety.com/archive)
+- [r/decred new](https://www.reddit.com/r/decred/new/)
+- [Decred Magazine](https://www.decredmagazine.com/page/2/)
+- Matrix #media
+- Matrix #marketing
+
+Articles:
+
 - [Block Commons](https://blockcommons.red/)
+- [Medium tag 'decred'](https://medium.com/tag/decred)
 
 Articles, past, inactive:
 
+- [Decred Society](https://www.decredsociety.com/archive)
 - [stakey.club](https://stakey.club/en/articles/)
 
-All translations:
+Any content translations:
 
 - [translations index](https://github.com/decredcommunity/translations/blob/master/index.md)
 
@@ -206,19 +214,19 @@ DJ translations:
 
 - Arabic: [Insaf01/decred-journal-ar](https://github.com/Insaf01/decred-journal-ar)
 - Chinese: [DominicTing/DecredCNJournal](https://github.com/DominicTing/DecredCNJournal)
-- Spanish: [Medium](https://medium.com/decred-es/revista-2020/home) versions with stripped Dev, full [GitHub](https://github.com/DecredES/traducciones/tree/master/revista-decred) versions (older issues in [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/decred-journal-spanish) repo)
+- Polish: [artikozel/DecredJournalPL](https://github.com/artikozel/DecredJournalPL)
 - [DJ index](https://xaur.github.io/decred-news/) (updated monthly)
 
 DJ translations, past, inactive:
 
-- Polish: [artikozel/DecredJournalPL](https://github.com/artikozel/DecredJournalPL)
+- Spanish: [Medium](https://medium.com/decred-es/revista-2020/home) versions with stripped Dev, full [GitHub](https://github.com/DecredES/traducciones/tree/master/revista-decred) versions (older issues in [dcrspanish](https://github.com/francov99/dcrspanish/tree/master/decred-journal-spanish) repo)
 - Vietnamese: [raedahgroup/translations](https://github.com/raedahgroup/translations)
 
 Videos:
 
 - [Decred Channel](https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg)
 - [Decred Society](https://www.youtube.com/channel/UCZSFAqUMp8v58eEQl_bzWYg)
-- search [YouTube](https://www.youtube.com/) for "Decred", newest first
+- [Search YouTube](https://www.youtube.com/results?search_query=decred&sp=CAI%253D) for "Decred", newest first
 
 Audio, past, inactive:
 
@@ -291,6 +299,7 @@ Scams:
 
 Digests:
 
+- Blockfolio's [FTX TWIST](https://blog.blockfolio.com/) - weekly biggest macro news + selected FTX signals
 - f2pool's [PoW Round-Up](https://f2pool.io/mining/pow-round-up/)
 - [Bitcoin Optech](https://bitcoinops.org/en/newsletters/) newsletter
 - [Our Network](https://ournetwork.substack.com/?no_cover=true)
