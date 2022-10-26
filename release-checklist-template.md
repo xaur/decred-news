@@ -89,8 +89,10 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Squash `gh-pages` to have a single commit for the new issue
 - [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
 - [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
-- [ ] Add new issue to decred.org Press page
-  - Submit a PR editing [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/press/coverage.yml)
+- [ ] Update decred.org News page data
+  - Add new DJ to [decred_journals.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/decred_journals.yml)
+  - Add newsworthy media links to [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/coverage.yml)
+  - Add any software releases missing in [software_releases.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/software_releases.yml)
   - Verify deployment at decred.org
 - [ ] [Update index](https://github.com/xaur/decred-news/blob/docs/guidelines.md#updating-index)
 
