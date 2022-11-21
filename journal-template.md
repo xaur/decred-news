@@ -301,9 +301,9 @@ Community stats as of {date} (compared to {date}):
 
 In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}.
 
-{ _Treasury spend tx recap: how many outputs, min, max DCR_ }
+The [treasury spend tx]({}) had {} outputs making payments to contractors, ranging from {} DCR to {} DCR.
 
-{ _Any other activity with the legacy or new treasury._ }
+{ _Other interesting facts/stories about the legacy or new treasury._ }
 
 As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
 
@@ -322,7 +322,7 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 { _Hint: n, n.n, and n.nn tell how many decimals to keep, e.g. 100, 16.5, 8.63_ }
 
-**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) {_set zoom to show the month_} opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
+**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
 Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
@@ -330,9 +330,9 @@ Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decre
 
 Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) by {date}: {PoolName n%, ...}.
 
-**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) {_monthly zoom_} varied between {n}-{n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}). { use same t1-t2 for zoom }
+**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}).
 
-The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) {_monthly zoom_} was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) {_monthly zoom_} in Proof of Stake.
+The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) in Proof of Stake.
 
 { _Add a recap of ticket price action if it was interesting._ }
 
@@ -342,7 +342,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 **Nodes**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed {} dcrd nodes on {date}: v{} - {n}%, ...
 
-{ _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) {_monthly zoom_} varied between {n}-{n}K DCR.
+{ _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
 
 { _Optional_ } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
 
@@ -432,10 +432,6 @@ Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat
 
 
 ## Discussions
-
-Comm systems news:
-
-- { _e.g. added/removed chant channels, changes how comms work, etc_ }
 
 { _Hint: Interesting discussions that generated new ideas or perspectives._ }
 
