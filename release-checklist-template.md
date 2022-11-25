@@ -34,12 +34,11 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 - [ ] Request a PR update for Outreach in advance
 - [ ] Harvest GitHub repos for dev updates
-  - Make notes of new names for first-time contributors in People
+  - Notice new names, add them to first-time contributors in People
 - [ ] Complete Development
 - [ ] Complete People
 - [ ] PO review Development and People
 - [ ] Ask in #dev to review Development and People
-- [ ] Ask in #planetdecred to review Development
 - [ ] Complete Governance
 - [ ] Complete Network
 - [ ] Scan Twitter for notable news
@@ -47,6 +46,8 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Complete Ecosystem
 - [ ] Complete Events
 - [ ] Ask #events to review Events
+- [ ] Scan Decred Magazine for month's posts
+- [ ] Scan YouTube for notable month's videos
 - [ ] Complete Media
 - [ ] Complete Outreach
 - [ ] Ask #marketing to review Outreach+Events+Media
@@ -59,7 +60,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Ensure that all people who contributed or gave feedback are in [Credits](https://github.com/xaur/decred-news/blob/docs/guidelines.md#how-to-give-credit)
 - [ ] Add draft image IDs and captions
 - [ ] Resolve all [TODOs](https://github.com/xaur/decred-news/blob/docs/guidelines.md#todos)
-- [ ] Review by first reviewer
+- [ ] Final review by another editor
 - [ ] Add [title image](https://github.com/xaur/decred-news/blob/docs/guidelines.md#title-image)
 - [ ] Add other images
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
@@ -70,7 +71,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 - [ ] Publish on xaur.github.io
 - [ ] Add images of all sizes to the [files repo](https://github.com/xaur/decred-journal-files)
-- [ ] Select "primary" mirror to broadcast (normally Decred Magazine)
+- [ ] Select primary mirror to broadcast (normally Decred Magazine)
 - [ ] Publish on Decred Magazine
   - Check ToC, formatting, images, captions
 - [ ] Publish on Medium
@@ -89,7 +90,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Squash `gh-pages` to have a single commit for the new issue
 - [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
 - [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
-- [ ] Update decred.org News page data
+- [ ] Update decred.org News page
   - Add new DJ to [decred_journals.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/decred_journals.yml)
   - Add newsworthy media links to [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/coverage.yml)
   - Add any software releases missing in [software_releases.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/software_releases.yml)
