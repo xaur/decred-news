@@ -5,15 +5,23 @@ Here is the list of all known mirrors and translations.
 
 ## 2022
 
+__November__
+
+- English: [github](journal/202211.md) [medium](https://medium.com/decred/decred-journal-november-2022-3be533057e86) [decredmagazine](https://www.decredmagazine.com/decred-journal-november-2022/)
+
 __October__
 
 - English: [github](journal/202210.md) [medium](https://medium.com/decred/decred-journal-october-2022-9e8e0d5665d8) [decredmagazine](https://www.decredmagazine.com/decred-journal-october-2022/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202210.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202210_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202209_DecredJournalPL.md)
 
 __September__
 
 - English: [github](journal/202209.md) [medium](https://medium.com/decred/decred-journal-september-2022-67c6057ecee3) [decredmagazine](https://www.decredmagazine.com/decred-journal-september-2022/)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202209.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202209_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202209_DecredJournalPL.md)
 
 __August__
 
