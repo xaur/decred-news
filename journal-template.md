@@ -38,7 +38,10 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 - [Markets](#markets)
 - [Relevant External](#relevant-external)
 
-{ _Add individual sections for high-impact announcements before Development, such as consensus votes, software releases, milestones, major bugs, etc._ }
+
+## { Some Announcement }
+
+{ _Add individual sections for high-impact announcements, such as consensus votes, software releases, milestones, major bugs, etc._ }
 
 
 ## Development
@@ -249,6 +252,18 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 - {}
 
 
+### Bison Relay
+
+_[Bison Relay](https://github.com/companyzero/bisonrelay) is the new peer-to-peer social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred LN._
+
+{ _Check these repos:_
+
+- https://github.com/companyzero/bisonrelay
+- https://github.com/companyzero/bisonrelay-web
+
+}
+
+
 ### Other
 
 - { _Smaller/common things go here._ }
@@ -256,6 +271,7 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 { _Check for new/updated repos in:_
 
 - https://github.com/orgs/decred/repositories
+- https://github.com/orgs/companyzero/repositories
 - https://github.com/orgs/planetdecred/repositories
 - https://github.com/orgs/raedahgroup/repositories
 
@@ -361,9 +377,9 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Check https://github.com/decred/dcrweb/commits/master for added/removed services._ }
 
-Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
-
 Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to follow Decred ecosystem updates.
+
+Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
 
 ## Outreach
@@ -448,7 +464,12 @@ Selected Twitter discussions:
 
 In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. The average daily rate was ${n.nn}.
 
-{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis._ }
+{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Check here:_
+
+- https://twitter.com/applesaucesome1
+- https://www.decredmagazine.com/tag/research-and-analytics/
+
+}
 
 { _DCRDEX updates, esp. trading volume dynamics._ }
 
