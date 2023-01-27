@@ -222,7 +222,7 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 
 ### Bison Relay
 
-_[Bison Relay](https://github.com/companyzero/bisonrelay) is the new peer-to-peer social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred LN._
+_[Bison Relay](https://github.com/companyzero/bisonrelay) is a new peer-to-peer social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred Lightning Network._
 
 { _Check these repos:_
 
@@ -250,13 +250,11 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is the new peer-to-pee
 
 ## People
 
-{ _List people who got their first non-trivial commits merged in master branches, in alphabetical order._ }
+{ _Discover and greet new first-time contributors. For devs, list people who got their first non-trivial commits merged in master branches. For writers, list authors who published notable Decred content for the first time. Sort by type (dev/writing/etc.), then alphabetically._ }
 
-Welcome to new first-time contributors with code merged to master:
+Welcome the new first-time contributors:
 
-- {@handle} ([{repo}]({link to user's commits}))
-
-{ _Discover and greet new non-developer contributors too, e.g. first-time DM authors._ }
+- {@handle} ([{Project}]({ link to user's commits, DM profile, etc. }))
 
 { _Check CMS, remove if none._ } Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}).
 
@@ -264,7 +262,7 @@ Welcome to new first-time contributors with code merged to master:
 
 { _Status updates from existing contractors._ }
 
-{ _Interviews with contributors. Link to #media for generic references (e.g. "Check the 3 interviews with devs") or link directly when referencing a specific interview._ }
+{ _Interviews with contributors. Link the interview and add a fun/strong quote._ }
 
 Community stats as of {date} (compared to {date}):
 
@@ -272,7 +270,7 @@ Community stats as of {date} (compared to {date}):
 - [Twitter](https://twitter.com/decredproject) followers: {} (+{})
 - [Reddit](https://www.reddit.com/r/decred/) subscribers: {} (+{})
 - [Matrix](https://chat.decred.org/) #general users: {} (+{})
-- [Discord](https://discord.gg/GJ2GXfz) users: {} (+{})
+- [Discord](https://discord.gg/GJ2GXfz) users: {} (+{}), verified to post: {} (+{})
 - [Telegram](https://t.me/Decred) users: {} (+{})
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
 
@@ -430,7 +428,7 @@ Selected Twitter discussions:
 
 ## Markets
 
-In {month} DCR was trading between USD {n.nn}-{n.nn} / BTC {n.nnnnn}-{n.nnnnn}. The average daily rate was ${n.nn}.
+In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate was ${n.nn}.
 
 { _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Check here:_
 
