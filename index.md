@@ -14,9 +14,14 @@ Markdown source files are available [on GitHub](https://github.com/xaur/decred-n
 ## Archive
 
 
+### 2023
+
+January|[English](journal/202301.md)
+
+
 ### 2022
 
-December|[English](journal/202212.md)
+December|[English](journal/202212.md), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202212_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202212_DecredJournalPL.md)
 November|[English](journal/202211.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202211.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202211_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202211_DecredJournalPL.md)
 October|[English](journal/202210.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202210.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202210_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202210_DecredJournalPL.md)
 September|[English](journal/202209.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202209.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202209_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202209_DecredJournalPL.md)
