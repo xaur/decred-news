@@ -2,13 +2,17 @@
 
 Decred Journal serves to expose just how much is happening in [Decred](https://decred.org/) and save time for people who cannot actively follow all project activity. It aims to cover all relevant developments with a short description and links to read further. It shows the depth of the project and the involvement of the community.
 
-Monthly issues are published on: [Decred Magazine](https://www.decredmagazine.com/tag/decred-journal/), [GitHub](https://xaur.github.io/decred-news/), [Medium](https://medium.com/decred/journals/home).
+**Quick links**:
 
-All known mirrors and translations are listed on the [Mirrors page](mirrors.md).
+- [Decred Magazine](https://www.decredmagazine.com/tag/decred-journal/), [Medium](https://medium.com/decred/journals/home), [GitHub Pages](https://xaur.github.io/decred-news/) - current publication targets
 
-Markdown source files are available [on GitHub](https://github.com/xaur/decred-news).
+- [Mirrors](mirrors.md) - a list of all known mirrors for all languages
 
-[Contributors are welcome](https://github.com/xaur/decred-news/blob/docs/contributing.md)!
+- [xaur/decred-news](https://github.com/xaur/decred-news) repository - Markdown source files
+
+- [Contributing directions](https://github.com/xaur/decred-news/blob/docs/contributing.md) - we need more hands to cover all stories
+
+- [#journal](https://chat.decred.org/#/room/#journal:decred.org) - our work chat room where the sausage is made. You need a [Matrix client](https://matrix.org/clients/) to join. Check [our instructions](https://docs.decred.org/getting-started/joining-matrix-channels/) for using Matrix.
 
 
 ## Archive
