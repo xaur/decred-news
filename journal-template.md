@@ -175,6 +175,13 @@ _[dcrdata](https://github.com/decred/dcrdata) is an explorer for Decred blockcha
 - {}
 
 
+### Timestamply
+
+_[Timestamply](https://github.com/decred/dcrtimegui) is a free service for timestamping files powered by Decred blockchain. A timestamp proves that a certain file has existed at a certain moment of time. This has a range of applications in protecting data integrity._
+
+{ _Check_ https://github.com/decred/dcrtimegui }
+
+
 ### TinyDecred
 
 _[TinyDecred](https://github.com/decred/tinydecred) is a Python toolkit for integrating Decred. It includes an experimental light GUI wallet based on PyQt5._
@@ -412,18 +419,13 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 - {}
 
+**Discussions:**:
 
-## Discussions
+- { _Interesting discussions that generated new ideas or perspectives_ }
 
-{ _Hint: Interesting discussions that generated new ideas or perspectives._ }
+**Other:**
 
-Selected Reddit posts:
-
-- {}
-
-Selected Twitter discussions:
-
-- {}
+- { _e.g. educational posts and anything that doesn't fall in other categories_ }
 
 
 ## Markets
