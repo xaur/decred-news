@@ -34,7 +34,6 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 - [Outreach](#outreach)
 - [Events](#events)
 - [Media](#media)
-- [Discussions](#discussions)
 - [Markets](#markets)
 - [Relevant External](#relevant-external)
 
@@ -179,7 +178,12 @@ _[dcrdata](https://github.com/decred/dcrdata) is an explorer for Decred blockcha
 
 _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for timestamping files powered by Decred blockchain. A timestamp proves that a certain file has existed at a certain moment of time. This has a range of applications in protecting data integrity._
 
-{ _Check_ https://github.com/decred/dcrtimegui }
+{ _Check these repos:_
+
+- https://github.com/decred/dcrtime
+- https://github.com/decred/dcrtimegui
+
+}
 
 
 ### TinyDecred
@@ -229,12 +233,13 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 
 ### Bison Relay
 
-_[Bison Relay](https://github.com/companyzero/bisonrelay) is a new peer-to-peer social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred Lightning Network._
+_[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred Lightning Network._
 
 { _Check these repos:_
 
 - https://github.com/companyzero/bisonrelay
 - https://github.com/companyzero/bisonrelay-web
+- https://github.com/companyzero/sntrup4591761
 
 }
 
@@ -329,9 +334,9 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Optional: mention biggest gainers_ }
 
-**Nodes**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed {} dcrd nodes on {date}: v{} - {n}%, ...
+**Nodes**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed between {} and {} dcrd nodes throughout the month. Versions of {} nodes seen on {date}: v{} - {n}%, ...
 
-{ _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed amount](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
+{ _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed volume](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
 
 { _Optional_ } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
 
@@ -419,7 +424,7 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 - {}
 
-**Discussions:**:
+**Discussions:**
 
 - { _Interesting discussions that generated new ideas or perspectives_ }
 
