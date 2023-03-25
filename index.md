@@ -20,7 +20,8 @@ Decred Journal serves to expose just how much is happening in [Decred](https://d
 
 ### 2023
 
-January|[English](journal/202301.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202301.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202301_DecredJournalCN.md)
+February|[English](journal/202302.md)
+January|[English](journal/202301.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202301.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202301_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202301_DecredJournalPL.md)
 
 
 ### 2022

@@ -14,6 +14,7 @@ __January__
 - English: [github](journal/202301.md) [medium](https://medium.com/decred/decred-journal-january-2023-3aecc1e0e0f7) [decredmagazine](https://www.decredmagazine.com/decred-journal-january-2023/)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202301.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202301_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202301_DecredJournalPL.md)
 
 
 ## 2022
