@@ -27,7 +27,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
   - [Decred Mapper](https://nodes.jholdstock.uk/user_agents)
 - [ ] VSP stats
   - rendered: [decred.org/vsp](https://decred.org/vsp/)
-  - API: [legacy](https://api.decred.org/?c=gsd), [current](https://api.decred.org/?c=vsp)
+  - API: [current](https://api.decred.org/?c=vsp)
 - [ ] [LN stats](https://ln-map.jholdstock.uk/)
 
 **Writing**
@@ -65,7 +65,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Add other images
 - [ ] [Lint](https://github.com/xaur/decred-news/blob/docs/guidelines.md#linting)
 - [ ] Remove `{DRAFT}` from title
-- [ ] Final auto grammer check
+- [ ] Final grammer check
 
 **Publishing**
 
@@ -83,14 +83,14 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
   - Check for formatting issues
 - [ ] Post on r/decred
 - [ ] Tweet via decredproject
-  - Add the right title image for Twitter
+  - Ensure thumbnail looks good
 - [ ] Announce in Matrix #dcr room
   - Add links to all mirrors
 - [ ] Announce on: t.me/DCRann, Blockfolio, CoinGecko, etc.
 - [ ] Squash `gh-pages` to have a single commit for the new issue
 - [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
 - [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
-- [ ] Update decred.org News page
+- [ ] Submit updates to [decred.org News](https://decred.org/news/) page
   - Add new DJ to [decred_journals.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/decred_journals.yml)
   - Add newsworthy media links to [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/coverage.yml)
   - Add any software releases missing in [software_releases.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/software_releases.yml)
