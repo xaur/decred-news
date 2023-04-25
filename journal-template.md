@@ -1,12 +1,14 @@
 # {DRAFT} Decred Journal – {month} {year}
 
-{ _Only remove DRAFT from the title when all other todos are solved, at the very end. Search for `{` to see what's left._ }
+{
 
-{ _Hint: Hints just add context. If it doesn't start with "Hint: ", it is a task. This was a hint._ }
+- _Only remove DRAFT from the title when all other todos are solved, at the very end. Search for `{` to see what's left._
+- _Hint: Hints just add context. If it doesn't start with "Hint: ", it is a task. This was a hint._
+- _Hint: Read the Guidelines on how to make DJ great: https://github.com/xaur/decred-news/blob/docs/guidelines.md_
 
-{ _Hint: Read the Guidelines on how to make DJ great: https://github.com/xaur/decred-news/blob/docs/guidelines.md ._}
+}
 
-![{alt text}](../img/{file.ext} "{hover tooltip text}")
+![]({}) { _upload xxxxxx.1_ }
 
 _Image: { "Title by @author. Description..." OR just "Description..." }_
 
@@ -50,7 +52,7 @@ The work reported below has the "merged to master" status unless noted otherwise
 {
 
 - _For each project, cover its most notable dev work._
-- _For each project, the order of reporting is "most released first": changes released to end users, merged to master, in progress (work started), discussions and future plans._
+- _For each project, the order of reporting is "OLDEST FIRST", or "most released first": changes released to end users, merged to master, in progress (work started), discussions and future plans._
 - _Add sections for any other project with notable activity._
 - _Drop sections without notable updates._
 
@@ -61,7 +63,7 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 _[dcrd](https://github.com/decred/dcrd) is a full node implementation that powers Decred's peer-to-peer network around the world._
 
-{ _Check_ https://github.com/decred/dcrd/commits/master }
+{ _Sources:_ https://github.com/decred/dcrd/commits/master }
 
 - {}
 
@@ -70,7 +72,7 @@ _[dcrd](https://github.com/decred/dcrd) is a full node implementation that power
 
 _[dcrwallet](https://github.com/decred/dcrwallet) is a wallet server used by command-line and graphical wallet apps._
 
-{ _Check_ https://github.com/decred/dcrwallet/commits/master }
+{ _Sources:_ https://github.com/decred/dcrwallet/commits/master }
 
 - {}
 
@@ -81,7 +83,7 @@ _[dcrctl](https://github.com/decred/dcrctl) is a command-line client for dcrd an
 
 { _Hint: dcrctl is pulling most of the code from dcrd and dcrwallet. Often there is not much to report and this section can be removed._ }
 
-{ _Check_ https://github.com/decred/dcrctl/commits/master }
+{ _Sources:_ https://github.com/decred/dcrctl/commits/master }
 
 - {}
 
@@ -90,7 +92,13 @@ _[dcrctl](https://github.com/decred/dcrctl) is a command-line client for dcrd an
 
 _[Decrediton](https://github.com/decred/decrediton) is a full-featured desktop wallet app with integrated voting, StakeShuffle mixing, Lightning Network, DEX trading, and more. It runs with or without a full blockchain (SPV mode)._
 
-{ _Check_ https://github.com/decred/decrediton/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/decrediton/commits/master
+- #decrediton
+- #hw-wallets
+
+}
 
 - {}
 
@@ -99,11 +107,12 @@ _[Decrediton](https://github.com/decred/decrediton) is a full-featured desktop w
 
 _[Politeia](https://github.com/decred/politeia) is Decred's proposal system. It is used to request funding from the Decred treasury._
 
-{ _Check these repos:_
+{ _Sources:_
 
 - https://github.com/decred/politeia/commits/master
 - https://github.com/decred/politeiagui/commits/master
 - https://github.com/decred/pi-ui/commits/master
+- #politeia
 
 }
 
@@ -112,9 +121,9 @@ _[Politeia](https://github.com/decred/politeia) is Decred's proposal system. It 
 
 ### vspd
 
-_[vspd](https://github.com/decred/vspd) is server software for running a Voting Service Provider. A VSP votes on behalf of its users 24/7 and cannot steal funds._
+_[vspd](https://github.com/decred/vspd) is server software used by Voting Service Providers. A VSP votes on behalf of its users 24/7 and cannot steal funds._
 
-{ _Check_ https://github.com/decred/vspd/commits/master }
+{ _Sources:_ https://github.com/decred/vspd/commits/master }
 
 - {}
 
@@ -123,7 +132,7 @@ _[vspd](https://github.com/decred/vspd) is server software for running a Voting 
 
 _[dcrpool](https://github.com/decred/dcrpool) is server software for running a mining pool._
 
-{ _Check_ https://github.com/decred/dcrpool/commits/master }
+{ _Sources:_ https://github.com/decred/dcrpool/commits/master }
 
 - {}
 
@@ -132,10 +141,11 @@ _[dcrpool](https://github.com/decred/dcrpool) is server software for running a m
 
 _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node software. LN enables instant and low-cost transactions._
 
-{ _Check these repos:_
+{ _Sources:_
 
 - https://github.com/decred/dcrlnd/commits/master
 - https://github.com/decred/dcrlnlpd/commits/master
+- #lndev
 
 }
 
@@ -144,9 +154,9 @@ _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node s
 
 ### cspp
 
-_[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. does not hold any funds._
+_[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. never holds any funds. CSPP is part of StakeShuffle, Decreds privacy system._
 
-{ _Check_ https://github.com/decred/cspp/commits/master }
+{ _Sources:_ https://github.com/decred/cspp/commits/master }
 
 - {}
 
@@ -155,10 +165,12 @@ _[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes 
 
 _[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecting exchange for trustless trading, powered by atomic swaps._
 
-{ _Check these repos:_
+{ _Sources:_
 
 - https://github.com/decred/dcrdex/commits/master
 - https://github.com/decred/dexweb/commits/master
+- #dexdev
+- #dex
 
 }
 
@@ -169,7 +181,12 @@ _[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecti
 
 _[dcrdata](https://github.com/decred/dcrdata) is an explorer for Decred blockchain and off-chain data like Politeia proposals, markets, and more._
 
-{ _Check_ https://github.com/decred/dcrdata/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/dcrdata/commits/master
+- #dcrdata
+
+}
 
 - {}
 
@@ -178,10 +195,11 @@ _[dcrdata](https://github.com/decred/dcrdata) is an explorer for Decred blockcha
 
 _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for timestamping files powered by Decred blockchain. A timestamp proves that a certain file has existed at a certain moment of time. This has a range of applications in protecting data integrity._
 
-{ _Check these repos:_
+{ _Sources:_
 
 - https://github.com/decred/dcrtime
 - https://github.com/decred/dcrtimegui
+- #timestamp
 
 }
 
@@ -190,7 +208,7 @@ _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for times
 
 _[TinyDecred](https://github.com/decred/tinydecred) is a Python toolkit for integrating Decred. It includes an experimental light GUI wallet based on PyQt5._
 
-{ _Check_ https://github.com/decred/tinydecred/commits/master }
+{ _Sources:_ https://github.com/decred/tinydecred/commits/master }
 
 - {}
 
@@ -199,7 +217,7 @@ _[TinyDecred](https://github.com/decred/tinydecred) is a Python toolkit for inte
 
 _[dcrros](https://github.com/decred/dcrros) is a middleware service that provides access to the Decred network via Rosetta API._
 
-{ _Check_ https://github.com/decred/dcrros/commits/master }
+{ _Sources:_ https://github.com/decred/dcrros/commits/master }
 
 - {}
 
@@ -208,7 +226,12 @@ _[dcrros](https://github.com/decred/dcrros) is a middleware service that provide
 
 _[dcrdocs](https://github.com/decred/dcrdocs) is the source code for Decred [user documentation](https://docs.decred.org/)._
 
-{ _Check_ https://github.com/decred/dcrdocs/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/dcrdocs/commits/master
+- #documentation
+
+}
 
 - {}
 
@@ -217,7 +240,12 @@ _[dcrdocs](https://github.com/decred/dcrdocs) is the source code for Decred [use
 
 _[dcrdevdocs](https://github.com/decred/dcrdevdocs) is the source code for Decred [developer documentation](https://devdocs.decred.org/)._
 
-{ _Check_ https://github.com/decred/dcrdevdocs/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/dcrdevdocs/commits/master
+- #documentation
+
+}
 
 - {}
 
@@ -226,7 +254,7 @@ _[dcrdevdocs](https://github.com/decred/dcrdevdocs) is the source code for Decre
 
 _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.org](https://decred.org/) website._
 
-{ _Check_ https://github.com/decred/dcrweb/commits/master }
+{ _Sources:_ https://github.com/decred/dcrweb/commits/master }
 
 - {}
 
@@ -235,11 +263,12 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 
 _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred Lightning Network._
 
-{ _Check these repos:_
+{ _Sources:_
 
 - https://github.com/companyzero/bisonrelay
 - https://github.com/companyzero/bisonrelay-web
 - https://github.com/companyzero/sntrup4591761
+- #br
 
 }
 
@@ -248,16 +277,16 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 - { _Smaller/common things go here._ }
 
-{ _Check for new/updated repos in:_
+{ _Sources:_
 
 - https://github.com/orgs/decred/repositories
+- #dev
 - https://github.com/orgs/companyzero/repositories
 - https://github.com/orgs/planetdecred/repositories
 - https://github.com/orgs/raedahgroup/repositories
+- https://github.com/xaur/decred-news/blob/docs/sources.md#development (more exotic dev sources)
 
 }
-
-{ _More exotic dev sources:_ https://github.com/xaur/decred-news/blob/docs/sources.md#development }
 
 
 ## People
@@ -293,9 +322,9 @@ Community stats as of {date} (compared to {date}):
 
 { _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._ }
 
-In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate, or ${} at {prev month}'s billing rate of ${}.
+In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate.
 
-The [treasury spend tx]({}) had {} outputs making payments to contractors, ranging from {} DCR to {} DCR.
+A [treasury spend tx]({}) was mined on {date}, it had {} outputs making payments to contractors, ranging from {} DCR to {} DCR. Most of this DCR was likely paid for {billing month} work, at its billing exchange rate of ${} the TSpend is worth around ${}.
 
 { _Other interesting facts/stories about the legacy or new treasury._ }
 
@@ -305,16 +334,25 @@ As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dc
 
 - {}
 
-{ _Check https://github.com/decredcommunity/proposals/commits/master for updates._ }
-
 See Politeia Digest [issue {}]({}) for more details on the month's proposals.
+
+{ _Sources:
+
+- https://github.com/decredcommunity/proposals/commits/master
+- #proposals
+
+}
+
 
 
 ## Network
 
-{ _Hint: "Network" tracks key "health" metrics of the fundamental infrastructure._ }
+{
 
-{ _Hint: n, n.n, and n.nn tell how many decimals to keep, e.g. 100, 16.5, 8.63_ }
+- _Hint: "Network" tracks key "health" metrics of the fundamental infrastructure._
+- _Hint: `n`, `n.n`, and `n.nn` tell how many decimals to keep, e.g. 100, 16.5, 8.63_
+
+}
 
 **Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
 
@@ -324,7 +362,7 @@ Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decre
 
 Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) by {date}: {PoolName n%, ...}.
 
-**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR, with 30-day [average](https://dcrstats.com/) at {n.n} DCR (+{n.n}).
+**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR.
 
 The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) in Proof of Stake.
 
@@ -338,7 +376,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mixed volume](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
 
-{ _Optional_ } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}.
+{ _Optional_ } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer has seen {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}. These stats are different for each node. For example, @karamble's node reported {} nodes (+{}), {} channels (+{}) and {} DCR (+{}) capacity on same day {}.
 
 { _Add any interesting analysis or events in the network._ }
 
@@ -347,13 +385,17 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Hint: "Ecosystem" is about new units of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors, investors. It is more about user-facing services, businesses, and wider adoption, while Network is more about the backbone. Use bullets or paragraphs, whatever looks best._ }
 
-{ _Check https://github.com/decred/dcrwebapi/commits/master for changes to the VSP list._ }
+{ _Find news in these sources:_
 
-{ _Check https://github.com/decred/dcrwebapi/pulls for new VSPs under review._ }
+- https://github.com/decred/dcrwebapi/commits/master (changes to the VSP list)
+- https://github.com/decred/dcrwebapi/pulls (new VSPs under review)
+- https://github.com/decred/dcrweb/commits/master (for added/removed services)
+- #general
+- #hw-wallets
+- #trading (exchange listings/elistings/incidents)
+- #ecosystem (ideally should capture all of the above)
 
-{ _Check #ecosystem room for news._ }
-
-{ _Check https://github.com/decred/dcrweb/commits/master for added/removed services._ }
+}
 
 Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to follow Decred ecosystem updates.
 
@@ -382,17 +424,22 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 ## Media
 
-{ _Put notable community content efforts or new projects at the beginning. e.g. a new website, new podcast series, or an important guide how to make the network more robust._ }
+{
 
-{ _Hint: For bullet lists below, use the following format: [Sentence case title]({link}) by @author - optional comment._ }
+- _Put notable community content efforts or new projects at the beginning. e.g. a new website, new podcast series, or an important guide how to make the network more robust._
+- _For bullet lists, use the following format: `[Sentence case title]({link}) by @author - optional comment`._
 
-{ _Scan these to find more Media and Discussions:_
+_Sources:_
 
 - https://twitter.com/decredproject
 - https://www.reddit.com/r/decred/new/
+- https://www.decredmagazine.com/page/2/
 - Matrix #media
 - Matrix #marketing
 - Matrix #general
+- https://www.youtube.com/results?search_query=decred&sp=CAI%253D
+- https://www.tiktok.com/@decred_crypto
+- https://anchor.fm/decred-magazine
 
 }
 
@@ -402,9 +449,7 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 **Videos:**
 
-{ _Scan https://www.youtube.com/results?search_query=decred&sp=CAI%253D ._ }
-
-{ _Add links to text posts on DM when available for the videos_ }
+{ _If the video has a useful companion text post on DM, link it to._ }
 
 - {}
 
@@ -426,21 +471,23 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 **Discussions:**
 
-- { _Interesting discussions that generated new ideas or perspectives_ }
+- { _Interesting discussions on Matrix/Reddit/Twitter/etc. that generated new ideas or perspectives_ }
+- { _Also check https://twitter.com/BisonDigest for best picks from BR_ }
 
 **Other:**
 
-- { _e.g. educational posts and anything that doesn't fall in other categories_ }
+- { _e.g. educational posts or anything that does not fit in other categories_ }
 
 
 ## Markets
 
 In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate was ${n.nn}.
 
-{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Check here:_
+{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Sources:_
 
 - https://twitter.com/applesaucesome1
 - https://www.decredmagazine.com/tag/research-and-analytics/
+- #trading
 
 }
 
@@ -449,19 +496,27 @@ In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-
 
 ## Relevant External
 
-{ _Hint: Besides dramatic "epic fails", try to also report some "epic wins" in areas relevant to Decred. We can learn from both._ }
+{ _Story ideas:_
 
-{ _Hint: Follow or not follow the suggested grouping of stories below._ }
+- ...
 
-{ _Cryptocurrency L1 tech: PoW, ASIC resistance, full nodes, network security, etc._ }
+}
 
-{ _L2+ tech: "Smart" contracts, DEX projects._ }
 
-{ _Governance, finances, funding, chain forks, community splits._ }
+{ _Hints (all optional):
 
-{ _Relevant exchanges and websites._ }
+_1. Besides dramatic "epic fails", try to also report "epic wins" in areas relevant to Decred. Balance is good and we can learn from both._
 
-{ _Other: Regulations, privacy, security, fun._ }
+_2. Order the stories as follows:_
+
+- _Crypto L1 tech: PoW, ASIC resistance, full nodes, network security, etc._
+- _Crypto L2+ tech: "Smart" contracts, DEX projects_
+- _Crypto governance, finances, transparency, funding, chain forks, community splits_
+- _Relevant exchanges and websites_
+- _Regulations, privacy, security_
+- _Fun stuff_
+
+}
 
 That's all for {month}. Share your updates for the next issue in our [#journal](https://chat.decred.org/#/room/#journal:decred.org) chat room.
 
