@@ -63,7 +63,12 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 _[dcrd](https://github.com/decred/dcrd) is a full node implementation that powers Decred's peer-to-peer network around the world._
 
-{ _Sources:_ https://github.com/decred/dcrd/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/dcrd/commits/master
+- release branch
+
+}
 
 - {}
 
@@ -72,7 +77,12 @@ _[dcrd](https://github.com/decred/dcrd) is a full node implementation that power
 
 _[dcrwallet](https://github.com/decred/dcrwallet) is a wallet server used by command-line and graphical wallet apps._
 
-{ _Sources:_ https://github.com/decred/dcrwallet/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/dcrwallet/commits/master
+- release branch
+
+}
 
 - {}
 
@@ -95,6 +105,7 @@ _[Decrediton](https://github.com/decred/decrediton) is a full-featured desktop w
 { _Sources:_
 
 - https://github.com/decred/decrediton/commits/master
+- release branch
 - #decrediton
 - #hw-wallets
 
@@ -167,8 +178,11 @@ _[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecti
 
 { _Sources:_
 
+- https://github.com/decred/dcrdex/releases
+- release branch
 - https://github.com/decred/dcrdex/commits/master
 - https://github.com/decred/dexweb/commits/master
+- updated PRs e.g. `updated:2023-04-01..2023-04-30`
 - #dexdev
 - #dex
 
@@ -322,9 +336,9 @@ Community stats as of {date} (compared to {date}):
 
 { _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._ }
 
-In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at {month}'s rate.
+In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at same rate.
 
-A [treasury spend tx]({}) was mined on {date}, it had {} outputs making payments to contractors, ranging from {} DCR to {} DCR. Most of this DCR was likely paid for {billing month} work, at its billing exchange rate of ${} the TSpend is worth around ${}.
+A [treasury spend tx]({}) was approved with {} Yes votes and {}% turnout, and mined on {date}. It had {} outputs making payments to contractors, ranging from {} DCR to {} DCR. Most of this DCR was likely paid for {billing month} work, at its billing exchange rate of ${} the TSpend is worth around ${}.
 
 { _Other interesting facts/stories about the legacy or new treasury._ }
 
@@ -338,6 +352,9 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 { _Sources:
 
+- https://proposals.decred.org/
+- https://dcrdata.decred.org/proposals
+- https://blockcommons.red/politeia-digest/
 - https://github.com/decredcommunity/proposals/commits/master
 - #proposals
 
@@ -383,9 +400,9 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 ## Ecosystem
 
-{ _Hint: "Ecosystem" is about new units of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors, investors. It is more about user-facing services, businesses, and wider adoption, while Network is more about the backbone. Use bullets or paragraphs, whatever looks best._ }
+{ _Hint: "Ecosystem" is about new units of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors, investors. It is more about user-facing services, businesses, and wider adoption, while Network is more about the backbone. Use bullets or paragraphs, whatever looks best._
 
-{ _Find news in these sources:_
+_Harvest news from these sources:_
 
 - https://github.com/decred/dcrwebapi/commits/master (changes to the VSP list)
 - https://github.com/decred/dcrwebapi/pulls (new VSPs under review)
@@ -397,7 +414,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 }
 
-Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to follow Decred ecosystem updates.
+Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to get more news about Decred services.
 
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
@@ -503,7 +520,7 @@ In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-
 }
 
 
-{ _Hints (all optional):
+{ _Hints (all optional):_
 
 _1. Besides dramatic "epic fails", try to also report "epic wins" in areas relevant to Decred. Balance is good and we can learn from both._
 
@@ -518,7 +535,7 @@ _2. Order the stories as follows:_
 
 }
 
-That's all for {month}. Share your updates for the next issue in our [#journal](https://chat.decred.org/#/room/#journal:decred.org) chat room.
+That's all for {month}. Suggest news for the next issue in our [#journal](https://chat.decred.org/#/room/#journal:decred.org) chat room.
 
 
 ## About
