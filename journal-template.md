@@ -8,7 +8,7 @@
 
 }
 
-![]({}) { _upload xxxxxx.1_ }
+{ _upload title image xxxxxx.1_ }
 
 _Image: { "Title by @author. Description..." OR just "Description..." }_
 
@@ -414,6 +414,22 @@ _Harvest news from these sources:_
 
 }
 
+New services:
+
+- {}
+
+Services lost:
+
+- {}
+
+Other news:
+
+- {}
+
+New services discovered but not tested by the community yet:
+
+- {}
+
 Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat to get more news about Decred services.
 
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
@@ -457,6 +473,8 @@ _Sources:_
 - https://www.youtube.com/results?search_query=decred&sp=CAI%253D
 - https://www.tiktok.com/@decred_crypto
 - https://anchor.fm/decred-magazine
+- Monde PR placements
+- https://twitter.com/BisonDigest
 
 }
 
@@ -488,8 +506,7 @@ _Sources:_
 
 **Discussions:**
 
-- { _Interesting discussions on Matrix/Reddit/Twitter/etc. that generated new ideas or perspectives_ }
-- { _Also check https://twitter.com/BisonDigest for best picks from BR_ }
+- { _Interesting discussions on Matrix/Reddit/Twitter/BR/etc. that generated new ideas or perspectives_ }
 
 **Other:**
 
