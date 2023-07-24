@@ -44,6 +44,7 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 
 { _Add individual sections for high-impact announcements, such as consensus votes, software releases, milestones, major bugs, etc._ }
 
+<a id="development" />
 
 ## Development
 
@@ -286,6 +287,8 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 }
 
 
+<a id="people" />
+
 ## People
 
 { _Discover and greet new first-time contributors. For devs, list people who got their first non-trivial commits merged in master branches. For writers, list authors who published notable Decred content for the first time. Sort by type (dev/writing/etc.), then alphabetically._ }
@@ -313,6 +316,8 @@ Community stats as of {date} (compared to {date}):
 
 { _Optional: List/link notable SM dynamics._ }
 
+
+<a id="governance" />
 
 ## Governance
 
@@ -343,6 +348,7 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 }
 
 
+<a id="network" />
 
 ## Network
 
@@ -379,6 +385,8 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Add any interesting analysis or events in the network._ }
 
+
+<a id="ecosystem" />
 
 ## Ecosystem
 
@@ -417,10 +425,14 @@ Join our [#ecosystem](https://chat.decred.org/#/room/#ecosystem:decred.org) chat
 Warning: the authors of the Decred Journal have no idea about the trustworthiness of any of the services above. Please do your own research before trusting your personal information or assets to any entity.
 
 
+<a id="outreach" />
+
 ## Outreach
 
 { _Summarize outreach/communications/marketing/PR activity for past month and any short-term plans. "Outreach" is anything about "sending our message out". Here is the "big picture" stuff while Events and Media go into the details._ }
 
+
+<a id="events" />
 
 ## Events
 
@@ -436,6 +448,8 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 { _Announcements from events ppl._ }
 
+
+<a id="media" />
 
 ## Media
 
@@ -496,6 +510,8 @@ _Sources:_
 - { _e.g. educational posts or anything that does not fit in other categories_ }
 
 
+<a id="markets" />
+
 ## Markets
 
 In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate was ${n.nn}.
@@ -510,6 +526,8 @@ In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-
 
 { _DCRDEX updates, esp. trading volume dynamics._ }
 
+
+<a id="relevant-external" />
 
 ## Relevant External
 
