@@ -213,6 +213,7 @@ _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for times
 
 - https://github.com/decred/dcrtime
 - https://github.com/decred/dcrtimegui
+- https://github.com/decred/dcrtimejs
 - #timestamp
 
 }
@@ -222,7 +223,12 @@ _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for times
 
 _[TinyDecred](https://github.com/decred/tinydecred) is a Python toolkit for integrating Decred. It includes an experimental light GUI wallet based on PyQt5._
 
-{ _Sources:_ https://github.com/decred/tinydecred/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/tinydecred/commits/master
+- #tinydecred
+
+}
 
 - {}
 
@@ -321,7 +327,6 @@ Welcome the new first-time contributors:
 
 Community stats as of {date} (compared to {date}):
 
-- Politeia users: {} (+{})
 - [Twitter](https://twitter.com/decredproject) followers: {} (+{})
 - [Reddit](https://www.reddit.com/r/decred/) subscribers: {} (+{})
 - [Matrix](https://chat.decred.org/) #general users: {} (+{})
@@ -371,9 +376,9 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 }
 
-**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} Ph/s and closed ~{n} Ph/s, bottoming at {n} Ph/s and peaking at {n} Ph/s throughout the month.
+**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} PH/s and closed ~{n} PH/s, bottoming at {n} PH/s and peaking at {n} PH/s throughout the month.
 
-Distribution of {} Ph/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
+Distribution of {} PH/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
 { _Hint: Fallback links for pool distribution: https://poolbay.io/crypto/54/decred , https://dcrstats.com/pow ._ }
 
@@ -381,7 +386,7 @@ Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/dec
 
 **Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR.
 
-The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) in Proof of Stake.
+The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) in proof of stake.
 
 { _Add a recap of ticket price action if it was interesting._ }
 
@@ -470,6 +475,7 @@ _Sources:_
 - Matrix #media
 - Matrix #marketing
 - Matrix #general
+- https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg/videos
 - https://www.youtube.com/results?search_query=decred&sp=CAI%253D
 - https://www.tiktok.com/@decred_crypto
 - https://anchor.fm/decred-magazine
