@@ -5,9 +5,15 @@ Here is the list of all known mirrors and translations.
 
 ## 2023
 
+__June__
+
+- English: [github](journal/202306.md) [medium](https://medium.com/decred/decred-journal-june-2023-1e6532f40ee6) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-june-2023/)
+
 __May__
 
 - English: [github](journal/202305.md) [medium](https://medium.com/decred/decred-journal-may-2023-6221b5da61e7) [decredmagazine](https://www.decredmagazine.com/decred-journal-may-2023/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202305.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202305_DecredJournalCN.md)
 
 __April__
 
