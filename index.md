@@ -20,7 +20,8 @@ Decred Journal serves to expose just how much is happening in [Decred](https://d
 
 ### 2023
 
-June|[English](journal/202306.md)
+July|[English](journal/202307.md)
+June|[English](journal/202306.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202306.html). [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202306_DecredJournalCN.md)
 May|[English](journal/202305.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202305.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202305_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202305_DecredJournalPL.md)
 April|[English](journal/202304.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202304.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202304_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202304_DecredJournalPL.md)
 March|[English](journal/202303.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202303.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202303_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202303_DecredJournalPL.md)

@@ -5,21 +5,29 @@ Here is the list of all known mirrors and translations.
 
 ## 2023
 
+__July__
+
+- English: [github](journal/202307.md) [medium](https://medium.com/decred/decred-journal-july-2023-e972352272e9) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-july-2023/)
+
 __June__
 
 - English: [github](journal/202306.md) [medium](https://medium.com/decred/decred-journal-june-2023-1e6532f40ee6) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-june-2023/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202306.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202306_DecredJournalCN.md)
 
 __May__
 
 - English: [github](journal/202305.md) [medium](https://medium.com/decred/decred-journal-may-2023-6221b5da61e7) [decredmagazine](https://www.decredmagazine.com/decred-journal-may-2023/)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202305.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202305_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202305_DecredJournalPL.md)
 
 __April__
 
 - English: [github](journal/202304.md) [medium](https://medium.com/decred/decred-journal-april-2023-c4e9bcaadb60) [decredmagazine](https://www.decredmagazine.com/decred-journal-april-2023/)
 - Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202304.html)
 - Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202304_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202304_DecredJournalPL.md)
 
 __March__
 
