@@ -7,7 +7,7 @@ Here is the list of all known mirrors and translations.
 
 __July__
 
-- English: [github](journal/202307.md) [medium](https://medium.com/decred/decred-journal-july-2023-e972352272e9) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-july-2023/)
+- English: [github](journal/202307.md) [medium](https://medium.com/decred/decred-journal-july-2023-e972352272e9) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-july-2023/) [coinmarketcap](https://coinmarketcap.com/community/articles/64e3f609134699319993be62/)
 
 __June__
 
