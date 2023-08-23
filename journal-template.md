@@ -40,9 +40,12 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 - [Relevant External](#relevant-external)
 
 
+<a id="{some-announcement}" />
+
 ## { Some Announcement }
 
 { _Add individual sections for high-impact announcements, such as consensus votes, software releases, milestones, major bugs, etc._ }
+
 
 <a id="development" />
 
@@ -56,6 +59,13 @@ The work reported below has the "merged to master" status unless noted otherwise
 - _For each project, the order of reporting is "OLDEST FIRST", or "most released first": changes released to end users, merged to master, in progress (work started), discussions and future plans._
 - _Add sections for any other project with notable activity._
 - _Drop sections without notable updates._
+
+- _For each project:_
+  - _Step 1: Add every commit in chronological order_
+  - _Step 2: Organize:_
+    - _released, master, progress, future_
+    - _user-facing up top, dev stuff down below_
+  - _Step 3: Group further and tidy_
 
 }
 
@@ -92,9 +102,9 @@ _[dcrwallet](https://github.com/decred/dcrwallet) is a wallet server used by com
 
 _[dcrctl](https://github.com/decred/dcrctl) is a command-line client for dcrd and dcrwallet._
 
-{ _Hint: dcrctl is pulling most of the code from dcrd and dcrwallet. Often there is not much to report and this section can be removed._ }
+{ _Hint: dcrctl is pulling most of the code from dcrd and dcrwallet. Often there is not much to report and this section can be removed._
 
-{ _Sources:_ https://github.com/decred/dcrctl/commits/master }
+_Sources:_ https://github.com/decred/dcrctl/commits/master }
 
 - {}
 
@@ -183,7 +193,7 @@ _[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecti
 - release branch
 - https://github.com/decred/dcrdex/commits/master
 - https://github.com/decred/dexweb/commits/master
-- updated PRs e.g. `updated:2023-04-01..2023-04-30`
+- updated PRs `is:pr sort:updated-desc updated:>=2023-07-01 created:<2023-08-01 -merged:<2023-08-01`
 - #dexdev
 - #dex
 
@@ -279,6 +289,7 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 - https://github.com/orgs/decred/repositories
 - #dev
+- #research
 - https://github.com/orgs/companyzero/repositories
 - https://github.com/orgs/planetdecred/repositories
 - https://github.com/orgs/raedahgroup/repositories
@@ -295,15 +306,17 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 Welcome the new first-time contributors:
 
-- {@handle} ([{Project}]({ link to user's commits, DM profile, etc. }))
+- {@handle} ([{Project}]({ link to user's commits, CT profile, etc. }))
 
-{ _Check CMS, remove if none._ } Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({link to most relevant account}).
+{ _Check CMS, remove if none._ } Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({ link to most relevant account }).
 
-{ _Welcome new corporate contractors with short intros._ }
+{
 
-{ _Status updates from existing contractors._ }
+- _Welcome new corporate contractors with short intros._
+- _Status updates from existing contractors._
+- _Interviews with contributors. Link the interview and add a fun/strong quote._
 
-{ _Interviews with contributors. Link the interview and add a fun/strong quote._ }
+}
 
 Community stats as of {date} (compared to {date}):
 
@@ -321,7 +334,18 @@ Community stats as of {date} (compared to {date}):
 
 ## Governance
 
-{ _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._ }
+{ _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._
+
+_Sources:_
+
+- https://proposals.decred.org/
+- https://proposals.decred.org/ - updates on approved props
+- https://dcrdata.decred.org/proposals
+- https://blockcommons.red/politeia-digest/
+- https://github.com/decredcommunity/proposals/commits/master
+- #proposals
+
+}
 
 In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at same rate.
 
@@ -337,25 +361,19 @@ As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dc
 
 See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
-{ _Sources:
-
-- https://proposals.decred.org/
-- https://dcrdata.decred.org/proposals
-- https://blockcommons.red/politeia-digest/
-- https://github.com/decredcommunity/proposals/commits/master
-- #proposals
-
-}
-
 
 <a id="network" />
 
 ## Network
 
-{
+{ _Hint: "Network" tracks key "health" metrics of the fundamental infrastructure._
 
-- _Hint: "Network" tracks key "health" metrics of the fundamental infrastructure._
-- _Hint: `n`, `n.n`, and `n.nn` tell how many decimals to keep, e.g. 100, 16.5, 8.63_
+_Sources:_
+
+- https://github.com/bochinchero/dcrsnapcsv
+- https://github.com/bochinchero/dcrsnapshots
+- #pow-mining
+- #pos-voting
 
 }
 
@@ -392,7 +410,7 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 { _Hint: "Ecosystem" is about new units of infrastructure or updates from existing: VSPs, exchanges, wallets, OTC desks, payment processors, investors. It is more about user-facing services, businesses, and wider adoption, while Network is more about the backbone. Use bullets or paragraphs, whatever looks best._
 
-_Harvest news from these sources:_
+_Sources:_
 
 - https://github.com/decred/dcrwebapi/commits/master (changes to the VSP list)
 - https://github.com/decred/dcrwebapi/pulls (new VSPs under review)
@@ -401,6 +419,8 @@ _Harvest news from these sources:_
 - #hw-wallets
 - #trading (exchange listings/elistings/incidents)
 - #ecosystem (ideally should capture all of the above)
+
+_Group as below. Alternatively, group as: Voting Service Providers, Wallets, Exchanges, Communication systems, Other news_
 
 }
 
@@ -429,14 +449,32 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 ## Outreach
 
-{ _Summarize outreach/communications/marketing/PR activity for past month and any short-term plans. "Outreach" is anything about "sending our message out". Here is the "big picture" stuff while Events and Media go into the details._ }
+{ _Summarize outreach/communications/marketing/PR activity for past month and any short-term plans. "Outreach" is anything about "sending our message out". Here is the "big picture" stuff while Events and Media go into the details._
+
+_Sources:_
+
+- updates for active marketing proposals
+- updates for Cypherpunk Times engagement and recruiting
+- Decred Vanguard
+- Monde PR
+- #marketing
+- #writers
+
+}
 
 
 <a id="events" />
 
 ## Events
 
-{ _Hint: Summarize any important or interesting facts about each event. Link to https://decredcommunity.github.io/events/index/ for detailed reports._ }
+{ _Hint: Summarize any important or interesting facts about each event. Link to detailed reports when available._
+
+_Sources:_:
+
+- https://decredcommunity.github.io/events/index/
+- #events
+
+}
 
 **Attended:**
 
@@ -462,16 +500,16 @@ _Sources:_
 
 - https://twitter.com/decredproject
 - https://www.reddit.com/r/decred/new/
-- https://www.decredmagazine.com/page/2/
-- Matrix #media
-- Matrix #marketing
-- Matrix #general
 - https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg/videos
 - https://www.youtube.com/results?search_query=decred&sp=CAI%253D
 - https://www.tiktok.com/@decred_crypto
 - https://anchor.fm/decred-magazine
-- Monde PR placements
+- https://www.cypherpunktimes.com/page/2/
 - https://twitter.com/BisonDigest
+- Monde PR placements
+- Matrix #media
+- Matrix #marketing
+- Matrix #general
 
 }
 
@@ -481,7 +519,7 @@ _Sources:_
 
 **Videos:**
 
-{ _If the video has a useful companion text post on DM, link it to._ }
+{ _If the video has a useful companion text post on CT, link it to._ }
 
 - {}
 
@@ -503,7 +541,7 @@ _Sources:_
 
 **Discussions:**
 
-- { _Interesting discussions on Matrix/Reddit/Twitter/BR/etc. that generated new ideas or perspectives_ }
+- { _Interesting convos on Matrix/Reddit/Twitter/BR/etc. that generated new ideas or perspectives_ }
 
 **Other:**
 
@@ -519,7 +557,7 @@ In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-
 { _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Sources:_
 
 - https://twitter.com/applesaucesome1
-- https://www.decredmagazine.com/tag/research-and-analytics/
+- https://www.cypherpunktimes.com/tag/research-and-analytics/
 - #trading
 
 }
