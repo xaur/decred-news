@@ -145,7 +145,12 @@ _[Politeia](https://github.com/decred/politeia) is Decred's proposal system. It 
 
 _[vspd](https://github.com/decred/vspd) is server software used by Voting Service Providers. A VSP votes on behalf of its users 24/7 and cannot steal funds._
 
-{ _Sources:_ https://github.com/decred/vspd/commits/master }
+{ _Sources:_
+
+- https://github.com/decred/vspd/commits/master
+- release branch
+
+}
 
 - {}
 
@@ -166,6 +171,7 @@ _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node s
 { _Sources:_
 
 - https://github.com/decred/dcrlnd/commits/master
+- Watch for fast-forward merges! `is:pr merged:2023-08-01..2023-08-31`
 - https://github.com/decred/dcrlnlpd/commits/master
 - #lndev
 
@@ -200,6 +206,20 @@ _[DCRDEX](https://github.com/decred/dcrdex) is a non-custodial, privacy-respecti
 }
 
 - {}
+
+
+### Cryptopower
+
+_[Cryptopower](https://github.com/crypto-power/cryptopower) is a multi-coin desktop GUI wallet for DCR, BTC, and LTC. It runs in a privacy-preserving light SPV mode without needing full blockchains, supports Decred staking, mixing, voting, and other unique features._
+
+{ _Sources:_
+
+- https://github.com/crypto-power/cryptopower
+- https://github.com/crypto-power
+- #cryptopower-dev
+- #cryptopower
+
+}
 
 
 ### dcrdata
@@ -412,13 +432,13 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 _Sources:_
 
+- #ecosystem (should have updates from all sources below)
 - https://github.com/decred/dcrwebapi/commits/master (changes to the VSP list)
 - https://github.com/decred/dcrwebapi/pulls (new VSPs under review)
 - https://github.com/decred/dcrweb/commits/master (for added/removed services)
 - #general
 - #hw-wallets
 - #trading (exchange listings/elistings/incidents)
-- #ecosystem (ideally should capture all of the above)
 
 _Group as below. Alternatively, group as: Voting Service Providers, Wallets, Exchanges, Communication systems, Other news_
 
@@ -505,11 +525,13 @@ _Sources:_
 - https://www.tiktok.com/@decred_crypto
 - https://anchor.fm/decred-magazine
 - https://www.cypherpunktimes.com/page/2/
+- https://decred.org/news/
 - https://twitter.com/BisonDigest
 - Monde PR placements
 - Matrix #media
 - Matrix #marketing
 - Matrix #general
+- https://github.com/decredcommunity/translations/blob/master/index.md
 
 }
 
@@ -524,10 +546,6 @@ _Sources:_
 - {}
 
 **Audio:**
-
-- {}
-
-**Art and fun:**
 
 - {}
 
@@ -546,6 +564,10 @@ _Sources:_
 **Other:**
 
 - { _e.g. educational posts or anything that does not fit in other categories_ }
+
+**Art and fun:**
+
+- {}
 
 
 <a id="markets" />
