@@ -32,7 +32,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 **Writing**
 
-- [ ] Request a PR update for Outreach in advance
+- [ ] Remind to submit updates for Outreach: Monde PR, Decred Vanguard, Cypherpunk Times
 - [ ] Harvest GitHub repos for dev updates
   - Notice new names, add them to first-time contributors in People
 - [ ] Complete Development
@@ -46,7 +46,7 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 - [ ] Complete Ecosystem
 - [ ] Complete Events
 - [ ] Ask #events to review Events
-- [ ] Scan Decred Magazine for month's posts
+- [ ] Scan Cypherpunk Times for month's posts
 - [ ] Scan YouTube for notable month's videos
 - [ ] Complete Media
 - [ ] Complete Outreach
@@ -71,25 +71,30 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 
 - [ ] Publish on xaur.github.io
 - [ ] Add images of all sizes to the [files repo](https://github.com/xaur/decred-journal-files)
-- [ ] Select primary mirror to broadcast (normally Decred Magazine)
-- [ ] Publish on Decred Magazine
+- [ ] Select primary mirror to broadcast (normally Cypherpunk Times)
+- [ ] Publish on Cypherpunk Times
   - Check ToC, formatting, images, captions
 - [ ] Publish on Medium
-  - Upload the right images
+  - Use the right images
   - Make ToC
   - Add to `/decred/journals`
   - Add relevant tags
   - Verify text previews on [Decred](https://medium.com/decred) and the [Journals](https://medium.com/decred/journals/home) list
   - Check for formatting issues
+- [ ] Publish on CoinMarketCap
+- [ ] Publish on Bison Relay
 - [ ] Post on r/decred
-- [ ] Tweet via decredproject
-  - Ensure thumbnail looks good
 - [ ] Announce in Matrix #dcr room
   - Add links to all mirrors
+- [ ] Tweet via decredproject
+  - Ensure thumbnail looks good
 - [ ] Announce on: t.me/DCRann, Blockfolio, CoinGecko, etc.
 - [ ] Squash `gh-pages` to have a single commit for the new issue
-- [ ] Fast-forward `master` to `gh-pages` (so that translators can get it from `master`)
-- [ ] If changes are needed after the release, add new commits to `gh-pages` (test in `draftXX` if needed), `master` and update other places
+- [ ] Fast-forward `master` to `gh-pages`
+  - So that translators can get it from `master`
+- [ ] If changes are needed after the release
+  - Add new commits to `gh-pages` and `master` (test in `draftXX` if needed)
+  - Ask publishers to update their platforms
 - [ ] Submit updates to [decred.org News](https://decred.org/news/) page
   - Add new DJ to [decred_journals.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/decred_journals.yml)
   - Add newsworthy media links to [coverage.yml](https://github.com/decred/dcrweb/blob/master/src/data/news/coverage.yml)
@@ -100,7 +105,8 @@ Copy the raw Markdown below `---` into a new release GitHub issue or pull reques
 **Housekeeping**
 
 - [ ] Archive draft history
-  - create `tmp` at `master`, merge both `drafts` and the latest draft commit into `tmp`, fast-forward `drafts` to `tmp`, delete `tmp`
+  - Create a merge commit with 3 parents: `master` at the commit which added new DJ issue, previous `drafts`, and the draft branch
+  - Set archival merge commit's timestamps to `master`'s `CommitterDate` + 1 second (for nice sorting)
 - [ ] Update `journal-template.md` in the `docs` branch
 - [ ] Update `release-checklist-template.md` in the `docs` branch
 - [ ] Start new cycle
