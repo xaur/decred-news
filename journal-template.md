@@ -8,7 +8,7 @@
 
 }
 
-{ _upload title image xxxxxx.1_ }
+![](../img/ { _upload xxxxxx.01 title image_ })
 
 _Image: { "Title by @author. Description..." OR just "Description..." }_
 
@@ -55,17 +55,20 @@ The work reported below has the "merged to master" status unless noted otherwise
 
 {
 
-- _For each project, cover its most notable dev work._
-- _For each project, the order of reporting is "OLDEST FIRST", or "most released first": changes released to end users, merged to master, in progress (work started), discussions and future plans._
+- _For each project, cover notable dev work as recommended below._
+  - _Step 1: Add every PR/commit in chronological order (oldest first)_
+    - _this is for easier intermediate review_
+  - _Step 2: Order/group changes "most released first":_
+    - _changes released to end users_
+    - _merged to master_
+    - _in progress (work started)_
+    - _discussions and future plans_
+  - _Step 3: Organize further:_
+    - _user-facing up top_
+    - _dev stuff down below_
+  - _Step 4: After dev review, group further and tidy_
 - _Add sections for any other project with notable activity._
 - _Drop sections without notable updates._
-
-- _For each project:_
-  - _Step 1: Add every commit in chronological order_
-  - _Step 2: Organize:_
-    - _released, master, progress, future_
-    - _user-facing up top, dev stuff down below_
-  - _Step 3: Group further and tidy_
 
 }
 
@@ -180,7 +183,7 @@ _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node s
 { _Sources:_
 
 - https://github.com/decred/dcrlnd/commits/master
-- Watch for fast-forward merges! `is:pr merged:2023-08-01..2023-08-31`
+- Watch for fast-forward merges! `is:pr merged:2023-10-01..2023-10-31`
 - https://github.com/decred/dcrlnlpd/commits/master
 - #lndev
 
@@ -427,9 +430,9 @@ The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&sc
 
 **Nodes**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed between {} and {} dcrd nodes throughout the month. Versions of {} nodes seen on {date}: v{} - {n}%, ...
 
-{ _Optional_ } The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mix volume](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
+The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mix volume](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
 
-{ _Optional_ } Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer saw {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}. These stats are different for each node. For example, @karamble's node reported {} nodes (+{}), {} channels (+{}) and {} DCR (+{}) capacity on same day {}.
+Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer saw {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}. These stats are different for each node. For example, @karamble's node reported {} nodes (+{}), {} channels (+{}) and {} DCR (+{}) capacity on same day {}.
 
 
 <a id="ecosystem"></a>
@@ -485,14 +488,28 @@ Warning: the authors of the Decred Journal have no idea about the trustworthines
 
 _Sources:_
 
-- updates for active marketing proposals
-- updates for Cypherpunk Times engagement and recruiting
-- Decred Vanguard
-- Monde PR
 - #marketing
 - #writers
 
 }
+
+<a id="decred-vanguard"></a>
+
+### Decred Vanguard
+
+{}
+
+
+<a id="cypherpunk-times"></a>
+
+### Cypherpunk Times
+
+{ _Engagement, recruiting of projects and new writers, etc._ }
+
+
+### Other
+
+{ _updates for active marketing proposals_ }
 
 
 <a id="events"></a>
@@ -516,7 +533,7 @@ _Sources:_:
 
 - {dates} - [{title}]({event link}) - {city}, {country}. {info}
 
-{ _Announcements from events ppl._ }
+{ _Announcements from events people._ }
 
 
 <a id="media"></a>
@@ -530,18 +547,17 @@ _Sources:_:
 
 _Sources:_
 
-- https://twitter.com/decredproject
-- https://www.reddit.com/r/decred/new/
 - https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg/videos
-- Livestreams
-- Shorts
+  - Livestreams
+  - Shorts
 - https://www.youtube.com/results?search_query=decred&sp=CAI%253D
-- https://www.tiktok.com/@decred_crypto
 - https://anchor.fm/decred-magazine
+- https://www.tiktok.com/@decred_crypto
 - https://www.cypherpunktimes.com/page/2/
 - https://decred.org/news/
+- https://twitter.com/decredproject
+- https://www.reddit.com/r/decred/new/
 - https://twitter.com/BisonDigest
-- Monde PR placements
 - Matrix #media
 - Matrix #marketing
 - Matrix #general
@@ -590,12 +606,14 @@ _Sources:_
 
 In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate was ${n.nn}.
 
-{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis. Sources:_
+{ _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis._
 
+_Sources:_
+
+- #trading
+- https://www.cypherpunktimes.com/tag/research-and-analytics/
 - https://twitter.com/applesaucesome1
 - https://twitter.com/CryptoDYOR
-- https://www.cypherpunktimes.com/tag/research-and-analytics/
-- #trading
 
 }
 
