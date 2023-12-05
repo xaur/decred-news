@@ -8,7 +8,7 @@
 
 }
 
-![](../img/ { _upload xxxxxx.01 title image_ })
+![](../img/ { _01 cover image_ })
 
 _Image: { "Title by @author. Description..." OR just "Description..." }_
 
@@ -30,7 +30,7 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 
 - [Development](#development)
 - [People](#people)
-- [Governance](#governance)
+- [Governance and Finances](#governance)
 - [Network](#network)
 - [Ecosystem](#ecosystem)
 - [Outreach](#outreach)
@@ -162,7 +162,7 @@ _[vspd](https://github.com/decred/vspd) is server software used by Voting Servic
 
 _[gominer](https://github.com/decred/gominer) is a proof of work Decred BLAKE3 miner for solo and pool mining with OpenCL and CUDA devices._
 
-{ _Sources:_ https://github.com/decred/gominer }
+{ _Sources:_ https://github.com/decred/gominer/commits/master }
 
 - {}
 
@@ -334,29 +334,33 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 ## People
 
-{ _Discover and greet new first-time contributors. For devs, list people who got their first non-trivial commits merged in master branches. For writers, list authors who published notable Decred content for the first time. Sort by type (dev/writing/etc.), then alphabetically._ }
+{ _Discover and greet new first-time contributors. Sort by domain (dev/writing/etc.), then alphabetically._
+
+- _devs: people whose non-trivial commits were merged in master branches for the first time_
+- _designers_
+- _content: authors who published notable Decred content for the first time (text, video, etc.)_
+- _any other notable first-timers we can identify_
+
+_Other updates:_
+
+- _new DCC owners_
+- _welcome new corporate contractors with short intros_
+- _status updates from existing contractors_
+- _interviews with contributors, link the interview and add a fun/strong quote_
+
+}
 
 Welcome the new first-time contributors:
 
-- {@handle} ([{Project}]({ link to user's commits, CT profile, etc. }))
-
-{ _Check CMS, remove if none._ } Congratulations to new contractors granted the Decred Contractor Clearance (DCC): [{@handle}]({ link to most relevant account }).
-
-{
-
-- _Welcome new corporate contractors with short intros._
-- _Status updates from existing contractors._
-- _Interviews with contributors. Link the interview and add a fun/strong quote._
-
-}
+- {@handle} ({role}, [{project}]({ link to first PR/commit/post }))
 
 Community stats as of {date} (compared to {date}):
 
 - [Twitter](https://twitter.com/decredproject) followers: {} (+{})
 - [Reddit](https://www.reddit.com/r/decred/) subscribers: {} (+{})
-- [Matrix](https://chat.decred.org/) #general users: {} (+{})
-- [Discord](https://discord.gg/GJ2GXfz) users: {} (+{}), verified to post: {} (+{})
-- [Telegram](https://t.me/Decred) users: {} (+{})
+- [Matrix](https://chat.decred.org/) #general members: {} (+{})
+- [Discord](https://discord.gg/GJ2GXfz) members: {} (+{}), verified to post: {} (+{})
+- [Telegram](https://t.me/Decred) members: {} (+{})
 - [YouTube](https://www.youtube.com/decredchannel) subscribers: {} (+{}), views: {} (+{})
 
 { _Optional: List/link notable SM dynamics._ }
@@ -364,7 +368,7 @@ Community stats as of {date} (compared to {date}):
 
 <a id="governance"></a>
 
-## Governance
+## Governance and Finances
 
 { _Hint: Currently this is a mix of finances and governance. We may add the separate Finances section in the future._
 
@@ -375,6 +379,7 @@ _Sources:_
 - https://dcrdata.decred.org/proposals
 - https://blockcommons.red/politeia-digest/
 - https://github.com/decredcommunity/proposals/commits/master
+- https://github.com/bochinchero/dcrsnapshots - charts
 - #proposals
 
 }
@@ -385,7 +390,7 @@ A [treasury spend tx]({}) was approved with {} Yes votes and {}% turnout, and mi
 
 { _Other interesting facts/stories about the legacy or new treasury._ }
 
-As of {date}, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
+As of { _1st day of next month, get data from https://github.com/bochinchero/dcrsnapshots -> monthlyStats.csv_ }, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
 
 { _High-level recap of decision-making activity and most important events._ }
 
@@ -444,6 +449,7 @@ Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer saw {} node
 _Sources:_
 
 - #ecosystem (should have updates from all sources below)
+- #ecochat (extras)
 - https://github.com/decred/dcrwebapi/commits/master (changes to the VSP list)
 - https://github.com/decred/dcrwebapi/pulls (new VSPs under review)
 - https://github.com/decred/dcrweb/commits/master (for added/removed services)
@@ -565,37 +571,37 @@ _Sources:_
 
 }
 
-**Selected articles:**
+**Selected articles**
 
 - {}
 
-**Videos:**
+**Videos**
 
-{ _If the video has a useful companion text post on CT, link it to._ }
-
-- {}
-
-**Audio:**
+{ _If the video has a useful companion text post, link it to._ }
 
 - {}
 
-**Translations:**
+**Audio**
 
 - {}
 
-**Non-English content:**
+**Translations**
 
 - {}
 
-**Discussions:**
+**Non-English content**
+
+- {}
+
+**Discussions**
 
 - { _Interesting convos on Matrix/Reddit/Twitter/BR/etc. that generated new ideas or perspectives_ }
 
-**Other:**
+**Other**
 
 - { _e.g. educational posts or anything that does not fit in other categories_ }
 
-**Art and fun:**
+**Art and fun**
 
 - {}
 
