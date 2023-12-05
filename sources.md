@@ -299,6 +299,7 @@ Scams:
 
 Digests:
 
+- Weekly Roundup threads by [@cypherpunktimes](https://twitter.com/cypherpunktimes)
 - Blockfolio's [FTX TWIST](https://blog.blockfolio.com/) - weekly biggest macro news + selected FTX signals
 - f2pool's [PoW Round-Up](https://f2pool.io/mining/pow-round-up/)
 - [Bitcoin Optech](https://bitcoinops.org/en/newsletters/) newsletter
