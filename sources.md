@@ -9,6 +9,16 @@ Companion news efforts where we can check for missed stories:
 
 - Bi-weekly video updates by @Exitus at [Decred channel](https://www.youtube.com/channel/UCJ2bYDaPYHpSmJPh_M5dNSg)
 
+Most active community members:
+
+- https://twitter.net/exitusdcr
+- https://twitter.net/DecredSociety
+- https://twitter.net/WasPraxis
+- https://twitter.net/to_the_m0o0n
+- https://twitter.net/longtermdaily
+- https://twitter.com/CryptoDYOR
+- and others
+
 Inactive:
 
 - [Decred Drive](https://medium.com/@decreddrive) by @DecredDragon
