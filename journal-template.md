@@ -8,7 +8,7 @@
 
 }
 
-![](../img/ { _01 cover image_ })
+![](../img/{ 01 cover image })
 
 _Image: { "Title by @author. Description..." OR just "Description..." }_
 
@@ -30,7 +30,7 @@ Contents: { _Sync ToC at the very end, when all text is finished_ }
 
 - [Development](#development)
 - [People](#people)
-- [Governance and Finances](#governance)
+- [Governance and Finances](#governance-and-finances)
 - [Network](#network)
 - [Ecosystem](#ecosystem)
 - [Outreach](#outreach)
@@ -230,6 +230,7 @@ _[Cryptopower](https://github.com/crypto-power/cryptopower) is a multi-coin desk
 - https://github.com/crypto-power
 - #cryptopower-dev
 - #cryptopower
+- https://twitter.com/cryptopowerWlt
 
 }
 
@@ -254,9 +255,9 @@ _[Timestamply](https://github.com/decred/dcrtimegui) is a free service for times
 
 { _Sources:_
 
-- https://github.com/decred/dcrtime
-- https://github.com/decred/dcrtimegui
-- https://github.com/decred/dcrtimejs
+- https://github.com/decred/dcrtime/commits/master
+- https://github.com/decred/dcrtimegui/commits/master
+- https://github.com/decred/dcrtimejs/commits/master
 - #timestamp
 
 }
@@ -269,20 +270,6 @@ _[dcrdocs](https://github.com/decred/dcrdocs) is the source code for Decred [use
 { _Sources:_
 
 - https://github.com/decred/dcrdocs/commits/master
-- #documentation
-
-}
-
-- {}
-
-
-### Dev Docs
-
-_[dcrdevdocs](https://github.com/decred/dcrdevdocs) is the source code for Decred [developer documentation](https://devdocs.decred.org/)._
-
-{ _Sources:_
-
-- https://github.com/decred/dcrdevdocs/commits/master
 - #documentation
 
 }
@@ -305,9 +292,9 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 { _Sources:_
 
-- https://github.com/companyzero/bisonrelay
-- https://github.com/companyzero/bisonrelay-web
-- https://github.com/companyzero/sntrup4591761
+- https://github.com/companyzero/bisonrelay/commits/master
+- https://github.com/companyzero/bisonrelay-web/commits/master
+- https://github.com/companyzero/sntrup4591761/commits/master
 - #br
 
 }
@@ -366,7 +353,7 @@ Community stats as of {date} (compared to {date}):
 { _Optional: List/link notable SM dynamics._ }
 
 
-<a id="governance"></a>
+<a id="governance-and-finances"></a>
 
 ## Governance and Finances
 
@@ -381,6 +368,7 @@ _Sources:_
 - https://github.com/decredcommunity/proposals/commits/master
 - https://github.com/bochinchero/dcrsnapshots - charts
 - #proposals
+- Politeia operational issues
 
 }
 
@@ -390,7 +378,7 @@ A [treasury spend tx]({}) was approved with {} Yes votes and {}% turnout, and mi
 
 { _Other interesting facts/stories about the legacy or new treasury._ }
 
-As of { _1st day of next month, get data from https://github.com/bochinchero/dcrsnapshots -> monthlyStats.csv_ }, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}).
+As of { _1st day of next month_ }, combined balance of [legacy](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx) and [new treasury](https://dcrdata.decred.org/treasury) is {n} DCR ({n} million USD at ${n.nn}). { _get data from https://github.com/bochinchero/dcrsnapshots -> month -> monthlyStats.csv -> Close column_ }
 
 { _High-level recap of decision-making activity and most important events._ }
 
@@ -403,7 +391,9 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 ## Network
 
-{ _Hint: "Network" tracks key "health" metrics of the fundamental infrastructure._
+This section tracks key health metrics of the fundamental infrastructure.
+
+{
 
 _Sources:_
 
@@ -415,7 +405,10 @@ _Sources:_
 
 }
 
-**Hashrate**: {month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} TH/s and closed ~{n} TH/s, bottoming at {n} TH/s and peaking at {n} TH/s throughout the month.
+
+### Mining
+
+{month}'s [hashrate](https://dcrdata.decred.org/charts?chart=hashrate&scale=linear&bin=day&axis=time) opened at ~{n} TH/s and closed ~{n} TH/s, bottoming at {n} TH/s and peaking at {n} TH/s throughout the month.
 
 Distribution of {} TH/s hashrate [reported](https://miningpoolstats.stream/decred) by the pools on {date}: {PoolName n%, ...}.
 
@@ -423,19 +416,34 @@ Distribution of {} TH/s hashrate [reported](https://miningpoolstats.stream/decre
 
 Distribution of 1,000 blocks actually [mined](https://miningpoolstats.stream/decred) by {date}: {PoolName n%, ...}.
 
-**Staking**: [Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR.
+
+### Staking
+
+[Ticket price](https://dcrdata.decred.org/charts?chart=ticket-price&axis=time&visibility=true-true&mode=stepped) varied between {n}-{n} DCR.
 
 The [locked amount](https://dcrdata.decred.org/charts?chart=ticket-pool-value&scale=linear&bin=day&axis=time) was {n.nn}-{n.nn} million DCR, meaning that {n.n}-{n.n}% of the circulating supply [participated](https://dcrdata.decred.org/charts?chart=stake-participation&scale=linear&bin=day&axis=time) in proof of stake.
 
 { _Add a recap of ticket price action if it was interesting._ }
 
-**VSP**: The [{} listed VSPs](https://decred.org/vsp/) collectively managed ~{n} (+{n}) live tickets, which was {n.n}% of the ticket pool (+{n.n}%) as of {date}.
+
+### VSP Staking
+
+The [{} listed VSPs](https://decred.org/vsp/) collectively managed ~{n} (+{n}) live tickets, which was {n.n}% of the ticket pool (+{n.n}%) as of {date}.
 
 { _Optional: mention biggest gainers_ }
 
-**Nodes**: [Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed between {} and {} dcrd nodes throughout the month. Versions of {} nodes seen on {date}: v{} - {n}%, ...
+
+### Nodes
+
+[Decred Mapper](https://nodes.jholdstock.uk/user_agents) observed between {} and {} dcrd nodes throughout the month. Versions of {} nodes seen on {date}: v{} - {n}%, ...
+
+
+### StakeShuffle
 
 The share of [mixed coins](https://dcrdata.decred.org/charts?chart=coin-supply&zoom=jz3q237o-la8vk000&scale=linear&bin=day&axis=time&visibility=true-true-true) varied between {n.n}-{n.n}%. Daily [mix volume](https://dcrdata.decred.org/charts?chart=privacy-participation&bin=day&axis=time) varied between {n}-{n}K DCR.
+
+
+### Lightning Network
 
 Decred's [Lightning Network](https://ln-map.jholdstock.uk/) explorer saw {} nodes (+{}), {} channels (+{}) with a total capacity of {n.n} DCR (+{n.n}), as of {date}. These stats are different for each node. For example, @karamble's node reported {} nodes (+{}), {} channels (+{}) and {} DCR (+{}) capacity on same day {}.
 
@@ -457,27 +465,24 @@ _Sources:_
 - #hw-wallets
 - #trading (exchange listings/elistings/incidents)
 
-_Group as below. Alternatively, group as: New services, Services lost, Other news, New services discovered but not tested by the community yet_
+_Group as below. Add subsections if needed: Mining Pools, Staking Services, Wallets, Communication systems, etc._
+
+_Alternatively, group as: New services, Services lost, Other news, New services discovered but not tested by the community yet_
 
 }
 
-Voting Service Providers:
+
+### Voting Service Providers
 
 - {}
 
-Wallets:
+
+### Exchanges
 
 - {}
 
-Exchanges:
 
-- {}
-
-Communication systems:
-
-- {}
-
-Other news:
+### Other news
 
 - {}
 
@@ -499,14 +504,10 @@ _Sources:_
 
 }
 
-<a id="decred-vanguard"></a>
-
 ### Decred Vanguard
 
 {}
 
-
-<a id="cypherpunk-times"></a>
 
 ### Cypherpunk Times
 
@@ -557,7 +558,7 @@ _Sources:_
   - Livestreams
   - Shorts
 - https://www.youtube.com/results?search_query=decred&sp=CAI%253D
-- https://anchor.fm/decred-magazine
+- https://podcasters.spotify.com/pod/show/cypherpunktimes
 - https://www.tiktok.com/@decred_crypto
 - https://www.cypherpunktimes.com/page/2/
 - https://decred.org/news/
@@ -571,37 +572,36 @@ _Sources:_
 
 }
 
-**Selected articles**
+
+### Articles
 
 - {}
 
-**Videos**
+
+### Videos
 
 { _If the video has a useful companion text post, link it to._ }
 
 - {}
 
-**Audio**
+
+### Audio
 
 - {}
 
-**Translations**
+
+### Non-English content
 
 - {}
 
-**Non-English content**
 
-- {}
-
-**Discussions**
+### Random
 
 - { _Interesting convos on Matrix/Reddit/Twitter/BR/etc. that generated new ideas or perspectives_ }
-
-**Other**
-
 - { _e.g. educational posts or anything that does not fit in other categories_ }
 
-**Art and fun**
+
+### Art and Fun
 
 - {}
 
@@ -610,16 +610,18 @@ _Sources:_
 
 ## Markets
 
-In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate was ${n.nn}.
+In {month} DCR was trading between USDT {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals } on Binance. Using the weighed daily close data from Coin Metrics the price ranges were USD {n.nn}-{n.nn} and BTC { five decimals }-{ five decimals }. The average daily rate as calculated for contractor payments was ${n.nn}.
 
 { _Optional: Markets overview, USD and BTC price trends, highs and lows, interesting events, interesting analysis._
 
 _Sources:_
 
+- charts from https://github.com/bochinchero/dcrsnapshots
 - #trading
-- https://www.cypherpunktimes.com/tag/research-and-analytics/
+- https://twitter.com/longtermdaily
 - https://twitter.com/applesaucesome1
 - https://twitter.com/CryptoDYOR
+- https://www.cypherpunktimes.com/tag/research-and-analytics/
 
 }
 
