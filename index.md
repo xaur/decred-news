@@ -20,7 +20,8 @@ Decred Journal serves to expose just how much is happening in [Decred](https://d
 
 ### 2023
 
-October|[English](journal/202310.md)
+November|[English](journal/202311.md),
+October|[English](journal/202310.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202310.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202310_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202310_DecredJournalPL.md)
 September|[English](journal/202309.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202309.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202309_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202309_DecredJournalPL.md)
 August|[English](journal/202308.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202308.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202308_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202308_DecredJournalPL.md)
 July|[English](journal/202307.md), [Arabic](https://insaf01.github.io/decred-journal-ar/journal/202307.html), [Chinese](https://github.com/DominicTing/DecredCNJournal/blob/master/202307_DecredJournalCN.md), [Polish](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202307_DecredJournalPL.md)
