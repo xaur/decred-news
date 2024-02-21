@@ -1,20 +1,72 @@
 # Decred Ecosystem News Workflow
 
-For now we'll host documentation along DJ docs but keep the data in a [separate repo](https://github.com/xaur/econews) until the process is tested and polished.
+*Anything is subject to feedback and revision!*
 
-Anything is subject to feedback and revision!
+On a high level we have three stages:
+
+- **Discovery**: scan sources, collect links and notes, map stories in draft files.
+
+- **Research and writing**: follow links and notes found in the Scanning stage and write up each story. Do older stories first so we'll publish them in a chronological order (when possible).
+
+- **Publishing**: Review/polish the story and publish it in the publication *targets* we maintain (currently Matrix and Discord, to be extended).
 
 
-## How to discover stories
+## Discovering and mapping stories
 
-- Scan sources { to be clarified }
+First let's establish **what is notable** for reporting in #econews and what do we hunt for:
+
+- New releases of Decred software
+- Network upgrades
+- Network services added/lost/upgraded/changed/incidents (APIs, VSPs, mining pools, LN hubs, Politeia, etc.)
+- 3rd party financial services listing or delisting DCR (exchanges, wallets, payment processors)
+- Notable news about 3rd party exchanges or wallets that support DCR (security incidents, services added/removed/changed, regulation stuff)
+- Gained/lost merchants accepting DCR
+- Notable users of Decred services (e.g. timestamping adoption)
+- Gained/lost investors
+- Community effots to integrate Decred (monthly)
+
+Read ~2 recent months of #ecosystem chat room to see real examples of what is being reported on.
+
+Now here are the **sources** we scan for ecosystem news:
+
+- [decred-binaries releases](https://github.com/decred/decred-binaries/releases)
+- [Cryptopower releases](https://github.com/crypto-power/cryptopower/releases)
+- [DCRDEX releases](https://github.com/decred/dcrdex/releases)
+- [Bison Relay releases](https://github.com/companyzero/bisonrelay/releases)
+- [vspd releases](https://github.com/decred/vspd/releases)
+- [gominer](https://github.com/decred/gominer/commits/master) and [dcrpool](https://github.com/decred/dcrpool/commits/master) `master` branches
+- [dcrweb commits](https://github.com/decred/dcrweb/commits/master)
+- [dcrwebapi commits](https://github.com/decred/dcrwebapi/commits/master)
+- [dcrwebapi pull requests](https://github.com/decred/dcrwebapi/pulls?q=is%3Apr)
+- #hw-wallets chat
+- #general chat
+- #pow-mining chat
+- #br chat
+- #trading chat
+- #ecochat
+- [Cypherpunk Times](https://www.cypherpunktimes.com/page/2/) weekly digests
+
+How to **map stories**:
+
+- Find the draft file corresponding to the month you are mapping, e.g. `202401.md` for Januar 2024. These files are hosted [here](https://github.com/xaur/econews/tree/drafts/econews) (for Git nerds - notice we keep it in a special `drafts` branch).
+- Set up quick access to the draft file. Bookmark it or open in your local text editor and have it open.
+- Scan every source, starting from the 1st day of the month, or since the point you stopped last time.
+- If you see anything notable, see if the story is already mapped in the draft file.
+- If the story is missing, add a stub for it by copying from [this template](https://github.com/xaur/econews/blob/drafts/templates.md). Insert any links/notes "to be processed" between the `{` and `}` marks.
+- If the story is already mapped (i.e. a stub exists), add any new links or notes you've found, again between `{` and `}`. If you write a final paragraph of text immediately, place it *outside* of the `{` and `}`.
+
+Draft and written up stories will be hosted in a [separate repo](https://github.com/xaur/econews) (i.e. not in this DJ repo) until the process is tested and polished.
 
 
-## How to write news entries
+## Writing stories
+
+**NOTE: It is recommended to scan \*all sources\* a few days ahead of the story you are writing up**, so that we publish them in more or less chronological order. For example, if you are writing an event that happened on Jan 5th, it would be ideal to have all sources scanned and all stories mapped by Jan 10th. This way even if the story surfaces in the sources a few days later, we will detect it and report in the correct order.
 
 See an example of the end result here: https://github.com/xaur/econews/blob/master/econews/202312.md
 
 - All editing churn happens in the `drafts` branch. Unlike DJ we will have just one drafts branch for simplicitly. When a story is finished it is added to the `master` branch and posted in chats (and possibly other targets in the future).
+
+- Stuff inside curly braces (`{` and `}`) are *tasks* - things that need to be done/researched/written up/otherwise processed (by any contributor). Completed story must have no curly braces in it.
 
 - Title and body combined must take under **1,930 bytes** (which is 1,930 characters if's just ASCII) so it could published in Discord.
 
@@ -89,5 +141,5 @@ Valid tags:
 
 - `.md` file extension, can't use custom extension without breaking GitHub's Markdown rendering.
 - `----` is a story separator.
-- Metadata before the story is surrounded by `\`\`\``. We'd pick more disctinct syntax but this was chosen as a compromise with GitHub.
-- Items are sorted as "oldest `published_utc` first".
+- Metadata block above each story has triple backticks (\`\`\`) before and after it. We'd pick more disctinct syntax but this was chosen as a compromise with GitHub.
+- Stories are sorted as "oldest `published_utc` first".
