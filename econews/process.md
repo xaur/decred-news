@@ -29,12 +29,14 @@ Read ~2 recent months of #ecosystem chat room to see real examples of what is be
 
 Now here are the **sources** we scan for ecosystem news:
 
+- [@decredproject](https://twitter.com/decredproject) announcements
 - [decred-binaries releases](https://github.com/decred/decred-binaries/releases)
 - [Cryptopower releases](https://github.com/crypto-power/cryptopower/releases)
+- [@cryptopowerWlt](https://twitter.com/cryptopowerWlt) announcements
 - [DCRDEX releases](https://github.com/decred/dcrdex/releases)
 - [Bison Relay releases](https://github.com/companyzero/bisonrelay/releases)
 - [vspd releases](https://github.com/decred/vspd/releases)
-- [gominer](https://github.com/decred/gominer/commits/master) and [dcrpool](https://github.com/decred/dcrpool/commits/master) `master` branches
+- [gominer](https://github.com/decred/gominer/commits/master) and [dcrpool](https://github.com/decred/dcrpool/commits/master) `master` branches (\*1)
 - [dcrweb commits](https://github.com/decred/dcrweb/commits/master)
 - [dcrwebapi commits](https://github.com/decred/dcrwebapi/commits/master)
 - [dcrwebapi pull requests](https://github.com/decred/dcrwebapi/pulls?q=is%3Apr)
@@ -44,7 +46,9 @@ Now here are the **sources** we scan for ecosystem news:
 - #br chat
 - #trading chat
 - #ecochat
-- [Cypherpunk Times](https://www.cypherpunktimes.com/page/2/) weekly digests
+- [Cypherpunk Times](https://www.cypherpunktimes.com/page/2/) weekly/monthly digests
+
+*(\*1) Normally we only check for releases that end users can consume ([example](https://github.com/decred/decred-binaries/releases)). gominer and dcrpool are exceptions because they are "consumed" by the miners who build from source, from the `master` branch, so we quickly check that too. But we only look for notable changes (important fixes or important features like).*
 
 How to **map stories**:
 
