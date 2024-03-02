@@ -11,23 +11,35 @@ On a high level we have three stages:
 - **Publishing**: Review/polish the story and publish it in the publication *targets* we maintain (currently Matrix and Discord, to be extended).
 
 
-## Discovering and mapping stories
+## Discovery
+
+
+### What is notable
 
 First let's establish **what is notable** for reporting in #econews and what do we hunt for:
 
 - New releases of Decred software
 - Network upgrades
-- Network services added/lost/upgraded/changed/incidents (APIs, VSPs, mining pools, LN hubs, Politeia, etc.)
-- 3rd party financial services listing or delisting DCR (exchanges, wallets, payment processors)
-- Notable news about 3rd party exchanges or wallets that support DCR (security incidents, services added/removed/changed, regulation stuff)
+- Network services added/lost/upgraded/changed/incidents
+  - APIs, VSPs, mining pools, LN hubs, Politeia, etc.
+- 3rd party financial services listing or delisting DCR
+  - exchanges, wallets, payment processors
+- Notable news about 3rd party exchanges or wallets that support DCR
+  - security incidents, services added/removed/changed, regulation stuff
 - Gained/lost merchants accepting DCR
-- Notable users of Decred services (e.g. timestamping adoption)
+- Notable users of Decred services
+  - e.g. timestamping adoption
 - Gained/lost investors
 - Community effots to integrate Decred (monthly)
 
 Read ~2 recent months of #ecosystem chat room to see real examples of what is being reported on.
 
-Now here are the **sources** we scan for ecosystem news:
+
+### Sources
+
+All sources will be listed in the `Econews Sources` chat room in Matrix. Please react to those messages with your emoji to share your scanning progress with the others.
+
+Current list of sources:
 
 - [@decredproject](https://twitter.com/decredproject) announcements
 - [decred-binaries releases](https://github.com/decred/decred-binaries/releases)
@@ -50,14 +62,16 @@ Now here are the **sources** we scan for ecosystem news:
 
 *(\*1) Normally we only check for releases that end users can consume ([example](https://github.com/decred/decred-binaries/releases)). gominer and dcrpool are exceptions because they are "consumed" by the miners who build from source, from the `master` branch, so we quickly check that too. But we only look for notable changes (important fixes or important features like).*
 
-How to **map stories**:
 
-- Find the draft file corresponding to the month you are mapping, e.g. `202401.md` for Januar 2024. These files are hosted [here](https://github.com/xaur/econews/tree/drafts/econews) (for Git nerds - notice we keep it in a special `drafts` branch).
-- Set up quick access to the draft file. Bookmark it or open in your local text editor and have it open.
-- Scan every source, starting from the 1st day of the month, or since the point you stopped last time.
-- If you see anything notable, see if the story is already mapped in the draft file.
-- If the story is missing, add a stub for it by copying from [this template](https://github.com/xaur/econews/blob/drafts/templates.md). Insert any links/notes "to be processed" between the `{` and `}` marks.
-- If the story is already mapped (i.e. a stub exists), add any new links or notes you've found, again between `{` and `}`. If you write a final paragraph of text immediately, place it *outside* of the `{` and `}`.
+### Mapping stories
+
+- Find the draft file corresponding to the month you are mapping, e.g. `202401.md` for January 2024. These files are hosted [here](https://github.com/xaur/econews/tree/drafts/econews) (for Git nerds - notice we keep it in a special `drafts` branch).
+- Set up quick access to the draft file. Bookmark it or open in your local text editor and keep it open.
+- Scan sources listed in the `Econews Sources` room one by one.
+- If you see anything notable, first check if the story is already mapped in the draft file.
+- If the story is not mapped, add a stub for it by copying from [this template](https://github.com/xaur/econews/blob/drafts/templates.md). Insert any links/notes "to be processed later" between the `{` and `}` marks.
+- If the story is already mapped (i.e. a stub exists), add any *new* links or notes you've found, again between `{` and `}`. If you write a final paragraph of text immediately, place it *outside* of the `{` and `}`.
+- After you map all stories from one source and *push your changes to the draft files* to GitHub, please react to the corresponding message to share your progress.
 
 Draft and written up stories will be hosted in a [separate repo](https://github.com/xaur/econews) (i.e. not in this DJ repo) until the process is tested and polished.
 
@@ -72,7 +86,7 @@ See an example of the end result here: https://github.com/xaur/econews/blob/mast
 
 - Stuff inside curly braces (`{` and `}`) are *tasks* - things that need to be done/researched/written up/otherwise processed (by any contributor). Completed story must have no curly braces in it.
 
-- Title and body combined must take under **1,930 bytes** (which is 1,930 characters if's just ASCII) so it could published in Discord.
+- *Title and body combined* must take under **1,930 bytes** (which is 1,930 characters if's just ASCII) so it could published in Discord.
 
 - Markdown body is made of bullets.
 
@@ -85,14 +99,15 @@ See an example of the end result here: https://github.com/xaur/econews/blob/mast
 
 ## Publishing checklist
 
-- [ ] Write item draft in the drafts branch
+- [ ] Write item draft in the `drafts` branch
 - [ ] Review by someone
 - [ ] Add all contributors to `authors`
 - [ ] Add relevant `tags`
 - [ ] Publish in Git repo's release branch
   - Fill `published_utc`
-- [ ] Publish in Matrix
+- [ ] Publish in Matrix `#econews` room
   - Format for Matrix { to be clarified }
+- [ ] Post the link in Matrix `#ecochat` room
 
 
 ## Metadata format
@@ -126,7 +141,7 @@ Metadata is placed in this block to facilitate the generation of web pages.
 
 Valid tags:
 
-- community_efforts
+- community\_efforts
 - exchanges
 - loans
 - mining
