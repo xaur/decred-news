@@ -19,6 +19,7 @@ On a high level we have three stages:
 First let's establish **what is notable** for reporting in #econews and what do we hunt for:
 
 - New releases of Decred software
+  - Including beta releases (\*1)
 - Network upgrades
 - Network services added/lost/upgraded/changed/incidents
   - APIs, VSPs, mining pools, LN hubs, Politeia, etc.
@@ -30,9 +31,13 @@ First let's establish **what is notable** for reporting in #econews and what do 
 - Notable users of Decred services
   - e.g. timestamping adoption
 - Gained/lost investors
-- Community effots to integrate Decred (monthly)
+- Community effots to integrate Decred (monthly) (\*2)
 
 Read ~2 recent months of #ecosystem chat room to see real examples of what is being reported on.
+
+(\*1) We can cover beta releases since they can be consumed by end users who are okay with testing and experimenting, to prompt people to participate and help improve the product. If beta builds support testnet we can mention that too since there is no risk of loss with testnet coins.
+
+(\*2) Pay attention to *small efforts* like people submitting application forms to exchanges, testing and re-testing if DCR services (still) work, etc. See examples of past monthly community efforts reports: [October 2023](https://matrix.to/#/!teQafvHMYpIbqLIieU:decred.org/$dB6eDkb7vKBkmt-aocEIxPt5hQz4V1UmBVc84dZPBGg), [November 2023](https://matrix.to/#/!teQafvHMYpIbqLIieU:decred.org/$nA38jxCk9sE40CiqZwO5F3DqhivBrBLbTYptMhc3lMg), [December 2023](https://matrix.to/#/!teQafvHMYpIbqLIieU:decred.org/$KF9c0_pJz0dDSmLXtwojwZ6hkVH8o2XaQE42mKRibCg).
 
 
 ### Sources
@@ -58,9 +63,12 @@ Current list of sources:
 - #br chat
 - #trading chat
 - #ecochat
+- Approved and rejected proposals
+  - Links and numbers from [dcrdata](https://dcrdata.decred.org/proposals)
+  - Summaries and notable facts from Politeia Digest ([CT](https://www.cypherpunktimes.com/tag/politeia-digest/) or [BC](https://blockcommons.red/politeia-digest/))
 - [Cypherpunk Times](https://www.cypherpunktimes.com/page/2/) weekly/monthly digests
 
-*(\*1) Normally we only check for releases that end users can consume ([example](https://github.com/decred/decred-binaries/releases)). gominer and dcrpool are exceptions because they are "consumed" by the miners who build from source, from the `master` branch, so we quickly check that too. But we only look for notable changes (important fixes or important features like).*
+(\*1) Normally we only check for releases that end users can consume ([example](https://github.com/decred/decred-binaries/releases)). gominer and dcrpool are exceptions because they are "consumed" by the miners who build from source, from the `master` branch, so we quickly check that too. But we only look for notable changes (important fixes or important features like).
 
 
 ### Mapping stories
