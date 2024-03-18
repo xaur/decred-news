@@ -5,9 +5,16 @@ Here is the list of all known mirrors and translations.
 
 ## 2023
 
+__December__
+
+- English: [github](journal/202312.md) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-december-2023/) [medium](https://medium.com/decred/decred-journal-december-2023-3dc0019e1869)
+
 __November__
 
 - English: [github](journal/202311.md) [cypherpunktimes](https://www.cypherpunktimes.com/decred-journal-november-2023/) [medium](https://medium.com/decred/decred-journal-november-2023-6cf92a09dbcb) [coinmarketcap](https://coinmarketcap.com/community/articles/65a05489d7a61a3431e2c280/)
+- Arabic: [github](https://insaf01.github.io/decred-journal-ar/journal/202311.html)
+- Chinese: [github](https://github.com/DominicTing/DecredCNJournal/blob/master/202311_DecredJournalCN.md)
+- Polish: [github](https://github.com/artikozel/DecredJournalPL/blob/master/journal/202311_DecredJournalPL.md)
 
 __October__
 
