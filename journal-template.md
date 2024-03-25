@@ -194,7 +194,7 @@ _[dcrlnd](https://github.com/decred/dcrlnd) is Decred's Lightning Network node s
 
 ### cspp
 
-_[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. never holds any funds. CSPP is part of StakeShuffle, Decreds privacy system._
+_[cspp](https://github.com/decred/cspp) is a server for coordinating coin mixes using the CoinShuffle++ protocol. It is non-custodial, i.e. never holds any funds. CSPP is part of StakeShuffle, Decred's privacy system._
 
 { _Sources:_ https://github.com/decred/cspp/commits/master }
 
@@ -288,7 +288,7 @@ _[dcrweb](https://github.com/decred/dcrweb) is the source code for the [decred.o
 
 ### Bison Relay
 
-_[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media platform with strong protections against censorship, surveillance, and advertising, powered by Decred Lightning Network._
+_[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media platform with strong protections against censorship, surveillance, and advertising, powered by the Decred Lightning Network._
 
 { _Sources:_
 
@@ -299,6 +299,8 @@ _[Bison Relay](https://github.com/companyzero/bisonrelay) is a new social media 
 
 }
 
+
+<a id="dev-other"></a>
 
 ### Other
 
@@ -374,7 +376,7 @@ _Sources:_
 
 In {month} the new [treasury](https://dcrdata.decred.org/treasury) received {n} DCR worth ${} at {month}'s average rate of ${}. {} DCR was spent to pay contractors, worth ${} at same rate.
 
-A [treasury spend tx]({}) was approved with {} Yes votes and {}% turnout, and mined on {date}. It had {} outputs making payments to contractors, ranging from {} DCR to {} DCR. Most of this DCR was likely paid for {billing month} work, at its billing exchange rate of ${} the TSpend is worth around ${}.
+A [treasury spend tx]({}) was approved with {} Yes votes and {}% turnout, and mined on {date}. It had {} outputs making payments to contractors, ranging from {} DCR to {} DCR. Most of this DCR was likely paid for {billing month} work, at its billing exchange rate of ${} the TSpend represents around ${} USD equivalent.
 
 { _Other interesting facts/stories about the legacy or new treasury._ }
 
@@ -391,7 +393,7 @@ See Politeia Digest [issue {}]({}) for more details on the month's proposals.
 
 ## Network
 
-This section tracks key health metrics of the fundamental infrastructure.
+This section tracks key health metrics of the Decred infrastructure.
 
 {
 
@@ -399,6 +401,7 @@ _Sources:_
 
 - https://github.com/bochinchero/dcrsnapcsv
 - https://github.com/bochinchero/dcrsnapshots
+- handy daily stats at https://minerstat.com/coin/DCR/network-hashrate
 - #pow-mining
 - #pos-voting
 - add any interesting network analysis or events at the end
@@ -482,6 +485,8 @@ _Alternatively, group as: New services, Services lost, Other news, New services 
 - {}
 
 
+<a id="ecosystem-other"></a>
+
 ### Other news
 
 - {}
@@ -513,6 +518,8 @@ _Sources:_
 
 { _Engagement, recruiting of projects and new writers, etc._ }
 
+
+<a id="outreach-other"></a>
 
 ### Other
 
